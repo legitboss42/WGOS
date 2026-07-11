@@ -1,0 +1,22 @@
+# Website Production Summary
+
+- Mission: 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ
+- Client: client-template
+- Discovery tasks: 3
+- Strategy tasks: 1
+- Architecture and design tasks: 4
+- Development tasks: 3
+- Search tasks: 3
+- QA tasks: 3
+- Client delivery tasks: 3
+- Website health score:
+  - design: 10/10
+  - ux: 10/10
+  - seo: 10/10
+  - performance: 10/10
+  - accessibility: 10/10
+  - content: 10/10
+  - conversion: 10/10
+  - motion: 10/10
+  - maintainability: 10/10
+  - documentation: 10/10

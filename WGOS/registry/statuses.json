@@ -1,0 +1,10 @@
+[
+  "BACKLOG",
+  "READY",
+  "IN_PROGRESS",
+  "BLOCKED",
+  "WAITING_APPROVAL",
+  "FAILED_QA",
+  "COMPLETED",
+  "ARCHIVED"
+]

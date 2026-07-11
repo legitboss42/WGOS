@@ -1,0 +1,24 @@
+{
+  "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T007-GA4-READ-ONLY-TRAFFIC-AND-CONVERSION-REVIEW",
+  "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+  "companyId": "web-growth",
+  "taskId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T007",
+  "agentSlug": "SEO_AGENT",
+  "agentTitle": "SEO",
+  "department": "search",
+  "source": "controlledSession",
+  "integrationId": "ga4",
+  "action": "ga4:Read-only traffic and conversion review",
+  "target": "web-growth",
+  "evidence": [
+    "ga4 requires confirmed capability, authentication state, and human approval before live execution."
+  ],
+  "status": "PENDING",
+  "approver": "Human owner",
+  "notesRequired": true,
+  "createdAt": "2026-07-10T18:22:48.773Z",
+  "reviewedAt": null,
+  "reviewer": null,
+  "reviewNote": "",
+  "nextAction": "Await human approval, rejection, or revision request."
+}

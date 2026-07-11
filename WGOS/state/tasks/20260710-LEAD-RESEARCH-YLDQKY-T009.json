@@ -1,0 +1,343 @@
+{
+  "id": "20260710-LEAD-RESEARCH-YLDQKY-T009",
+  "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+  "sequence": 9,
+  "agentSlug": "OUTREACH_DRAFTING_AGENT",
+  "agentTitle": "Outreach Drafting",
+  "department": "marketing",
+  "objective": "Define draft structure without sending or creating external actions.",
+  "expectedOutput": "Outreach draft spec",
+  "stage": "specialist_execution",
+  "status": "COMPLETED",
+  "dependencies": [],
+  "nextAgentSlug": "QA_ENGINEER_AGENT",
+  "estimatedComplexity": "Medium",
+  "businessValue": "High",
+  "revenueImpact": "High",
+  "priority": "HIGH",
+  "documentationStatus": "UPDATED",
+  "qaStatus": "PENDING",
+  "approvalStatus": "NOT_REQUIRED",
+  "completionStatus": "COMPLETED",
+  "startedAt": "2026-07-10T16:54:29.472Z",
+  "updatedAt": "2026-07-10T16:54:29.760Z",
+  "report": {
+    "agent": "Outreach Drafting",
+    "taskId": "20260710-LEAD-RESEARCH-YLDQKY-T009",
+    "objective": "Define draft structure without sending or creating external actions.",
+    "actions": "Outreach Drafting executed Define draft structure without sending or creating external actions. for mission 20260710-LEAD-RESEARCH-YLDQKY using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: CRM_OUTREACH_DRAFT_PLAYBOOK; integrations: docs, csv, crm, gmail.",
+    "validation": "Outreach Drafting completed outreach draft spec with 4 tracked integrations.",
+    "nextStep": "Hand off to QA_ENGINEER_AGENT.",
+    "integrations": [
+      "docs",
+      "csv",
+      "crm",
+      "gmail"
+    ],
+    "playbooks": [
+      "CRM_OUTREACH_DRAFT_PLAYBOOK"
+    ],
+    "specialistOutputs": [
+      "draft angle",
+      "outreach copy inputs",
+      "outreach draft",
+      "follow-up sequence",
+      "specialist_execution output"
+    ],
+    "specialistRuntime": {
+      "kind": "outreach",
+      "outreachPolicy": {
+        "automaticSending": false,
+        "requiredDraftElements": [
+          "business name",
+          "verified observation",
+          "likely impact",
+          "relevant service",
+          "soft CTA"
+        ],
+        "approvalRequiredBefore": [
+          "Gmail draft creation",
+          "email sending",
+          "contact form submission"
+        ]
+      },
+      "validationRules": [
+        "draft-only policy is explicit",
+        "personalization requires evidence",
+        "sending remains blocked"
+      ]
+    }
+  },
+  "handoff": {
+    "fromAgentSlug": "OUTREACH_DRAFTING_AGENT",
+    "toAgentSlug": "QA_ENGINEER_AGENT",
+    "status": "COMPLETED",
+    "validationNeeded": "Downstream review by QA_ENGINEER_AGENT.",
+    "completedWork": [
+      "draft angle",
+      "outreach copy inputs",
+      "outreach draft",
+      "follow-up sequence",
+      "specialist_execution output"
+    ],
+    "collaborationTargets": [
+      "QA_ENGINEER_AGENT",
+      "CRM_AGENT",
+      "FOLLOW_UP_AGENT",
+      "NEWSLETTER_AGENT"
+    ]
+  },
+  "runtime": {
+    "mission": {
+      "objective": "Define draft structure without sending or creating external actions.",
+      "successDefinition": "Outreach draft spec",
+      "companyId": "web-growth",
+      "approvalClass": "A1",
+      "missionType": "Growth campaign",
+      "requiredDepartments": [
+        "executive",
+        "marketing",
+        "engineering"
+      ],
+      "requiredIntegrations": [
+        "docs",
+        "csv",
+        "crm",
+        "gmail"
+      ],
+      "playbooks": [
+        "CRM_OUTREACH_DRAFT_PLAYBOOK"
+      ]
+    },
+    "plan": {
+      "skillsLoaded": [
+        "OUTREACH",
+        "COPYWRITING",
+        "GMAIL"
+      ],
+      "workstreams": [
+        "draft compliant personalization",
+        "tie message to verified evidence",
+        "preserve human approval gate",
+        "research pipeline opportunities",
+        "score lead quality",
+        "prepare compliant outreach context"
+      ],
+      "validationChecks": [
+        "evidence is verified",
+        "lead quality threshold is clear",
+        "external action remains approval-gated"
+      ],
+      "dependencies": [],
+      "requiredEvidence": [
+        "lead notes",
+        "audit findings",
+        "personalization angles",
+        "Outreach draft spec",
+        "draft angle",
+        "outreach copy inputs",
+        "outreach draft",
+        "follow-up sequence",
+        "specialist_execution output"
+      ],
+      "playbooks": [
+        "CRM_OUTREACH_DRAFT_PLAYBOOK"
+      ],
+      "integrations": [
+        "Docs (NORMAL)",
+        "Csv (NORMAL)",
+        "Crm (NORMAL)",
+        "Gmail (NORMAL)"
+      ],
+      "collaborationTargets": [
+        "QA_ENGINEER_AGENT",
+        "CRM_AGENT",
+        "FOLLOW_UP_AGENT",
+        "NEWSLETTER_AGENT"
+      ],
+      "specialistPlan": {
+        "kind": "outreach",
+        "module": "outreach",
+        "executionSteps": [
+          "Use qualified lead evidence only.",
+          "Draft personalized outreach without sending.",
+          "Create a handoff for human review and approval."
+        ],
+        "expectedArtifacts": [
+          "outreach draft handoff",
+          "approval queue item"
+        ],
+        "objective": "Define draft structure without sending or creating external actions."
+      }
+    },
+    "execution": {
+      "summary": "Outreach Drafting executed Define draft structure without sending or creating external actions. for mission 20260710-LEAD-RESEARCH-YLDQKY using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: CRM_OUTREACH_DRAFT_PLAYBOOK; integrations: docs, csv, crm, gmail.",
+      "artifacts": [
+        "OUTREACH_DRAFTING_AGENT:draft angle",
+        "OUTREACH_DRAFTING_AGENT:outreach copy inputs",
+        "OUTREACH_DRAFTING_AGENT:outreach draft",
+        "OUTREACH_DRAFTING_AGENT:follow-up sequence",
+        "OUTREACH_DRAFTING_AGENT:specialist_execution output"
+      ],
+      "evidence": [
+        "lead notes",
+        "audit findings",
+        "personalization angles",
+        "Outreach draft spec",
+        "draft angle",
+        "outreach copy inputs",
+        "outreach draft",
+        "follow-up sequence",
+        "specialist_execution output"
+      ],
+      "integrationsUsed": [
+        {
+          "id": "docs",
+          "title": "Docs",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "csv",
+          "title": "Csv",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "crm",
+          "title": "Crm",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "gmail",
+          "title": "Gmail",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        }
+      ],
+      "playbooksUsed": [
+        "CRM_OUTREACH_DRAFT_PLAYBOOK"
+      ],
+      "collaborationRequests": [
+        {
+          "target": "QA_ENGINEER_AGENT",
+          "reason": "Coordinate outreach draft spec with QA_ENGINEER_AGENT."
+        },
+        {
+          "target": "CRM_AGENT",
+          "reason": "Coordinate outreach draft spec with CRM_AGENT."
+        },
+        {
+          "target": "FOLLOW_UP_AGENT",
+          "reason": "Coordinate outreach draft spec with FOLLOW_UP_AGENT."
+        },
+        {
+          "target": "NEWSLETTER_AGENT",
+          "reason": "Coordinate outreach draft spec with NEWSLETTER_AGENT."
+        }
+      ],
+      "specialistOutputs": [
+        "draft angle",
+        "outreach copy inputs",
+        "outreach draft",
+        "follow-up sequence",
+        "specialist_execution output"
+      ],
+      "kpiFocus": [
+        "pipeline health",
+        "qualified opportunities",
+        "High"
+      ],
+      "approvalGateReached": false,
+      "specialistRuntime": {
+        "kind": "outreach",
+        "outreachPolicy": {
+          "automaticSending": false,
+          "requiredDraftElements": [
+            "business name",
+            "verified observation",
+            "likely impact",
+            "relevant service",
+            "soft CTA"
+          ],
+          "approvalRequiredBefore": [
+            "Gmail draft creation",
+            "email sending",
+            "contact form submission"
+          ]
+        },
+        "validationRules": [
+          "draft-only policy is explicit",
+          "personalization requires evidence",
+          "sending remains blocked"
+        ]
+      }
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "passed": true,
+      "notes": "Outreach Drafting completed outreach draft spec with 4 tracked integrations."
+    },
+    "memory": {
+      "currentState": "20260710-LEAD-RESEARCH-YLDQKY-T009: Outreach Drafting completed Define draft structure without sending or creating external actions..",
+      "nextAction": "QA_ENGINEER_AGENT should take over 20260710-LEAD-RESEARCH-YLDQKY-T009.",
+      "codexMemory": "20260710-LEAD-RESEARCH-YLDQKY used Outreach Drafting for Outreach draft spec."
+    }
+  },
+  "integrationsUsed": [
+    {
+      "id": "docs",
+      "title": "Docs",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "csv",
+      "title": "Csv",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "crm",
+      "title": "Crm",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "gmail",
+      "title": "Gmail",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    }
+  ],
+  "playbooksUsed": [
+    "CRM_OUTREACH_DRAFT_PLAYBOOK"
+  ],
+  "collaborationRequests": [
+    {
+      "target": "QA_ENGINEER_AGENT",
+      "reason": "Coordinate outreach draft spec with QA_ENGINEER_AGENT."
+    },
+    {
+      "target": "CRM_AGENT",
+      "reason": "Coordinate outreach draft spec with CRM_AGENT."
+    },
+    {
+      "target": "FOLLOW_UP_AGENT",
+      "reason": "Coordinate outreach draft spec with FOLLOW_UP_AGENT."
+    },
+    {
+      "target": "NEWSLETTER_AGENT",
+      "reason": "Coordinate outreach draft spec with NEWSLETTER_AGENT."
+    }
+  ],
+  "kpiFocus": [
+    "pipeline health",
+    "qualified opportunities",
+    "High"
+  ],
+  "specialistArtifacts": [
+    "growth/marketing/20260710-LEAD-RESEARCH-YLDQKY-outreach-draft-handoff.md"
+  ]
+}

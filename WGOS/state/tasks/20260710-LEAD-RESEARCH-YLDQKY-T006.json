@@ -1,0 +1,455 @@
+{
+  "id": "20260710-LEAD-RESEARCH-YLDQKY-T006",
+  "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+  "sequence": 6,
+  "agentSlug": "WEBSITE_AUDIT_AGENT",
+  "agentTitle": "Website Audit",
+  "department": "marketing",
+  "objective": "Define mini-audit structure for accepted leads.",
+  "expectedOutput": "Audit framework",
+  "stage": "specialist_execution",
+  "status": "COMPLETED",
+  "dependencies": [],
+  "nextAgentSlug": "BUSINESS_INTELLIGENCE_AGENT",
+  "estimatedComplexity": "Medium",
+  "businessValue": "High",
+  "revenueImpact": "High",
+  "priority": "HIGH",
+  "documentationStatus": "UPDATED",
+  "qaStatus": "PENDING",
+  "approvalStatus": "NOT_REQUIRED",
+  "completionStatus": "COMPLETED",
+  "startedAt": "2026-07-10T16:54:25.736Z",
+  "updatedAt": "2026-07-10T16:54:26.217Z",
+  "report": {
+    "agent": "Website Audit",
+    "taskId": "20260710-LEAD-RESEARCH-YLDQKY-T006",
+    "objective": "Define mini-audit structure for accepted leads.",
+    "actions": "Website Audit executed Define mini-audit structure for accepted leads. for mission 20260710-LEAD-RESEARCH-YLDQKY using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: QUALITY_VALIDATION_PLAYBOOK, CONTROLLED_BROWSER_RESEARCH_PLAYBOOK; integrations: filesystem, docs, lighthouse, pagespeed, images, browser, search, maps, business-directories.",
+    "validation": "Website Audit completed audit framework with 9 tracked integrations.",
+    "nextStep": "Hand off to BUSINESS_INTELLIGENCE_AGENT.",
+    "integrations": [
+      "filesystem",
+      "docs",
+      "lighthouse",
+      "pagespeed",
+      "images",
+      "browser",
+      "search",
+      "maps",
+      "business-directories"
+    ],
+    "playbooks": [
+      "QUALITY_VALIDATION_PLAYBOOK",
+      "CONTROLLED_BROWSER_RESEARCH_PLAYBOOK"
+    ],
+    "specialistOutputs": [
+      "mini audit",
+      "service-fit recommendations",
+      "website audit",
+      "opportunity summary",
+      "specialist_execution output"
+    ],
+    "specialistRuntime": {
+      "kind": "website-audit",
+      "websiteAuditEngine": {
+        "defaultUrl": "local-wgos-audit-fixture",
+        "checks": [
+          "title",
+          "meta description",
+          "h1",
+          "h2",
+          "links",
+          "images",
+          "alt text",
+          "forms",
+          "conversion path"
+        ],
+        "output": [
+          "score",
+          "issues",
+          "recommendations"
+        ]
+      },
+      "validationRules": [
+        "audit checks are explicit",
+        "recommendations are evidence-based",
+        "no live claim without source"
+      ]
+    }
+  },
+  "handoff": {
+    "fromAgentSlug": "WEBSITE_AUDIT_AGENT",
+    "toAgentSlug": "BUSINESS_INTELLIGENCE_AGENT",
+    "status": "COMPLETED",
+    "validationNeeded": "Downstream review by BUSINESS_INTELLIGENCE_AGENT.",
+    "completedWork": [
+      "mini audit",
+      "service-fit recommendations",
+      "website audit",
+      "opportunity summary",
+      "specialist_execution output"
+    ],
+    "collaborationTargets": [
+      "BUSINESS_INTELLIGENCE_AGENT",
+      "QA_ENGINEER_AGENT",
+      "ACCESSIBILITY_ENGINEER_AGENT",
+      "PERFORMANCE_ENGINEER_AGENT",
+      "LEAD_RESEARCH_AGENT"
+    ]
+  },
+  "runtime": {
+    "mission": {
+      "objective": "Define mini-audit structure for accepted leads.",
+      "successDefinition": "Audit framework",
+      "companyId": "web-growth",
+      "approvalClass": "A1",
+      "missionType": "Growth campaign",
+      "requiredDepartments": [
+        "executive",
+        "marketing",
+        "engineering"
+      ],
+      "requiredIntegrations": [
+        "filesystem",
+        "docs",
+        "lighthouse",
+        "pagespeed",
+        "images",
+        "browser",
+        "search",
+        "maps",
+        "business-directories"
+      ],
+      "playbooks": [
+        "QUALITY_VALIDATION_PLAYBOOK",
+        "CONTROLLED_BROWSER_RESEARCH_PLAYBOOK"
+      ]
+    },
+    "plan": {
+      "skillsLoaded": [
+        "SEO",
+        "PERFORMANCE",
+        "ACCESSIBILITY",
+        "CRO"
+      ],
+      "workstreams": [
+        "review trust and UX issues",
+        "identify conversion leaks",
+        "rank audit findings by business value",
+        "research pipeline opportunities",
+        "score lead quality",
+        "prepare compliant outreach context"
+      ],
+      "validationChecks": [
+        "evidence is verified",
+        "lead quality threshold is clear",
+        "external action remains approval-gated"
+      ],
+      "dependencies": [],
+      "requiredEvidence": [
+        "lead notes",
+        "audit findings",
+        "personalization angles",
+        "Audit framework",
+        "mini audit",
+        "service-fit recommendations",
+        "website audit",
+        "opportunity summary",
+        "specialist_execution output"
+      ],
+      "playbooks": [
+        "QUALITY_VALIDATION_PLAYBOOK",
+        "CONTROLLED_BROWSER_RESEARCH_PLAYBOOK"
+      ],
+      "integrations": [
+        "Filesystem (NORMAL)",
+        "Docs (NORMAL)",
+        "Lighthouse (NORMAL)",
+        "Pagespeed (NORMAL)",
+        "Images (NORMAL)",
+        "Controlled Browser (HIGH)",
+        "Search (NORMAL)",
+        "Maps (NORMAL)",
+        "Business Directories (NORMAL)"
+      ],
+      "collaborationTargets": [
+        "BUSINESS_INTELLIGENCE_AGENT",
+        "QA_ENGINEER_AGENT",
+        "ACCESSIBILITY_ENGINEER_AGENT",
+        "PERFORMANCE_ENGINEER_AGENT",
+        "LEAD_RESEARCH_AGENT"
+      ],
+      "specialistPlan": {
+        "kind": "website-audit",
+        "module": "website-audit",
+        "executionSteps": [
+          "Collect URL or local audit target.",
+          "Check metadata, headings, links, images, forms, trust signals, and conversion path.",
+          "Create a mini audit suitable for lead qualification or SEO handoff."
+        ],
+        "expectedArtifacts": [
+          "website audit report",
+          "top issues",
+          "recommended service"
+        ],
+        "objective": "Define mini-audit structure for accepted leads."
+      }
+    },
+    "execution": {
+      "summary": "Website Audit executed Define mini-audit structure for accepted leads. for mission 20260710-LEAD-RESEARCH-YLDQKY using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: QUALITY_VALIDATION_PLAYBOOK, CONTROLLED_BROWSER_RESEARCH_PLAYBOOK; integrations: filesystem, docs, lighthouse, pagespeed, images, browser, search, maps, business-directories.",
+      "artifacts": [
+        "WEBSITE_AUDIT_AGENT:mini audit",
+        "WEBSITE_AUDIT_AGENT:service-fit recommendations",
+        "WEBSITE_AUDIT_AGENT:website audit",
+        "WEBSITE_AUDIT_AGENT:opportunity summary",
+        "WEBSITE_AUDIT_AGENT:specialist_execution output"
+      ],
+      "evidence": [
+        "lead notes",
+        "audit findings",
+        "personalization angles",
+        "Audit framework",
+        "mini audit",
+        "service-fit recommendations",
+        "website audit",
+        "opportunity summary",
+        "specialist_execution output"
+      ],
+      "integrationsUsed": [
+        {
+          "id": "filesystem",
+          "title": "Filesystem",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": [
+            "integrations/core/INTEGRATION_CONTRACT.md",
+            "integrations/logging/LOG_SCHEMA.md"
+          ]
+        },
+        {
+          "id": "docs",
+          "title": "Docs",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "lighthouse",
+          "title": "Lighthouse",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "pagespeed",
+          "title": "Pagespeed",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "images",
+          "title": "Images",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "browser",
+          "title": "Controlled Browser",
+          "approvalLevel": "HIGH",
+          "runtimeDocs": [
+            "integrations/core/INTEGRATION_CONTRACT.md",
+            "integrations/runtime/CONTROLLED_OPERATIONS_RUNTIME.md"
+          ]
+        },
+        {
+          "id": "search",
+          "title": "Search",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "maps",
+          "title": "Maps",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "business-directories",
+          "title": "Business Directories",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        }
+      ],
+      "playbooksUsed": [
+        "QUALITY_VALIDATION_PLAYBOOK",
+        "CONTROLLED_BROWSER_RESEARCH_PLAYBOOK"
+      ],
+      "collaborationRequests": [
+        {
+          "target": "BUSINESS_INTELLIGENCE_AGENT",
+          "reason": "Coordinate audit framework with BUSINESS_INTELLIGENCE_AGENT."
+        },
+        {
+          "target": "QA_ENGINEER_AGENT",
+          "reason": "Coordinate audit framework with QA_ENGINEER_AGENT."
+        },
+        {
+          "target": "ACCESSIBILITY_ENGINEER_AGENT",
+          "reason": "Coordinate audit framework with ACCESSIBILITY_ENGINEER_AGENT."
+        },
+        {
+          "target": "PERFORMANCE_ENGINEER_AGENT",
+          "reason": "Coordinate audit framework with PERFORMANCE_ENGINEER_AGENT."
+        },
+        {
+          "target": "LEAD_RESEARCH_AGENT",
+          "reason": "Coordinate audit framework with LEAD_RESEARCH_AGENT."
+        }
+      ],
+      "specialistOutputs": [
+        "mini audit",
+        "service-fit recommendations",
+        "website audit",
+        "opportunity summary",
+        "specialist_execution output"
+      ],
+      "kpiFocus": [
+        "pipeline health",
+        "qualified opportunities",
+        "High"
+      ],
+      "approvalGateReached": false,
+      "specialistRuntime": {
+        "kind": "website-audit",
+        "websiteAuditEngine": {
+          "defaultUrl": "local-wgos-audit-fixture",
+          "checks": [
+            "title",
+            "meta description",
+            "h1",
+            "h2",
+            "links",
+            "images",
+            "alt text",
+            "forms",
+            "conversion path"
+          ],
+          "output": [
+            "score",
+            "issues",
+            "recommendations"
+          ]
+        },
+        "validationRules": [
+          "audit checks are explicit",
+          "recommendations are evidence-based",
+          "no live claim without source"
+        ]
+      }
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "passed": true,
+      "notes": "Website Audit completed audit framework with 9 tracked integrations."
+    },
+    "memory": {
+      "currentState": "20260710-LEAD-RESEARCH-YLDQKY-T006: Website Audit completed Define mini-audit structure for accepted leads..",
+      "nextAction": "BUSINESS_INTELLIGENCE_AGENT should take over 20260710-LEAD-RESEARCH-YLDQKY-T006.",
+      "codexMemory": "20260710-LEAD-RESEARCH-YLDQKY used Website Audit for Audit framework."
+    }
+  },
+  "integrationsUsed": [
+    {
+      "id": "filesystem",
+      "title": "Filesystem",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": [
+        "integrations/core/INTEGRATION_CONTRACT.md",
+        "integrations/logging/LOG_SCHEMA.md"
+      ]
+    },
+    {
+      "id": "docs",
+      "title": "Docs",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "lighthouse",
+      "title": "Lighthouse",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "pagespeed",
+      "title": "Pagespeed",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "images",
+      "title": "Images",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "browser",
+      "title": "Controlled Browser",
+      "approvalLevel": "HIGH",
+      "runtimeDocs": [
+        "integrations/core/INTEGRATION_CONTRACT.md",
+        "integrations/runtime/CONTROLLED_OPERATIONS_RUNTIME.md"
+      ]
+    },
+    {
+      "id": "search",
+      "title": "Search",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "maps",
+      "title": "Maps",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "business-directories",
+      "title": "Business Directories",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    }
+  ],
+  "playbooksUsed": [
+    "QUALITY_VALIDATION_PLAYBOOK",
+    "CONTROLLED_BROWSER_RESEARCH_PLAYBOOK"
+  ],
+  "collaborationRequests": [
+    {
+      "target": "BUSINESS_INTELLIGENCE_AGENT",
+      "reason": "Coordinate audit framework with BUSINESS_INTELLIGENCE_AGENT."
+    },
+    {
+      "target": "QA_ENGINEER_AGENT",
+      "reason": "Coordinate audit framework with QA_ENGINEER_AGENT."
+    },
+    {
+      "target": "ACCESSIBILITY_ENGINEER_AGENT",
+      "reason": "Coordinate audit framework with ACCESSIBILITY_ENGINEER_AGENT."
+    },
+    {
+      "target": "PERFORMANCE_ENGINEER_AGENT",
+      "reason": "Coordinate audit framework with PERFORMANCE_ENGINEER_AGENT."
+    },
+    {
+      "target": "LEAD_RESEARCH_AGENT",
+      "reason": "Coordinate audit framework with LEAD_RESEARCH_AGENT."
+    }
+  ],
+  "kpiFocus": [
+    "pipeline health",
+    "qualified opportunities",
+    "High"
+  ],
+  "specialistArtifacts": [
+    "reports/20260710-LEAD-RESEARCH-YLDQKY/website-audit-report.md"
+  ]
+}

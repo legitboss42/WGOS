@@ -1,0 +1,321 @@
+{
+  "id": "20260710-LEAD-RESEARCH-A66YYU-T008",
+  "missionId": "20260710-LEAD-RESEARCH-A66YYU",
+  "sequence": 8,
+  "agentSlug": "CRM_AGENT",
+  "agentTitle": "CRM",
+  "department": "marketing",
+  "objective": "Define status tracking and follow-up state management.",
+  "expectedOutput": "CRM state plan",
+  "stage": "specialist_execution",
+  "status": "COMPLETED",
+  "dependencies": [],
+  "nextAgentSlug": "OUTREACH_DRAFTING_AGENT",
+  "estimatedComplexity": "Medium",
+  "businessValue": "High",
+  "revenueImpact": "High",
+  "priority": "HIGH",
+  "documentationStatus": "UPDATED",
+  "qaStatus": "PENDING",
+  "approvalStatus": "NOT_REQUIRED",
+  "completionStatus": "COMPLETED",
+  "startedAt": "2026-07-10T16:33:57.443Z",
+  "updatedAt": "2026-07-10T16:33:57.999Z",
+  "report": {
+    "agent": "CRM",
+    "taskId": "20260710-LEAD-RESEARCH-A66YYU-T008",
+    "objective": "Define status tracking and follow-up state management.",
+    "actions": "CRM executed Define status tracking and follow-up state management. for mission 20260710-LEAD-RESEARCH-A66YYU using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: CRM_OUTREACH_DRAFT_PLAYBOOK; integrations: docs, csv, crm, gmail.",
+    "validation": "CRM completed crm state plan with 4 tracked integrations.",
+    "nextStep": "Hand off to OUTREACH_DRAFTING_AGENT.",
+    "integrations": [
+      "docs",
+      "csv",
+      "crm",
+      "gmail"
+    ],
+    "playbooks": [
+      "CRM_OUTREACH_DRAFT_PLAYBOOK"
+    ],
+    "specialistOutputs": [
+      "crm update",
+      "pipeline summary",
+      "specialist_execution output"
+    ],
+    "specialistRuntime": {
+      "kind": "crm",
+      "crmExecution": {
+        "statusModel": [
+          "Research",
+          "Audit",
+          "Draft",
+          "Approval Queue",
+          "Human Sent",
+          "Reply",
+          "Meeting",
+          "Proposal",
+          "Won",
+          "Lost"
+        ],
+        "writesExternalCrm": false,
+        "localOnly": true
+      },
+      "validationRules": [
+        "CRM state is tenant-scoped",
+        "external CRM writes are disabled",
+        "approval status is visible"
+      ]
+    }
+  },
+  "handoff": {
+    "fromAgentSlug": "CRM_AGENT",
+    "toAgentSlug": "OUTREACH_DRAFTING_AGENT",
+    "status": "COMPLETED",
+    "validationNeeded": "Downstream review by OUTREACH_DRAFTING_AGENT.",
+    "completedWork": [
+      "crm update",
+      "pipeline summary",
+      "specialist_execution output"
+    ],
+    "collaborationTargets": [
+      "OUTREACH_DRAFTING_AGENT",
+      "FOLLOW_UP_AGENT",
+      "NEWSLETTER_AGENT"
+    ]
+  },
+  "runtime": {
+    "mission": {
+      "objective": "Define status tracking and follow-up state management.",
+      "successDefinition": "CRM state plan",
+      "companyId": "web-growth",
+      "approvalClass": "A1",
+      "missionType": "Growth campaign",
+      "requiredDepartments": [
+        "executive",
+        "marketing",
+        "engineering"
+      ],
+      "requiredIntegrations": [
+        "docs",
+        "csv",
+        "crm",
+        "gmail"
+      ],
+      "playbooks": [
+        "CRM_OUTREACH_DRAFT_PLAYBOOK"
+      ]
+    },
+    "plan": {
+      "skillsLoaded": [
+        "OUTREACH",
+        "LEAD_RESEARCH"
+      ],
+      "workstreams": [
+        "research pipeline opportunities",
+        "score lead quality",
+        "prepare compliant outreach context"
+      ],
+      "validationChecks": [
+        "evidence is verified",
+        "lead quality threshold is clear",
+        "external action remains approval-gated"
+      ],
+      "dependencies": [],
+      "requiredEvidence": [
+        "lead notes",
+        "audit findings",
+        "personalization angles",
+        "CRM state plan",
+        "crm update",
+        "pipeline summary",
+        "specialist_execution output"
+      ],
+      "playbooks": [
+        "CRM_OUTREACH_DRAFT_PLAYBOOK"
+      ],
+      "integrations": [
+        "Docs (NORMAL)",
+        "Csv (NORMAL)",
+        "Crm (NORMAL)",
+        "Gmail (NORMAL)"
+      ],
+      "collaborationTargets": [
+        "OUTREACH_DRAFTING_AGENT",
+        "FOLLOW_UP_AGENT",
+        "NEWSLETTER_AGENT"
+      ],
+      "specialistPlan": {
+        "kind": "crm",
+        "module": "crm",
+        "executionSteps": [
+          "Create or update tenant-scoped CRM state.",
+          "Track lead status, draft status, approval state, and next action.",
+          "Keep contact actions separate from local CRM preparation."
+        ],
+        "expectedArtifacts": [
+          "CRM state JSON",
+          "CRM state markdown",
+          "lead CSV schema"
+        ],
+        "objective": "Define status tracking and follow-up state management."
+      }
+    },
+    "execution": {
+      "summary": "CRM executed Define status tracking and follow-up state management. for mission 20260710-LEAD-RESEARCH-A66YYU using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: CRM_OUTREACH_DRAFT_PLAYBOOK; integrations: docs, csv, crm, gmail.",
+      "artifacts": [
+        "CRM_AGENT:crm update",
+        "CRM_AGENT:pipeline summary",
+        "CRM_AGENT:specialist_execution output"
+      ],
+      "evidence": [
+        "lead notes",
+        "audit findings",
+        "personalization angles",
+        "CRM state plan",
+        "crm update",
+        "pipeline summary",
+        "specialist_execution output"
+      ],
+      "integrationsUsed": [
+        {
+          "id": "docs",
+          "title": "Docs",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "csv",
+          "title": "Csv",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "crm",
+          "title": "Crm",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "gmail",
+          "title": "Gmail",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        }
+      ],
+      "playbooksUsed": [
+        "CRM_OUTREACH_DRAFT_PLAYBOOK"
+      ],
+      "collaborationRequests": [
+        {
+          "target": "OUTREACH_DRAFTING_AGENT",
+          "reason": "Coordinate crm state plan with OUTREACH_DRAFTING_AGENT."
+        },
+        {
+          "target": "FOLLOW_UP_AGENT",
+          "reason": "Coordinate crm state plan with FOLLOW_UP_AGENT."
+        },
+        {
+          "target": "NEWSLETTER_AGENT",
+          "reason": "Coordinate crm state plan with NEWSLETTER_AGENT."
+        }
+      ],
+      "specialistOutputs": [
+        "crm update",
+        "pipeline summary",
+        "specialist_execution output"
+      ],
+      "kpiFocus": [
+        "pipeline health",
+        "qualified opportunities",
+        "High"
+      ],
+      "approvalGateReached": false,
+      "specialistRuntime": {
+        "kind": "crm",
+        "crmExecution": {
+          "statusModel": [
+            "Research",
+            "Audit",
+            "Draft",
+            "Approval Queue",
+            "Human Sent",
+            "Reply",
+            "Meeting",
+            "Proposal",
+            "Won",
+            "Lost"
+          ],
+          "writesExternalCrm": false,
+          "localOnly": true
+        },
+        "validationRules": [
+          "CRM state is tenant-scoped",
+          "external CRM writes are disabled",
+          "approval status is visible"
+        ]
+      }
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "passed": true,
+      "notes": "CRM completed crm state plan with 4 tracked integrations."
+    },
+    "memory": {
+      "currentState": "20260710-LEAD-RESEARCH-A66YYU-T008: CRM completed Define status tracking and follow-up state management..",
+      "nextAction": "OUTREACH_DRAFTING_AGENT should take over 20260710-LEAD-RESEARCH-A66YYU-T008.",
+      "codexMemory": "20260710-LEAD-RESEARCH-A66YYU used CRM for CRM state plan."
+    }
+  },
+  "integrationsUsed": [
+    {
+      "id": "docs",
+      "title": "Docs",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "csv",
+      "title": "Csv",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "crm",
+      "title": "Crm",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "gmail",
+      "title": "Gmail",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    }
+  ],
+  "playbooksUsed": [
+    "CRM_OUTREACH_DRAFT_PLAYBOOK"
+  ],
+  "collaborationRequests": [
+    {
+      "target": "OUTREACH_DRAFTING_AGENT",
+      "reason": "Coordinate crm state plan with OUTREACH_DRAFTING_AGENT."
+    },
+    {
+      "target": "FOLLOW_UP_AGENT",
+      "reason": "Coordinate crm state plan with FOLLOW_UP_AGENT."
+    },
+    {
+      "target": "NEWSLETTER_AGENT",
+      "reason": "Coordinate crm state plan with NEWSLETTER_AGENT."
+    }
+  ],
+  "kpiFocus": [
+    "pipeline health",
+    "qualified opportunities",
+    "High"
+  ],
+  "specialistArtifacts": [
+    "growth/crm/20260710-LEAD-RESEARCH-A66YYU-crm-state.json",
+    "growth/crm/20260710-LEAD-RESEARCH-A66YYU-crm-state.md"
+  ]
+}

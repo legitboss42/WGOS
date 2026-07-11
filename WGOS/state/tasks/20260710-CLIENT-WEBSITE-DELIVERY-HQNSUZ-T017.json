@@ -1,0 +1,287 @@
+{
+  "id": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T017",
+  "missionId": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ",
+  "sequence": 17,
+  "agentSlug": "CLIENT_SUCCESS_AGENT",
+  "agentTitle": "Client Success",
+  "department": "client",
+  "objective": "Prepare client review checkpoints, revision handling, and approval-state communication.",
+  "expectedOutput": "Client review plan",
+  "stage": "specialist_execution",
+  "status": "COMPLETED",
+  "dependencies": [],
+  "nextAgentSlug": "DEPLOYMENT_ENGINEER_AGENT",
+  "estimatedComplexity": "Medium",
+  "businessValue": "Medium",
+  "revenueImpact": "Medium",
+  "priority": "HIGH",
+  "documentationStatus": "UPDATED",
+  "qaStatus": "PENDING",
+  "approvalStatus": "NOT_REQUIRED",
+  "completionStatus": "COMPLETED",
+  "startedAt": "2026-07-10T11:42:35.582Z",
+  "updatedAt": "2026-07-10T11:42:35.730Z",
+  "report": {
+    "agent": "Client Success",
+    "taskId": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T017",
+    "objective": "Prepare client review checkpoints, revision handling, and approval-state communication.",
+    "actions": "Client Success executed Prepare client review checkpoints, revision handling, and approval-state communication. for mission 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ using workflows: CLIENT_PROJECT_DELIVERY_WORKFLOW, WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: CLIENT_DELIVERY_PLAYBOOK; integrations: filesystem, docs, csv, crm, gmail.",
+    "validation": "Client Success completed client review plan with 5 tracked integrations.",
+    "nextStep": "Hand off to DEPLOYMENT_ENGINEER_AGENT.",
+    "integrations": [
+      "filesystem",
+      "docs",
+      "csv",
+      "crm",
+      "gmail"
+    ],
+    "playbooks": [
+      "CLIENT_DELIVERY_PLAYBOOK"
+    ],
+    "specialistOutputs": [
+      "client status note",
+      "risk summary",
+      "specialist_execution output"
+    ]
+  },
+  "handoff": {
+    "fromAgentSlug": "CLIENT_SUCCESS_AGENT",
+    "toAgentSlug": "DEPLOYMENT_ENGINEER_AGENT",
+    "status": "COMPLETED",
+    "validationNeeded": "Downstream review by DEPLOYMENT_ENGINEER_AGENT.",
+    "completedWork": [
+      "client status note",
+      "risk summary",
+      "specialist_execution output"
+    ],
+    "collaborationTargets": [
+      "DEPLOYMENT_ENGINEER_AGENT",
+      "SALES_CONSULTANT_AGENT",
+      "PROPOSAL_WRITER_AGENT",
+      "CLIENT_ONBOARDING_AGENT"
+    ]
+  },
+  "runtime": {
+    "mission": {
+      "objective": "Prepare client review checkpoints, revision handling, and approval-state communication.",
+      "successDefinition": "Client review plan",
+      "companyId": "client-template",
+      "approvalClass": "A1",
+      "missionType": "Internal operations",
+      "requiredDepartments": [
+        "executive",
+        "client",
+        "design",
+        "engineering",
+        "search",
+        "publishing"
+      ],
+      "requiredIntegrations": [
+        "filesystem",
+        "docs",
+        "csv",
+        "crm",
+        "gmail"
+      ],
+      "playbooks": [
+        "CLIENT_DELIVERY_PLAYBOOK"
+      ]
+    },
+    "plan": {
+      "skillsLoaded": [
+        "COPYWRITING"
+      ],
+      "workstreams": [
+        "align delivery expectations",
+        "clarify client value",
+        "prepare safe next-step communication"
+      ],
+      "validationChecks": [
+        "scope is client-safe",
+        "handoff is clear",
+        "no external contact bypass occurs"
+      ],
+      "dependencies": [],
+      "requiredEvidence": [
+        "client notes",
+        "proposal inputs",
+        "onboarding checkpoints",
+        "Client review plan",
+        "client status note",
+        "risk summary",
+        "specialist_execution output"
+      ],
+      "playbooks": [
+        "CLIENT_DELIVERY_PLAYBOOK"
+      ],
+      "integrations": [
+        "Filesystem (NORMAL)",
+        "Docs (NORMAL)",
+        "Csv (NORMAL)",
+        "Crm (NORMAL)",
+        "Gmail (NORMAL)"
+      ],
+      "collaborationTargets": [
+        "DEPLOYMENT_ENGINEER_AGENT",
+        "SALES_CONSULTANT_AGENT",
+        "PROPOSAL_WRITER_AGENT",
+        "CLIENT_ONBOARDING_AGENT"
+      ]
+    },
+    "execution": {
+      "summary": "Client Success executed Prepare client review checkpoints, revision handling, and approval-state communication. for mission 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ using workflows: CLIENT_PROJECT_DELIVERY_WORKFLOW, WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: CLIENT_DELIVERY_PLAYBOOK; integrations: filesystem, docs, csv, crm, gmail.",
+      "artifacts": [
+        "CLIENT_SUCCESS_AGENT:client status note",
+        "CLIENT_SUCCESS_AGENT:risk summary",
+        "CLIENT_SUCCESS_AGENT:specialist_execution output"
+      ],
+      "evidence": [
+        "client notes",
+        "proposal inputs",
+        "onboarding checkpoints",
+        "Client review plan",
+        "client status note",
+        "risk summary",
+        "specialist_execution output"
+      ],
+      "integrationsUsed": [
+        {
+          "id": "filesystem",
+          "title": "Filesystem",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": [
+            "integrations/core/INTEGRATION_CONTRACT.md",
+            "integrations/logging/LOG_SCHEMA.md"
+          ]
+        },
+        {
+          "id": "docs",
+          "title": "Docs",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "csv",
+          "title": "Csv",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "crm",
+          "title": "Crm",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "gmail",
+          "title": "Gmail",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        }
+      ],
+      "playbooksUsed": [
+        "CLIENT_DELIVERY_PLAYBOOK"
+      ],
+      "collaborationRequests": [
+        {
+          "target": "DEPLOYMENT_ENGINEER_AGENT",
+          "reason": "Coordinate client review plan with DEPLOYMENT_ENGINEER_AGENT."
+        },
+        {
+          "target": "SALES_CONSULTANT_AGENT",
+          "reason": "Coordinate client review plan with SALES_CONSULTANT_AGENT."
+        },
+        {
+          "target": "PROPOSAL_WRITER_AGENT",
+          "reason": "Coordinate client review plan with PROPOSAL_WRITER_AGENT."
+        },
+        {
+          "target": "CLIENT_ONBOARDING_AGENT",
+          "reason": "Coordinate client review plan with CLIENT_ONBOARDING_AGENT."
+        }
+      ],
+      "specialistOutputs": [
+        "client status note",
+        "risk summary",
+        "specialist_execution output"
+      ],
+      "kpiFocus": [
+        "client retention",
+        "proposal readiness",
+        "Medium"
+      ],
+      "approvalGateReached": false
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "passed": true,
+      "notes": "Client Success completed client review plan with 5 tracked integrations."
+    },
+    "memory": {
+      "currentState": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T017: Client Success completed Prepare client review checkpoints, revision handling, and approval-state communication..",
+      "nextAction": "DEPLOYMENT_ENGINEER_AGENT should take over 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T017.",
+      "codexMemory": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ used Client Success for Client review plan."
+    }
+  },
+  "integrationsUsed": [
+    {
+      "id": "filesystem",
+      "title": "Filesystem",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": [
+        "integrations/core/INTEGRATION_CONTRACT.md",
+        "integrations/logging/LOG_SCHEMA.md"
+      ]
+    },
+    {
+      "id": "docs",
+      "title": "Docs",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "csv",
+      "title": "Csv",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "crm",
+      "title": "Crm",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "gmail",
+      "title": "Gmail",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    }
+  ],
+  "playbooksUsed": [
+    "CLIENT_DELIVERY_PLAYBOOK"
+  ],
+  "collaborationRequests": [
+    {
+      "target": "DEPLOYMENT_ENGINEER_AGENT",
+      "reason": "Coordinate client review plan with DEPLOYMENT_ENGINEER_AGENT."
+    },
+    {
+      "target": "SALES_CONSULTANT_AGENT",
+      "reason": "Coordinate client review plan with SALES_CONSULTANT_AGENT."
+    },
+    {
+      "target": "PROPOSAL_WRITER_AGENT",
+      "reason": "Coordinate client review plan with PROPOSAL_WRITER_AGENT."
+    },
+    {
+      "target": "CLIENT_ONBOARDING_AGENT",
+      "reason": "Coordinate client review plan with CLIENT_ONBOARDING_AGENT."
+    }
+  ],
+  "kpiFocus": [
+    "client retention",
+    "proposal readiness",
+    "Medium"
+  ]
+}

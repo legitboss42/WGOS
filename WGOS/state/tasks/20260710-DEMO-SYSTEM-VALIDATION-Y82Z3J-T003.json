@@ -1,0 +1,69 @@
+{
+  "id": "20260710-DEMO-SYSTEM-VALIDATION-Y82Z3J-T003",
+  "missionId": "20260710-DEMO-SYSTEM-VALIDATION-Y82Z3J",
+  "sequence": 3,
+  "agentSlug": "PROJECT_MANAGER_AGENT",
+  "agentTitle": "Project Manager",
+  "department": "executive",
+  "objective": "Create the task board, dependencies, and handoff order.",
+  "expectedOutput": "Task board and execution plan.",
+  "status": "COMPLETED",
+  "dependencies": [],
+  "nextAgentSlug": "DOCUMENTATION_AGENT",
+  "startedAt": "2026-07-10T06:55:42.561Z",
+  "updatedAt": "2026-07-10T06:55:43.064Z",
+  "report": {
+    "agent": "Project Manager",
+    "taskId": "20260710-DEMO-SYSTEM-VALIDATION-Y82Z3J-T003",
+    "objective": "Create the task board, dependencies, and handoff order.",
+    "actions": "Project Manager executed Create the task board, dependencies, and handoff order. for mission 20260710-DEMO-SYSTEM-VALIDATION-Y82Z3J using workflows: WORKFLOW_ORCHESTRATION, DOCUMENTATION_UPDATE_WORKFLOW, QA_AND_RELEASE_WORKFLOW.",
+    "validation": "Project Manager completed task board and execution plan..",
+    "nextStep": "Hand off to DOCUMENTATION_AGENT."
+  },
+  "handoff": {
+    "fromAgentSlug": "PROJECT_MANAGER_AGENT",
+    "toAgentSlug": "DOCUMENTATION_AGENT",
+    "status": "COMPLETED",
+    "validationNeeded": "Downstream review by DOCUMENTATION_AGENT."
+  },
+  "runtime": {
+    "mission": {
+      "objective": "Create the task board, dependencies, and handoff order.",
+      "successDefinition": "Task board and execution plan.",
+      "companyId": "WG-001",
+      "approvalClass": "A1"
+    },
+    "plan": {
+      "skillsLoaded": [
+        "OPERATIONS"
+      ],
+      "steps": [
+        "Read mission context and prior handoff",
+        "Validate required inputs",
+        "Execute specialist work",
+        "Validate output against expected result",
+        "Prepare report, memory, and handoff payloads"
+      ],
+      "dependencies": []
+    },
+    "execution": {
+      "summary": "Project Manager executed Create the task board, dependencies, and handoff order. for mission 20260710-DEMO-SYSTEM-VALIDATION-Y82Z3J using workflows: WORKFLOW_ORCHESTRATION, DOCUMENTATION_UPDATE_WORKFLOW, QA_AND_RELEASE_WORKFLOW.",
+      "artifacts": [
+        "PROJECT_MANAGER_AGENT:objective",
+        "PROJECT_MANAGER_AGENT:validation",
+        "PROJECT_MANAGER_AGENT:handoff"
+      ],
+      "approvalGateReached": false
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "passed": true,
+      "notes": "Project Manager completed task board and execution plan.."
+    },
+    "memory": {
+      "currentState": "20260710-DEMO-SYSTEM-VALIDATION-Y82Z3J-T003: Project Manager completed Create the task board, dependencies, and handoff order..",
+      "nextAction": "DOCUMENTATION_AGENT should take over 20260710-DEMO-SYSTEM-VALIDATION-Y82Z3J-T003.",
+      "codexMemory": "20260710-DEMO-SYSTEM-VALIDATION-Y82Z3J used Project Manager for Task board and execution plan.."
+    }
+  }
+}

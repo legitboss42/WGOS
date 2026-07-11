@@ -1,0 +1,180 @@
+{
+  "id": "20260710-DEMO-SYSTEM-VALIDATION-SECDRG-T005",
+  "missionId": "20260710-DEMO-SYSTEM-VALIDATION-SECDRG",
+  "sequence": 5,
+  "agentSlug": "KNOWLEDGE_MANAGER_AGENT",
+  "agentTitle": "Knowledge Manager",
+  "department": "executive",
+  "objective": "Capture lessons learned, mission knowledge, and next actions.",
+  "expectedOutput": "Knowledge archive update",
+  "stage": "knowledge_capture",
+  "status": "COMPLETED",
+  "dependencies": [],
+  "nextAgentSlug": "DOCUMENTATION_AGENT",
+  "estimatedComplexity": "Medium",
+  "businessValue": "Low",
+  "revenueImpact": "Indirect",
+  "priority": "HIGH",
+  "documentationStatus": "UPDATED",
+  "qaStatus": "PENDING",
+  "approvalStatus": "NOT_REQUIRED",
+  "completionStatus": "COMPLETED",
+  "startedAt": "2026-07-10T12:12:00.987Z",
+  "updatedAt": "2026-07-10T12:12:01.125Z",
+  "report": {
+    "agent": "Knowledge Manager",
+    "taskId": "20260710-DEMO-SYSTEM-VALIDATION-SECDRG-T005",
+    "objective": "Capture lessons learned, mission knowledge, and next actions.",
+    "actions": "Knowledge Manager executed Capture lessons learned, mission knowledge, and next actions. for mission 20260710-DEMO-SYSTEM-VALIDATION-SECDRG using workflows: WORKFLOW_ORCHESTRATION, DOCUMENTATION_UPDATE_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only.",
+    "validation": "Knowledge Manager completed knowledge archive update with 0 tracked integrations.",
+    "nextStep": "Hand off to DOCUMENTATION_AGENT.",
+    "integrations": [],
+    "playbooks": [],
+    "specialistOutputs": [
+      "knowledge updates",
+      "lesson summary",
+      "memory updates",
+      "decision log",
+      "learning record",
+      "knowledge_capture output"
+    ]
+  },
+  "handoff": {
+    "fromAgentSlug": "KNOWLEDGE_MANAGER_AGENT",
+    "toAgentSlug": "DOCUMENTATION_AGENT",
+    "status": "COMPLETED",
+    "validationNeeded": "Downstream review by DOCUMENTATION_AGENT.",
+    "completedWork": [
+      "knowledge updates",
+      "lesson summary",
+      "memory updates",
+      "decision log",
+      "learning record",
+      "knowledge_capture output"
+    ],
+    "collaborationTargets": [
+      "DOCUMENTATION_AGENT"
+    ]
+  },
+  "runtime": {
+    "mission": {
+      "objective": "Capture lessons learned, mission knowledge, and next actions.",
+      "successDefinition": "Knowledge archive update",
+      "companyId": "WG-001",
+      "approvalClass": "A1",
+      "missionType": "Internal operations",
+      "requiredDepartments": [
+        "executive",
+        "engineering"
+      ],
+      "requiredIntegrations": [],
+      "playbooks": []
+    },
+    "plan": {
+      "skillsLoaded": [
+        "OPERATIONS"
+      ],
+      "workstreams": [
+        "archive lessons learned",
+        "update institutional memory",
+        "reduce repeat failure risk",
+        "frame mission context",
+        "route dependencies",
+        "protect approvals"
+      ],
+      "validationChecks": [
+        "mission scope is clear",
+        "handoff order is explicit",
+        "approval gates are documented"
+      ],
+      "dependencies": [],
+      "requiredEvidence": [
+        "mission brief",
+        "dependency map",
+        "approval map",
+        "Knowledge archive update",
+        "knowledge updates",
+        "lesson summary",
+        "memory updates",
+        "decision log",
+        "learning record",
+        "knowledge_capture output"
+      ],
+      "playbooks": [],
+      "integrations": [],
+      "collaborationTargets": [
+        "DOCUMENTATION_AGENT"
+      ]
+    },
+    "execution": {
+      "summary": "Knowledge Manager executed Capture lessons learned, mission knowledge, and next actions. for mission 20260710-DEMO-SYSTEM-VALIDATION-SECDRG using workflows: WORKFLOW_ORCHESTRATION, DOCUMENTATION_UPDATE_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only.",
+      "artifacts": [
+        "KNOWLEDGE_MANAGER_AGENT:knowledge updates",
+        "KNOWLEDGE_MANAGER_AGENT:lesson summary",
+        "KNOWLEDGE_MANAGER_AGENT:memory updates",
+        "KNOWLEDGE_MANAGER_AGENT:decision log",
+        "KNOWLEDGE_MANAGER_AGENT:learning record",
+        "KNOWLEDGE_MANAGER_AGENT:knowledge_capture output"
+      ],
+      "evidence": [
+        "mission brief",
+        "dependency map",
+        "approval map",
+        "Knowledge archive update",
+        "knowledge updates",
+        "lesson summary",
+        "memory updates",
+        "decision log",
+        "learning record",
+        "knowledge_capture output"
+      ],
+      "integrationsUsed": [],
+      "playbooksUsed": [],
+      "collaborationRequests": [
+        {
+          "target": "DOCUMENTATION_AGENT",
+          "reason": "Coordinate knowledge archive update with DOCUMENTATION_AGENT."
+        }
+      ],
+      "specialistOutputs": [
+        "knowledge updates",
+        "lesson summary",
+        "memory updates",
+        "decision log",
+        "learning record",
+        "knowledge_capture output"
+      ],
+      "kpiFocus": [
+        "documentation compliance",
+        "mission throughput",
+        "Low",
+        "Indirect"
+      ],
+      "approvalGateReached": false
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "passed": true,
+      "notes": "Knowledge Manager completed knowledge archive update with 0 tracked integrations."
+    },
+    "memory": {
+      "currentState": "20260710-DEMO-SYSTEM-VALIDATION-SECDRG-T005: Knowledge Manager completed Capture lessons learned, mission knowledge, and next actions..",
+      "nextAction": "DOCUMENTATION_AGENT should take over 20260710-DEMO-SYSTEM-VALIDATION-SECDRG-T005.",
+      "codexMemory": "20260710-DEMO-SYSTEM-VALIDATION-SECDRG used Knowledge Manager for Knowledge archive update."
+    }
+  },
+  "integrationsUsed": [],
+  "playbooksUsed": [],
+  "collaborationRequests": [
+    {
+      "target": "DOCUMENTATION_AGENT",
+      "reason": "Coordinate knowledge archive update with DOCUMENTATION_AGENT."
+    }
+  ],
+  "kpiFocus": [
+    "documentation compliance",
+    "mission throughput",
+    "Low",
+    "Indirect"
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T009",
+  "missionId": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH",
+  "sequence": 9,
+  "agentSlug": "DIGITAL_PRODUCT_AGENT",
+  "agentTitle": "Digital Product",
+  "department": "revenue",
+  "objective": "Identify templates, guides, toolkits, and other digital-product opportunities.",
+  "expectedOutput": "Digital product opportunities",
+  "stage": "specialist_execution",
+  "status": "COMPLETED",
+  "dependencies": [],
+  "nextAgentSlug": "NEWSLETTER_AGENT",
+  "estimatedComplexity": "Medium",
+  "businessValue": "Medium",
+  "revenueImpact": "Medium",
+  "priority": "HIGH",
+  "documentationStatus": "UPDATED",
+  "qaStatus": "PENDING",
+  "approvalStatus": "NOT_REQUIRED",
+  "completionStatus": "COMPLETED",
+  "startedAt": "2026-07-10T12:05:18.939Z",
+  "updatedAt": "2026-07-10T12:05:19.014Z",
+  "report": {
+    "agent": "Digital Product",
+    "taskId": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T009",
+    "objective": "Identify templates, guides, toolkits, and other digital-product opportunities.",
+    "actions": "Digital Product executed Identify templates, guides, toolkits, and other digital-product opportunities. for mission 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH using workflows: ANALYTICS_REVIEW_WORKFLOW, WEEKLY_AGENCY_OPERATIONS_WORKFLOW, ADSENSE_READINESS_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only.",
+    "validation": "Digital Product completed digital product opportunities with 0 tracked integrations.",
+    "nextStep": "Hand off to NEWSLETTER_AGENT.",
+    "integrations": [],
+    "playbooks": [],
+    "specialistOutputs": [
+      "product concept",
+      "delivery outline",
+      "specialist_execution output"
+    ]
+  },
+  "handoff": {
+    "fromAgentSlug": "DIGITAL_PRODUCT_AGENT",
+    "toAgentSlug": "NEWSLETTER_AGENT",
+    "status": "COMPLETED",
+    "validationNeeded": "Downstream review by NEWSLETTER_AGENT.",
+    "completedWork": [
+      "product concept",
+      "delivery outline",
+      "specialist_execution output"
+    ],
+    "collaborationTargets": [
+      "NEWSLETTER_AGENT"
+    ]
+  },
+  "runtime": {
+    "mission": {
+      "objective": "Identify templates, guides, toolkits, and other digital-product opportunities.",
+      "successDefinition": "Digital product opportunities",
+      "companyId": "web-growth",
+      "approvalClass": "A1",
+      "missionType": "Internal operations",
+      "requiredDepartments": [
+        "executive",
+        "revenue",
+        "marketing",
+        "engineering"
+      ],
+      "requiredIntegrations": [],
+      "playbooks": []
+    },
+    "plan": {
+      "skillsLoaded": [
+        "COPYWRITING",
+        "CRO"
+      ],
+      "workstreams": [
+        "surface monetization signals",
+        "connect analytics to action",
+        "prioritize revenue moves"
+      ],
+      "validationChecks": [
+        "opportunities are measurable",
+        "revenue assumptions are labeled",
+        "next action is economically sound"
+      ],
+      "dependencies": [],
+      "requiredEvidence": [
+        "revenue signal summary",
+        "KPI deltas",
+        "prioritized opportunities",
+        "Digital product opportunities",
+        "product concept",
+        "delivery outline",
+        "specialist_execution output"
+      ],
+      "playbooks": [],
+      "integrations": [],
+      "collaborationTargets": [
+        "NEWSLETTER_AGENT"
+      ]
+    },
+    "execution": {
+      "summary": "Digital Product executed Identify templates, guides, toolkits, and other digital-product opportunities. for mission 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH using workflows: ANALYTICS_REVIEW_WORKFLOW, WEEKLY_AGENCY_OPERATIONS_WORKFLOW, ADSENSE_READINESS_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only.",
+      "artifacts": [
+        "DIGITAL_PRODUCT_AGENT:product concept",
+        "DIGITAL_PRODUCT_AGENT:delivery outline",
+        "DIGITAL_PRODUCT_AGENT:specialist_execution output"
+      ],
+      "evidence": [
+        "revenue signal summary",
+        "KPI deltas",
+        "prioritized opportunities",
+        "Digital product opportunities",
+        "product concept",
+        "delivery outline",
+        "specialist_execution output"
+      ],
+      "integrationsUsed": [],
+      "playbooksUsed": [],
+      "collaborationRequests": [
+        {
+          "target": "NEWSLETTER_AGENT",
+          "reason": "Coordinate digital product opportunities with NEWSLETTER_AGENT."
+        }
+      ],
+      "specialistOutputs": [
+        "product concept",
+        "delivery outline",
+        "specialist_execution output"
+      ],
+      "kpiFocus": [
+        "revenue impact",
+        "conversion lift",
+        "Medium"
+      ],
+      "approvalGateReached": false
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "passed": true,
+      "notes": "Digital Product completed digital product opportunities with 0 tracked integrations."
+    },
+    "memory": {
+      "currentState": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T009: Digital Product completed Identify templates, guides, toolkits, and other digital-product opportunities..",
+      "nextAction": "NEWSLETTER_AGENT should take over 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T009.",
+      "codexMemory": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH used Digital Product for Digital product opportunities."
+    }
+  },
+  "integrationsUsed": [],
+  "playbooksUsed": [],
+  "collaborationRequests": [
+    {
+      "target": "NEWSLETTER_AGENT",
+      "reason": "Coordinate digital product opportunities with NEWSLETTER_AGENT."
+    }
+  ],
+  "kpiFocus": [
+    "revenue impact",
+    "conversion lift",
+    "Medium"
+  ]
+}

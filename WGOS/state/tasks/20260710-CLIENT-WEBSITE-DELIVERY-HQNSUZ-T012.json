@@ -1,0 +1,310 @@
+{
+  "id": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T012",
+  "missionId": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ",
+  "sequence": 12,
+  "agentSlug": "AEO_AGENT",
+  "agentTitle": "AEO",
+  "department": "search",
+  "objective": "Identify answer-engine opportunities across FAQs, content framing, and summary blocks.",
+  "expectedOutput": "AEO opportunity map",
+  "stage": "specialist_execution",
+  "status": "COMPLETED",
+  "dependencies": [],
+  "nextAgentSlug": "GEO_AGENT",
+  "estimatedComplexity": "Medium",
+  "businessValue": "Medium",
+  "revenueImpact": "Medium",
+  "priority": "HIGH",
+  "documentationStatus": "UPDATED",
+  "qaStatus": "PENDING",
+  "approvalStatus": "NOT_REQUIRED",
+  "completionStatus": "COMPLETED",
+  "startedAt": "2026-07-10T11:42:30.282Z",
+  "updatedAt": "2026-07-10T11:42:31.168Z",
+  "report": {
+    "agent": "AEO",
+    "taskId": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T012",
+    "objective": "Identify answer-engine opportunities across FAQs, content framing, and summary blocks.",
+    "actions": "AEO executed Identify answer-engine opportunities across FAQs, content framing, and summary blocks. for mission 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ using workflows: CLIENT_PROJECT_DELIVERY_WORKFLOW, WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: SEARCH_INTELLIGENCE_PLAYBOOK; integrations: docs, lighthouse, pagespeed, search, search-console, ga4.",
+    "validation": "AEO completed aeo opportunity map with 6 tracked integrations.",
+    "nextStep": "Hand off to GEO_AGENT.",
+    "integrations": [
+      "docs",
+      "lighthouse",
+      "pagespeed",
+      "search",
+      "search-console",
+      "ga4"
+    ],
+    "playbooks": [
+      "SEARCH_INTELLIGENCE_PLAYBOOK"
+    ],
+    "specialistOutputs": [
+      "aeo brief",
+      "question-answer map",
+      "specialist_execution output"
+    ]
+  },
+  "handoff": {
+    "fromAgentSlug": "AEO_AGENT",
+    "toAgentSlug": "GEO_AGENT",
+    "status": "COMPLETED",
+    "validationNeeded": "Downstream review by GEO_AGENT.",
+    "completedWork": [
+      "aeo brief",
+      "question-answer map",
+      "specialist_execution output"
+    ],
+    "collaborationTargets": [
+      "GEO_AGENT",
+      "SEO_AGENT",
+      "TECHNICAL_SEO_AGENT",
+      "SCHEMA_AGENT"
+    ]
+  },
+  "runtime": {
+    "mission": {
+      "objective": "Identify answer-engine opportunities across FAQs, content framing, and summary blocks.",
+      "successDefinition": "AEO opportunity map",
+      "companyId": "client-template",
+      "approvalClass": "A1",
+      "missionType": "Internal operations",
+      "requiredDepartments": [
+        "executive",
+        "client",
+        "design",
+        "engineering",
+        "search",
+        "publishing"
+      ],
+      "requiredIntegrations": [
+        "docs",
+        "lighthouse",
+        "pagespeed",
+        "search",
+        "search-console",
+        "ga4"
+      ],
+      "playbooks": [
+        "SEARCH_INTELLIGENCE_PLAYBOOK"
+      ]
+    },
+    "plan": {
+      "skillsLoaded": [
+        "AEO",
+        "SCHEMA",
+        "COPYWRITING"
+      ],
+      "workstreams": [
+        "analyze search intent",
+        "identify crawl and metadata issues",
+        "prioritize visibility improvements"
+      ],
+      "validationChecks": [
+        "search recommendations map to intent",
+        "technical constraints are noted",
+        "measurement path is defined"
+      ],
+      "dependencies": [],
+      "requiredEvidence": [
+        "search findings",
+        "SERP opportunity notes",
+        "optimization backlog",
+        "AEO opportunity map",
+        "aeo brief",
+        "question-answer map",
+        "specialist_execution output"
+      ],
+      "playbooks": [
+        "SEARCH_INTELLIGENCE_PLAYBOOK"
+      ],
+      "integrations": [
+        "Docs (NORMAL)",
+        "Lighthouse (NORMAL)",
+        "Pagespeed (NORMAL)",
+        "Search (NORMAL)",
+        "Search Console (HIGH)",
+        "GA4 (HIGH)"
+      ],
+      "collaborationTargets": [
+        "GEO_AGENT",
+        "SEO_AGENT",
+        "TECHNICAL_SEO_AGENT",
+        "SCHEMA_AGENT"
+      ]
+    },
+    "execution": {
+      "summary": "AEO executed Identify answer-engine opportunities across FAQs, content framing, and summary blocks. for mission 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ using workflows: CLIENT_PROJECT_DELIVERY_WORKFLOW, WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: SEARCH_INTELLIGENCE_PLAYBOOK; integrations: docs, lighthouse, pagespeed, search, search-console, ga4.",
+      "artifacts": [
+        "AEO_AGENT:aeo brief",
+        "AEO_AGENT:question-answer map",
+        "AEO_AGENT:specialist_execution output"
+      ],
+      "evidence": [
+        "search findings",
+        "SERP opportunity notes",
+        "optimization backlog",
+        "AEO opportunity map",
+        "aeo brief",
+        "question-answer map",
+        "specialist_execution output"
+      ],
+      "integrationsUsed": [
+        {
+          "id": "docs",
+          "title": "Docs",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "lighthouse",
+          "title": "Lighthouse",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "pagespeed",
+          "title": "Pagespeed",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "search",
+          "title": "Search",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "search-console",
+          "title": "Search Console",
+          "approvalLevel": "HIGH",
+          "runtimeDocs": [
+            "integrations/core/AUTHENTICATION_MODEL.md",
+            "integrations/approval/INTEGRATION_APPROVAL_MODEL.md"
+          ]
+        },
+        {
+          "id": "ga4",
+          "title": "GA4",
+          "approvalLevel": "HIGH",
+          "runtimeDocs": [
+            "integrations/core/AUTHENTICATION_MODEL.md",
+            "integrations/logging/LOG_SCHEMA.md"
+          ]
+        }
+      ],
+      "playbooksUsed": [
+        "SEARCH_INTELLIGENCE_PLAYBOOK"
+      ],
+      "collaborationRequests": [
+        {
+          "target": "GEO_AGENT",
+          "reason": "Coordinate aeo opportunity map with GEO_AGENT."
+        },
+        {
+          "target": "SEO_AGENT",
+          "reason": "Coordinate aeo opportunity map with SEO_AGENT."
+        },
+        {
+          "target": "TECHNICAL_SEO_AGENT",
+          "reason": "Coordinate aeo opportunity map with TECHNICAL_SEO_AGENT."
+        },
+        {
+          "target": "SCHEMA_AGENT",
+          "reason": "Coordinate aeo opportunity map with SCHEMA_AGENT."
+        }
+      ],
+      "specialistOutputs": [
+        "aeo brief",
+        "question-answer map",
+        "specialist_execution output"
+      ],
+      "kpiFocus": [
+        "organic growth",
+        "indexation quality",
+        "Medium"
+      ],
+      "approvalGateReached": false
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "passed": true,
+      "notes": "AEO completed aeo opportunity map with 6 tracked integrations."
+    },
+    "memory": {
+      "currentState": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T012: AEO completed Identify answer-engine opportunities across FAQs, content framing, and summary blocks..",
+      "nextAction": "GEO_AGENT should take over 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T012.",
+      "codexMemory": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ used AEO for AEO opportunity map."
+    }
+  },
+  "integrationsUsed": [
+    {
+      "id": "docs",
+      "title": "Docs",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "lighthouse",
+      "title": "Lighthouse",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "pagespeed",
+      "title": "Pagespeed",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "search",
+      "title": "Search",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "search-console",
+      "title": "Search Console",
+      "approvalLevel": "HIGH",
+      "runtimeDocs": [
+        "integrations/core/AUTHENTICATION_MODEL.md",
+        "integrations/approval/INTEGRATION_APPROVAL_MODEL.md"
+      ]
+    },
+    {
+      "id": "ga4",
+      "title": "GA4",
+      "approvalLevel": "HIGH",
+      "runtimeDocs": [
+        "integrations/core/AUTHENTICATION_MODEL.md",
+        "integrations/logging/LOG_SCHEMA.md"
+      ]
+    }
+  ],
+  "playbooksUsed": [
+    "SEARCH_INTELLIGENCE_PLAYBOOK"
+  ],
+  "collaborationRequests": [
+    {
+      "target": "GEO_AGENT",
+      "reason": "Coordinate aeo opportunity map with GEO_AGENT."
+    },
+    {
+      "target": "SEO_AGENT",
+      "reason": "Coordinate aeo opportunity map with SEO_AGENT."
+    },
+    {
+      "target": "TECHNICAL_SEO_AGENT",
+      "reason": "Coordinate aeo opportunity map with TECHNICAL_SEO_AGENT."
+    },
+    {
+      "target": "SCHEMA_AGENT",
+      "reason": "Coordinate aeo opportunity map with SCHEMA_AGENT."
+    }
+  ],
+  "kpiFocus": [
+    "organic growth",
+    "indexation quality",
+    "Medium"
+  ]
+}

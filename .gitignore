@@ -1,0 +1,11 @@
+node_modules/
+.env*
+*.local.json
+credentials.local.json
+WGOS/logs/**/*.jsonl
+wgos-runtime/secrets/*
+!wgos-runtime/secrets/.gitignore
+!wgos-runtime/secrets/README.md
+!wgos-runtime/secrets/credentials.example.json
+*.log
+.DS_Store

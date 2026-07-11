@@ -1,0 +1,90 @@
+[
+  {
+    "department": "executive",
+    "missionsTouched": 17,
+    "tasksCompleted": 85,
+    "blockedTasks": 0,
+    "waitingApprovalTasks": 0,
+    "lastMissionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47"
+  },
+  {
+    "department": "design",
+    "missionsTouched": 2,
+    "tasksCompleted": 6,
+    "blockedTasks": 0,
+    "waitingApprovalTasks": 0,
+    "lastMissionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47"
+  },
+  {
+    "department": "engineering",
+    "missionsTouched": 17,
+    "tasksCompleted": 23,
+    "blockedTasks": 0,
+    "waitingApprovalTasks": 0,
+    "lastMissionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47"
+  },
+  {
+    "department": "search",
+    "missionsTouched": 2,
+    "tasksCompleted": 4,
+    "blockedTasks": 0,
+    "waitingApprovalTasks": 0,
+    "lastMissionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47"
+  },
+  {
+    "department": "publishing",
+    "missionsTouched": 1,
+    "tasksCompleted": 1,
+    "blockedTasks": 0,
+    "waitingApprovalTasks": 0,
+    "lastMissionId": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ"
+  },
+  {
+    "department": "marketing",
+    "missionsTouched": 4,
+    "tasksCompleted": 20,
+    "blockedTasks": 0,
+    "waitingApprovalTasks": 0,
+    "lastMissionId": "20260710-LEAD-RESEARCH-YLDQKY"
+  },
+  {
+    "department": "revenue",
+    "missionsTouched": 1,
+    "tasksCompleted": 6,
+    "blockedTasks": 0,
+    "waitingApprovalTasks": 0,
+    "lastMissionId": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH"
+  },
+  {
+    "department": "client",
+    "missionsTouched": 1,
+    "tasksCompleted": 2,
+    "blockedTasks": 0,
+    "waitingApprovalTasks": 0,
+    "lastMissionId": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ"
+  },
+  {
+    "department": "operations",
+    "missionsTouched": 0,
+    "tasksCompleted": 0,
+    "blockedTasks": 0,
+    "waitingApprovalTasks": 0,
+    "lastMissionId": null
+  },
+  {
+    "department": "qa",
+    "missionsTouched": 0,
+    "tasksCompleted": 0,
+    "blockedTasks": 0,
+    "waitingApprovalTasks": 0,
+    "lastMissionId": null
+  },
+  {
+    "department": "documentation",
+    "missionsTouched": 0,
+    "tasksCompleted": 0,
+    "blockedTasks": 0,
+    "waitingApprovalTasks": 0,
+    "lastMissionId": null
+  }
+]

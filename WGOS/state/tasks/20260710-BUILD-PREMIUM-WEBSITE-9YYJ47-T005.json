@@ -1,0 +1,280 @@
+{
+  "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T005",
+  "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+  "sequence": 5,
+  "agentSlug": "UI_UX_DESIGN_AGENT",
+  "agentTitle": "UI UX Designer",
+  "department": "design",
+  "objective": "Design the information and conversion structure.",
+  "expectedOutput": "UX structure plan",
+  "stage": "specialist_execution",
+  "status": "COMPLETED",
+  "dependencies": [],
+  "nextAgentSlug": "FRONTEND_ENGINEER_AGENT",
+  "estimatedComplexity": "High",
+  "businessValue": "High",
+  "revenueImpact": "High",
+  "priority": "HIGH",
+  "documentationStatus": "UPDATED",
+  "qaStatus": "PENDING",
+  "approvalStatus": "NOT_REQUIRED",
+  "completionStatus": "COMPLETED",
+  "startedAt": "2026-07-10T18:22:46.936Z",
+  "updatedAt": "2026-07-10T18:22:46.967Z",
+  "report": {
+    "agent": "UI UX Designer",
+    "taskId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T005",
+    "objective": "Design the information and conversion structure.",
+    "actions": "UI UX Designer executed Design the information and conversion structure. for mission 20260710-BUILD-PREMIUM-WEBSITE-9YYJ47 using workflows: WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: DESIGN_REVIEW_PLAYBOOK; integrations: filesystem, docs, figma, images.",
+    "validation": "UI UX Designer completed ux structure plan with 4 tracked integrations.",
+    "nextStep": "Hand off to FRONTEND_ENGINEER_AGENT.",
+    "integrations": [
+      "filesystem",
+      "docs",
+      "figma",
+      "images"
+    ],
+    "playbooks": [
+      "DESIGN_REVIEW_PLAYBOOK"
+    ],
+    "specialistOutputs": [
+      "wireframes",
+      "interface notes",
+      "ux audit",
+      "specialist_execution output"
+    ],
+    "specialistRuntime": null
+  },
+  "handoff": {
+    "fromAgentSlug": "UI_UX_DESIGN_AGENT",
+    "toAgentSlug": "FRONTEND_ENGINEER_AGENT",
+    "status": "COMPLETED",
+    "validationNeeded": "Downstream review by FRONTEND_ENGINEER_AGENT.",
+    "completedWork": [
+      "wireframes",
+      "interface notes",
+      "ux audit",
+      "specialist_execution output"
+    ],
+    "collaborationTargets": [
+      "FRONTEND_ENGINEER_AGENT",
+      "PRODUCT_STRATEGIST_AGENT",
+      "BRAND_DESIGN_AGENT",
+      "MOTION_GRAPHICS_AGENT"
+    ]
+  },
+  "runtime": {
+    "mission": {
+      "objective": "Design the information and conversion structure.",
+      "successDefinition": "UX structure plan",
+      "companyId": "web-growth",
+      "approvalClass": "A1",
+      "missionType": "Website project",
+      "requiredDepartments": [
+        "executive",
+        "design",
+        "engineering",
+        "search"
+      ],
+      "requiredIntegrations": [
+        "filesystem",
+        "docs",
+        "figma",
+        "images"
+      ],
+      "playbooks": [
+        "DESIGN_REVIEW_PLAYBOOK"
+      ]
+    },
+    "plan": {
+      "skillsLoaded": [
+        "ACCESSIBILITY",
+        "CRO"
+      ],
+      "workstreams": [
+        "shape user flow",
+        "evaluate brand alignment",
+        "specify layout and motion intent"
+      ],
+      "validationChecks": [
+        "user journey is coherent",
+        "design decisions support conversion",
+        "motion does not conflict with accessibility"
+      ],
+      "dependencies": [],
+      "requiredEvidence": [
+        "experience notes",
+        "wireframe guidance",
+        "interaction recommendations",
+        "UX structure plan",
+        "wireframes",
+        "interface notes",
+        "ux audit",
+        "specialist_execution output"
+      ],
+      "playbooks": [
+        "DESIGN_REVIEW_PLAYBOOK"
+      ],
+      "integrations": [
+        "Filesystem (NORMAL)",
+        "Docs (NORMAL)",
+        "Figma (NORMAL)",
+        "Images (NORMAL)"
+      ],
+      "collaborationTargets": [
+        "FRONTEND_ENGINEER_AGENT",
+        "PRODUCT_STRATEGIST_AGENT",
+        "BRAND_DESIGN_AGENT",
+        "MOTION_GRAPHICS_AGENT"
+      ],
+      "specialistPlan": null
+    },
+    "execution": {
+      "summary": "UI UX Designer executed Design the information and conversion structure. for mission 20260710-BUILD-PREMIUM-WEBSITE-9YYJ47 using workflows: WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: DESIGN_REVIEW_PLAYBOOK; integrations: filesystem, docs, figma, images.",
+      "artifacts": [
+        "UI_UX_DESIGN_AGENT:wireframes",
+        "UI_UX_DESIGN_AGENT:interface notes",
+        "UI_UX_DESIGN_AGENT:ux audit",
+        "UI_UX_DESIGN_AGENT:specialist_execution output"
+      ],
+      "evidence": [
+        "experience notes",
+        "wireframe guidance",
+        "interaction recommendations",
+        "UX structure plan",
+        "wireframes",
+        "interface notes",
+        "ux audit",
+        "specialist_execution output"
+      ],
+      "integrationsUsed": [
+        {
+          "id": "filesystem",
+          "title": "Filesystem",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": [
+            "integrations/core/INTEGRATION_CONTRACT.md",
+            "integrations/logging/LOG_SCHEMA.md"
+          ]
+        },
+        {
+          "id": "docs",
+          "title": "Docs",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "figma",
+          "title": "Figma",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "images",
+          "title": "Images",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        }
+      ],
+      "playbooksUsed": [
+        "DESIGN_REVIEW_PLAYBOOK"
+      ],
+      "collaborationRequests": [
+        {
+          "target": "FRONTEND_ENGINEER_AGENT",
+          "reason": "Coordinate ux structure plan with FRONTEND_ENGINEER_AGENT."
+        },
+        {
+          "target": "PRODUCT_STRATEGIST_AGENT",
+          "reason": "Coordinate ux structure plan with PRODUCT_STRATEGIST_AGENT."
+        },
+        {
+          "target": "BRAND_DESIGN_AGENT",
+          "reason": "Coordinate ux structure plan with BRAND_DESIGN_AGENT."
+        },
+        {
+          "target": "MOTION_GRAPHICS_AGENT",
+          "reason": "Coordinate ux structure plan with MOTION_GRAPHICS_AGENT."
+        }
+      ],
+      "specialistOutputs": [
+        "wireframes",
+        "interface notes",
+        "ux audit",
+        "specialist_execution output"
+      ],
+      "kpiFocus": [
+        "conversion clarity",
+        "brand consistency",
+        "High"
+      ],
+      "approvalGateReached": false,
+      "specialistRuntime": null
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "passed": true,
+      "notes": "UI UX Designer completed ux structure plan with 4 tracked integrations."
+    },
+    "memory": {
+      "currentState": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T005: UI UX Designer completed Design the information and conversion structure..",
+      "nextAction": "FRONTEND_ENGINEER_AGENT should take over 20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T005.",
+      "codexMemory": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47 used UI UX Designer for UX structure plan."
+    }
+  },
+  "integrationsUsed": [
+    {
+      "id": "filesystem",
+      "title": "Filesystem",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": [
+        "integrations/core/INTEGRATION_CONTRACT.md",
+        "integrations/logging/LOG_SCHEMA.md"
+      ]
+    },
+    {
+      "id": "docs",
+      "title": "Docs",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "figma",
+      "title": "Figma",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "images",
+      "title": "Images",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    }
+  ],
+  "playbooksUsed": [
+    "DESIGN_REVIEW_PLAYBOOK"
+  ],
+  "collaborationRequests": [
+    {
+      "target": "FRONTEND_ENGINEER_AGENT",
+      "reason": "Coordinate ux structure plan with FRONTEND_ENGINEER_AGENT."
+    },
+    {
+      "target": "PRODUCT_STRATEGIST_AGENT",
+      "reason": "Coordinate ux structure plan with PRODUCT_STRATEGIST_AGENT."
+    },
+    {
+      "target": "BRAND_DESIGN_AGENT",
+      "reason": "Coordinate ux structure plan with BRAND_DESIGN_AGENT."
+    },
+    {
+      "target": "MOTION_GRAPHICS_AGENT",
+      "reason": "Coordinate ux structure plan with MOTION_GRAPHICS_AGENT."
+    }
+  ],
+  "kpiFocus": [
+    "conversion clarity",
+    "brand consistency",
+    "High"
+  ]
+}

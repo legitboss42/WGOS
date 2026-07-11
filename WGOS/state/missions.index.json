@@ -1,0 +1,511 @@
+[
+  {
+    "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+    "templateId": "BUILD_PREMIUM_WEBSITE",
+    "companyId": "web-growth",
+    "objective": "Plan and coordinate a premium website build with strategy, design, engineering, search, QA, memory, and documentation.",
+    "status": "COMPLETED",
+    "approvalClass": "A1",
+    "startedAt": "2026-07-10T18:22:44.643Z",
+    "updatedAt": "2026-07-10T18:22:48.652Z",
+    "taskCount": 10,
+    "requiredDepartments": [
+      "executive",
+      "design",
+      "engineering",
+      "search"
+    ],
+    "requiredAgents": [
+      "CEO_OPERATOR_AGENT",
+      "WORKFLOW_ORCHESTRATOR_AGENT",
+      "PROJECT_MANAGER_AGENT",
+      "PRODUCT_STRATEGIST_AGENT",
+      "UI_UX_DESIGN_AGENT",
+      "FRONTEND_ENGINEER_AGENT",
+      "SEO_AGENT",
+      "QA_ENGINEER_AGENT",
+      "KNOWLEDGE_MANAGER_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "businessValue": "High",
+    "revenueImpact": "High",
+    "estimatedComplexity": "High"
+  },
+  {
+    "id": "20260710-LEAD-RESEARCH-YLDQKY",
+    "templateId": "LEAD_RESEARCH",
+    "companyId": "web-growth",
+    "objective": "Create a compliant lead-research mission with research, audits, intelligence, CRM, drafts, QA, documentation, and memory capture.",
+    "status": "COMPLETED",
+    "approvalClass": "A1",
+    "startedAt": "2026-07-10T16:54:18.829Z",
+    "updatedAt": "2026-07-10T16:54:33.113Z",
+    "taskCount": 12,
+    "requiredDepartments": [
+      "executive",
+      "marketing",
+      "engineering"
+    ],
+    "requiredAgents": [
+      "CEO_OPERATOR_AGENT",
+      "WORKFLOW_ORCHESTRATOR_AGENT",
+      "PROJECT_MANAGER_AGENT",
+      "MARKETING_STRATEGIST_AGENT",
+      "LEAD_RESEARCH_AGENT",
+      "WEBSITE_AUDIT_AGENT",
+      "BUSINESS_INTELLIGENCE_AGENT",
+      "CRM_AGENT",
+      "OUTREACH_DRAFTING_AGENT",
+      "QA_ENGINEER_AGENT",
+      "KNOWLEDGE_MANAGER_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "businessValue": "High",
+    "revenueImpact": "High",
+    "estimatedComplexity": "Medium"
+  },
+  {
+    "id": "20260710-LEAD-RESEARCH-A66YYU",
+    "templateId": "LEAD_RESEARCH",
+    "companyId": "web-growth",
+    "objective": "Create a compliant lead-research mission with research, audits, intelligence, CRM, drafts, QA, documentation, and memory capture.",
+    "status": "COMPLETED",
+    "approvalClass": "A1",
+    "startedAt": "2026-07-10T16:33:51.894Z",
+    "updatedAt": "2026-07-10T16:34:00.936Z",
+    "taskCount": 12,
+    "requiredDepartments": [
+      "executive",
+      "marketing",
+      "engineering"
+    ],
+    "requiredAgents": [
+      "CEO_OPERATOR_AGENT",
+      "WORKFLOW_ORCHESTRATOR_AGENT",
+      "PROJECT_MANAGER_AGENT",
+      "MARKETING_STRATEGIST_AGENT",
+      "LEAD_RESEARCH_AGENT",
+      "WEBSITE_AUDIT_AGENT",
+      "BUSINESS_INTELLIGENCE_AGENT",
+      "CRM_AGENT",
+      "OUTREACH_DRAFTING_AGENT",
+      "QA_ENGINEER_AGENT",
+      "KNOWLEDGE_MANAGER_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "businessValue": "High",
+    "revenueImpact": "High",
+    "estimatedComplexity": "Medium"
+  },
+  {
+    "id": "20260710-LEAD-RESEARCH-BH5R7L",
+    "templateId": "LEAD_RESEARCH",
+    "companyId": "web-growth",
+    "objective": "Create a compliant lead-research mission with research, audits, intelligence, CRM, drafts, QA, documentation, and memory capture.",
+    "status": "COMPLETED",
+    "approvalClass": "A1",
+    "startedAt": "2026-07-10T16:14:51.431Z",
+    "updatedAt": "2026-07-10T16:14:59.847Z",
+    "taskCount": 12,
+    "requiredDepartments": [
+      "executive",
+      "marketing",
+      "engineering"
+    ],
+    "requiredAgents": [
+      "CEO_OPERATOR_AGENT",
+      "WORKFLOW_ORCHESTRATOR_AGENT",
+      "PROJECT_MANAGER_AGENT",
+      "MARKETING_STRATEGIST_AGENT",
+      "LEAD_RESEARCH_AGENT",
+      "WEBSITE_AUDIT_AGENT",
+      "BUSINESS_INTELLIGENCE_AGENT",
+      "CRM_AGENT",
+      "OUTREACH_DRAFTING_AGENT",
+      "QA_ENGINEER_AGENT",
+      "KNOWLEDGE_MANAGER_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "businessValue": "High",
+    "revenueImpact": "High",
+    "estimatedComplexity": "Medium"
+  },
+  {
+    "id": "20260710-DEMO-SYSTEM-VALIDATION-BCPTMK",
+    "templateId": "DEMO_SYSTEM_VALIDATION",
+    "companyId": "WG-001",
+    "objective": "Prove WGOS can orchestrate a multi-department internal mission from intake through reporting, learning, and platform updates.",
+    "status": "COMPLETED",
+    "approvalClass": "A1",
+    "startedAt": "2026-07-10T12:29:18.493Z",
+    "updatedAt": "2026-07-10T12:29:23.011Z",
+    "taskCount": 6,
+    "requiredDepartments": [
+      "executive",
+      "engineering"
+    ],
+    "requiredAgents": [
+      "CEO_OPERATOR_AGENT",
+      "WORKFLOW_ORCHESTRATOR_AGENT",
+      "PROJECT_MANAGER_AGENT",
+      "QA_ENGINEER_AGENT",
+      "KNOWLEDGE_MANAGER_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "businessValue": "Low",
+    "revenueImpact": "Indirect",
+    "estimatedComplexity": "Medium"
+  },
+  {
+    "id": "20260710-DEMO-SYSTEM-VALIDATION-G0OKUB",
+    "templateId": "DEMO_SYSTEM_VALIDATION",
+    "companyId": "WG-001",
+    "objective": "Prove WGOS can orchestrate a multi-department internal mission from intake through reporting, learning, and platform updates.",
+    "status": "COMPLETED",
+    "approvalClass": "A1",
+    "startedAt": "2026-07-10T12:27:38.146Z",
+    "updatedAt": "2026-07-10T12:27:42.683Z",
+    "taskCount": 6,
+    "requiredDepartments": [
+      "executive",
+      "engineering"
+    ],
+    "requiredAgents": [
+      "CEO_OPERATOR_AGENT",
+      "WORKFLOW_ORCHESTRATOR_AGENT",
+      "PROJECT_MANAGER_AGENT",
+      "QA_ENGINEER_AGENT",
+      "KNOWLEDGE_MANAGER_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "businessValue": "Low",
+    "revenueImpact": "Indirect",
+    "estimatedComplexity": "Medium"
+  },
+  {
+    "id": "20260710-DEMO-SYSTEM-VALIDATION-SCKB1S",
+    "templateId": "DEMO_SYSTEM_VALIDATION",
+    "companyId": "WG-001",
+    "objective": "Prove WGOS can orchestrate a multi-department internal mission from intake through reporting, learning, and platform updates.",
+    "status": "COMPLETED",
+    "approvalClass": "A1",
+    "startedAt": "2026-07-10T12:19:55.008Z",
+    "updatedAt": "2026-07-10T12:19:55.960Z",
+    "taskCount": 6,
+    "requiredDepartments": [
+      "executive",
+      "engineering"
+    ],
+    "requiredAgents": [
+      "CEO_OPERATOR_AGENT",
+      "WORKFLOW_ORCHESTRATOR_AGENT",
+      "PROJECT_MANAGER_AGENT",
+      "QA_ENGINEER_AGENT",
+      "KNOWLEDGE_MANAGER_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "businessValue": "Low",
+    "revenueImpact": "Indirect",
+    "estimatedComplexity": "Medium"
+  },
+  {
+    "id": "20260710-DEMO-SYSTEM-VALIDATION-SECDRG",
+    "templateId": "DEMO_SYSTEM_VALIDATION",
+    "companyId": "WG-001",
+    "objective": "Prove WGOS can orchestrate a multi-department internal mission from intake through reporting, learning, and platform updates.",
+    "status": "COMPLETED",
+    "approvalClass": "A1",
+    "startedAt": "2026-07-10T12:11:58.556Z",
+    "updatedAt": "2026-07-10T12:12:01.664Z",
+    "taskCount": 6,
+    "requiredDepartments": [
+      "executive",
+      "engineering"
+    ],
+    "requiredAgents": [
+      "CEO_OPERATOR_AGENT",
+      "WORKFLOW_ORCHESTRATOR_AGENT",
+      "PROJECT_MANAGER_AGENT",
+      "QA_ENGINEER_AGENT",
+      "KNOWLEDGE_MANAGER_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "businessValue": "Low",
+    "revenueImpact": "Indirect",
+    "estimatedComplexity": "Medium"
+  },
+  {
+    "id": "20260710-DEMO-SYSTEM-VALIDATION-PNQX3I",
+    "templateId": "DEMO_SYSTEM_VALIDATION",
+    "companyId": "WG-001",
+    "objective": "Prove WGOS can orchestrate a multi-department internal mission from intake through reporting, learning, and platform updates.",
+    "status": "COMPLETED",
+    "approvalClass": "A1",
+    "startedAt": "2026-07-10T12:11:10.913Z",
+    "updatedAt": "2026-07-10T12:11:13.019Z",
+    "taskCount": 6,
+    "requiredDepartments": [
+      "executive",
+      "engineering"
+    ],
+    "requiredAgents": [
+      "CEO_OPERATOR_AGENT",
+      "WORKFLOW_ORCHESTRATOR_AGENT",
+      "PROJECT_MANAGER_AGENT",
+      "QA_ENGINEER_AGENT",
+      "KNOWLEDGE_MANAGER_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "businessValue": "Low",
+    "revenueImpact": "Indirect",
+    "estimatedComplexity": "Medium"
+  },
+  {
+    "id": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH",
+    "templateId": "REVENUE_OPPORTUNITY_REVIEW",
+    "companyId": "web-growth",
+    "objective": "Coordinate analytics, CRO, revenue operations, affiliate, digital product, newsletter, and AdSense opportunities into a revenue-growth operating plan.",
+    "status": "COMPLETED",
+    "approvalClass": "A1",
+    "startedAt": "2026-07-10T12:05:17.950Z",
+    "updatedAt": "2026-07-10T12:05:20.672Z",
+    "taskCount": 14,
+    "requiredDepartments": [
+      "executive",
+      "revenue",
+      "marketing",
+      "engineering"
+    ],
+    "requiredAgents": [
+      "CEO_OPERATOR_AGENT",
+      "WORKFLOW_ORCHESTRATOR_AGENT",
+      "PROJECT_MANAGER_AGENT",
+      "ANALYTICS_AGENT",
+      "CRO_AGENT",
+      "REVENUE_OPERATIONS_AGENT",
+      "ADSENSE_AGENT",
+      "AFFILIATE_MANAGER_AGENT",
+      "DIGITAL_PRODUCT_AGENT",
+      "NEWSLETTER_AGENT",
+      "MARKETING_STRATEGIST_AGENT",
+      "QA_ENGINEER_AGENT",
+      "KNOWLEDGE_MANAGER_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "businessValue": "Medium",
+    "revenueImpact": "Medium",
+    "estimatedComplexity": "Medium"
+  },
+  {
+    "id": "20260710-DEMO-SYSTEM-VALIDATION-SILNSQ",
+    "templateId": "DEMO_SYSTEM_VALIDATION",
+    "companyId": "WG-001",
+    "objective": "Prove WGOS can orchestrate a multi-department internal mission from intake through reporting, learning, and platform updates.",
+    "status": "COMPLETED",
+    "approvalClass": "A1",
+    "startedAt": "2026-07-10T12:04:35.188Z",
+    "updatedAt": "2026-07-10T12:04:37.341Z",
+    "taskCount": 6,
+    "requiredDepartments": [
+      "executive",
+      "engineering"
+    ],
+    "requiredAgents": [
+      "CEO_OPERATOR_AGENT",
+      "WORKFLOW_ORCHESTRATOR_AGENT",
+      "PROJECT_MANAGER_AGENT",
+      "QA_ENGINEER_AGENT",
+      "KNOWLEDGE_MANAGER_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "businessValue": "Low",
+    "revenueImpact": "Indirect",
+    "estimatedComplexity": "Medium"
+  },
+  {
+    "id": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ",
+    "templateId": "CLIENT_WEBSITE_DELIVERY",
+    "companyId": "client-template",
+    "objective": "Route a complete premium client website lifecycle from discovery through strategy, design, engineering, search, QA, client review, launch preparation, and documentation.",
+    "status": "COMPLETED",
+    "approvalClass": "A1",
+    "startedAt": "2026-07-10T11:42:22.683Z",
+    "updatedAt": "2026-07-10T11:42:38.600Z",
+    "taskCount": 21,
+    "requiredDepartments": [
+      "executive",
+      "client",
+      "design",
+      "engineering",
+      "search",
+      "publishing"
+    ],
+    "requiredAgents": [
+      "CEO_OPERATOR_AGENT",
+      "WORKFLOW_ORCHESTRATOR_AGENT",
+      "PROJECT_MANAGER_AGENT",
+      "SALES_CONSULTANT_AGENT",
+      "PRODUCT_STRATEGIST_AGENT",
+      "UI_UX_DESIGN_AGENT",
+      "BRAND_DESIGN_AGENT",
+      "MOTION_GRAPHICS_AGENT",
+      "FRONTEND_ENGINEER_AGENT",
+      "BACKEND_ENGINEER_AGENT",
+      "SEO_AGENT",
+      "AEO_AGENT",
+      "GEO_AGENT",
+      "CONTENT_STRATEGIST_AGENT",
+      "PERFORMANCE_ENGINEER_AGENT",
+      "ACCESSIBILITY_ENGINEER_AGENT",
+      "CLIENT_SUCCESS_AGENT",
+      "DEPLOYMENT_ENGINEER_AGENT",
+      "QA_ENGINEER_AGENT",
+      "KNOWLEDGE_MANAGER_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "businessValue": "Medium",
+    "revenueImpact": "Medium",
+    "estimatedComplexity": "Medium"
+  },
+  {
+    "id": "20260710-DEMO-SYSTEM-VALIDATION-NUSUI9",
+    "templateId": "DEMO_SYSTEM_VALIDATION",
+    "companyId": "WG-001",
+    "objective": "Prove WGOS can orchestrate a multi-department internal mission from intake through reporting, learning, and platform updates.",
+    "status": "COMPLETED",
+    "approvalClass": "A1",
+    "startedAt": "2026-07-10T11:41:35.412Z",
+    "updatedAt": "2026-07-10T11:41:38.424Z",
+    "taskCount": 6,
+    "requiredDepartments": [
+      "executive",
+      "engineering"
+    ],
+    "requiredAgents": [
+      "CEO_OPERATOR_AGENT",
+      "WORKFLOW_ORCHESTRATOR_AGENT",
+      "PROJECT_MANAGER_AGENT",
+      "QA_ENGINEER_AGENT",
+      "KNOWLEDGE_MANAGER_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "businessValue": "Low",
+    "revenueImpact": "Indirect",
+    "estimatedComplexity": "Medium"
+  },
+  {
+    "id": "20260710-DEMO-SYSTEM-VALIDATION-MZ64AO",
+    "templateId": "DEMO_SYSTEM_VALIDATION",
+    "companyId": "WG-001",
+    "objective": "Prove WGOS can orchestrate a multi-department internal mission from intake through reporting, learning, and platform updates.",
+    "status": "COMPLETED",
+    "approvalClass": "A1",
+    "startedAt": "2026-07-10T11:27:47.376Z",
+    "updatedAt": "2026-07-10T11:27:48.913Z",
+    "taskCount": 6,
+    "requiredDepartments": [
+      "executive",
+      "engineering"
+    ],
+    "requiredAgents": [
+      "CEO_OPERATOR_AGENT",
+      "WORKFLOW_ORCHESTRATOR_AGENT",
+      "PROJECT_MANAGER_AGENT",
+      "QA_ENGINEER_AGENT",
+      "KNOWLEDGE_MANAGER_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "businessValue": "Low",
+    "revenueImpact": "Indirect",
+    "estimatedComplexity": "Medium"
+  },
+  {
+    "id": "20260710-DEMO-SYSTEM-VALIDATION-LUM8N4",
+    "templateId": "DEMO_SYSTEM_VALIDATION",
+    "companyId": "WG-001",
+    "objective": "Prove WGOS can orchestrate a multi-department internal mission from intake through reporting, learning, and platform updates.",
+    "status": "COMPLETED",
+    "approvalClass": "A1",
+    "startedAt": "2026-07-10T11:15:58.602Z",
+    "updatedAt": "2026-07-10T11:15:59.506Z",
+    "taskCount": 6,
+    "requiredDepartments": [
+      "executive",
+      "engineering"
+    ],
+    "requiredAgents": [
+      "CEO_OPERATOR_AGENT",
+      "WORKFLOW_ORCHESTRATOR_AGENT",
+      "PROJECT_MANAGER_AGENT",
+      "QA_ENGINEER_AGENT",
+      "KNOWLEDGE_MANAGER_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "businessValue": "Low",
+    "revenueImpact": "Indirect",
+    "estimatedComplexity": "Medium"
+  },
+  {
+    "id": "20260710-DEMO-SYSTEM-VALIDATION-YP9PWS",
+    "templateId": "DEMO_SYSTEM_VALIDATION",
+    "companyId": "WG-001",
+    "objective": "Prove WGOS can orchestrate a multi-department internal mission from intake through reporting, learning, and platform updates.",
+    "status": "COMPLETED",
+    "approvalClass": "A1",
+    "startedAt": "2026-07-10T11:15:09.683Z",
+    "updatedAt": "2026-07-10T11:15:12.114Z",
+    "taskCount": 6,
+    "requiredDepartments": [
+      "executive",
+      "engineering"
+    ],
+    "requiredAgents": [
+      "CEO_OPERATOR_AGENT",
+      "WORKFLOW_ORCHESTRATOR_AGENT",
+      "PROJECT_MANAGER_AGENT",
+      "QA_ENGINEER_AGENT",
+      "KNOWLEDGE_MANAGER_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "businessValue": "Low",
+    "revenueImpact": "Indirect",
+    "estimatedComplexity": "Medium"
+  },
+  {
+    "id": "20260710-DEMO-SYSTEM-VALIDATION-4C607S",
+    "templateId": "DEMO_SYSTEM_VALIDATION",
+    "companyId": "WG-001",
+    "objective": "Prove WGOS can orchestrate a multi-department internal mission from intake through reporting, learning, and platform updates.",
+    "status": "COMPLETED",
+    "approvalClass": "A1",
+    "startedAt": "2026-07-10T07:24:43.130Z",
+    "updatedAt": "2026-07-10T07:24:48.079Z",
+    "taskCount": 6,
+    "requiredDepartments": [
+      "executive",
+      "engineering"
+    ],
+    "requiredAgents": [
+      "CEO_OPERATOR_AGENT",
+      "WORKFLOW_ORCHESTRATOR_AGENT",
+      "PROJECT_MANAGER_AGENT",
+      "QA_ENGINEER_AGENT",
+      "KNOWLEDGE_MANAGER_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "businessValue": "Low",
+    "revenueImpact": "Indirect",
+    "estimatedComplexity": "Medium"
+  },
+  {
+    "id": "20260710-DEMO-SYSTEM-VALIDATION-Y82Z3J",
+    "templateId": "DEMO_SYSTEM_VALIDATION",
+    "companyId": "WG-001",
+    "objective": "Prove WGOS can orchestrate a multi-department internal mission from intake through reporting, learning, and platform updates.",
+    "status": "COMPLETED",
+    "approvalClass": "A1",
+    "startedAt": "2026-07-10T06:55:40.317Z",
+    "updatedAt": "2026-07-10T06:55:46.287Z",
+    "taskCount": 6
+  }
+]

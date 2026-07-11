@@ -1,0 +1,201 @@
+{
+  "id": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ",
+  "templateId": "CLIENT_WEBSITE_DELIVERY",
+  "companyId": "client-template",
+  "objective": "Route a complete premium client website lifecycle from discovery through strategy, design, engineering, search, QA, client review, launch preparation, and documentation.",
+  "missionType": "Internal operations",
+  "approvalClass": "A1",
+  "workflows": [
+    "CLIENT_PROJECT_DELIVERY_WORKFLOW",
+    "WEBSITE_REBUILD_WORKFLOW",
+    "QA_AND_RELEASE_WORKFLOW"
+  ],
+  "successCriteria": [
+    "Client discovery, strategy, design, engineering, and launch preparation are routed in sequence",
+    "Approval gates remain explicit for client review, publishing, deployment, and DNS work",
+    "Documentation, memory, and handoff artifacts exist for the full delivery chain"
+  ],
+  "requiredDepartments": [
+    "executive",
+    "client",
+    "design",
+    "engineering",
+    "search",
+    "publishing"
+  ],
+  "requiredAgents": [
+    "CEO_OPERATOR_AGENT",
+    "WORKFLOW_ORCHESTRATOR_AGENT",
+    "PROJECT_MANAGER_AGENT",
+    "SALES_CONSULTANT_AGENT",
+    "PRODUCT_STRATEGIST_AGENT",
+    "UI_UX_DESIGN_AGENT",
+    "BRAND_DESIGN_AGENT",
+    "MOTION_GRAPHICS_AGENT",
+    "FRONTEND_ENGINEER_AGENT",
+    "BACKEND_ENGINEER_AGENT",
+    "SEO_AGENT",
+    "AEO_AGENT",
+    "GEO_AGENT",
+    "CONTENT_STRATEGIST_AGENT",
+    "PERFORMANCE_ENGINEER_AGENT",
+    "ACCESSIBILITY_ENGINEER_AGENT",
+    "CLIENT_SUCCESS_AGENT",
+    "DEPLOYMENT_ENGINEER_AGENT",
+    "QA_ENGINEER_AGENT",
+    "KNOWLEDGE_MANAGER_AGENT",
+    "DOCUMENTATION_AGENT"
+  ],
+  "requiredSkills": [
+    "BUSINESS_MODEL",
+    "OPERATIONS",
+    "TESTING",
+    "COPYWRITING",
+    "CRO",
+    "ACCESSIBILITY",
+    "GSAP",
+    "FRAMER_MOTION",
+    "PERFORMANCE",
+    "NEXTJS",
+    "TAILWIND",
+    "TYPESCRIPT",
+    "SEO",
+    "AEO",
+    "GEO",
+    "SCHEMA",
+    "CONTENT_WRITING",
+    "DEPLOYMENT"
+  ],
+  "requiredIntegrations": [
+    "filesystem",
+    "docs",
+    "csv",
+    "github",
+    "figma",
+    "images",
+    "vercel",
+    "lighthouse",
+    "pagespeed",
+    "search",
+    "search-console",
+    "ga4",
+    "crm",
+    "gmail"
+  ],
+  "approvalGates": [
+    "Local-only execution"
+  ],
+  "businessValue": "Medium",
+  "revenueImpact": "Medium",
+  "estimatedComplexity": "Medium",
+  "documentationUpdates": [
+    "reports",
+    "memory",
+    "decisions",
+    "executive-dashboard"
+  ],
+  "priority": "HIGH",
+  "qaStatus": "PASSED",
+  "documentationStatus": "UPDATED",
+  "approvalStatus": "CLEARED",
+  "completionStatus": "COMPLETED",
+  "status": "COMPLETED",
+  "startedAt": "2026-07-10T11:42:22.683Z",
+  "updatedAt": "2026-07-10T11:42:38.600Z",
+  "operator": "Codex",
+  "taskIds": [
+    "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T001",
+    "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T002",
+    "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T003",
+    "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T004",
+    "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T005",
+    "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T006",
+    "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T007",
+    "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T008",
+    "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T009",
+    "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T010",
+    "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T011",
+    "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T012",
+    "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T013",
+    "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T014",
+    "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T015",
+    "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T016",
+    "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T017",
+    "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T018",
+    "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T019",
+    "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T020",
+    "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T021"
+  ],
+  "openRisks": [],
+  "departmentSummaries": [
+    {
+      "department": "executive",
+      "assignedAgents": [
+        "CEO_OPERATOR_AGENT",
+        "WORKFLOW_ORCHESTRATOR_AGENT",
+        "PROJECT_MANAGER_AGENT",
+        "KNOWLEDGE_MANAGER_AGENT",
+        "DOCUMENTATION_AGENT"
+      ],
+      "completedTasks": 5,
+      "blockedTasks": 0,
+      "waitingApprovalTasks": 0
+    },
+    {
+      "department": "client",
+      "assignedAgents": [
+        "SALES_CONSULTANT_AGENT",
+        "CLIENT_SUCCESS_AGENT"
+      ],
+      "completedTasks": 2,
+      "blockedTasks": 0,
+      "waitingApprovalTasks": 0
+    },
+    {
+      "department": "design",
+      "assignedAgents": [
+        "PRODUCT_STRATEGIST_AGENT",
+        "UI_UX_DESIGN_AGENT",
+        "BRAND_DESIGN_AGENT",
+        "MOTION_GRAPHICS_AGENT"
+      ],
+      "completedTasks": 4,
+      "blockedTasks": 0,
+      "waitingApprovalTasks": 0
+    },
+    {
+      "department": "engineering",
+      "assignedAgents": [
+        "FRONTEND_ENGINEER_AGENT",
+        "BACKEND_ENGINEER_AGENT",
+        "PERFORMANCE_ENGINEER_AGENT",
+        "ACCESSIBILITY_ENGINEER_AGENT",
+        "DEPLOYMENT_ENGINEER_AGENT",
+        "QA_ENGINEER_AGENT"
+      ],
+      "completedTasks": 6,
+      "blockedTasks": 0,
+      "waitingApprovalTasks": 0
+    },
+    {
+      "department": "search",
+      "assignedAgents": [
+        "SEO_AGENT",
+        "AEO_AGENT",
+        "GEO_AGENT"
+      ],
+      "completedTasks": 3,
+      "blockedTasks": 0,
+      "waitingApprovalTasks": 0
+    },
+    {
+      "department": "publishing",
+      "assignedAgents": [
+        "CONTENT_STRATEGIST_AGENT"
+      ],
+      "completedTasks": 1,
+      "blockedTasks": 0,
+      "waitingApprovalTasks": 0
+    }
+  ]
+}

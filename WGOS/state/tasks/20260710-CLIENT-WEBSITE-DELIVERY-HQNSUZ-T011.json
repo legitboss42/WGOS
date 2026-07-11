@@ -1,0 +1,427 @@
+{
+  "id": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T011",
+  "missionId": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ",
+  "sequence": 11,
+  "agentSlug": "SEO_AGENT",
+  "agentTitle": "SEO",
+  "department": "search",
+  "objective": "Define metadata, page targeting, internal linking, and page-level SEO requirements.",
+  "expectedOutput": "SEO delivery requirements",
+  "stage": "specialist_execution",
+  "status": "COMPLETED",
+  "dependencies": [],
+  "nextAgentSlug": "AEO_AGENT",
+  "estimatedComplexity": "Medium",
+  "businessValue": "Medium",
+  "revenueImpact": "Medium",
+  "priority": "HIGH",
+  "documentationStatus": "UPDATED",
+  "qaStatus": "PENDING",
+  "approvalStatus": "NOT_REQUIRED",
+  "completionStatus": "COMPLETED",
+  "startedAt": "2026-07-10T11:42:29.826Z",
+  "updatedAt": "2026-07-10T11:42:30.066Z",
+  "report": {
+    "agent": "SEO",
+    "taskId": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T011",
+    "objective": "Define metadata, page targeting, internal linking, and page-level SEO requirements.",
+    "actions": "SEO executed Define metadata, page targeting, internal linking, and page-level SEO requirements. for mission 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ using workflows: CLIENT_PROJECT_DELIVERY_WORKFLOW, WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: SEARCH_INTELLIGENCE_PLAYBOOK, SEARCH_CONSOLE_REVIEW_PLAYBOOK, GA4_REVIEW_PLAYBOOK; integrations: filesystem, docs, csv, lighthouse, pagespeed, search, search-console, ga4, crm.",
+    "validation": "SEO completed seo delivery requirements with 9 tracked integrations.",
+    "nextStep": "Hand off to AEO_AGENT.",
+    "integrations": [
+      "filesystem",
+      "docs",
+      "csv",
+      "lighthouse",
+      "pagespeed",
+      "search",
+      "search-console",
+      "ga4",
+      "crm"
+    ],
+    "playbooks": [
+      "SEARCH_INTELLIGENCE_PLAYBOOK",
+      "SEARCH_CONSOLE_REVIEW_PLAYBOOK",
+      "GA4_REVIEW_PLAYBOOK"
+    ],
+    "specialistOutputs": [
+      "SEO action plan",
+      "intent map",
+      "seo strategy",
+      "optimization plan",
+      "specialist_execution output"
+    ]
+  },
+  "handoff": {
+    "fromAgentSlug": "SEO_AGENT",
+    "toAgentSlug": "AEO_AGENT",
+    "status": "COMPLETED",
+    "validationNeeded": "Downstream review by AEO_AGENT.",
+    "completedWork": [
+      "SEO action plan",
+      "intent map",
+      "seo strategy",
+      "optimization plan",
+      "specialist_execution output"
+    ],
+    "collaborationTargets": [
+      "AEO_AGENT",
+      "TECHNICAL_SEO_AGENT",
+      "GEO_AGENT",
+      "SCHEMA_AGENT",
+      "SEARCH_CONSOLE_AGENT",
+      "ANALYTICS_AGENT",
+      "CRO_AGENT",
+      "REVENUE_OPERATIONS_AGENT"
+    ]
+  },
+  "runtime": {
+    "mission": {
+      "objective": "Define metadata, page targeting, internal linking, and page-level SEO requirements.",
+      "successDefinition": "SEO delivery requirements",
+      "companyId": "client-template",
+      "approvalClass": "A1",
+      "missionType": "Internal operations",
+      "requiredDepartments": [
+        "executive",
+        "client",
+        "design",
+        "engineering",
+        "search",
+        "publishing"
+      ],
+      "requiredIntegrations": [
+        "filesystem",
+        "docs",
+        "csv",
+        "lighthouse",
+        "pagespeed",
+        "search",
+        "search-console",
+        "ga4",
+        "crm"
+      ],
+      "playbooks": [
+        "SEARCH_INTELLIGENCE_PLAYBOOK",
+        "SEARCH_CONSOLE_REVIEW_PLAYBOOK",
+        "GA4_REVIEW_PLAYBOOK"
+      ]
+    },
+    "plan": {
+      "skillsLoaded": [
+        "SEO",
+        "AEO",
+        "GEO",
+        "COPYWRITING"
+      ],
+      "workstreams": [
+        "group search opportunities",
+        "prioritize page-level SEO fixes",
+        "connect recommendations to traffic impact",
+        "analyze search intent",
+        "identify crawl and metadata issues",
+        "prioritize visibility improvements"
+      ],
+      "validationChecks": [
+        "search recommendations map to intent",
+        "technical constraints are noted",
+        "measurement path is defined"
+      ],
+      "dependencies": [],
+      "requiredEvidence": [
+        "search findings",
+        "SERP opportunity notes",
+        "optimization backlog",
+        "SEO delivery requirements",
+        "SEO action plan",
+        "intent map",
+        "seo strategy",
+        "optimization plan",
+        "specialist_execution output"
+      ],
+      "playbooks": [
+        "SEARCH_INTELLIGENCE_PLAYBOOK",
+        "SEARCH_CONSOLE_REVIEW_PLAYBOOK",
+        "GA4_REVIEW_PLAYBOOK"
+      ],
+      "integrations": [
+        "Filesystem (NORMAL)",
+        "Docs (NORMAL)",
+        "Csv (NORMAL)",
+        "Lighthouse (NORMAL)",
+        "Pagespeed (NORMAL)",
+        "Search (NORMAL)",
+        "Search Console (HIGH)",
+        "GA4 (HIGH)",
+        "Crm (NORMAL)"
+      ],
+      "collaborationTargets": [
+        "AEO_AGENT",
+        "TECHNICAL_SEO_AGENT",
+        "GEO_AGENT",
+        "SCHEMA_AGENT",
+        "SEARCH_CONSOLE_AGENT",
+        "ANALYTICS_AGENT",
+        "CRO_AGENT",
+        "REVENUE_OPERATIONS_AGENT"
+      ]
+    },
+    "execution": {
+      "summary": "SEO executed Define metadata, page targeting, internal linking, and page-level SEO requirements. for mission 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ using workflows: CLIENT_PROJECT_DELIVERY_WORKFLOW, WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: SEARCH_INTELLIGENCE_PLAYBOOK, SEARCH_CONSOLE_REVIEW_PLAYBOOK, GA4_REVIEW_PLAYBOOK; integrations: filesystem, docs, csv, lighthouse, pagespeed, search, search-console, ga4, crm.",
+      "artifacts": [
+        "SEO_AGENT:SEO action plan",
+        "SEO_AGENT:intent map",
+        "SEO_AGENT:seo strategy",
+        "SEO_AGENT:optimization plan",
+        "SEO_AGENT:specialist_execution output"
+      ],
+      "evidence": [
+        "search findings",
+        "SERP opportunity notes",
+        "optimization backlog",
+        "SEO delivery requirements",
+        "SEO action plan",
+        "intent map",
+        "seo strategy",
+        "optimization plan",
+        "specialist_execution output"
+      ],
+      "integrationsUsed": [
+        {
+          "id": "filesystem",
+          "title": "Filesystem",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": [
+            "integrations/core/INTEGRATION_CONTRACT.md",
+            "integrations/logging/LOG_SCHEMA.md"
+          ]
+        },
+        {
+          "id": "docs",
+          "title": "Docs",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "csv",
+          "title": "Csv",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "lighthouse",
+          "title": "Lighthouse",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "pagespeed",
+          "title": "Pagespeed",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "search",
+          "title": "Search",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "search-console",
+          "title": "Search Console",
+          "approvalLevel": "HIGH",
+          "runtimeDocs": [
+            "integrations/core/AUTHENTICATION_MODEL.md",
+            "integrations/approval/INTEGRATION_APPROVAL_MODEL.md"
+          ]
+        },
+        {
+          "id": "ga4",
+          "title": "GA4",
+          "approvalLevel": "HIGH",
+          "runtimeDocs": [
+            "integrations/core/AUTHENTICATION_MODEL.md",
+            "integrations/logging/LOG_SCHEMA.md"
+          ]
+        },
+        {
+          "id": "crm",
+          "title": "Crm",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        }
+      ],
+      "playbooksUsed": [
+        "SEARCH_INTELLIGENCE_PLAYBOOK",
+        "SEARCH_CONSOLE_REVIEW_PLAYBOOK",
+        "GA4_REVIEW_PLAYBOOK"
+      ],
+      "collaborationRequests": [
+        {
+          "target": "AEO_AGENT",
+          "reason": "Coordinate seo delivery requirements with AEO_AGENT."
+        },
+        {
+          "target": "TECHNICAL_SEO_AGENT",
+          "reason": "Coordinate seo delivery requirements with TECHNICAL_SEO_AGENT."
+        },
+        {
+          "target": "GEO_AGENT",
+          "reason": "Coordinate seo delivery requirements with GEO_AGENT."
+        },
+        {
+          "target": "SCHEMA_AGENT",
+          "reason": "Coordinate seo delivery requirements with SCHEMA_AGENT."
+        },
+        {
+          "target": "SEARCH_CONSOLE_AGENT",
+          "reason": "Coordinate seo delivery requirements with SEARCH_CONSOLE_AGENT."
+        },
+        {
+          "target": "ANALYTICS_AGENT",
+          "reason": "Coordinate seo delivery requirements with ANALYTICS_AGENT."
+        },
+        {
+          "target": "CRO_AGENT",
+          "reason": "Coordinate seo delivery requirements with CRO_AGENT."
+        },
+        {
+          "target": "REVENUE_OPERATIONS_AGENT",
+          "reason": "Coordinate seo delivery requirements with REVENUE_OPERATIONS_AGENT."
+        }
+      ],
+      "specialistOutputs": [
+        "SEO action plan",
+        "intent map",
+        "seo strategy",
+        "optimization plan",
+        "specialist_execution output"
+      ],
+      "kpiFocus": [
+        "organic growth",
+        "indexation quality",
+        "Medium"
+      ],
+      "approvalGateReached": false
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "passed": true,
+      "notes": "SEO completed seo delivery requirements with 9 tracked integrations."
+    },
+    "memory": {
+      "currentState": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T011: SEO completed Define metadata, page targeting, internal linking, and page-level SEO requirements..",
+      "nextAction": "AEO_AGENT should take over 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T011.",
+      "codexMemory": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ used SEO for SEO delivery requirements."
+    }
+  },
+  "integrationsUsed": [
+    {
+      "id": "filesystem",
+      "title": "Filesystem",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": [
+        "integrations/core/INTEGRATION_CONTRACT.md",
+        "integrations/logging/LOG_SCHEMA.md"
+      ]
+    },
+    {
+      "id": "docs",
+      "title": "Docs",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "csv",
+      "title": "Csv",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "lighthouse",
+      "title": "Lighthouse",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "pagespeed",
+      "title": "Pagespeed",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "search",
+      "title": "Search",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "search-console",
+      "title": "Search Console",
+      "approvalLevel": "HIGH",
+      "runtimeDocs": [
+        "integrations/core/AUTHENTICATION_MODEL.md",
+        "integrations/approval/INTEGRATION_APPROVAL_MODEL.md"
+      ]
+    },
+    {
+      "id": "ga4",
+      "title": "GA4",
+      "approvalLevel": "HIGH",
+      "runtimeDocs": [
+        "integrations/core/AUTHENTICATION_MODEL.md",
+        "integrations/logging/LOG_SCHEMA.md"
+      ]
+    },
+    {
+      "id": "crm",
+      "title": "Crm",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    }
+  ],
+  "playbooksUsed": [
+    "SEARCH_INTELLIGENCE_PLAYBOOK",
+    "SEARCH_CONSOLE_REVIEW_PLAYBOOK",
+    "GA4_REVIEW_PLAYBOOK"
+  ],
+  "collaborationRequests": [
+    {
+      "target": "AEO_AGENT",
+      "reason": "Coordinate seo delivery requirements with AEO_AGENT."
+    },
+    {
+      "target": "TECHNICAL_SEO_AGENT",
+      "reason": "Coordinate seo delivery requirements with TECHNICAL_SEO_AGENT."
+    },
+    {
+      "target": "GEO_AGENT",
+      "reason": "Coordinate seo delivery requirements with GEO_AGENT."
+    },
+    {
+      "target": "SCHEMA_AGENT",
+      "reason": "Coordinate seo delivery requirements with SCHEMA_AGENT."
+    },
+    {
+      "target": "SEARCH_CONSOLE_AGENT",
+      "reason": "Coordinate seo delivery requirements with SEARCH_CONSOLE_AGENT."
+    },
+    {
+      "target": "ANALYTICS_AGENT",
+      "reason": "Coordinate seo delivery requirements with ANALYTICS_AGENT."
+    },
+    {
+      "target": "CRO_AGENT",
+      "reason": "Coordinate seo delivery requirements with CRO_AGENT."
+    },
+    {
+      "target": "REVENUE_OPERATIONS_AGENT",
+      "reason": "Coordinate seo delivery requirements with REVENUE_OPERATIONS_AGENT."
+    }
+  ],
+  "kpiFocus": [
+    "organic growth",
+    "indexation quality",
+    "Medium"
+  ]
+}

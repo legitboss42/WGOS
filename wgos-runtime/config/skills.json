@@ -1,0 +1,596 @@
+[
+  {
+    "id": "NEXTJS",
+    "name": "NEXTJS",
+    "purpose": "WGOS skill used for nextjs work.",
+    "agents_that_use_it": [
+      "FRONTEND_ENGINEER_AGENT",
+      "FULL_STACK_ENGINEER_AGENT",
+      "PERFORMANCE_ENGINEER_AGENT"
+    ],
+    "tools_required": [
+      "Codex",
+      "local files",
+      "WGOS docs"
+    ],
+    "external_access_required": false,
+    "approval_needed": "LOW",
+    "validation_method": "Confirm output, report, approval state, and memory update.",
+    "source_docs": [
+      "WGOS/skills/NEXTJS.md",
+      "WGOS/SKILLS.md"
+    ]
+  },
+  {
+    "id": "TAILWIND",
+    "name": "TAILWIND",
+    "purpose": "WGOS skill used for tailwind work.",
+    "agents_that_use_it": [
+      "FRONTEND_ENGINEER_AGENT"
+    ],
+    "tools_required": [
+      "Codex",
+      "local files",
+      "WGOS docs"
+    ],
+    "external_access_required": false,
+    "approval_needed": "LOW",
+    "validation_method": "Confirm output, report, approval state, and memory update.",
+    "source_docs": [
+      "WGOS/skills/TAILWIND.md",
+      "WGOS/SKILLS.md"
+    ]
+  },
+  {
+    "id": "TYPESCRIPT",
+    "name": "TYPESCRIPT",
+    "purpose": "WGOS skill used for typescript work.",
+    "agents_that_use_it": [
+      "FRONTEND_ENGINEER_AGENT",
+      "BACKEND_ENGINEER_AGENT",
+      "FULL_STACK_ENGINEER_AGENT"
+    ],
+    "tools_required": [
+      "Codex",
+      "local files",
+      "WGOS docs"
+    ],
+    "external_access_required": false,
+    "approval_needed": "LOW",
+    "validation_method": "Confirm output, report, approval state, and memory update.",
+    "source_docs": [
+      "WGOS/skills/TYPESCRIPT.md",
+      "WGOS/SKILLS.md"
+    ]
+  },
+  {
+    "id": "GSAP",
+    "name": "GSAP",
+    "purpose": "WGOS skill used for gsap work.",
+    "agents_that_use_it": [
+      "MOTION_GRAPHICS_AGENT"
+    ],
+    "tools_required": [
+      "Codex",
+      "local files",
+      "WGOS docs"
+    ],
+    "external_access_required": false,
+    "approval_needed": "LOW",
+    "validation_method": "Confirm output, report, approval state, and memory update.",
+    "source_docs": [
+      "WGOS/skills/GSAP.md",
+      "WGOS/SKILLS.md"
+    ]
+  },
+  {
+    "id": "FRAMER_MOTION",
+    "name": "FRAMER MOTION",
+    "purpose": "WGOS skill used for framer motion work.",
+    "agents_that_use_it": [
+      "MOTION_GRAPHICS_AGENT"
+    ],
+    "tools_required": [
+      "Codex",
+      "local files",
+      "WGOS docs"
+    ],
+    "external_access_required": false,
+    "approval_needed": "LOW",
+    "validation_method": "Confirm output, report, approval state, and memory update.",
+    "source_docs": [
+      "WGOS/skills/FRAMER_MOTION.md",
+      "WGOS/SKILLS.md"
+    ]
+  },
+  {
+    "id": "SEO",
+    "name": "SEO",
+    "purpose": "WGOS skill used for seo work.",
+    "agents_that_use_it": [
+      "SEO_AGENT",
+      "TECHNICAL_SEO_AGENT",
+      "GEO_AGENT",
+      "SCHEMA_AGENT",
+      "SEARCH_CONSOLE_AGENT",
+      "EDITORIAL_MANAGER_AGENT",
+      "CONTENT_STRATEGIST_AGENT",
+      "INTERNAL_LINKING_AGENT",
+      "WEBSITE_AUDIT_AGENT",
+      "ADSENSE_AGENT",
+      "AFFILIATE_MANAGER_AGENT",
+      "ANALYTICS_AGENT"
+    ],
+    "tools_required": [
+      "Codex",
+      "local files",
+      "WGOS docs"
+    ],
+    "external_access_required": false,
+    "approval_needed": "LOW",
+    "validation_method": "Confirm output, report, approval state, and memory update.",
+    "source_docs": [
+      "WGOS/skills/SEO.md",
+      "WGOS/SKILLS.md"
+    ]
+  },
+  {
+    "id": "CODEX_SEO",
+    "name": "CODEX SEO",
+    "purpose": "WGOS skill used for codex seo work.",
+    "agents_that_use_it": [
+      "TECHNICAL_SEO_AGENT"
+    ],
+    "tools_required": [
+      "Codex",
+      "local files",
+      "WGOS docs"
+    ],
+    "external_access_required": false,
+    "approval_needed": "LOW",
+    "validation_method": "Confirm output, report, approval state, and memory update.",
+    "source_docs": [
+      "WGOS/skills/CODEX_SEO.md",
+      "WGOS/SKILLS.md"
+    ]
+  },
+  {
+    "id": "AEO",
+    "name": "AEO",
+    "purpose": "WGOS skill used for aeo work.",
+    "agents_that_use_it": [
+      "SEO_AGENT",
+      "AEO_AGENT",
+      "CONTENT_STRATEGIST_AGENT"
+    ],
+    "tools_required": [
+      "Codex",
+      "local files",
+      "WGOS docs"
+    ],
+    "external_access_required": false,
+    "approval_needed": "LOW",
+    "validation_method": "Confirm output, report, approval state, and memory update.",
+    "source_docs": [
+      "WGOS/skills/AEO.md",
+      "WGOS/SKILLS.md"
+    ]
+  },
+  {
+    "id": "GEO",
+    "name": "GEO",
+    "purpose": "WGOS skill used for geo work.",
+    "agents_that_use_it": [
+      "SEO_AGENT",
+      "GEO_AGENT"
+    ],
+    "tools_required": [
+      "Codex",
+      "local files",
+      "WGOS docs"
+    ],
+    "external_access_required": false,
+    "approval_needed": "LOW",
+    "validation_method": "Confirm output, report, approval state, and memory update.",
+    "source_docs": [
+      "WGOS/skills/GEO.md",
+      "WGOS/SKILLS.md"
+    ]
+  },
+  {
+    "id": "ADSENSE",
+    "name": "ADSENSE",
+    "purpose": "WGOS skill used for adsense work.",
+    "agents_that_use_it": [
+      "ADSENSE_AGENT"
+    ],
+    "tools_required": [
+      "Codex",
+      "local files",
+      "WGOS docs"
+    ],
+    "external_access_required": false,
+    "approval_needed": "LOW",
+    "validation_method": "Confirm output, report, approval state, and memory update.",
+    "source_docs": [
+      "WGOS/skills/ADSENSE.md",
+      "WGOS/SKILLS.md"
+    ]
+  },
+  {
+    "id": "CONTENT_WRITING",
+    "name": "CONTENT WRITING",
+    "purpose": "WGOS skill used for content writing work.",
+    "agents_that_use_it": [
+      "EDITORIAL_MANAGER_AGENT",
+      "CONTENT_STRATEGIST_AGENT",
+      "COPYWRITER_AGENT",
+      "PROOFREADER_AGENT",
+      "INTERNAL_LINKING_AGENT",
+      "SOCIAL_MEDIA_AGENT",
+      "NEWSLETTER_AGENT",
+      "ADSENSE_AGENT"
+    ],
+    "tools_required": [
+      "Codex",
+      "local files",
+      "WGOS docs"
+    ],
+    "external_access_required": false,
+    "approval_needed": "LOW",
+    "validation_method": "Confirm output, report, approval state, and memory update.",
+    "source_docs": [
+      "WGOS/skills/CONTENT_WRITING.md",
+      "WGOS/SKILLS.md"
+    ]
+  },
+  {
+    "id": "COPYWRITING",
+    "name": "COPYWRITING",
+    "purpose": "WGOS skill used for copywriting work.",
+    "agents_that_use_it": [
+      "PRODUCT_STRATEGIST_AGENT",
+      "BRAND_DESIGN_AGENT",
+      "SEO_AGENT",
+      "AEO_AGENT",
+      "COPYWRITER_AGENT",
+      "MARKETING_STRATEGIST_AGENT",
+      "OUTREACH_DRAFTING_AGENT",
+      "SOCIAL_MEDIA_AGENT",
+      "NEWSLETTER_AGENT",
+      "CRO_AGENT",
+      "AFFILIATE_MANAGER_AGENT",
+      "DIGITAL_PRODUCT_AGENT",
+      "SAAS_PLANNER_AGENT",
+      "REVENUE_OPERATIONS_AGENT",
+      "SALES_CONSULTANT_AGENT",
+      "PROPOSAL_WRITER_AGENT",
+      "CLIENT_SUCCESS_AGENT",
+      "CLIENT_ONBOARDING_AGENT"
+    ],
+    "tools_required": [
+      "Codex",
+      "local files",
+      "WGOS docs"
+    ],
+    "external_access_required": false,
+    "approval_needed": "LOW",
+    "validation_method": "Confirm output, report, approval state, and memory update.",
+    "source_docs": [
+      "WGOS/skills/COPYWRITING.md",
+      "WGOS/SKILLS.md"
+    ]
+  },
+  {
+    "id": "SCHEMA",
+    "name": "SCHEMA",
+    "purpose": "WGOS skill used for schema work.",
+    "agents_that_use_it": [
+      "TECHNICAL_SEO_AGENT",
+      "AEO_AGENT",
+      "GEO_AGENT",
+      "SCHEMA_AGENT"
+    ],
+    "tools_required": [
+      "Codex",
+      "local files",
+      "WGOS docs"
+    ],
+    "external_access_required": false,
+    "approval_needed": "LOW",
+    "validation_method": "Confirm output, report, approval state, and memory update.",
+    "source_docs": [
+      "WGOS/skills/SCHEMA.md",
+      "WGOS/SKILLS.md"
+    ]
+  },
+  {
+    "id": "GA4",
+    "name": "GA4",
+    "purpose": "WGOS skill used for ga4 work.",
+    "agents_that_use_it": [
+      "SEARCH_CONSOLE_AGENT",
+      "BUSINESS_INTELLIGENCE_AGENT",
+      "CRO_AGENT",
+      "ANALYTICS_AGENT",
+      "REVENUE_OPERATIONS_AGENT"
+    ],
+    "tools_required": [
+      "GA4 connector or browser"
+    ],
+    "external_access_required": true,
+    "approval_needed": "HIGH_OR_CRITICAL",
+    "validation_method": "Confirm output, report, approval state, and memory update.",
+    "source_docs": [
+      "WGOS/skills/GA4.md",
+      "WGOS/SKILLS.md"
+    ]
+  },
+  {
+    "id": "SEARCH_CONSOLE",
+    "name": "SEARCH CONSOLE",
+    "purpose": "WGOS skill used for search console work.",
+    "agents_that_use_it": [
+      "SEARCH_CONSOLE_AGENT"
+    ],
+    "tools_required": [
+      "Search Console connector or browser"
+    ],
+    "external_access_required": true,
+    "approval_needed": "HIGH_OR_CRITICAL",
+    "validation_method": "Confirm output, report, approval state, and memory update.",
+    "source_docs": [
+      "WGOS/skills/SEARCH_CONSOLE.md",
+      "WGOS/SKILLS.md"
+    ]
+  },
+  {
+    "id": "GMAIL",
+    "name": "GMAIL",
+    "purpose": "WGOS skill used for gmail work.",
+    "agents_that_use_it": [
+      "OUTREACH_DRAFTING_AGENT",
+      "FOLLOW_UP_AGENT",
+      "NEWSLETTER_AGENT"
+    ],
+    "tools_required": [
+      "Gmail connector or browser"
+    ],
+    "external_access_required": true,
+    "approval_needed": "HIGH_OR_CRITICAL",
+    "validation_method": "Confirm output, report, approval state, and memory update.",
+    "source_docs": [
+      "WGOS/skills/GMAIL.md",
+      "WGOS/SKILLS.md"
+    ]
+  },
+  {
+    "id": "CONTROLLED_BROWSER",
+    "name": "CONTROLLED BROWSER",
+    "purpose": "WGOS skill used for controlled browser work.",
+    "agents_that_use_it": [
+      "LEAD_RESEARCH_AGENT"
+    ],
+    "tools_required": [
+      "browser session",
+      "capability check"
+    ],
+    "external_access_required": true,
+    "approval_needed": "HIGH_OR_CRITICAL",
+    "validation_method": "Confirm output, report, approval state, and memory update.",
+    "source_docs": [
+      "WGOS/skills/CONTROLLED_BROWSER.md",
+      "WGOS/SKILLS.md"
+    ]
+  },
+  {
+    "id": "ACCESSIBILITY",
+    "name": "ACCESSIBILITY",
+    "purpose": "WGOS skill used for accessibility work.",
+    "agents_that_use_it": [
+      "UI_UX_DESIGN_AGENT",
+      "FRONTEND_ENGINEER_AGENT",
+      "ACCESSIBILITY_ENGINEER_AGENT",
+      "WEBSITE_AUDIT_AGENT"
+    ],
+    "tools_required": [
+      "Codex",
+      "local files",
+      "WGOS docs"
+    ],
+    "external_access_required": false,
+    "approval_needed": "LOW",
+    "validation_method": "Confirm output, report, approval state, and memory update.",
+    "source_docs": [
+      "WGOS/skills/ACCESSIBILITY.md",
+      "WGOS/SKILLS.md"
+    ]
+  },
+  {
+    "id": "PERFORMANCE",
+    "name": "PERFORMANCE",
+    "purpose": "WGOS skill used for performance work.",
+    "agents_that_use_it": [
+      "MOTION_GRAPHICS_AGENT",
+      "PERFORMANCE_ENGINEER_AGENT",
+      "WEBSITE_AUDIT_AGENT"
+    ],
+    "tools_required": [
+      "Codex",
+      "local files",
+      "WGOS docs"
+    ],
+    "external_access_required": false,
+    "approval_needed": "LOW",
+    "validation_method": "Confirm output, report, approval state, and memory update.",
+    "source_docs": [
+      "WGOS/skills/PERFORMANCE.md",
+      "WGOS/SKILLS.md"
+    ]
+  },
+  {
+    "id": "TESTING",
+    "name": "TESTING",
+    "purpose": "WGOS skill used for testing work.",
+    "agents_that_use_it": [
+      "WORKFLOW_ORCHESTRATOR_AGENT",
+      "BACKEND_ENGINEER_AGENT",
+      "FULL_STACK_ENGINEER_AGENT",
+      "ACCESSIBILITY_ENGINEER_AGENT",
+      "QA_ENGINEER_AGENT",
+      "DEPLOYMENT_ENGINEER_AGENT",
+      "TECHNICAL_SEO_AGENT"
+    ],
+    "tools_required": [
+      "Codex",
+      "local files",
+      "WGOS docs"
+    ],
+    "external_access_required": false,
+    "approval_needed": "LOW",
+    "validation_method": "Confirm output, report, approval state, and memory update.",
+    "source_docs": [
+      "WGOS/skills/TESTING.md",
+      "WGOS/SKILLS.md"
+    ]
+  },
+  {
+    "id": "DEPLOYMENT",
+    "name": "DEPLOYMENT",
+    "purpose": "WGOS skill used for deployment work.",
+    "agents_that_use_it": [
+      "DEPLOYMENT_ENGINEER_AGENT"
+    ],
+    "tools_required": [
+      "hosting dashboard",
+      "build logs"
+    ],
+    "external_access_required": true,
+    "approval_needed": "HIGH_OR_CRITICAL",
+    "validation_method": "Confirm output, report, approval state, and memory update.",
+    "source_docs": [
+      "WGOS/skills/DEPLOYMENT.md",
+      "WGOS/SKILLS.md"
+    ]
+  },
+  {
+    "id": "CRO",
+    "name": "CRO",
+    "purpose": "WGOS skill used for cro work.",
+    "agents_that_use_it": [
+      "PRODUCT_STRATEGIST_AGENT",
+      "UI_UX_DESIGN_AGENT",
+      "COPYWRITER_AGENT",
+      "MARKETING_STRATEGIST_AGENT",
+      "WEBSITE_AUDIT_AGENT",
+      "CRO_AGENT",
+      "DIGITAL_PRODUCT_AGENT",
+      "SAAS_PLANNER_AGENT",
+      "ANALYTICS_AGENT",
+      "REVENUE_OPERATIONS_AGENT",
+      "SALES_CONSULTANT_AGENT"
+    ],
+    "tools_required": [
+      "Codex",
+      "local files",
+      "WGOS docs"
+    ],
+    "external_access_required": false,
+    "approval_needed": "LOW",
+    "validation_method": "Confirm output, report, approval state, and memory update.",
+    "source_docs": [
+      "WGOS/skills/CRO.md",
+      "WGOS/SKILLS.md"
+    ]
+  },
+  {
+    "id": "LEAD_RESEARCH",
+    "name": "LEAD RESEARCH",
+    "purpose": "WGOS skill used for lead research work.",
+    "agents_that_use_it": [
+      "LEAD_RESEARCH_AGENT",
+      "BUSINESS_INTELLIGENCE_AGENT",
+      "CRM_AGENT"
+    ],
+    "tools_required": [
+      "Codex",
+      "local files",
+      "WGOS docs"
+    ],
+    "external_access_required": false,
+    "approval_needed": "LOW",
+    "validation_method": "Confirm output, report, approval state, and memory update.",
+    "source_docs": [
+      "WGOS/skills/LEAD_RESEARCH.md",
+      "WGOS/SKILLS.md"
+    ]
+  },
+  {
+    "id": "OUTREACH",
+    "name": "OUTREACH",
+    "purpose": "WGOS skill used for outreach work.",
+    "agents_that_use_it": [
+      "LEAD_RESEARCH_AGENT",
+      "OUTREACH_DRAFTING_AGENT",
+      "CRM_AGENT",
+      "FOLLOW_UP_AGENT"
+    ],
+    "tools_required": [
+      "Codex",
+      "local files",
+      "WGOS docs"
+    ],
+    "external_access_required": false,
+    "approval_needed": "LOW",
+    "validation_method": "Confirm output, report, approval state, and memory update.",
+    "source_docs": [
+      "WGOS/skills/OUTREACH.md",
+      "WGOS/SKILLS.md"
+    ]
+  },
+  {
+    "id": "BUSINESS_MODEL",
+    "name": "BUSINESS MODEL",
+    "purpose": "WGOS skill used for business model work.",
+    "agents_that_use_it": [
+      "CEO_OPERATOR_AGENT",
+      "REVENUE_OPERATIONS_AGENT"
+    ],
+    "tools_required": [
+      "Codex",
+      "local files",
+      "WGOS docs"
+    ],
+    "external_access_required": false,
+    "approval_needed": "LOW",
+    "validation_method": "Confirm output, report, approval state, and memory update.",
+    "source_docs": [
+      "WGOS/skills/BUSINESS_MODEL.md",
+      "WGOS/SKILLS.md"
+    ]
+  },
+  {
+    "id": "OPERATIONS",
+    "name": "OPERATIONS",
+    "purpose": "WGOS skill used for operations work.",
+    "agents_that_use_it": [
+      "CEO_OPERATOR_AGENT",
+      "WORKFLOW_ORCHESTRATOR_AGENT",
+      "PROJECT_MANAGER_AGENT",
+      "KNOWLEDGE_MANAGER_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "tools_required": [
+      "Codex",
+      "local files",
+      "WGOS docs"
+    ],
+    "external_access_required": false,
+    "approval_needed": "LOW",
+    "validation_method": "Confirm output, report, approval state, and memory update.",
+    "source_docs": [
+      "WGOS/skills/OPERATIONS.md",
+      "WGOS/SKILLS.md"
+    ]
+  }
+]

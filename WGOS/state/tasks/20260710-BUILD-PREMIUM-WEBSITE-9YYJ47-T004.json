@@ -1,0 +1,264 @@
+{
+  "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T004",
+  "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+  "sequence": 4,
+  "agentSlug": "PRODUCT_STRATEGIST_AGENT",
+  "agentTitle": "Product Strategist",
+  "department": "design",
+  "objective": "Define business, audience, and page strategy.",
+  "expectedOutput": "Product strategy brief",
+  "stage": "specialist_execution",
+  "status": "COMPLETED",
+  "dependencies": [],
+  "nextAgentSlug": "UI_UX_DESIGN_AGENT",
+  "estimatedComplexity": "High",
+  "businessValue": "High",
+  "revenueImpact": "High",
+  "priority": "HIGH",
+  "documentationStatus": "UPDATED",
+  "qaStatus": "PENDING",
+  "approvalStatus": "NOT_REQUIRED",
+  "completionStatus": "COMPLETED",
+  "startedAt": "2026-07-10T18:22:46.517Z",
+  "updatedAt": "2026-07-10T18:22:46.828Z",
+  "report": {
+    "agent": "Product Strategist",
+    "taskId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T004",
+    "objective": "Define business, audience, and page strategy.",
+    "actions": "Product Strategist executed Define business, audience, and page strategy. for mission 20260710-BUILD-PREMIUM-WEBSITE-9YYJ47 using workflows: WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: DESIGN_REVIEW_PLAYBOOK; integrations: filesystem, docs, figma, images.",
+    "validation": "Product Strategist completed product strategy brief with 4 tracked integrations.",
+    "nextStep": "Hand off to UI_UX_DESIGN_AGENT.",
+    "integrations": [
+      "filesystem",
+      "docs",
+      "figma",
+      "images"
+    ],
+    "playbooks": [
+      "DESIGN_REVIEW_PLAYBOOK"
+    ],
+    "specialistOutputs": [
+      "product strategy brief",
+      "user journey map",
+      "specialist_execution output"
+    ],
+    "specialistRuntime": null
+  },
+  "handoff": {
+    "fromAgentSlug": "PRODUCT_STRATEGIST_AGENT",
+    "toAgentSlug": "UI_UX_DESIGN_AGENT",
+    "status": "COMPLETED",
+    "validationNeeded": "Downstream review by UI_UX_DESIGN_AGENT.",
+    "completedWork": [
+      "product strategy brief",
+      "user journey map",
+      "specialist_execution output"
+    ],
+    "collaborationTargets": [
+      "UI_UX_DESIGN_AGENT",
+      "BRAND_DESIGN_AGENT",
+      "MOTION_GRAPHICS_AGENT"
+    ]
+  },
+  "runtime": {
+    "mission": {
+      "objective": "Define business, audience, and page strategy.",
+      "successDefinition": "Product strategy brief",
+      "companyId": "web-growth",
+      "approvalClass": "A1",
+      "missionType": "Website project",
+      "requiredDepartments": [
+        "executive",
+        "design",
+        "engineering",
+        "search"
+      ],
+      "requiredIntegrations": [
+        "filesystem",
+        "docs",
+        "figma",
+        "images"
+      ],
+      "playbooks": [
+        "DESIGN_REVIEW_PLAYBOOK"
+      ]
+    },
+    "plan": {
+      "skillsLoaded": [
+        "CRO",
+        "COPYWRITING"
+      ],
+      "workstreams": [
+        "shape user flow",
+        "evaluate brand alignment",
+        "specify layout and motion intent"
+      ],
+      "validationChecks": [
+        "user journey is coherent",
+        "design decisions support conversion",
+        "motion does not conflict with accessibility"
+      ],
+      "dependencies": [],
+      "requiredEvidence": [
+        "experience notes",
+        "wireframe guidance",
+        "interaction recommendations",
+        "Product strategy brief",
+        "product strategy brief",
+        "user journey map",
+        "specialist_execution output"
+      ],
+      "playbooks": [
+        "DESIGN_REVIEW_PLAYBOOK"
+      ],
+      "integrations": [
+        "Filesystem (NORMAL)",
+        "Docs (NORMAL)",
+        "Figma (NORMAL)",
+        "Images (NORMAL)"
+      ],
+      "collaborationTargets": [
+        "UI_UX_DESIGN_AGENT",
+        "BRAND_DESIGN_AGENT",
+        "MOTION_GRAPHICS_AGENT"
+      ],
+      "specialistPlan": null
+    },
+    "execution": {
+      "summary": "Product Strategist executed Define business, audience, and page strategy. for mission 20260710-BUILD-PREMIUM-WEBSITE-9YYJ47 using workflows: WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: DESIGN_REVIEW_PLAYBOOK; integrations: filesystem, docs, figma, images.",
+      "artifacts": [
+        "PRODUCT_STRATEGIST_AGENT:product strategy brief",
+        "PRODUCT_STRATEGIST_AGENT:user journey map",
+        "PRODUCT_STRATEGIST_AGENT:specialist_execution output"
+      ],
+      "evidence": [
+        "experience notes",
+        "wireframe guidance",
+        "interaction recommendations",
+        "Product strategy brief",
+        "product strategy brief",
+        "user journey map",
+        "specialist_execution output"
+      ],
+      "integrationsUsed": [
+        {
+          "id": "filesystem",
+          "title": "Filesystem",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": [
+            "integrations/core/INTEGRATION_CONTRACT.md",
+            "integrations/logging/LOG_SCHEMA.md"
+          ]
+        },
+        {
+          "id": "docs",
+          "title": "Docs",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "figma",
+          "title": "Figma",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "images",
+          "title": "Images",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        }
+      ],
+      "playbooksUsed": [
+        "DESIGN_REVIEW_PLAYBOOK"
+      ],
+      "collaborationRequests": [
+        {
+          "target": "UI_UX_DESIGN_AGENT",
+          "reason": "Coordinate product strategy brief with UI_UX_DESIGN_AGENT."
+        },
+        {
+          "target": "BRAND_DESIGN_AGENT",
+          "reason": "Coordinate product strategy brief with BRAND_DESIGN_AGENT."
+        },
+        {
+          "target": "MOTION_GRAPHICS_AGENT",
+          "reason": "Coordinate product strategy brief with MOTION_GRAPHICS_AGENT."
+        }
+      ],
+      "specialistOutputs": [
+        "product strategy brief",
+        "user journey map",
+        "specialist_execution output"
+      ],
+      "kpiFocus": [
+        "conversion clarity",
+        "brand consistency",
+        "High"
+      ],
+      "approvalGateReached": false,
+      "specialistRuntime": null
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "passed": true,
+      "notes": "Product Strategist completed product strategy brief with 4 tracked integrations."
+    },
+    "memory": {
+      "currentState": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T004: Product Strategist completed Define business, audience, and page strategy..",
+      "nextAction": "UI_UX_DESIGN_AGENT should take over 20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T004.",
+      "codexMemory": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47 used Product Strategist for Product strategy brief."
+    }
+  },
+  "integrationsUsed": [
+    {
+      "id": "filesystem",
+      "title": "Filesystem",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": [
+        "integrations/core/INTEGRATION_CONTRACT.md",
+        "integrations/logging/LOG_SCHEMA.md"
+      ]
+    },
+    {
+      "id": "docs",
+      "title": "Docs",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "figma",
+      "title": "Figma",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "images",
+      "title": "Images",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    }
+  ],
+  "playbooksUsed": [
+    "DESIGN_REVIEW_PLAYBOOK"
+  ],
+  "collaborationRequests": [
+    {
+      "target": "UI_UX_DESIGN_AGENT",
+      "reason": "Coordinate product strategy brief with UI_UX_DESIGN_AGENT."
+    },
+    {
+      "target": "BRAND_DESIGN_AGENT",
+      "reason": "Coordinate product strategy brief with BRAND_DESIGN_AGENT."
+    },
+    {
+      "target": "MOTION_GRAPHICS_AGENT",
+      "reason": "Coordinate product strategy brief with MOTION_GRAPHICS_AGENT."
+    }
+  ],
+  "kpiFocus": [
+    "conversion clarity",
+    "brand consistency",
+    "High"
+  ]
+}

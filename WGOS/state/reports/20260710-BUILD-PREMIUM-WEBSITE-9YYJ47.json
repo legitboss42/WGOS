@@ -1,0 +1,153 @@
+{
+  "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+  "qaResult": "PASS",
+  "validationSummary": "Completed: 10, Blocked: 0, Waiting approval: 0.",
+  "nextStep": "Run the next real mission through the same runtime.",
+  "nextRequiredAgent": null,
+  "executiveSummary": "Mission 20260710-BUILD-PREMIUM-WEBSITE-9YYJ47 routed 4 departments across 10 tasks.",
+  "integrationSummary": [
+    "filesystem",
+    "docs",
+    "csv",
+    "github",
+    "figma",
+    "images",
+    "vercel",
+    "lighthouse",
+    "pagespeed",
+    "search",
+    "search-console",
+    "ga4",
+    "crm"
+  ],
+  "collaborationSummary": [
+    {
+      "target": "WORKFLOW_ORCHESTRATOR_AGENT",
+      "reason": "Coordinate executive mission brief with WORKFLOW_ORCHESTRATOR_AGENT."
+    },
+    {
+      "target": "PROJECT_MANAGER_AGENT",
+      "reason": "Coordinate executive mission brief with PROJECT_MANAGER_AGENT."
+    },
+    {
+      "target": "PROJECT_MANAGER_AGENT",
+      "reason": "Coordinate workflow routing plan with PROJECT_MANAGER_AGENT."
+    },
+    {
+      "target": "CEO_OPERATOR_AGENT",
+      "reason": "Coordinate workflow routing plan with CEO_OPERATOR_AGENT."
+    },
+    {
+      "target": "PRODUCT_STRATEGIST_AGENT",
+      "reason": "Coordinate company task board with PRODUCT_STRATEGIST_AGENT."
+    },
+    {
+      "target": "CEO_OPERATOR_AGENT",
+      "reason": "Coordinate company task board with CEO_OPERATOR_AGENT."
+    },
+    {
+      "target": "WORKFLOW_ORCHESTRATOR_AGENT",
+      "reason": "Coordinate company task board with WORKFLOW_ORCHESTRATOR_AGENT."
+    },
+    {
+      "target": "UI_UX_DESIGN_AGENT",
+      "reason": "Coordinate product strategy brief with UI_UX_DESIGN_AGENT."
+    },
+    {
+      "target": "BRAND_DESIGN_AGENT",
+      "reason": "Coordinate product strategy brief with BRAND_DESIGN_AGENT."
+    },
+    {
+      "target": "MOTION_GRAPHICS_AGENT",
+      "reason": "Coordinate product strategy brief with MOTION_GRAPHICS_AGENT."
+    },
+    {
+      "target": "FRONTEND_ENGINEER_AGENT",
+      "reason": "Coordinate ux structure plan with FRONTEND_ENGINEER_AGENT."
+    },
+    {
+      "target": "PRODUCT_STRATEGIST_AGENT",
+      "reason": "Coordinate ux structure plan with PRODUCT_STRATEGIST_AGENT."
+    },
+    {
+      "target": "BRAND_DESIGN_AGENT",
+      "reason": "Coordinate ux structure plan with BRAND_DESIGN_AGENT."
+    },
+    {
+      "target": "MOTION_GRAPHICS_AGENT",
+      "reason": "Coordinate ux structure plan with MOTION_GRAPHICS_AGENT."
+    },
+    {
+      "target": "SEO_AGENT",
+      "reason": "Coordinate implementation plan with SEO_AGENT."
+    },
+    {
+      "target": "BACKEND_ENGINEER_AGENT",
+      "reason": "Coordinate implementation plan with BACKEND_ENGINEER_AGENT."
+    },
+    {
+      "target": "FULL_STACK_ENGINEER_AGENT",
+      "reason": "Coordinate implementation plan with FULL_STACK_ENGINEER_AGENT."
+    },
+    {
+      "target": "DEPLOYMENT_ENGINEER_AGENT",
+      "reason": "Coordinate implementation plan with DEPLOYMENT_ENGINEER_AGENT."
+    },
+    {
+      "target": "QA_ENGINEER_AGENT",
+      "reason": "Coordinate seo requirements with QA_ENGINEER_AGENT."
+    },
+    {
+      "target": "TECHNICAL_SEO_AGENT",
+      "reason": "Coordinate seo requirements with TECHNICAL_SEO_AGENT."
+    },
+    {
+      "target": "AEO_AGENT",
+      "reason": "Coordinate seo requirements with AEO_AGENT."
+    },
+    {
+      "target": "GEO_AGENT",
+      "reason": "Coordinate seo requirements with GEO_AGENT."
+    },
+    {
+      "target": "SCHEMA_AGENT",
+      "reason": "Coordinate seo requirements with SCHEMA_AGENT."
+    },
+    {
+      "target": "SEARCH_CONSOLE_AGENT",
+      "reason": "Coordinate seo requirements with SEARCH_CONSOLE_AGENT."
+    },
+    {
+      "target": "ANALYTICS_AGENT",
+      "reason": "Coordinate seo requirements with ANALYTICS_AGENT."
+    },
+    {
+      "target": "CRO_AGENT",
+      "reason": "Coordinate seo requirements with CRO_AGENT."
+    },
+    {
+      "target": "REVENUE_OPERATIONS_AGENT",
+      "reason": "Coordinate seo requirements with REVENUE_OPERATIONS_AGENT."
+    },
+    {
+      "target": "KNOWLEDGE_MANAGER_AGENT",
+      "reason": "Coordinate qa conclusion with KNOWLEDGE_MANAGER_AGENT."
+    },
+    {
+      "target": "ACCESSIBILITY_ENGINEER_AGENT",
+      "reason": "Coordinate qa conclusion with ACCESSIBILITY_ENGINEER_AGENT."
+    },
+    {
+      "target": "PERFORMANCE_ENGINEER_AGENT",
+      "reason": "Coordinate qa conclusion with PERFORMANCE_ENGINEER_AGENT."
+    },
+    {
+      "target": "WEBSITE_AUDIT_AGENT",
+      "reason": "Coordinate qa conclusion with WEBSITE_AUDIT_AGENT."
+    },
+    {
+      "target": "DOCUMENTATION_AGENT",
+      "reason": "Coordinate knowledge archive update with DOCUMENTATION_AGENT."
+    }
+  ]
+}

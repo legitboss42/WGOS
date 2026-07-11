@@ -1,0 +1,78 @@
+{
+  "id": "20260710-DEMO-SYSTEM-VALIDATION-4C607S-T004",
+  "missionId": "20260710-DEMO-SYSTEM-VALIDATION-4C607S",
+  "sequence": 4,
+  "agentSlug": "QA_ENGINEER_AGENT",
+  "agentTitle": "QA Engineer",
+  "department": "engineering",
+  "objective": "Validate cross-department output quality and readiness.",
+  "expectedOutput": "QA conclusion",
+  "stage": "quality_assurance",
+  "status": "COMPLETED",
+  "dependencies": [],
+  "nextAgentSlug": "KNOWLEDGE_MANAGER_AGENT",
+  "estimatedComplexity": "Medium",
+  "businessValue": "Low",
+  "revenueImpact": "Indirect",
+  "priority": "HIGH",
+  "documentationStatus": "UPDATED",
+  "qaStatus": "PASSED",
+  "approvalStatus": "NOT_REQUIRED",
+  "completionStatus": "COMPLETED",
+  "startedAt": "2026-07-10T07:24:46.250Z",
+  "updatedAt": "2026-07-10T07:24:46.602Z",
+  "report": {
+    "agent": "QA Engineer",
+    "taskId": "20260710-DEMO-SYSTEM-VALIDATION-4C607S-T004",
+    "objective": "Validate cross-department output quality and readiness.",
+    "actions": "QA Engineer executed Validate cross-department output quality and readiness. for mission 20260710-DEMO-SYSTEM-VALIDATION-4C607S using workflows: WORKFLOW_ORCHESTRATION, DOCUMENTATION_UPDATE_WORKFLOW, QA_AND_RELEASE_WORKFLOW.",
+    "validation": "QA Engineer completed qa conclusion.",
+    "nextStep": "Hand off to KNOWLEDGE_MANAGER_AGENT."
+  },
+  "handoff": {
+    "fromAgentSlug": "QA_ENGINEER_AGENT",
+    "toAgentSlug": "KNOWLEDGE_MANAGER_AGENT",
+    "status": "COMPLETED",
+    "validationNeeded": "Downstream review by KNOWLEDGE_MANAGER_AGENT."
+  },
+  "runtime": {
+    "mission": {
+      "objective": "Validate cross-department output quality and readiness.",
+      "successDefinition": "QA conclusion",
+      "companyId": "WG-001",
+      "approvalClass": "A1"
+    },
+    "plan": {
+      "skillsLoaded": [
+        "TESTING"
+      ],
+      "steps": [
+        "Read mission context and prior handoff",
+        "Validate required inputs",
+        "Execute specialist work",
+        "Validate output against expected result",
+        "Prepare report, memory, and handoff payloads"
+      ],
+      "dependencies": []
+    },
+    "execution": {
+      "summary": "QA Engineer executed Validate cross-department output quality and readiness. for mission 20260710-DEMO-SYSTEM-VALIDATION-4C607S using workflows: WORKFLOW_ORCHESTRATION, DOCUMENTATION_UPDATE_WORKFLOW, QA_AND_RELEASE_WORKFLOW.",
+      "artifacts": [
+        "QA_ENGINEER_AGENT:objective",
+        "QA_ENGINEER_AGENT:validation",
+        "QA_ENGINEER_AGENT:handoff"
+      ],
+      "approvalGateReached": false
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "passed": true,
+      "notes": "QA Engineer completed qa conclusion."
+    },
+    "memory": {
+      "currentState": "20260710-DEMO-SYSTEM-VALIDATION-4C607S-T004: QA Engineer completed Validate cross-department output quality and readiness..",
+      "nextAction": "KNOWLEDGE_MANAGER_AGENT should take over 20260710-DEMO-SYSTEM-VALIDATION-4C607S-T004.",
+      "codexMemory": "20260710-DEMO-SYSTEM-VALIDATION-4C607S used QA Engineer for QA conclusion."
+    }
+  }
+}

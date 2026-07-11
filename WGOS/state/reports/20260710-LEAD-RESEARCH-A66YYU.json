@@ -1,0 +1,157 @@
+{
+  "missionId": "20260710-LEAD-RESEARCH-A66YYU",
+  "qaResult": "PASS",
+  "validationSummary": "Completed: 12, Blocked: 0, Waiting approval: 0.",
+  "nextStep": "Run the next real mission through the same runtime.",
+  "nextRequiredAgent": null,
+  "executiveSummary": "Mission 20260710-LEAD-RESEARCH-A66YYU routed 3 departments across 12 tasks.",
+  "integrationSummary": [
+    "filesystem",
+    "docs",
+    "csv",
+    "github",
+    "browser",
+    "search",
+    "maps",
+    "business-directories",
+    "crm",
+    "lighthouse",
+    "pagespeed",
+    "images",
+    "gmail"
+  ],
+  "collaborationSummary": [
+    {
+      "target": "WORKFLOW_ORCHESTRATOR_AGENT",
+      "reason": "Coordinate executive mission brief with WORKFLOW_ORCHESTRATOR_AGENT."
+    },
+    {
+      "target": "PROJECT_MANAGER_AGENT",
+      "reason": "Coordinate executive mission brief with PROJECT_MANAGER_AGENT."
+    },
+    {
+      "target": "PROJECT_MANAGER_AGENT",
+      "reason": "Coordinate workflow routing plan with PROJECT_MANAGER_AGENT."
+    },
+    {
+      "target": "CEO_OPERATOR_AGENT",
+      "reason": "Coordinate workflow routing plan with CEO_OPERATOR_AGENT."
+    },
+    {
+      "target": "MARKETING_STRATEGIST_AGENT",
+      "reason": "Coordinate company task board with MARKETING_STRATEGIST_AGENT."
+    },
+    {
+      "target": "CEO_OPERATOR_AGENT",
+      "reason": "Coordinate company task board with CEO_OPERATOR_AGENT."
+    },
+    {
+      "target": "WORKFLOW_ORCHESTRATOR_AGENT",
+      "reason": "Coordinate company task board with WORKFLOW_ORCHESTRATOR_AGENT."
+    },
+    {
+      "target": "LEAD_RESEARCH_AGENT",
+      "reason": "Coordinate lead mission brief with LEAD_RESEARCH_AGENT."
+    },
+    {
+      "target": "BUSINESS_INTELLIGENCE_AGENT",
+      "reason": "Coordinate lead mission brief with BUSINESS_INTELLIGENCE_AGENT."
+    },
+    {
+      "target": "WEBSITE_AUDIT_AGENT",
+      "reason": "Coordinate lead research plan with WEBSITE_AUDIT_AGENT."
+    },
+    {
+      "target": "BUSINESS_INTELLIGENCE_AGENT",
+      "reason": "Coordinate lead research plan with BUSINESS_INTELLIGENCE_AGENT."
+    },
+    {
+      "target": "MARKETING_STRATEGIST_AGENT",
+      "reason": "Coordinate lead research plan with MARKETING_STRATEGIST_AGENT."
+    },
+    {
+      "target": "BUSINESS_INTELLIGENCE_AGENT",
+      "reason": "Coordinate audit framework with BUSINESS_INTELLIGENCE_AGENT."
+    },
+    {
+      "target": "QA_ENGINEER_AGENT",
+      "reason": "Coordinate audit framework with QA_ENGINEER_AGENT."
+    },
+    {
+      "target": "ACCESSIBILITY_ENGINEER_AGENT",
+      "reason": "Coordinate audit framework with ACCESSIBILITY_ENGINEER_AGENT."
+    },
+    {
+      "target": "PERFORMANCE_ENGINEER_AGENT",
+      "reason": "Coordinate audit framework with PERFORMANCE_ENGINEER_AGENT."
+    },
+    {
+      "target": "LEAD_RESEARCH_AGENT",
+      "reason": "Coordinate audit framework with LEAD_RESEARCH_AGENT."
+    },
+    {
+      "target": "CRM_AGENT",
+      "reason": "Coordinate intelligence enrichment plan with CRM_AGENT."
+    },
+    {
+      "target": "LEAD_RESEARCH_AGENT",
+      "reason": "Coordinate intelligence enrichment plan with LEAD_RESEARCH_AGENT."
+    },
+    {
+      "target": "WEBSITE_AUDIT_AGENT",
+      "reason": "Coordinate intelligence enrichment plan with WEBSITE_AUDIT_AGENT."
+    },
+    {
+      "target": "MARKETING_STRATEGIST_AGENT",
+      "reason": "Coordinate intelligence enrichment plan with MARKETING_STRATEGIST_AGENT."
+    },
+    {
+      "target": "OUTREACH_DRAFTING_AGENT",
+      "reason": "Coordinate crm state plan with OUTREACH_DRAFTING_AGENT."
+    },
+    {
+      "target": "FOLLOW_UP_AGENT",
+      "reason": "Coordinate crm state plan with FOLLOW_UP_AGENT."
+    },
+    {
+      "target": "NEWSLETTER_AGENT",
+      "reason": "Coordinate crm state plan with NEWSLETTER_AGENT."
+    },
+    {
+      "target": "QA_ENGINEER_AGENT",
+      "reason": "Coordinate outreach draft spec with QA_ENGINEER_AGENT."
+    },
+    {
+      "target": "CRM_AGENT",
+      "reason": "Coordinate outreach draft spec with CRM_AGENT."
+    },
+    {
+      "target": "FOLLOW_UP_AGENT",
+      "reason": "Coordinate outreach draft spec with FOLLOW_UP_AGENT."
+    },
+    {
+      "target": "NEWSLETTER_AGENT",
+      "reason": "Coordinate outreach draft spec with NEWSLETTER_AGENT."
+    },
+    {
+      "target": "KNOWLEDGE_MANAGER_AGENT",
+      "reason": "Coordinate qa conclusion with KNOWLEDGE_MANAGER_AGENT."
+    },
+    {
+      "target": "ACCESSIBILITY_ENGINEER_AGENT",
+      "reason": "Coordinate qa conclusion with ACCESSIBILITY_ENGINEER_AGENT."
+    },
+    {
+      "target": "PERFORMANCE_ENGINEER_AGENT",
+      "reason": "Coordinate qa conclusion with PERFORMANCE_ENGINEER_AGENT."
+    },
+    {
+      "target": "WEBSITE_AUDIT_AGENT",
+      "reason": "Coordinate qa conclusion with WEBSITE_AUDIT_AGENT."
+    },
+    {
+      "target": "DOCUMENTATION_AGENT",
+      "reason": "Coordinate knowledge archive update with DOCUMENTATION_AGENT."
+    }
+  ]
+}

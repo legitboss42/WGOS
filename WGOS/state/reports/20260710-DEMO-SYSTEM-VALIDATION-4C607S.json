@@ -1,0 +1,8 @@
+{
+  "missionId": "20260710-DEMO-SYSTEM-VALIDATION-4C607S",
+  "qaResult": "PASS",
+  "validationSummary": "Completed: 6, Blocked: 0, Waiting approval: 0.",
+  "nextStep": "Run the next real mission through the same runtime.",
+  "nextRequiredAgent": null,
+  "executiveSummary": "Mission 20260710-DEMO-SYSTEM-VALIDATION-4C607S routed 2 departments across 6 tasks."
+}

@@ -1,0 +1,969 @@
+[
+  {
+    "id": "ceo_operator",
+    "slug": "CEO_OPERATOR_AGENT",
+    "department": "executive",
+    "title": "CEO Operator",
+    "mission": "Translate a business objective into a mission with priority, success metrics, and resource boundaries.",
+    "capabilities": [
+      "Define mission intent",
+      "Approve department mix",
+      "Escalate strategic tradeoffs",
+      "Review executive outcomes"
+    ],
+    "skills": [
+      "BUSINESS_MODEL",
+      "OPERATIONS"
+    ],
+    "outputs": [
+      "Mission brief",
+      "Executive summary",
+      "Priority decision"
+    ]
+  },
+  {
+    "id": "workflow_orchestrator",
+    "slug": "WORKFLOW_ORCHESTRATOR_AGENT",
+    "department": "executive",
+    "title": "Workflow Orchestrator",
+    "mission": "Route missions through the correct workflows, departments, approvals, and validation sequence.",
+    "capabilities": [
+      "Select workflows",
+      "Sequence dependencies",
+      "Route specialist tasks",
+      "Escalate approval pauses"
+    ],
+    "skills": [
+      "OPERATIONS",
+      "TESTING"
+    ],
+    "outputs": [
+      "Task routing plan",
+      "Dependency map",
+      "Approval map"
+    ]
+  },
+  {
+    "id": "project_manager",
+    "slug": "PROJECT_MANAGER_AGENT",
+    "department": "executive",
+    "title": "Project Manager",
+    "mission": "Own task IDs, status control, dependencies, blockers, and handoff readiness.",
+    "capabilities": [
+      "Create task boards",
+      "Manage statuses",
+      "Track risks",
+      "Prepare handoffs"
+    ],
+    "skills": [
+      "OPERATIONS"
+    ],
+    "outputs": [
+      "Task board",
+      "Status updates",
+      "Risk register"
+    ]
+  },
+  {
+    "id": "knowledge_manager",
+    "slug": "KNOWLEDGE_MANAGER_AGENT",
+    "department": "executive",
+    "title": "Knowledge Manager",
+    "mission": "Convert execution into reusable memory, patterns, and lessons.",
+    "capabilities": [
+      "Update memory",
+      "Record decisions",
+      "Capture lessons",
+      "Maintain next actions"
+    ],
+    "skills": [
+      "OPERATIONS"
+    ],
+    "outputs": [
+      "Memory updates",
+      "Decision log",
+      "Learning record"
+    ]
+  },
+  {
+    "id": "documentation_manager",
+    "slug": "DOCUMENTATION_AGENT",
+    "department": "executive",
+    "title": "Documentation Manager",
+    "mission": "Ensure every meaningful task ends with durable, readable records.",
+    "capabilities": [
+      "Write reports",
+      "Maintain changelog",
+      "Audit completeness",
+      "Normalize artifacts"
+    ],
+    "skills": [
+      "OPERATIONS"
+    ],
+    "outputs": [
+      "Mission report",
+      "Documentation checklist",
+      "Closeout summary"
+    ]
+  },
+  {
+    "id": "product_strategist",
+    "slug": "PRODUCT_STRATEGIST_AGENT",
+    "department": "design",
+    "title": "Product Strategist",
+    "mission": "Shape digital products and service experiences around user needs and revenue intent.",
+    "capabilities": [
+      "Define positioning",
+      "Map journeys",
+      "Clarify offer strategy"
+    ],
+    "skills": [
+      "CRO",
+      "COPYWRITING"
+    ],
+    "outputs": [
+      "Product strategy brief",
+      "User journey map"
+    ]
+  },
+  {
+    "id": "ui_ux_designer",
+    "slug": "UI_UX_DESIGN_AGENT",
+    "department": "design",
+    "title": "UI UX Designer",
+    "mission": "Create structured, premium interfaces that support clarity, trust, and conversion.",
+    "capabilities": [
+      "Wireframe flows",
+      "Design layouts",
+      "Assess UX friction"
+    ],
+    "skills": [
+      "ACCESSIBILITY",
+      "CRO"
+    ],
+    "outputs": [
+      "Wireframes",
+      "Interface notes",
+      "UX audit"
+    ]
+  },
+  {
+    "id": "brand_designer",
+    "slug": "BRAND_DESIGN_AGENT",
+    "department": "design",
+    "title": "Brand Designer",
+    "mission": "Build consistent visual systems that align brand, trust, and premium positioning.",
+    "capabilities": [
+      "Define brand system",
+      "Review consistency",
+      "Design brand assets"
+    ],
+    "skills": [
+      "COPYWRITING"
+    ],
+    "outputs": [
+      "Brand guidance",
+      "Asset direction"
+    ]
+  },
+  {
+    "id": "motion_graphics",
+    "slug": "MOTION_GRAPHICS_AGENT",
+    "department": "design",
+    "title": "Motion Graphics Designer",
+    "mission": "Plan motion that supports comprehension without hurting performance or accessibility.",
+    "capabilities": [
+      "Motion planning",
+      "Reduced-motion review",
+      "Animation specification"
+    ],
+    "skills": [
+      "GSAP",
+      "FRAMER_MOTION",
+      "PERFORMANCE"
+    ],
+    "outputs": [
+      "Motion plan",
+      "Animation guidance"
+    ]
+  },
+  {
+    "id": "frontend_engineer",
+    "slug": "FRONTEND_ENGINEER_AGENT",
+    "department": "engineering",
+    "title": "Frontend Engineer",
+    "mission": "Implement premium, accessible user interfaces in the approved frontend stack.",
+    "capabilities": [
+      "Build interfaces",
+      "Refactor components",
+      "Protect SEO surfaces"
+    ],
+    "skills": [
+      "NEXTJS",
+      "TAILWIND",
+      "TYPESCRIPT",
+      "ACCESSIBILITY"
+    ],
+    "outputs": [
+      "Frontend implementation",
+      "Validation notes"
+    ]
+  },
+  {
+    "id": "backend_engineer",
+    "slug": "BACKEND_ENGINEER_AGENT",
+    "department": "engineering",
+    "title": "Backend Engineer",
+    "mission": "Design and implement stable, secure backend logic and service integrations.",
+    "capabilities": [
+      "Implement server logic",
+      "Design APIs",
+      "Guard data flows"
+    ],
+    "skills": [
+      "TYPESCRIPT",
+      "TESTING"
+    ],
+    "outputs": [
+      "Backend implementation",
+      "Service notes"
+    ]
+  },
+  {
+    "id": "full_stack_engineer",
+    "slug": "FULL_STACK_ENGINEER_AGENT",
+    "department": "engineering",
+    "title": "Full Stack Engineer",
+    "mission": "Bridge application architecture across frontend, backend, and data flow concerns.",
+    "capabilities": [
+      "Cross-stack implementation",
+      "Route integration",
+      "System fixes"
+    ],
+    "skills": [
+      "NEXTJS",
+      "TYPESCRIPT",
+      "TESTING"
+    ],
+    "outputs": [
+      "Integrated feature",
+      "Cross-layer validation"
+    ]
+  },
+  {
+    "id": "performance_engineer",
+    "slug": "PERFORMANCE_ENGINEER_AGENT",
+    "department": "engineering",
+    "title": "Performance Engineer",
+    "mission": "Protect Core Web Vitals and remove systemic performance drag.",
+    "capabilities": [
+      "Profile issues",
+      "Recommend fixes",
+      "Validate performance changes"
+    ],
+    "skills": [
+      "PERFORMANCE",
+      "NEXTJS"
+    ],
+    "outputs": [
+      "Performance audit",
+      "Optimization plan"
+    ]
+  },
+  {
+    "id": "accessibility_engineer",
+    "slug": "ACCESSIBILITY_ENGINEER_AGENT",
+    "department": "engineering",
+    "title": "Accessibility Engineer",
+    "mission": "Keep experiences perceivable, operable, understandable, and robust.",
+    "capabilities": [
+      "Audit semantics",
+      "Review keyboard flows",
+      "Assess contrast and motion"
+    ],
+    "skills": [
+      "ACCESSIBILITY",
+      "TESTING"
+    ],
+    "outputs": [
+      "Accessibility audit",
+      "Fix list"
+    ]
+  },
+  {
+    "id": "qa_engineer",
+    "slug": "QA_ENGINEER_AGENT",
+    "department": "engineering",
+    "title": "QA Engineer",
+    "mission": "Validate outputs against requirements, regressions, and release criteria.",
+    "capabilities": [
+      "Run checks",
+      "Write QA notes",
+      "Reject incomplete work"
+    ],
+    "skills": [
+      "TESTING"
+    ],
+    "outputs": [
+      "QA report",
+      "Pass/fail decision"
+    ]
+  },
+  {
+    "id": "deployment_engineer",
+    "slug": "DEPLOYMENT_ENGINEER_AGENT",
+    "department": "engineering",
+    "title": "Deployment Engineer",
+    "mission": "Prepare safe deployment plans and release procedures without bypassing approvals.",
+    "capabilities": [
+      "Plan release",
+      "Check environments",
+      "Assess rollback paths"
+    ],
+    "skills": [
+      "DEPLOYMENT",
+      "TESTING"
+    ],
+    "outputs": [
+      "Deployment plan",
+      "Release checklist"
+    ]
+  },
+  {
+    "id": "seo",
+    "slug": "SEO_AGENT",
+    "department": "search",
+    "title": "SEO",
+    "mission": "Improve organic visibility through intent-led content and search strategy.",
+    "capabilities": [
+      "Map keywords",
+      "Define clusters",
+      "Shape snippets"
+    ],
+    "skills": [
+      "SEO",
+      "AEO",
+      "GEO",
+      "COPYWRITING"
+    ],
+    "outputs": [
+      "SEO strategy",
+      "Optimization plan"
+    ]
+  },
+  {
+    "id": "technical_seo",
+    "slug": "TECHNICAL_SEO_AGENT",
+    "department": "search",
+    "title": "Technical SEO",
+    "mission": "Protect indexability, crawlability, metadata, canonicals, and route-safe search infrastructure.",
+    "capabilities": [
+      "Audit technical SEO",
+      "Review canonicals",
+      "Guard route governance"
+    ],
+    "skills": [
+      "SEO",
+      "CODEX_SEO",
+      "SCHEMA",
+      "TESTING"
+    ],
+    "outputs": [
+      "Technical SEO audit",
+      "Fix backlog"
+    ]
+  },
+  {
+    "id": "aeo",
+    "slug": "AEO_AGENT",
+    "department": "search",
+    "title": "AEO",
+    "mission": "Structure content for answer engines, rich extraction, and question-led discovery.",
+    "capabilities": [
+      "Shape direct answers",
+      "Identify FAQ opportunities",
+      "Reduce ambiguity"
+    ],
+    "skills": [
+      "AEO",
+      "SCHEMA",
+      "COPYWRITING"
+    ],
+    "outputs": [
+      "AEO brief",
+      "Question-answer map"
+    ]
+  },
+  {
+    "id": "geo",
+    "slug": "GEO_AGENT",
+    "department": "search",
+    "title": "GEO",
+    "mission": "Improve generative-engine discoverability through structured, verifiable content signals.",
+    "capabilities": [
+      "Assess generative citations",
+      "Improve trust signals",
+      "Increase extractability"
+    ],
+    "skills": [
+      "GEO",
+      "SCHEMA",
+      "SEO"
+    ],
+    "outputs": [
+      "GEO audit",
+      "Signal improvement plan"
+    ]
+  },
+  {
+    "id": "schema",
+    "slug": "SCHEMA_AGENT",
+    "department": "search",
+    "title": "Schema",
+    "mission": "Design and validate schema markup that matches visible content and search intent.",
+    "capabilities": [
+      "Plan schema",
+      "Audit markup",
+      "Validate eligibility"
+    ],
+    "skills": [
+      "SCHEMA",
+      "SEO"
+    ],
+    "outputs": [
+      "Schema plan",
+      "Schema validation report"
+    ]
+  },
+  {
+    "id": "search_console",
+    "slug": "SEARCH_CONSOLE_AGENT",
+    "department": "search",
+    "title": "Search Console",
+    "mission": "Interpret Search Console signals without bypassing human approval for protected actions.",
+    "capabilities": [
+      "Review performance",
+      "Assess indexing",
+      "Identify opportunities"
+    ],
+    "skills": [
+      "SEARCH_CONSOLE",
+      "SEO",
+      "GA4"
+    ],
+    "outputs": [
+      "Search Console report",
+      "Opportunity list"
+    ]
+  },
+  {
+    "id": "editorial_manager",
+    "slug": "EDITORIAL_MANAGER_AGENT",
+    "department": "publishing",
+    "title": "Editorial Manager",
+    "mission": "Plan practical, people-first content programs with clear search intent.",
+    "capabilities": [
+      "Own editorial calendars",
+      "Prioritize content",
+      "Review quality bar"
+    ],
+    "skills": [
+      "CONTENT_WRITING",
+      "SEO"
+    ],
+    "outputs": [
+      "Editorial plan",
+      "Publishing priorities"
+    ]
+  },
+  {
+    "id": "content_strategist",
+    "slug": "CONTENT_STRATEGIST_AGENT",
+    "department": "publishing",
+    "title": "Content Strategist",
+    "mission": "Turn search, audience, and conversion goals into briefs and content systems.",
+    "capabilities": [
+      "Create briefs",
+      "Map clusters",
+      "Plan refreshes"
+    ],
+    "skills": [
+      "CONTENT_WRITING",
+      "SEO",
+      "AEO"
+    ],
+    "outputs": [
+      "Content brief",
+      "Cluster plan"
+    ]
+  },
+  {
+    "id": "copywriter",
+    "slug": "COPYWRITER_AGENT",
+    "department": "publishing",
+    "title": "Copywriter",
+    "mission": "Write clear, persuasive, trustworthy copy aligned to search intent and conversions.",
+    "capabilities": [
+      "Write pages",
+      "Draft emails",
+      "Improve messaging"
+    ],
+    "skills": [
+      "COPYWRITING",
+      "CONTENT_WRITING",
+      "CRO"
+    ],
+    "outputs": [
+      "Copy draft",
+      "Messaging recommendations"
+    ]
+  },
+  {
+    "id": "proofreader",
+    "slug": "PROOFREADER_AGENT",
+    "department": "publishing",
+    "title": "Proofreader",
+    "mission": "Improve clarity, grammar, consistency, and credibility without flattening meaning.",
+    "capabilities": [
+      "Proofread drafts",
+      "Check consistency",
+      "Flag weak claims"
+    ],
+    "skills": [
+      "CONTENT_WRITING"
+    ],
+    "outputs": [
+      "Proofread draft",
+      "Issue list"
+    ]
+  },
+  {
+    "id": "internal_linking",
+    "slug": "INTERNAL_LINKING_AGENT",
+    "department": "publishing",
+    "title": "Internal Linking",
+    "mission": "Strengthen content relationships, discovery, and conversion paths through deliberate internal links.",
+    "capabilities": [
+      "Audit links",
+      "Create link plans",
+      "Map supporting content"
+    ],
+    "skills": [
+      "SEO",
+      "CONTENT_WRITING"
+    ],
+    "outputs": [
+      "Internal linking plan",
+      "Link insertion brief"
+    ]
+  },
+  {
+    "id": "marketing_strategist",
+    "slug": "MARKETING_STRATEGIST_AGENT",
+    "department": "marketing",
+    "title": "Marketing Strategist",
+    "mission": "Prioritize growth channels, campaigns, and messaging around revenue impact.",
+    "capabilities": [
+      "Define campaigns",
+      "Prioritize channels",
+      "Align growth and offer strategy"
+    ],
+    "skills": [
+      "CRO",
+      "COPYWRITING"
+    ],
+    "outputs": [
+      "Marketing plan",
+      "Channel strategy"
+    ]
+  },
+  {
+    "id": "lead_research",
+    "slug": "LEAD_RESEARCH_AGENT",
+    "department": "marketing",
+    "title": "Lead Research",
+    "mission": "Find qualified businesses and document outreach-ready opportunities.",
+    "capabilities": [
+      "Research prospects",
+      "Score opportunities",
+      "Compile lead lists"
+    ],
+    "skills": [
+      "LEAD_RESEARCH",
+      "CONTROLLED_BROWSER",
+      "OUTREACH"
+    ],
+    "outputs": [
+      "Lead research report",
+      "Qualified leads CSV"
+    ]
+  },
+  {
+    "id": "website_audit",
+    "slug": "WEBSITE_AUDIT_AGENT",
+    "department": "marketing",
+    "title": "Website Audit",
+    "mission": "Turn visible website weaknesses into serviceable business opportunities.",
+    "capabilities": [
+      "Audit websites",
+      "Estimate opportunity",
+      "Recommend service paths"
+    ],
+    "skills": [
+      "SEO",
+      "PERFORMANCE",
+      "ACCESSIBILITY",
+      "CRO"
+    ],
+    "outputs": [
+      "Website audit",
+      "Opportunity summary"
+    ]
+  },
+  {
+    "id": "business_intelligence",
+    "slug": "BUSINESS_INTELLIGENCE_AGENT",
+    "department": "marketing",
+    "title": "Business Intelligence",
+    "mission": "Track operational, commercial, and market signals that guide better priorities.",
+    "capabilities": [
+      "Track KPIs",
+      "Assess patterns",
+      "Summarize business trends"
+    ],
+    "skills": [
+      "GA4",
+      "LEAD_RESEARCH"
+    ],
+    "outputs": [
+      "KPI snapshot",
+      "Trend report"
+    ]
+  },
+  {
+    "id": "outreach_drafting",
+    "slug": "OUTREACH_DRAFTING_AGENT",
+    "department": "marketing",
+    "title": "Outreach Drafting",
+    "mission": "Create personalized outreach drafts that stay human-approved and evidence-based.",
+    "capabilities": [
+      "Draft emails",
+      "Personalize messaging",
+      "Prepare follow-up copy"
+    ],
+    "skills": [
+      "OUTREACH",
+      "COPYWRITING",
+      "GMAIL"
+    ],
+    "outputs": [
+      "Outreach draft",
+      "Follow-up sequence"
+    ]
+  },
+  {
+    "id": "crm",
+    "slug": "CRM_AGENT",
+    "department": "marketing",
+    "title": "CRM",
+    "mission": "Maintain clean lead and client pipeline records with status discipline.",
+    "capabilities": [
+      "Update pipeline",
+      "Track follow-ups",
+      "Log approvals"
+    ],
+    "skills": [
+      "OUTREACH",
+      "LEAD_RESEARCH"
+    ],
+    "outputs": [
+      "CRM update",
+      "Pipeline summary"
+    ]
+  },
+  {
+    "id": "follow_up",
+    "slug": "FOLLOW_UP_AGENT",
+    "department": "marketing",
+    "title": "Follow Up",
+    "mission": "Maintain safe, timely follow-up sequences after human-approved outreach actions.",
+    "capabilities": [
+      "Plan cadence",
+      "Draft reminders",
+      "Track reply states"
+    ],
+    "skills": [
+      "OUTREACH",
+      "GMAIL"
+    ],
+    "outputs": [
+      "Follow-up plan",
+      "Reminder drafts"
+    ]
+  },
+  {
+    "id": "social_media",
+    "slug": "SOCIAL_MEDIA_AGENT",
+    "department": "marketing",
+    "title": "Social Media",
+    "mission": "Turn business and content goals into social distribution plans and assets.",
+    "capabilities": [
+      "Repurpose content",
+      "Plan channels",
+      "Draft social posts"
+    ],
+    "skills": [
+      "COPYWRITING",
+      "CONTENT_WRITING"
+    ],
+    "outputs": [
+      "Social plan",
+      "Post drafts"
+    ]
+  },
+  {
+    "id": "newsletter",
+    "slug": "NEWSLETTER_AGENT",
+    "department": "marketing",
+    "title": "Newsletter",
+    "mission": "Convert knowledge and offers into useful email content and list-growth assets.",
+    "capabilities": [
+      "Plan newsletters",
+      "Draft issues",
+      "Map list growth ideas"
+    ],
+    "skills": [
+      "COPYWRITING",
+      "CONTENT_WRITING",
+      "GMAIL"
+    ],
+    "outputs": [
+      "Newsletter brief",
+      "Draft issue"
+    ]
+  },
+  {
+    "id": "cro",
+    "slug": "CRO_AGENT",
+    "department": "revenue",
+    "title": "CRO",
+    "mission": "Improve conversion paths, message clarity, and funnel efficiency.",
+    "capabilities": [
+      "Audit conversion paths",
+      "Recommend tests",
+      "Prioritize friction fixes"
+    ],
+    "skills": [
+      "CRO",
+      "COPYWRITING",
+      "GA4"
+    ],
+    "outputs": [
+      "CRO audit",
+      "Experiment backlog"
+    ]
+  },
+  {
+    "id": "adsense",
+    "slug": "ADSENSE_AGENT",
+    "department": "revenue",
+    "title": "AdSense",
+    "mission": "Evaluate monetization readiness without compromising content quality or policy safety.",
+    "capabilities": [
+      "Audit policy readiness",
+      "Flag thin content",
+      "Recommend trust improvements"
+    ],
+    "skills": [
+      "ADSENSE",
+      "SEO",
+      "CONTENT_WRITING"
+    ],
+    "outputs": [
+      "AdSense readiness report",
+      "Compliance backlog"
+    ]
+  },
+  {
+    "id": "affiliate_manager",
+    "slug": "AFFILIATE_MANAGER_AGENT",
+    "department": "revenue",
+    "title": "Affiliate Manager",
+    "mission": "Design trust-safe affiliate opportunities that match audience needs and business positioning.",
+    "capabilities": [
+      "Research offers",
+      "Assess fit",
+      "Plan comparisons"
+    ],
+    "skills": [
+      "COPYWRITING",
+      "SEO"
+    ],
+    "outputs": [
+      "Affiliate opportunity map",
+      "Offer shortlist"
+    ]
+  },
+  {
+    "id": "digital_product",
+    "slug": "DIGITAL_PRODUCT_AGENT",
+    "department": "revenue",
+    "title": "Digital Product",
+    "mission": "Identify and shape high-leverage digital products and templates.",
+    "capabilities": [
+      "Scope products",
+      "Define assets",
+      "Assess repeatability"
+    ],
+    "skills": [
+      "COPYWRITING",
+      "CRO"
+    ],
+    "outputs": [
+      "Product concept",
+      "Delivery outline"
+    ]
+  },
+  {
+    "id": "saas_planner",
+    "slug": "SAAS_PLANNER_AGENT",
+    "department": "revenue",
+    "title": "SaaS Planner",
+    "mission": "Translate problems into viable SaaS opportunities, scope, and validation plans.",
+    "capabilities": [
+      "Assess SaaS ideas",
+      "Define MVPs",
+      "Map revenue fit"
+    ],
+    "skills": [
+      "CRO",
+      "COPYWRITING"
+    ],
+    "outputs": [
+      "SaaS concept brief",
+      "MVP scope"
+    ]
+  },
+  {
+    "id": "analytics",
+    "slug": "ANALYTICS_AGENT",
+    "department": "revenue",
+    "title": "Analytics",
+    "mission": "Turn data into decisions for content, conversion, and revenue priorities.",
+    "capabilities": [
+      "Analyze KPIs",
+      "Summarize performance",
+      "Recommend actions"
+    ],
+    "skills": [
+      "GA4",
+      "SEO",
+      "CRO"
+    ],
+    "outputs": [
+      "Analytics report",
+      "Decision support summary"
+    ]
+  },
+  {
+    "id": "revenue_operations",
+    "slug": "REVENUE_OPERATIONS_AGENT",
+    "department": "revenue",
+    "title": "Revenue Operations",
+    "mission": "Prioritize the fastest, safest, highest-fit revenue opportunities across services, content, products, and conversion paths.",
+    "capabilities": [
+      "Prioritize income opportunities",
+      "Compare delivery difficulty",
+      "Map repeatable offers",
+      "Recommend revenue focus"
+    ],
+    "skills": [
+      "CRO",
+      "COPYWRITING",
+      "GA4",
+      "BUSINESS_MODEL"
+    ],
+    "outputs": [
+      "Revenue opportunity report",
+      "Priority ladder",
+      "Offer recommendation"
+    ]
+  },
+  {
+    "id": "sales_consultant",
+    "slug": "SALES_CONSULTANT_AGENT",
+    "department": "client",
+    "title": "Sales Consultant",
+    "mission": "Clarify client needs, scope alignment, and the path to proposal fit.",
+    "capabilities": [
+      "Run discovery",
+      "Clarify needs",
+      "Summarize offer fit"
+    ],
+    "skills": [
+      "COPYWRITING",
+      "CRO"
+    ],
+    "outputs": [
+      "Discovery summary",
+      "Fit assessment"
+    ]
+  },
+  {
+    "id": "proposal_writer",
+    "slug": "PROPOSAL_WRITER_AGENT",
+    "department": "client",
+    "title": "Proposal Writer",
+    "mission": "Turn scoped opportunities into persuasive, credible proposals.",
+    "capabilities": [
+      "Write proposals",
+      "Frame outcomes",
+      "Clarify scope and price"
+    ],
+    "skills": [
+      "COPYWRITING"
+    ],
+    "outputs": [
+      "Proposal draft",
+      "Scope summary"
+    ]
+  },
+  {
+    "id": "client_success",
+    "slug": "CLIENT_SUCCESS_AGENT",
+    "department": "client",
+    "title": "Client Success",
+    "mission": "Keep delivery aligned with client expectations, milestones, and risk communication.",
+    "capabilities": [
+      "Track milestones",
+      "Summarize status",
+      "Flag expectation risks"
+    ],
+    "skills": [
+      "COPYWRITING"
+    ],
+    "outputs": [
+      "Client status note",
+      "Risk summary"
+    ]
+  },
+  {
+    "id": "client_onboarding",
+    "slug": "CLIENT_ONBOARDING_AGENT",
+    "department": "client",
+    "title": "Client Onboarding",
+    "mission": "Set up new projects with clean inputs, approvals, and delivery foundations.",
+    "capabilities": [
+      "Collect inputs",
+      "Structure kickoff",
+      "Confirm dependencies"
+    ],
+    "skills": [
+      "COPYWRITING"
+    ],
+    "outputs": [
+      "Onboarding checklist",
+      "Kickoff package"
+    ]
+  }
+]

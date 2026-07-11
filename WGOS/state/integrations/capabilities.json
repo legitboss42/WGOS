@@ -1,0 +1,37 @@
+[
+  {
+    "integrationId": "browser",
+    "available": false,
+    "source": "env:WGOS_BROWSER_CONTROL",
+    "status": "UNAVAILABLE",
+    "reason": "No live connector or approved session capability is configured for this process."
+  },
+  {
+    "integrationId": "search-console",
+    "available": false,
+    "source": "env:WGOS_SEARCH_CONSOLE_READONLY",
+    "status": "UNAVAILABLE",
+    "reason": "No live connector or approved session capability is configured for this process."
+  },
+  {
+    "integrationId": "ga4",
+    "available": false,
+    "source": "env:WGOS_GA4_READONLY",
+    "status": "UNAVAILABLE",
+    "reason": "No live connector or approved session capability is configured for this process."
+  },
+  {
+    "integrationId": "pagespeed",
+    "available": false,
+    "source": "env:WGOS_PAGESPEED_READONLY",
+    "status": "UNAVAILABLE",
+    "reason": "No live connector or approved session capability is configured for this process."
+  },
+  {
+    "integrationId": "lighthouse",
+    "available": false,
+    "source": "env:WGOS_LIGHTHOUSE_LOCAL",
+    "status": "UNAVAILABLE",
+    "reason": "No live connector or approved session capability is configured for this process."
+  }
+]

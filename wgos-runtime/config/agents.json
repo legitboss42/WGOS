@@ -1,0 +1,2372 @@
+[
+  {
+    "id": "CEO_OPERATOR_AGENT",
+    "name": "CEO Operator",
+    "department": "executive",
+    "purpose": "Translate a business objective into a mission with priority, success metrics, and resource boundaries.",
+    "responsibilities": [
+      "Define mission intent",
+      "Approve department mix",
+      "Escalate strategic tradeoffs",
+      "Review executive outcomes"
+    ],
+    "required_skills": [
+      "BUSINESS_MODEL",
+      "OPERATIONS"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/executive/CEO_OPERATOR_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "WORKFLOW_ORCHESTRATOR_AGENT",
+    "name": "Workflow Orchestrator",
+    "department": "executive",
+    "purpose": "Route missions through the correct workflows, departments, approvals, and validation sequence.",
+    "responsibilities": [
+      "Select workflows",
+      "Sequence dependencies",
+      "Route specialist tasks",
+      "Escalate approval pauses"
+    ],
+    "required_skills": [
+      "OPERATIONS",
+      "TESTING"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/executive/WORKFLOW_ORCHESTRATOR_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "PROJECT_MANAGER_AGENT",
+    "name": "Project Manager",
+    "department": "executive",
+    "purpose": "Own task IDs, status control, dependencies, blockers, and handoff readiness.",
+    "responsibilities": [
+      "Create task boards",
+      "Manage statuses",
+      "Track risks",
+      "Prepare handoffs"
+    ],
+    "required_skills": [
+      "OPERATIONS"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/executive/PROJECT_MANAGER_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "KNOWLEDGE_MANAGER_AGENT",
+    "name": "Knowledge Manager",
+    "department": "executive",
+    "purpose": "Convert execution into reusable memory, patterns, and lessons.",
+    "responsibilities": [
+      "Update memory",
+      "Record decisions",
+      "Capture lessons",
+      "Maintain next actions"
+    ],
+    "required_skills": [
+      "OPERATIONS"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/executive/KNOWLEDGE_MANAGER_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "DOCUMENTATION_AGENT",
+    "name": "Documentation Manager",
+    "department": "executive",
+    "purpose": "Ensure every meaningful task ends with durable, readable records.",
+    "responsibilities": [
+      "Write reports",
+      "Maintain changelog",
+      "Audit completeness",
+      "Normalize artifacts"
+    ],
+    "required_skills": [
+      "OPERATIONS"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/executive/DOCUMENTATION_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "PRODUCT_STRATEGIST_AGENT",
+    "name": "Product Strategist",
+    "department": "design",
+    "purpose": "Shape digital products and service experiences around user needs and revenue intent.",
+    "responsibilities": [
+      "Define positioning",
+      "Map journeys",
+      "Clarify offer strategy"
+    ],
+    "required_skills": [
+      "CRO",
+      "COPYWRITING"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/design/PRODUCT_STRATEGIST_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "UI_UX_DESIGN_AGENT",
+    "name": "UI UX Designer",
+    "department": "design",
+    "purpose": "Create structured, premium interfaces that support clarity, trust, and conversion.",
+    "responsibilities": [
+      "Wireframe flows",
+      "Design layouts",
+      "Assess UX friction"
+    ],
+    "required_skills": [
+      "ACCESSIBILITY",
+      "CRO"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/design/UI_UX_DESIGN_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "BRAND_DESIGN_AGENT",
+    "name": "Brand Designer",
+    "department": "design",
+    "purpose": "Build consistent visual systems that align brand, trust, and premium positioning.",
+    "responsibilities": [
+      "Define brand system",
+      "Review consistency",
+      "Design brand assets"
+    ],
+    "required_skills": [
+      "COPYWRITING"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/design/BRAND_DESIGN_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "MOTION_GRAPHICS_AGENT",
+    "name": "Motion Graphics Designer",
+    "department": "design",
+    "purpose": "Plan motion that supports comprehension without hurting performance or accessibility.",
+    "responsibilities": [
+      "Motion planning",
+      "Reduced-motion review",
+      "Animation specification"
+    ],
+    "required_skills": [
+      "GSAP",
+      "FRAMER_MOTION",
+      "PERFORMANCE"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/design/MOTION_GRAPHICS_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "FRONTEND_ENGINEER_AGENT",
+    "name": "Frontend Engineer",
+    "department": "engineering",
+    "purpose": "Implement premium, accessible user interfaces in the approved frontend stack.",
+    "responsibilities": [
+      "Build interfaces",
+      "Refactor components",
+      "Protect SEO surfaces"
+    ],
+    "required_skills": [
+      "NEXTJS",
+      "TAILWIND",
+      "TYPESCRIPT",
+      "ACCESSIBILITY"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/engineering/FRONTEND_ENGINEER_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "BACKEND_ENGINEER_AGENT",
+    "name": "Backend Engineer",
+    "department": "engineering",
+    "purpose": "Design and implement stable, secure backend logic and service integrations.",
+    "responsibilities": [
+      "Implement server logic",
+      "Design APIs",
+      "Guard data flows"
+    ],
+    "required_skills": [
+      "TYPESCRIPT",
+      "TESTING"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/engineering/BACKEND_ENGINEER_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "FULL_STACK_ENGINEER_AGENT",
+    "name": "Full Stack Engineer",
+    "department": "engineering",
+    "purpose": "Bridge application architecture across frontend, backend, and data flow concerns.",
+    "responsibilities": [
+      "Cross-stack implementation",
+      "Route integration",
+      "System fixes"
+    ],
+    "required_skills": [
+      "NEXTJS",
+      "TYPESCRIPT",
+      "TESTING"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/engineering/FULL_STACK_ENGINEER_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "PERFORMANCE_ENGINEER_AGENT",
+    "name": "Performance Engineer",
+    "department": "engineering",
+    "purpose": "Protect Core Web Vitals and remove systemic performance drag.",
+    "responsibilities": [
+      "Profile issues",
+      "Recommend fixes",
+      "Validate performance changes"
+    ],
+    "required_skills": [
+      "PERFORMANCE",
+      "NEXTJS"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/engineering/PERFORMANCE_ENGINEER_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "ACCESSIBILITY_ENGINEER_AGENT",
+    "name": "Accessibility Engineer",
+    "department": "engineering",
+    "purpose": "Keep experiences perceivable, operable, understandable, and robust.",
+    "responsibilities": [
+      "Audit semantics",
+      "Review keyboard flows",
+      "Assess contrast and motion"
+    ],
+    "required_skills": [
+      "ACCESSIBILITY",
+      "TESTING"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/engineering/ACCESSIBILITY_ENGINEER_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "QA_ENGINEER_AGENT",
+    "name": "QA Engineer",
+    "department": "engineering",
+    "purpose": "Validate outputs against requirements, regressions, and release criteria.",
+    "responsibilities": [
+      "Run checks",
+      "Write QA notes",
+      "Reject incomplete work"
+    ],
+    "required_skills": [
+      "TESTING"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/engineering/QA_ENGINEER_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "DEPLOYMENT_ENGINEER_AGENT",
+    "name": "Deployment Engineer",
+    "department": "engineering",
+    "purpose": "Prepare safe deployment plans and release procedures without bypassing approvals.",
+    "responsibilities": [
+      "Plan release",
+      "Check environments",
+      "Assess rollback paths"
+    ],
+    "required_skills": [
+      "DEPLOYMENT",
+      "TESTING"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/engineering/DEPLOYMENT_ENGINEER_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "SEO_AGENT",
+    "name": "SEO",
+    "department": "search",
+    "purpose": "Improve organic visibility through intent-led content and search strategy.",
+    "responsibilities": [
+      "Map keywords",
+      "Define clusters",
+      "Shape snippets"
+    ],
+    "required_skills": [
+      "SEO",
+      "AEO",
+      "GEO",
+      "COPYWRITING"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/search/SEO_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "TECHNICAL_SEO_AGENT",
+    "name": "Technical SEO",
+    "department": "search",
+    "purpose": "Protect indexability, crawlability, metadata, canonicals, and route-safe search infrastructure.",
+    "responsibilities": [
+      "Audit technical SEO",
+      "Review canonicals",
+      "Guard route governance"
+    ],
+    "required_skills": [
+      "SEO",
+      "CODEX_SEO",
+      "SCHEMA",
+      "TESTING"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/search/TECHNICAL_SEO_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "AEO_AGENT",
+    "name": "AEO",
+    "department": "search",
+    "purpose": "Structure content for answer engines, rich extraction, and question-led discovery.",
+    "responsibilities": [
+      "Shape direct answers",
+      "Identify FAQ opportunities",
+      "Reduce ambiguity"
+    ],
+    "required_skills": [
+      "AEO",
+      "SCHEMA",
+      "COPYWRITING"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/search/AEO_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "GEO_AGENT",
+    "name": "GEO",
+    "department": "search",
+    "purpose": "Improve generative-engine discoverability through structured, verifiable content signals.",
+    "responsibilities": [
+      "Assess generative citations",
+      "Improve trust signals",
+      "Increase extractability"
+    ],
+    "required_skills": [
+      "GEO",
+      "SCHEMA",
+      "SEO"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/search/GEO_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "SCHEMA_AGENT",
+    "name": "Schema",
+    "department": "search",
+    "purpose": "Design and validate schema markup that matches visible content and search intent.",
+    "responsibilities": [
+      "Plan schema",
+      "Audit markup",
+      "Validate eligibility"
+    ],
+    "required_skills": [
+      "SCHEMA",
+      "SEO"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/search/SCHEMA_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "SEARCH_CONSOLE_AGENT",
+    "name": "Search Console",
+    "department": "search",
+    "purpose": "Interpret Search Console signals without bypassing human approval for protected actions.",
+    "responsibilities": [
+      "Review performance",
+      "Assess indexing",
+      "Identify opportunities"
+    ],
+    "required_skills": [
+      "SEARCH_CONSOLE",
+      "SEO",
+      "GA4"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/search/SEARCH_CONSOLE_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "EDITORIAL_MANAGER_AGENT",
+    "name": "Editorial Manager",
+    "department": "publishing",
+    "purpose": "Plan practical, people-first content programs with clear search intent.",
+    "responsibilities": [
+      "Own editorial calendars",
+      "Prioritize content",
+      "Review quality bar"
+    ],
+    "required_skills": [
+      "CONTENT_WRITING",
+      "SEO"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/publishing/EDITORIAL_MANAGER_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "CONTENT_STRATEGIST_AGENT",
+    "name": "Content Strategist",
+    "department": "publishing",
+    "purpose": "Turn search, audience, and conversion goals into briefs and content systems.",
+    "responsibilities": [
+      "Create briefs",
+      "Map clusters",
+      "Plan refreshes"
+    ],
+    "required_skills": [
+      "CONTENT_WRITING",
+      "SEO",
+      "AEO"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/publishing/CONTENT_STRATEGIST_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "COPYWRITER_AGENT",
+    "name": "Copywriter",
+    "department": "publishing",
+    "purpose": "Write clear, persuasive, trustworthy copy aligned to search intent and conversions.",
+    "responsibilities": [
+      "Write pages",
+      "Draft emails",
+      "Improve messaging"
+    ],
+    "required_skills": [
+      "COPYWRITING",
+      "CONTENT_WRITING",
+      "CRO"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/publishing/COPYWRITER_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "PROOFREADER_AGENT",
+    "name": "Proofreader",
+    "department": "publishing",
+    "purpose": "Improve clarity, grammar, consistency, and credibility without flattening meaning.",
+    "responsibilities": [
+      "Proofread drafts",
+      "Check consistency",
+      "Flag weak claims"
+    ],
+    "required_skills": [
+      "CONTENT_WRITING"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/publishing/PROOFREADER_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "INTERNAL_LINKING_AGENT",
+    "name": "Internal Linking",
+    "department": "publishing",
+    "purpose": "Strengthen content relationships, discovery, and conversion paths through deliberate internal links.",
+    "responsibilities": [
+      "Audit links",
+      "Create link plans",
+      "Map supporting content"
+    ],
+    "required_skills": [
+      "SEO",
+      "CONTENT_WRITING"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/publishing/INTERNAL_LINKING_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "MARKETING_STRATEGIST_AGENT",
+    "name": "Marketing Strategist",
+    "department": "marketing",
+    "purpose": "Prioritize growth channels, campaigns, and messaging around revenue impact.",
+    "responsibilities": [
+      "Define campaigns",
+      "Prioritize channels",
+      "Align growth and offer strategy"
+    ],
+    "required_skills": [
+      "CRO",
+      "COPYWRITING"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/marketing/MARKETING_STRATEGIST_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "LEAD_RESEARCH_AGENT",
+    "name": "Lead Research",
+    "department": "marketing",
+    "purpose": "Find qualified businesses and document outreach-ready opportunities.",
+    "responsibilities": [
+      "Research prospects",
+      "Score opportunities",
+      "Compile lead lists"
+    ],
+    "required_skills": [
+      "LEAD_RESEARCH",
+      "CONTROLLED_BROWSER",
+      "OUTREACH"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/marketing/LEAD_RESEARCH_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "WEBSITE_AUDIT_AGENT",
+    "name": "Website Audit",
+    "department": "marketing",
+    "purpose": "Turn visible website weaknesses into serviceable business opportunities.",
+    "responsibilities": [
+      "Audit websites",
+      "Estimate opportunity",
+      "Recommend service paths"
+    ],
+    "required_skills": [
+      "SEO",
+      "PERFORMANCE",
+      "ACCESSIBILITY",
+      "CRO"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/marketing/WEBSITE_AUDIT_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "BUSINESS_INTELLIGENCE_AGENT",
+    "name": "Business Intelligence",
+    "department": "marketing",
+    "purpose": "Track operational, commercial, and market signals that guide better priorities.",
+    "responsibilities": [
+      "Track KPIs",
+      "Assess patterns",
+      "Summarize business trends"
+    ],
+    "required_skills": [
+      "GA4",
+      "LEAD_RESEARCH"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/marketing/BUSINESS_INTELLIGENCE_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "OUTREACH_DRAFTING_AGENT",
+    "name": "Outreach Drafting",
+    "department": "marketing",
+    "purpose": "Create personalized outreach drafts that stay human-approved and evidence-based.",
+    "responsibilities": [
+      "Draft emails",
+      "Personalize messaging",
+      "Prepare follow-up copy"
+    ],
+    "required_skills": [
+      "OUTREACH",
+      "COPYWRITING",
+      "GMAIL"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/marketing/OUTREACH_DRAFTING_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "CRM_AGENT",
+    "name": "CRM",
+    "department": "marketing",
+    "purpose": "Maintain clean lead and client pipeline records with status discipline.",
+    "responsibilities": [
+      "Update pipeline",
+      "Track follow-ups",
+      "Log approvals"
+    ],
+    "required_skills": [
+      "OUTREACH",
+      "LEAD_RESEARCH"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/marketing/CRM_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "FOLLOW_UP_AGENT",
+    "name": "Follow Up",
+    "department": "marketing",
+    "purpose": "Maintain safe, timely follow-up sequences after human-approved outreach actions.",
+    "responsibilities": [
+      "Plan cadence",
+      "Draft reminders",
+      "Track reply states"
+    ],
+    "required_skills": [
+      "OUTREACH",
+      "GMAIL"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/marketing/FOLLOW_UP_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "SOCIAL_MEDIA_AGENT",
+    "name": "Social Media",
+    "department": "marketing",
+    "purpose": "Turn business and content goals into social distribution plans and assets.",
+    "responsibilities": [
+      "Repurpose content",
+      "Plan channels",
+      "Draft social posts"
+    ],
+    "required_skills": [
+      "COPYWRITING",
+      "CONTENT_WRITING"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/marketing/SOCIAL_MEDIA_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "NEWSLETTER_AGENT",
+    "name": "Newsletter",
+    "department": "marketing",
+    "purpose": "Convert knowledge and offers into useful email content and list-growth assets.",
+    "responsibilities": [
+      "Plan newsletters",
+      "Draft issues",
+      "Map list growth ideas"
+    ],
+    "required_skills": [
+      "COPYWRITING",
+      "CONTENT_WRITING",
+      "GMAIL"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/marketing/NEWSLETTER_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "CRO_AGENT",
+    "name": "CRO",
+    "department": "revenue",
+    "purpose": "Improve conversion paths, message clarity, and funnel efficiency.",
+    "responsibilities": [
+      "Audit conversion paths",
+      "Recommend tests",
+      "Prioritize friction fixes"
+    ],
+    "required_skills": [
+      "CRO",
+      "COPYWRITING",
+      "GA4"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/revenue/CRO_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "ADSENSE_AGENT",
+    "name": "AdSense",
+    "department": "revenue",
+    "purpose": "Evaluate monetization readiness without compromising content quality or policy safety.",
+    "responsibilities": [
+      "Audit policy readiness",
+      "Flag thin content",
+      "Recommend trust improvements"
+    ],
+    "required_skills": [
+      "ADSENSE",
+      "SEO",
+      "CONTENT_WRITING"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/revenue/ADSENSE_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "AFFILIATE_MANAGER_AGENT",
+    "name": "Affiliate Manager",
+    "department": "revenue",
+    "purpose": "Design trust-safe affiliate opportunities that match audience needs and business positioning.",
+    "responsibilities": [
+      "Research offers",
+      "Assess fit",
+      "Plan comparisons"
+    ],
+    "required_skills": [
+      "COPYWRITING",
+      "SEO"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/revenue/AFFILIATE_MANAGER_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "DIGITAL_PRODUCT_AGENT",
+    "name": "Digital Product",
+    "department": "revenue",
+    "purpose": "Identify and shape high-leverage digital products and templates.",
+    "responsibilities": [
+      "Scope products",
+      "Define assets",
+      "Assess repeatability"
+    ],
+    "required_skills": [
+      "COPYWRITING",
+      "CRO"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/revenue/DIGITAL_PRODUCT_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "SAAS_PLANNER_AGENT",
+    "name": "SaaS Planner",
+    "department": "revenue",
+    "purpose": "Translate problems into viable SaaS opportunities, scope, and validation plans.",
+    "responsibilities": [
+      "Assess SaaS ideas",
+      "Define MVPs",
+      "Map revenue fit"
+    ],
+    "required_skills": [
+      "CRO",
+      "COPYWRITING"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/revenue/SAAS_PLANNER_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "ANALYTICS_AGENT",
+    "name": "Analytics",
+    "department": "revenue",
+    "purpose": "Turn data into decisions for content, conversion, and revenue priorities.",
+    "responsibilities": [
+      "Analyze KPIs",
+      "Summarize performance",
+      "Recommend actions"
+    ],
+    "required_skills": [
+      "GA4",
+      "SEO",
+      "CRO"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/revenue/ANALYTICS_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "REVENUE_OPERATIONS_AGENT",
+    "name": "Revenue Operations",
+    "department": "revenue",
+    "purpose": "Prioritize the fastest, safest, highest-fit revenue opportunities across services, content, products, and conversion paths.",
+    "responsibilities": [
+      "Prioritize income opportunities",
+      "Compare delivery difficulty",
+      "Map repeatable offers",
+      "Recommend revenue focus"
+    ],
+    "required_skills": [
+      "CRO",
+      "COPYWRITING",
+      "GA4",
+      "BUSINESS_MODEL"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/revenue/REVENUE_OPERATIONS_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "SALES_CONSULTANT_AGENT",
+    "name": "Sales Consultant",
+    "department": "client",
+    "purpose": "Clarify client needs, scope alignment, and the path to proposal fit.",
+    "responsibilities": [
+      "Run discovery",
+      "Clarify needs",
+      "Summarize offer fit"
+    ],
+    "required_skills": [
+      "COPYWRITING",
+      "CRO"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/client/SALES_CONSULTANT_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "PROPOSAL_WRITER_AGENT",
+    "name": "Proposal Writer",
+    "department": "client",
+    "purpose": "Turn scoped opportunities into persuasive, credible proposals.",
+    "responsibilities": [
+      "Write proposals",
+      "Frame outcomes",
+      "Clarify scope and price"
+    ],
+    "required_skills": [
+      "COPYWRITING"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/client/PROPOSAL_WRITER_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "CLIENT_SUCCESS_AGENT",
+    "name": "Client Success",
+    "department": "client",
+    "purpose": "Keep delivery aligned with client expectations, milestones, and risk communication.",
+    "responsibilities": [
+      "Track milestones",
+      "Summarize status",
+      "Flag expectation risks"
+    ],
+    "required_skills": [
+      "COPYWRITING"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/client/CLIENT_SUCCESS_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  },
+  {
+    "id": "CLIENT_ONBOARDING_AGENT",
+    "name": "Client Onboarding",
+    "department": "client",
+    "purpose": "Set up new projects with clean inputs, approvals, and delivery foundations.",
+    "responsibilities": [
+      "Collect inputs",
+      "Structure kickoff",
+      "Confirm dependencies"
+    ],
+    "required_skills": [
+      "COPYWRITING"
+    ],
+    "allowed_actions": [
+      "research",
+      "draft",
+      "recommend",
+      "prepare",
+      "document",
+      "local validation"
+    ],
+    "forbidden_actions": [
+      "send email without approval",
+      "publish without approval",
+      "deploy without approval",
+      "change DNS without approval",
+      "expose secrets"
+    ],
+    "approval_required_for": [
+      "external account access",
+      "external contact",
+      "publishing",
+      "deployment",
+      "DNS",
+      "billing",
+      "state-changing actions"
+    ],
+    "documentation_required": [
+      "task report",
+      "memory update",
+      "handoff when applicable"
+    ],
+    "report_template": "wgos-runtime/REPORTING_ENGINE.md",
+    "handoff_targets": [],
+    "source_docs": [
+      "WGOS/agents/client/CLIENT_ONBOARDING_AGENT.md",
+      "WGOS/AGENTS.md"
+    ]
+  }
+]

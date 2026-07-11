@@ -1,0 +1,78 @@
+{
+  "id": "20260710-DEMO-SYSTEM-VALIDATION-4C607S-T003",
+  "missionId": "20260710-DEMO-SYSTEM-VALIDATION-4C607S",
+  "sequence": 3,
+  "agentSlug": "PROJECT_MANAGER_AGENT",
+  "agentTitle": "Project Manager",
+  "department": "executive",
+  "objective": "Create the company task board, complexity estimate, and handoff-safe execution order.",
+  "expectedOutput": "Company task board",
+  "stage": "project_management",
+  "status": "COMPLETED",
+  "dependencies": [],
+  "nextAgentSlug": "QA_ENGINEER_AGENT",
+  "estimatedComplexity": "Medium",
+  "businessValue": "Low",
+  "revenueImpact": "Indirect",
+  "priority": "HIGH",
+  "documentationStatus": "UPDATED",
+  "qaStatus": "PENDING",
+  "approvalStatus": "NOT_REQUIRED",
+  "completionStatus": "COMPLETED",
+  "startedAt": "2026-07-10T07:24:45.729Z",
+  "updatedAt": "2026-07-10T07:24:45.893Z",
+  "report": {
+    "agent": "Project Manager",
+    "taskId": "20260710-DEMO-SYSTEM-VALIDATION-4C607S-T003",
+    "objective": "Create the company task board, complexity estimate, and handoff-safe execution order.",
+    "actions": "Project Manager executed Create the company task board, complexity estimate, and handoff-safe execution order. for mission 20260710-DEMO-SYSTEM-VALIDATION-4C607S using workflows: WORKFLOW_ORCHESTRATION, DOCUMENTATION_UPDATE_WORKFLOW, QA_AND_RELEASE_WORKFLOW.",
+    "validation": "Project Manager completed company task board.",
+    "nextStep": "Hand off to QA_ENGINEER_AGENT."
+  },
+  "handoff": {
+    "fromAgentSlug": "PROJECT_MANAGER_AGENT",
+    "toAgentSlug": "QA_ENGINEER_AGENT",
+    "status": "COMPLETED",
+    "validationNeeded": "Downstream review by QA_ENGINEER_AGENT."
+  },
+  "runtime": {
+    "mission": {
+      "objective": "Create the company task board, complexity estimate, and handoff-safe execution order.",
+      "successDefinition": "Company task board",
+      "companyId": "WG-001",
+      "approvalClass": "A1"
+    },
+    "plan": {
+      "skillsLoaded": [
+        "OPERATIONS"
+      ],
+      "steps": [
+        "Read mission context and prior handoff",
+        "Validate required inputs",
+        "Execute specialist work",
+        "Validate output against expected result",
+        "Prepare report, memory, and handoff payloads"
+      ],
+      "dependencies": []
+    },
+    "execution": {
+      "summary": "Project Manager executed Create the company task board, complexity estimate, and handoff-safe execution order. for mission 20260710-DEMO-SYSTEM-VALIDATION-4C607S using workflows: WORKFLOW_ORCHESTRATION, DOCUMENTATION_UPDATE_WORKFLOW, QA_AND_RELEASE_WORKFLOW.",
+      "artifacts": [
+        "PROJECT_MANAGER_AGENT:objective",
+        "PROJECT_MANAGER_AGENT:validation",
+        "PROJECT_MANAGER_AGENT:handoff"
+      ],
+      "approvalGateReached": false
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "passed": true,
+      "notes": "Project Manager completed company task board."
+    },
+    "memory": {
+      "currentState": "20260710-DEMO-SYSTEM-VALIDATION-4C607S-T003: Project Manager completed Create the company task board, complexity estimate, and handoff-safe execution order..",
+      "nextAction": "QA_ENGINEER_AGENT should take over 20260710-DEMO-SYSTEM-VALIDATION-4C607S-T003.",
+      "codexMemory": "20260710-DEMO-SYSTEM-VALIDATION-4C607S used Project Manager for Company task board."
+    }
+  }
+}

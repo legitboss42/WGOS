@@ -1,0 +1,345 @@
+{
+  "id": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T006",
+  "missionId": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH",
+  "sequence": 6,
+  "agentSlug": "REVENUE_OPERATIONS_AGENT",
+  "agentTitle": "Revenue Operations",
+  "department": "revenue",
+  "objective": "Prioritize highest-fit revenue opportunities across services and recurring offers.",
+  "expectedOutput": "Revenue priority ladder",
+  "stage": "specialist_execution",
+  "status": "COMPLETED",
+  "dependencies": [],
+  "nextAgentSlug": "ADSENSE_AGENT",
+  "estimatedComplexity": "Medium",
+  "businessValue": "Medium",
+  "revenueImpact": "Medium",
+  "priority": "HIGH",
+  "documentationStatus": "UPDATED",
+  "qaStatus": "PENDING",
+  "approvalStatus": "NOT_REQUIRED",
+  "completionStatus": "COMPLETED",
+  "startedAt": "2026-07-10T12:05:18.748Z",
+  "updatedAt": "2026-07-10T12:05:18.773Z",
+  "report": {
+    "agent": "Revenue Operations",
+    "taskId": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T006",
+    "objective": "Prioritize highest-fit revenue opportunities across services and recurring offers.",
+    "actions": "Revenue Operations executed Prioritize highest-fit revenue opportunities across services and recurring offers. for mission 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH using workflows: ANALYTICS_REVIEW_WORKFLOW, WEEKLY_AGENCY_OPERATIONS_WORKFLOW, ADSENSE_READINESS_WORKFLOW; playbooks: GA4_REVIEW_PLAYBOOK, REVENUE_SIGNAL_PLAYBOOK; integrations: docs, csv, lighthouse, pagespeed, ga4, search-console, crm.",
+    "validation": "Revenue Operations completed revenue priority ladder with 7 tracked integrations.",
+    "nextStep": "Hand off to ADSENSE_AGENT.",
+    "integrations": [
+      "docs",
+      "csv",
+      "lighthouse",
+      "pagespeed",
+      "ga4",
+      "search-console",
+      "crm"
+    ],
+    "playbooks": [
+      "GA4_REVIEW_PLAYBOOK",
+      "REVENUE_SIGNAL_PLAYBOOK"
+    ],
+    "specialistOutputs": [
+      "revenue opportunity report",
+      "priority ladder",
+      "offer recommendation",
+      "specialist_execution output"
+    ]
+  },
+  "handoff": {
+    "fromAgentSlug": "REVENUE_OPERATIONS_AGENT",
+    "toAgentSlug": "ADSENSE_AGENT",
+    "status": "COMPLETED",
+    "validationNeeded": "Downstream review by ADSENSE_AGENT.",
+    "completedWork": [
+      "revenue opportunity report",
+      "priority ladder",
+      "offer recommendation",
+      "specialist_execution output"
+    ],
+    "collaborationTargets": [
+      "ADSENSE_AGENT",
+      "ANALYTICS_AGENT",
+      "SEO_AGENT",
+      "SEARCH_CONSOLE_AGENT",
+      "CRO_AGENT"
+    ]
+  },
+  "runtime": {
+    "mission": {
+      "objective": "Prioritize highest-fit revenue opportunities across services and recurring offers.",
+      "successDefinition": "Revenue priority ladder",
+      "companyId": "web-growth",
+      "approvalClass": "A1",
+      "missionType": "Internal operations",
+      "requiredDepartments": [
+        "executive",
+        "revenue",
+        "marketing",
+        "engineering"
+      ],
+      "requiredIntegrations": [
+        "docs",
+        "csv",
+        "lighthouse",
+        "pagespeed",
+        "ga4",
+        "search-console",
+        "crm"
+      ],
+      "playbooks": [
+        "GA4_REVIEW_PLAYBOOK",
+        "REVENUE_SIGNAL_PLAYBOOK"
+      ]
+    },
+    "plan": {
+      "skillsLoaded": [
+        "CRO",
+        "COPYWRITING",
+        "GA4",
+        "BUSINESS_MODEL"
+      ],
+      "workstreams": [
+        "surface monetization signals",
+        "connect analytics to action",
+        "prioritize revenue moves"
+      ],
+      "validationChecks": [
+        "opportunities are measurable",
+        "revenue assumptions are labeled",
+        "next action is economically sound"
+      ],
+      "dependencies": [],
+      "requiredEvidence": [
+        "revenue signal summary",
+        "KPI deltas",
+        "prioritized opportunities",
+        "Revenue priority ladder",
+        "revenue opportunity report",
+        "priority ladder",
+        "offer recommendation",
+        "specialist_execution output"
+      ],
+      "playbooks": [
+        "GA4_REVIEW_PLAYBOOK",
+        "REVENUE_SIGNAL_PLAYBOOK"
+      ],
+      "integrations": [
+        "Docs (NORMAL)",
+        "Csv (NORMAL)",
+        "Lighthouse (NORMAL)",
+        "Pagespeed (NORMAL)",
+        "GA4 (HIGH)",
+        "Search Console (HIGH)",
+        "Crm (NORMAL)"
+      ],
+      "collaborationTargets": [
+        "ADSENSE_AGENT",
+        "ANALYTICS_AGENT",
+        "SEO_AGENT",
+        "SEARCH_CONSOLE_AGENT",
+        "CRO_AGENT"
+      ]
+    },
+    "execution": {
+      "summary": "Revenue Operations executed Prioritize highest-fit revenue opportunities across services and recurring offers. for mission 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH using workflows: ANALYTICS_REVIEW_WORKFLOW, WEEKLY_AGENCY_OPERATIONS_WORKFLOW, ADSENSE_READINESS_WORKFLOW; playbooks: GA4_REVIEW_PLAYBOOK, REVENUE_SIGNAL_PLAYBOOK; integrations: docs, csv, lighthouse, pagespeed, ga4, search-console, crm.",
+      "artifacts": [
+        "REVENUE_OPERATIONS_AGENT:revenue opportunity report",
+        "REVENUE_OPERATIONS_AGENT:priority ladder",
+        "REVENUE_OPERATIONS_AGENT:offer recommendation",
+        "REVENUE_OPERATIONS_AGENT:specialist_execution output"
+      ],
+      "evidence": [
+        "revenue signal summary",
+        "KPI deltas",
+        "prioritized opportunities",
+        "Revenue priority ladder",
+        "revenue opportunity report",
+        "priority ladder",
+        "offer recommendation",
+        "specialist_execution output"
+      ],
+      "integrationsUsed": [
+        {
+          "id": "docs",
+          "title": "Docs",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "csv",
+          "title": "Csv",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "lighthouse",
+          "title": "Lighthouse",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "pagespeed",
+          "title": "Pagespeed",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "ga4",
+          "title": "GA4",
+          "approvalLevel": "HIGH",
+          "runtimeDocs": [
+            "integrations/core/AUTHENTICATION_MODEL.md",
+            "integrations/logging/LOG_SCHEMA.md"
+          ]
+        },
+        {
+          "id": "search-console",
+          "title": "Search Console",
+          "approvalLevel": "HIGH",
+          "runtimeDocs": [
+            "integrations/core/AUTHENTICATION_MODEL.md",
+            "integrations/approval/INTEGRATION_APPROVAL_MODEL.md"
+          ]
+        },
+        {
+          "id": "crm",
+          "title": "Crm",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        }
+      ],
+      "playbooksUsed": [
+        "GA4_REVIEW_PLAYBOOK",
+        "REVENUE_SIGNAL_PLAYBOOK"
+      ],
+      "collaborationRequests": [
+        {
+          "target": "ADSENSE_AGENT",
+          "reason": "Coordinate revenue priority ladder with ADSENSE_AGENT."
+        },
+        {
+          "target": "ANALYTICS_AGENT",
+          "reason": "Coordinate revenue priority ladder with ANALYTICS_AGENT."
+        },
+        {
+          "target": "SEO_AGENT",
+          "reason": "Coordinate revenue priority ladder with SEO_AGENT."
+        },
+        {
+          "target": "SEARCH_CONSOLE_AGENT",
+          "reason": "Coordinate revenue priority ladder with SEARCH_CONSOLE_AGENT."
+        },
+        {
+          "target": "CRO_AGENT",
+          "reason": "Coordinate revenue priority ladder with CRO_AGENT."
+        }
+      ],
+      "specialistOutputs": [
+        "revenue opportunity report",
+        "priority ladder",
+        "offer recommendation",
+        "specialist_execution output"
+      ],
+      "kpiFocus": [
+        "revenue impact",
+        "conversion lift",
+        "Medium"
+      ],
+      "approvalGateReached": false
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "passed": true,
+      "notes": "Revenue Operations completed revenue priority ladder with 7 tracked integrations."
+    },
+    "memory": {
+      "currentState": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T006: Revenue Operations completed Prioritize highest-fit revenue opportunities across services and recurring offers..",
+      "nextAction": "ADSENSE_AGENT should take over 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T006.",
+      "codexMemory": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH used Revenue Operations for Revenue priority ladder."
+    }
+  },
+  "integrationsUsed": [
+    {
+      "id": "docs",
+      "title": "Docs",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "csv",
+      "title": "Csv",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "lighthouse",
+      "title": "Lighthouse",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "pagespeed",
+      "title": "Pagespeed",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "ga4",
+      "title": "GA4",
+      "approvalLevel": "HIGH",
+      "runtimeDocs": [
+        "integrations/core/AUTHENTICATION_MODEL.md",
+        "integrations/logging/LOG_SCHEMA.md"
+      ]
+    },
+    {
+      "id": "search-console",
+      "title": "Search Console",
+      "approvalLevel": "HIGH",
+      "runtimeDocs": [
+        "integrations/core/AUTHENTICATION_MODEL.md",
+        "integrations/approval/INTEGRATION_APPROVAL_MODEL.md"
+      ]
+    },
+    {
+      "id": "crm",
+      "title": "Crm",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    }
+  ],
+  "playbooksUsed": [
+    "GA4_REVIEW_PLAYBOOK",
+    "REVENUE_SIGNAL_PLAYBOOK"
+  ],
+  "collaborationRequests": [
+    {
+      "target": "ADSENSE_AGENT",
+      "reason": "Coordinate revenue priority ladder with ADSENSE_AGENT."
+    },
+    {
+      "target": "ANALYTICS_AGENT",
+      "reason": "Coordinate revenue priority ladder with ANALYTICS_AGENT."
+    },
+    {
+      "target": "SEO_AGENT",
+      "reason": "Coordinate revenue priority ladder with SEO_AGENT."
+    },
+    {
+      "target": "SEARCH_CONSOLE_AGENT",
+      "reason": "Coordinate revenue priority ladder with SEARCH_CONSOLE_AGENT."
+    },
+    {
+      "target": "CRO_AGENT",
+      "reason": "Coordinate revenue priority ladder with CRO_AGENT."
+    }
+  ],
+  "kpiFocus": [
+    "revenue impact",
+    "conversion lift",
+    "Medium"
+  ]
+}

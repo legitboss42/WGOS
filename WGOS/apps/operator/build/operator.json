@@ -1,0 +1,2172 @@
+{
+  "generatedAt": "2026-07-10T18:22:48.767Z",
+  "openTasks": [],
+  "recentTasks": [
+    {
+      "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T010",
+      "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+      "agentSlug": "DOCUMENTATION_AGENT",
+      "status": "COMPLETED",
+      "sequence": 10,
+      "updatedAt": "2026-07-10T18:22:48.550Z",
+      "department": "executive",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T009",
+      "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+      "agentSlug": "KNOWLEDGE_MANAGER_AGENT",
+      "status": "COMPLETED",
+      "sequence": 9,
+      "updatedAt": "2026-07-10T18:22:48.411Z",
+      "department": "executive",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T008",
+      "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+      "agentSlug": "QA_ENGINEER_AGENT",
+      "status": "COMPLETED",
+      "sequence": 8,
+      "updatedAt": "2026-07-10T18:22:48.238Z",
+      "department": "engineering",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T007",
+      "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+      "agentSlug": "SEO_AGENT",
+      "status": "COMPLETED",
+      "sequence": 7,
+      "updatedAt": "2026-07-10T18:22:47.553Z",
+      "department": "search",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T006",
+      "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+      "agentSlug": "FRONTEND_ENGINEER_AGENT",
+      "status": "COMPLETED",
+      "sequence": 6,
+      "updatedAt": "2026-07-10T18:22:47.083Z",
+      "department": "engineering",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T005",
+      "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+      "agentSlug": "UI_UX_DESIGN_AGENT",
+      "status": "COMPLETED",
+      "sequence": 5,
+      "updatedAt": "2026-07-10T18:22:46.967Z",
+      "department": "design",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T004",
+      "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+      "agentSlug": "PRODUCT_STRATEGIST_AGENT",
+      "status": "COMPLETED",
+      "sequence": 4,
+      "updatedAt": "2026-07-10T18:22:46.828Z",
+      "department": "design",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T003",
+      "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+      "agentSlug": "PROJECT_MANAGER_AGENT",
+      "status": "COMPLETED",
+      "sequence": 3,
+      "updatedAt": "2026-07-10T18:22:46.040Z",
+      "department": "executive",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T002",
+      "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+      "agentSlug": "WORKFLOW_ORCHESTRATOR_AGENT",
+      "status": "COMPLETED",
+      "sequence": 2,
+      "updatedAt": "2026-07-10T18:22:45.911Z",
+      "department": "executive",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T001",
+      "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+      "agentSlug": "CEO_OPERATOR_AGENT",
+      "status": "COMPLETED",
+      "sequence": 1,
+      "updatedAt": "2026-07-10T18:22:45.219Z",
+      "department": "executive",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-YLDQKY-T012",
+      "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+      "agentSlug": "DOCUMENTATION_AGENT",
+      "status": "COMPLETED",
+      "sequence": 12,
+      "updatedAt": "2026-07-10T16:54:32.152Z",
+      "department": "executive",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-YLDQKY-T011",
+      "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+      "agentSlug": "KNOWLEDGE_MANAGER_AGENT",
+      "status": "COMPLETED",
+      "sequence": 11,
+      "updatedAt": "2026-07-10T16:54:30.745Z",
+      "department": "executive",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-YLDQKY-T010",
+      "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+      "agentSlug": "QA_ENGINEER_AGENT",
+      "status": "COMPLETED",
+      "sequence": 10,
+      "updatedAt": "2026-07-10T16:54:30.344Z",
+      "department": "engineering",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-YLDQKY-T009",
+      "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+      "agentSlug": "OUTREACH_DRAFTING_AGENT",
+      "status": "COMPLETED",
+      "sequence": 9,
+      "updatedAt": "2026-07-10T16:54:29.760Z",
+      "department": "marketing",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-YLDQKY-T008",
+      "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+      "agentSlug": "CRM_AGENT",
+      "status": "COMPLETED",
+      "sequence": 8,
+      "updatedAt": "2026-07-10T16:54:28.851Z",
+      "department": "marketing",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-YLDQKY-T007",
+      "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+      "agentSlug": "BUSINESS_INTELLIGENCE_AGENT",
+      "status": "COMPLETED",
+      "sequence": 7,
+      "updatedAt": "2026-07-10T16:54:27.813Z",
+      "department": "marketing",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-YLDQKY-T006",
+      "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+      "agentSlug": "WEBSITE_AUDIT_AGENT",
+      "status": "COMPLETED",
+      "sequence": 6,
+      "updatedAt": "2026-07-10T16:54:26.217Z",
+      "department": "marketing",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-YLDQKY-T005",
+      "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+      "agentSlug": "LEAD_RESEARCH_AGENT",
+      "status": "COMPLETED",
+      "sequence": 5,
+      "updatedAt": "2026-07-10T16:54:24.245Z",
+      "department": "marketing",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-YLDQKY-T004",
+      "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+      "agentSlug": "MARKETING_STRATEGIST_AGENT",
+      "status": "COMPLETED",
+      "sequence": 4,
+      "updatedAt": "2026-07-10T16:54:23.202Z",
+      "department": "marketing",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-YLDQKY-T003",
+      "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+      "agentSlug": "PROJECT_MANAGER_AGENT",
+      "status": "COMPLETED",
+      "sequence": 3,
+      "updatedAt": "2026-07-10T16:54:21.885Z",
+      "department": "executive",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-YLDQKY-T002",
+      "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+      "agentSlug": "WORKFLOW_ORCHESTRATOR_AGENT",
+      "status": "COMPLETED",
+      "sequence": 2,
+      "updatedAt": "2026-07-10T16:54:20.664Z",
+      "department": "executive",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-YLDQKY-T001",
+      "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+      "agentSlug": "CEO_OPERATOR_AGENT",
+      "status": "COMPLETED",
+      "sequence": 1,
+      "updatedAt": "2026-07-10T16:54:19.632Z",
+      "department": "executive",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-A66YYU-T012",
+      "missionId": "20260710-LEAD-RESEARCH-A66YYU",
+      "agentSlug": "DOCUMENTATION_AGENT",
+      "status": "COMPLETED",
+      "sequence": 12,
+      "updatedAt": "2026-07-10T16:34:00.912Z",
+      "department": "executive",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-A66YYU-T011",
+      "missionId": "20260710-LEAD-RESEARCH-A66YYU",
+      "agentSlug": "KNOWLEDGE_MANAGER_AGENT",
+      "status": "COMPLETED",
+      "sequence": 11,
+      "updatedAt": "2026-07-10T16:34:00.634Z",
+      "department": "executive",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-A66YYU-T010",
+      "missionId": "20260710-LEAD-RESEARCH-A66YYU",
+      "agentSlug": "QA_ENGINEER_AGENT",
+      "status": "COMPLETED",
+      "sequence": 10,
+      "updatedAt": "2026-07-10T16:33:59.930Z",
+      "department": "engineering",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-A66YYU-T009",
+      "missionId": "20260710-LEAD-RESEARCH-A66YYU",
+      "agentSlug": "OUTREACH_DRAFTING_AGENT",
+      "status": "COMPLETED",
+      "sequence": 9,
+      "updatedAt": "2026-07-10T16:33:58.866Z",
+      "department": "marketing",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-A66YYU-T008",
+      "missionId": "20260710-LEAD-RESEARCH-A66YYU",
+      "agentSlug": "CRM_AGENT",
+      "status": "COMPLETED",
+      "sequence": 8,
+      "updatedAt": "2026-07-10T16:33:57.999Z",
+      "department": "marketing",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-A66YYU-T007",
+      "missionId": "20260710-LEAD-RESEARCH-A66YYU",
+      "agentSlug": "BUSINESS_INTELLIGENCE_AGENT",
+      "status": "COMPLETED",
+      "sequence": 7,
+      "updatedAt": "2026-07-10T16:33:56.168Z",
+      "department": "marketing",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-A66YYU-T006",
+      "missionId": "20260710-LEAD-RESEARCH-A66YYU",
+      "agentSlug": "WEBSITE_AUDIT_AGENT",
+      "status": "COMPLETED",
+      "sequence": 6,
+      "updatedAt": "2026-07-10T16:33:55.293Z",
+      "department": "marketing",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-A66YYU-T005",
+      "missionId": "20260710-LEAD-RESEARCH-A66YYU",
+      "agentSlug": "LEAD_RESEARCH_AGENT",
+      "status": "COMPLETED",
+      "sequence": 5,
+      "updatedAt": "2026-07-10T16:33:54.915Z",
+      "department": "marketing",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-A66YYU-T004",
+      "missionId": "20260710-LEAD-RESEARCH-A66YYU",
+      "agentSlug": "MARKETING_STRATEGIST_AGENT",
+      "status": "COMPLETED",
+      "sequence": 4,
+      "updatedAt": "2026-07-10T16:33:54.499Z",
+      "department": "marketing",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-A66YYU-T003",
+      "missionId": "20260710-LEAD-RESEARCH-A66YYU",
+      "agentSlug": "PROJECT_MANAGER_AGENT",
+      "status": "COMPLETED",
+      "sequence": 3,
+      "updatedAt": "2026-07-10T16:33:53.570Z",
+      "department": "executive",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-A66YYU-T002",
+      "missionId": "20260710-LEAD-RESEARCH-A66YYU",
+      "agentSlug": "WORKFLOW_ORCHESTRATOR_AGENT",
+      "status": "COMPLETED",
+      "sequence": 2,
+      "updatedAt": "2026-07-10T16:33:52.800Z",
+      "department": "executive",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-A66YYU-T001",
+      "missionId": "20260710-LEAD-RESEARCH-A66YYU",
+      "agentSlug": "CEO_OPERATOR_AGENT",
+      "status": "COMPLETED",
+      "sequence": 1,
+      "updatedAt": "2026-07-10T16:33:52.270Z",
+      "department": "executive",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-BH5R7L-T012",
+      "missionId": "20260710-LEAD-RESEARCH-BH5R7L",
+      "agentSlug": "DOCUMENTATION_AGENT",
+      "status": "COMPLETED",
+      "sequence": 12,
+      "updatedAt": "2026-07-10T16:14:59.578Z",
+      "department": "executive",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-BH5R7L-T011",
+      "missionId": "20260710-LEAD-RESEARCH-BH5R7L",
+      "agentSlug": "KNOWLEDGE_MANAGER_AGENT",
+      "status": "COMPLETED",
+      "sequence": 11,
+      "updatedAt": "2026-07-10T16:14:59.160Z",
+      "department": "executive",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-BH5R7L-T010",
+      "missionId": "20260710-LEAD-RESEARCH-BH5R7L",
+      "agentSlug": "QA_ENGINEER_AGENT",
+      "status": "COMPLETED",
+      "sequence": 10,
+      "updatedAt": "2026-07-10T16:14:58.580Z",
+      "department": "engineering",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-BH5R7L-T009",
+      "missionId": "20260710-LEAD-RESEARCH-BH5R7L",
+      "agentSlug": "OUTREACH_DRAFTING_AGENT",
+      "status": "COMPLETED",
+      "sequence": 9,
+      "updatedAt": "2026-07-10T16:14:58.236Z",
+      "department": "marketing",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-BH5R7L-T008",
+      "missionId": "20260710-LEAD-RESEARCH-BH5R7L",
+      "agentSlug": "CRM_AGENT",
+      "status": "COMPLETED",
+      "sequence": 8,
+      "updatedAt": "2026-07-10T16:14:57.036Z",
+      "department": "marketing",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-BH5R7L-T007",
+      "missionId": "20260710-LEAD-RESEARCH-BH5R7L",
+      "agentSlug": "BUSINESS_INTELLIGENCE_AGENT",
+      "status": "COMPLETED",
+      "sequence": 7,
+      "updatedAt": "2026-07-10T16:14:56.933Z",
+      "department": "marketing",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    }
+  ],
+  "latestMissions": [
+    {
+      "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+      "templateId": "BUILD_PREMIUM_WEBSITE",
+      "companyId": "web-growth",
+      "objective": "Plan and coordinate a premium website build with strategy, design, engineering, search, QA, memory, and documentation.",
+      "status": "COMPLETED",
+      "approvalClass": "A1",
+      "startedAt": "2026-07-10T18:22:44.643Z",
+      "updatedAt": "2026-07-10T18:22:48.652Z",
+      "taskCount": 10,
+      "requiredDepartments": [
+        "executive",
+        "design",
+        "engineering",
+        "search"
+      ],
+      "requiredAgents": [
+        "CEO_OPERATOR_AGENT",
+        "WORKFLOW_ORCHESTRATOR_AGENT",
+        "PROJECT_MANAGER_AGENT",
+        "PRODUCT_STRATEGIST_AGENT",
+        "UI_UX_DESIGN_AGENT",
+        "FRONTEND_ENGINEER_AGENT",
+        "SEO_AGENT",
+        "QA_ENGINEER_AGENT",
+        "KNOWLEDGE_MANAGER_AGENT",
+        "DOCUMENTATION_AGENT"
+      ],
+      "businessValue": "High",
+      "revenueImpact": "High",
+      "estimatedComplexity": "High"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-YLDQKY",
+      "templateId": "LEAD_RESEARCH",
+      "companyId": "web-growth",
+      "objective": "Create a compliant lead-research mission with research, audits, intelligence, CRM, drafts, QA, documentation, and memory capture.",
+      "status": "COMPLETED",
+      "approvalClass": "A1",
+      "startedAt": "2026-07-10T16:54:18.829Z",
+      "updatedAt": "2026-07-10T16:54:33.113Z",
+      "taskCount": 12,
+      "requiredDepartments": [
+        "executive",
+        "marketing",
+        "engineering"
+      ],
+      "requiredAgents": [
+        "CEO_OPERATOR_AGENT",
+        "WORKFLOW_ORCHESTRATOR_AGENT",
+        "PROJECT_MANAGER_AGENT",
+        "MARKETING_STRATEGIST_AGENT",
+        "LEAD_RESEARCH_AGENT",
+        "WEBSITE_AUDIT_AGENT",
+        "BUSINESS_INTELLIGENCE_AGENT",
+        "CRM_AGENT",
+        "OUTREACH_DRAFTING_AGENT",
+        "QA_ENGINEER_AGENT",
+        "KNOWLEDGE_MANAGER_AGENT",
+        "DOCUMENTATION_AGENT"
+      ],
+      "businessValue": "High",
+      "revenueImpact": "High",
+      "estimatedComplexity": "Medium"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-A66YYU",
+      "templateId": "LEAD_RESEARCH",
+      "companyId": "web-growth",
+      "objective": "Create a compliant lead-research mission with research, audits, intelligence, CRM, drafts, QA, documentation, and memory capture.",
+      "status": "COMPLETED",
+      "approvalClass": "A1",
+      "startedAt": "2026-07-10T16:33:51.894Z",
+      "updatedAt": "2026-07-10T16:34:00.936Z",
+      "taskCount": 12,
+      "requiredDepartments": [
+        "executive",
+        "marketing",
+        "engineering"
+      ],
+      "requiredAgents": [
+        "CEO_OPERATOR_AGENT",
+        "WORKFLOW_ORCHESTRATOR_AGENT",
+        "PROJECT_MANAGER_AGENT",
+        "MARKETING_STRATEGIST_AGENT",
+        "LEAD_RESEARCH_AGENT",
+        "WEBSITE_AUDIT_AGENT",
+        "BUSINESS_INTELLIGENCE_AGENT",
+        "CRM_AGENT",
+        "OUTREACH_DRAFTING_AGENT",
+        "QA_ENGINEER_AGENT",
+        "KNOWLEDGE_MANAGER_AGENT",
+        "DOCUMENTATION_AGENT"
+      ],
+      "businessValue": "High",
+      "revenueImpact": "High",
+      "estimatedComplexity": "Medium"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-BH5R7L",
+      "templateId": "LEAD_RESEARCH",
+      "companyId": "web-growth",
+      "objective": "Create a compliant lead-research mission with research, audits, intelligence, CRM, drafts, QA, documentation, and memory capture.",
+      "status": "COMPLETED",
+      "approvalClass": "A1",
+      "startedAt": "2026-07-10T16:14:51.431Z",
+      "updatedAt": "2026-07-10T16:14:59.847Z",
+      "taskCount": 12,
+      "requiredDepartments": [
+        "executive",
+        "marketing",
+        "engineering"
+      ],
+      "requiredAgents": [
+        "CEO_OPERATOR_AGENT",
+        "WORKFLOW_ORCHESTRATOR_AGENT",
+        "PROJECT_MANAGER_AGENT",
+        "MARKETING_STRATEGIST_AGENT",
+        "LEAD_RESEARCH_AGENT",
+        "WEBSITE_AUDIT_AGENT",
+        "BUSINESS_INTELLIGENCE_AGENT",
+        "CRM_AGENT",
+        "OUTREACH_DRAFTING_AGENT",
+        "QA_ENGINEER_AGENT",
+        "KNOWLEDGE_MANAGER_AGENT",
+        "DOCUMENTATION_AGENT"
+      ],
+      "businessValue": "High",
+      "revenueImpact": "High",
+      "estimatedComplexity": "Medium"
+    },
+    {
+      "id": "20260710-DEMO-SYSTEM-VALIDATION-BCPTMK",
+      "templateId": "DEMO_SYSTEM_VALIDATION",
+      "companyId": "WG-001",
+      "objective": "Prove WGOS can orchestrate a multi-department internal mission from intake through reporting, learning, and platform updates.",
+      "status": "COMPLETED",
+      "approvalClass": "A1",
+      "startedAt": "2026-07-10T12:29:18.493Z",
+      "updatedAt": "2026-07-10T12:29:23.011Z",
+      "taskCount": 6,
+      "requiredDepartments": [
+        "executive",
+        "engineering"
+      ],
+      "requiredAgents": [
+        "CEO_OPERATOR_AGENT",
+        "WORKFLOW_ORCHESTRATOR_AGENT",
+        "PROJECT_MANAGER_AGENT",
+        "QA_ENGINEER_AGENT",
+        "KNOWLEDGE_MANAGER_AGENT",
+        "DOCUMENTATION_AGENT"
+      ],
+      "businessValue": "Low",
+      "revenueImpact": "Indirect",
+      "estimatedComplexity": "Medium"
+    },
+    {
+      "id": "20260710-DEMO-SYSTEM-VALIDATION-G0OKUB",
+      "templateId": "DEMO_SYSTEM_VALIDATION",
+      "companyId": "WG-001",
+      "objective": "Prove WGOS can orchestrate a multi-department internal mission from intake through reporting, learning, and platform updates.",
+      "status": "COMPLETED",
+      "approvalClass": "A1",
+      "startedAt": "2026-07-10T12:27:38.146Z",
+      "updatedAt": "2026-07-10T12:27:42.683Z",
+      "taskCount": 6,
+      "requiredDepartments": [
+        "executive",
+        "engineering"
+      ],
+      "requiredAgents": [
+        "CEO_OPERATOR_AGENT",
+        "WORKFLOW_ORCHESTRATOR_AGENT",
+        "PROJECT_MANAGER_AGENT",
+        "QA_ENGINEER_AGENT",
+        "KNOWLEDGE_MANAGER_AGENT",
+        "DOCUMENTATION_AGENT"
+      ],
+      "businessValue": "Low",
+      "revenueImpact": "Indirect",
+      "estimatedComplexity": "Medium"
+    },
+    {
+      "id": "20260710-DEMO-SYSTEM-VALIDATION-SCKB1S",
+      "templateId": "DEMO_SYSTEM_VALIDATION",
+      "companyId": "WG-001",
+      "objective": "Prove WGOS can orchestrate a multi-department internal mission from intake through reporting, learning, and platform updates.",
+      "status": "COMPLETED",
+      "approvalClass": "A1",
+      "startedAt": "2026-07-10T12:19:55.008Z",
+      "updatedAt": "2026-07-10T12:19:55.960Z",
+      "taskCount": 6,
+      "requiredDepartments": [
+        "executive",
+        "engineering"
+      ],
+      "requiredAgents": [
+        "CEO_OPERATOR_AGENT",
+        "WORKFLOW_ORCHESTRATOR_AGENT",
+        "PROJECT_MANAGER_AGENT",
+        "QA_ENGINEER_AGENT",
+        "KNOWLEDGE_MANAGER_AGENT",
+        "DOCUMENTATION_AGENT"
+      ],
+      "businessValue": "Low",
+      "revenueImpact": "Indirect",
+      "estimatedComplexity": "Medium"
+    },
+    {
+      "id": "20260710-DEMO-SYSTEM-VALIDATION-SECDRG",
+      "templateId": "DEMO_SYSTEM_VALIDATION",
+      "companyId": "WG-001",
+      "objective": "Prove WGOS can orchestrate a multi-department internal mission from intake through reporting, learning, and platform updates.",
+      "status": "COMPLETED",
+      "approvalClass": "A1",
+      "startedAt": "2026-07-10T12:11:58.556Z",
+      "updatedAt": "2026-07-10T12:12:01.664Z",
+      "taskCount": 6,
+      "requiredDepartments": [
+        "executive",
+        "engineering"
+      ],
+      "requiredAgents": [
+        "CEO_OPERATOR_AGENT",
+        "WORKFLOW_ORCHESTRATOR_AGENT",
+        "PROJECT_MANAGER_AGENT",
+        "QA_ENGINEER_AGENT",
+        "KNOWLEDGE_MANAGER_AGENT",
+        "DOCUMENTATION_AGENT"
+      ],
+      "businessValue": "Low",
+      "revenueImpact": "Indirect",
+      "estimatedComplexity": "Medium"
+    },
+    {
+      "id": "20260710-DEMO-SYSTEM-VALIDATION-PNQX3I",
+      "templateId": "DEMO_SYSTEM_VALIDATION",
+      "companyId": "WG-001",
+      "objective": "Prove WGOS can orchestrate a multi-department internal mission from intake through reporting, learning, and platform updates.",
+      "status": "COMPLETED",
+      "approvalClass": "A1",
+      "startedAt": "2026-07-10T12:11:10.913Z",
+      "updatedAt": "2026-07-10T12:11:13.019Z",
+      "taskCount": 6,
+      "requiredDepartments": [
+        "executive",
+        "engineering"
+      ],
+      "requiredAgents": [
+        "CEO_OPERATOR_AGENT",
+        "WORKFLOW_ORCHESTRATOR_AGENT",
+        "PROJECT_MANAGER_AGENT",
+        "QA_ENGINEER_AGENT",
+        "KNOWLEDGE_MANAGER_AGENT",
+        "DOCUMENTATION_AGENT"
+      ],
+      "businessValue": "Low",
+      "revenueImpact": "Indirect",
+      "estimatedComplexity": "Medium"
+    },
+    {
+      "id": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH",
+      "templateId": "REVENUE_OPPORTUNITY_REVIEW",
+      "companyId": "web-growth",
+      "objective": "Coordinate analytics, CRO, revenue operations, affiliate, digital product, newsletter, and AdSense opportunities into a revenue-growth operating plan.",
+      "status": "COMPLETED",
+      "approvalClass": "A1",
+      "startedAt": "2026-07-10T12:05:17.950Z",
+      "updatedAt": "2026-07-10T12:05:20.672Z",
+      "taskCount": 14,
+      "requiredDepartments": [
+        "executive",
+        "revenue",
+        "marketing",
+        "engineering"
+      ],
+      "requiredAgents": [
+        "CEO_OPERATOR_AGENT",
+        "WORKFLOW_ORCHESTRATOR_AGENT",
+        "PROJECT_MANAGER_AGENT",
+        "ANALYTICS_AGENT",
+        "CRO_AGENT",
+        "REVENUE_OPERATIONS_AGENT",
+        "ADSENSE_AGENT",
+        "AFFILIATE_MANAGER_AGENT",
+        "DIGITAL_PRODUCT_AGENT",
+        "NEWSLETTER_AGENT",
+        "MARKETING_STRATEGIST_AGENT",
+        "QA_ENGINEER_AGENT",
+        "KNOWLEDGE_MANAGER_AGENT",
+        "DOCUMENTATION_AGENT"
+      ],
+      "businessValue": "Medium",
+      "revenueImpact": "Medium",
+      "estimatedComplexity": "Medium"
+    },
+    {
+      "id": "20260710-DEMO-SYSTEM-VALIDATION-SILNSQ",
+      "templateId": "DEMO_SYSTEM_VALIDATION",
+      "companyId": "WG-001",
+      "objective": "Prove WGOS can orchestrate a multi-department internal mission from intake through reporting, learning, and platform updates.",
+      "status": "COMPLETED",
+      "approvalClass": "A1",
+      "startedAt": "2026-07-10T12:04:35.188Z",
+      "updatedAt": "2026-07-10T12:04:37.341Z",
+      "taskCount": 6,
+      "requiredDepartments": [
+        "executive",
+        "engineering"
+      ],
+      "requiredAgents": [
+        "CEO_OPERATOR_AGENT",
+        "WORKFLOW_ORCHESTRATOR_AGENT",
+        "PROJECT_MANAGER_AGENT",
+        "QA_ENGINEER_AGENT",
+        "KNOWLEDGE_MANAGER_AGENT",
+        "DOCUMENTATION_AGENT"
+      ],
+      "businessValue": "Low",
+      "revenueImpact": "Indirect",
+      "estimatedComplexity": "Medium"
+    },
+    {
+      "id": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ",
+      "templateId": "CLIENT_WEBSITE_DELIVERY",
+      "companyId": "client-template",
+      "objective": "Route a complete premium client website lifecycle from discovery through strategy, design, engineering, search, QA, client review, launch preparation, and documentation.",
+      "status": "COMPLETED",
+      "approvalClass": "A1",
+      "startedAt": "2026-07-10T11:42:22.683Z",
+      "updatedAt": "2026-07-10T11:42:38.600Z",
+      "taskCount": 21,
+      "requiredDepartments": [
+        "executive",
+        "client",
+        "design",
+        "engineering",
+        "search",
+        "publishing"
+      ],
+      "requiredAgents": [
+        "CEO_OPERATOR_AGENT",
+        "WORKFLOW_ORCHESTRATOR_AGENT",
+        "PROJECT_MANAGER_AGENT",
+        "SALES_CONSULTANT_AGENT",
+        "PRODUCT_STRATEGIST_AGENT",
+        "UI_UX_DESIGN_AGENT",
+        "BRAND_DESIGN_AGENT",
+        "MOTION_GRAPHICS_AGENT",
+        "FRONTEND_ENGINEER_AGENT",
+        "BACKEND_ENGINEER_AGENT",
+        "SEO_AGENT",
+        "AEO_AGENT",
+        "GEO_AGENT",
+        "CONTENT_STRATEGIST_AGENT",
+        "PERFORMANCE_ENGINEER_AGENT",
+        "ACCESSIBILITY_ENGINEER_AGENT",
+        "CLIENT_SUCCESS_AGENT",
+        "DEPLOYMENT_ENGINEER_AGENT",
+        "QA_ENGINEER_AGENT",
+        "KNOWLEDGE_MANAGER_AGENT",
+        "DOCUMENTATION_AGENT"
+      ],
+      "businessValue": "Medium",
+      "revenueImpact": "Medium",
+      "estimatedComplexity": "Medium"
+    },
+    {
+      "id": "20260710-DEMO-SYSTEM-VALIDATION-NUSUI9",
+      "templateId": "DEMO_SYSTEM_VALIDATION",
+      "companyId": "WG-001",
+      "objective": "Prove WGOS can orchestrate a multi-department internal mission from intake through reporting, learning, and platform updates.",
+      "status": "COMPLETED",
+      "approvalClass": "A1",
+      "startedAt": "2026-07-10T11:41:35.412Z",
+      "updatedAt": "2026-07-10T11:41:38.424Z",
+      "taskCount": 6,
+      "requiredDepartments": [
+        "executive",
+        "engineering"
+      ],
+      "requiredAgents": [
+        "CEO_OPERATOR_AGENT",
+        "WORKFLOW_ORCHESTRATOR_AGENT",
+        "PROJECT_MANAGER_AGENT",
+        "QA_ENGINEER_AGENT",
+        "KNOWLEDGE_MANAGER_AGENT",
+        "DOCUMENTATION_AGENT"
+      ],
+      "businessValue": "Low",
+      "revenueImpact": "Indirect",
+      "estimatedComplexity": "Medium"
+    },
+    {
+      "id": "20260710-DEMO-SYSTEM-VALIDATION-MZ64AO",
+      "templateId": "DEMO_SYSTEM_VALIDATION",
+      "companyId": "WG-001",
+      "objective": "Prove WGOS can orchestrate a multi-department internal mission from intake through reporting, learning, and platform updates.",
+      "status": "COMPLETED",
+      "approvalClass": "A1",
+      "startedAt": "2026-07-10T11:27:47.376Z",
+      "updatedAt": "2026-07-10T11:27:48.913Z",
+      "taskCount": 6,
+      "requiredDepartments": [
+        "executive",
+        "engineering"
+      ],
+      "requiredAgents": [
+        "CEO_OPERATOR_AGENT",
+        "WORKFLOW_ORCHESTRATOR_AGENT",
+        "PROJECT_MANAGER_AGENT",
+        "QA_ENGINEER_AGENT",
+        "KNOWLEDGE_MANAGER_AGENT",
+        "DOCUMENTATION_AGENT"
+      ],
+      "businessValue": "Low",
+      "revenueImpact": "Indirect",
+      "estimatedComplexity": "Medium"
+    },
+    {
+      "id": "20260710-DEMO-SYSTEM-VALIDATION-LUM8N4",
+      "templateId": "DEMO_SYSTEM_VALIDATION",
+      "companyId": "WG-001",
+      "objective": "Prove WGOS can orchestrate a multi-department internal mission from intake through reporting, learning, and platform updates.",
+      "status": "COMPLETED",
+      "approvalClass": "A1",
+      "startedAt": "2026-07-10T11:15:58.602Z",
+      "updatedAt": "2026-07-10T11:15:59.506Z",
+      "taskCount": 6,
+      "requiredDepartments": [
+        "executive",
+        "engineering"
+      ],
+      "requiredAgents": [
+        "CEO_OPERATOR_AGENT",
+        "WORKFLOW_ORCHESTRATOR_AGENT",
+        "PROJECT_MANAGER_AGENT",
+        "QA_ENGINEER_AGENT",
+        "KNOWLEDGE_MANAGER_AGENT",
+        "DOCUMENTATION_AGENT"
+      ],
+      "businessValue": "Low",
+      "revenueImpact": "Indirect",
+      "estimatedComplexity": "Medium"
+    },
+    {
+      "id": "20260710-DEMO-SYSTEM-VALIDATION-YP9PWS",
+      "templateId": "DEMO_SYSTEM_VALIDATION",
+      "companyId": "WG-001",
+      "objective": "Prove WGOS can orchestrate a multi-department internal mission from intake through reporting, learning, and platform updates.",
+      "status": "COMPLETED",
+      "approvalClass": "A1",
+      "startedAt": "2026-07-10T11:15:09.683Z",
+      "updatedAt": "2026-07-10T11:15:12.114Z",
+      "taskCount": 6,
+      "requiredDepartments": [
+        "executive",
+        "engineering"
+      ],
+      "requiredAgents": [
+        "CEO_OPERATOR_AGENT",
+        "WORKFLOW_ORCHESTRATOR_AGENT",
+        "PROJECT_MANAGER_AGENT",
+        "QA_ENGINEER_AGENT",
+        "KNOWLEDGE_MANAGER_AGENT",
+        "DOCUMENTATION_AGENT"
+      ],
+      "businessValue": "Low",
+      "revenueImpact": "Indirect",
+      "estimatedComplexity": "Medium"
+    },
+    {
+      "id": "20260710-DEMO-SYSTEM-VALIDATION-4C607S",
+      "templateId": "DEMO_SYSTEM_VALIDATION",
+      "companyId": "WG-001",
+      "objective": "Prove WGOS can orchestrate a multi-department internal mission from intake through reporting, learning, and platform updates.",
+      "status": "COMPLETED",
+      "approvalClass": "A1",
+      "startedAt": "2026-07-10T07:24:43.130Z",
+      "updatedAt": "2026-07-10T07:24:48.079Z",
+      "taskCount": 6,
+      "requiredDepartments": [
+        "executive",
+        "engineering"
+      ],
+      "requiredAgents": [
+        "CEO_OPERATOR_AGENT",
+        "WORKFLOW_ORCHESTRATOR_AGENT",
+        "PROJECT_MANAGER_AGENT",
+        "QA_ENGINEER_AGENT",
+        "KNOWLEDGE_MANAGER_AGENT",
+        "DOCUMENTATION_AGENT"
+      ],
+      "businessValue": "Low",
+      "revenueImpact": "Indirect",
+      "estimatedComplexity": "Medium"
+    },
+    {
+      "id": "20260710-DEMO-SYSTEM-VALIDATION-Y82Z3J",
+      "templateId": "DEMO_SYSTEM_VALIDATION",
+      "companyId": "WG-001",
+      "objective": "Prove WGOS can orchestrate a multi-department internal mission from intake through reporting, learning, and platform updates.",
+      "status": "COMPLETED",
+      "approvalClass": "A1",
+      "startedAt": "2026-07-10T06:55:40.317Z",
+      "updatedAt": "2026-07-10T06:55:46.287Z",
+      "taskCount": 6
+    }
+  ],
+  "approvalQueue": [
+    {
+      "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T006-DEPLOY",
+      "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+      "companyId": "web-growth",
+      "taskId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T006",
+      "agentSlug": "FRONTEND_ENGINEER_AGENT",
+      "agentTitle": "Frontend Engineer",
+      "department": "engineering",
+      "source": "approvalCheckpoint",
+      "integrationId": null,
+      "action": "deploy",
+      "target": "web-growth",
+      "evidence": [
+        "build output",
+        "QA report",
+        "deployment checklist"
+      ],
+      "status": "PENDING",
+      "approver": "Human owner",
+      "notesRequired": true,
+      "createdAt": "2026-07-10T18:22:48.773Z",
+      "reviewedAt": null,
+      "reviewer": null,
+      "reviewNote": "",
+      "nextAction": "Await human approval, rejection, or revision request."
+    },
+    {
+      "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T007-SEARCH-CONSOLE-READ-ONLY-SEO-VALIDATION",
+      "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+      "companyId": "web-growth",
+      "taskId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T007",
+      "agentSlug": "SEO_AGENT",
+      "agentTitle": "SEO",
+      "department": "search",
+      "source": "controlledSession",
+      "integrationId": "search-console",
+      "action": "search-console:Read-only SEO validation",
+      "target": "web-growth",
+      "evidence": [
+        "search-console requires confirmed capability, authentication state, and human approval before live execution."
+      ],
+      "status": "PENDING",
+      "approver": "Human owner",
+      "notesRequired": true,
+      "createdAt": "2026-07-10T18:22:48.773Z",
+      "reviewedAt": null,
+      "reviewer": null,
+      "reviewNote": "",
+      "nextAction": "Await human approval, rejection, or revision request."
+    },
+    {
+      "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T007-GA4-READ-ONLY-TRAFFIC-AND-CONVERSION-REVIEW",
+      "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+      "companyId": "web-growth",
+      "taskId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T007",
+      "agentSlug": "SEO_AGENT",
+      "agentTitle": "SEO",
+      "department": "search",
+      "source": "controlledSession",
+      "integrationId": "ga4",
+      "action": "ga4:Read-only traffic and conversion review",
+      "target": "web-growth",
+      "evidence": [
+        "ga4 requires confirmed capability, authentication state, and human approval before live execution."
+      ],
+      "status": "PENDING",
+      "approver": "Human owner",
+      "notesRequired": true,
+      "createdAt": "2026-07-10T18:22:48.773Z",
+      "reviewedAt": null,
+      "reviewer": null,
+      "reviewNote": "",
+      "nextAction": "Await human approval, rejection, or revision request."
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-YLDQKY-20260710-LEAD-RESEARCH-YLDQKY-T004-BROWSER-LEAD-SOURCE-REVIEW-AND-WEBSITE-AUDIT-OBSERVATION",
+      "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+      "companyId": "web-growth",
+      "taskId": "20260710-LEAD-RESEARCH-YLDQKY-T004",
+      "agentSlug": "MARKETING_STRATEGIST_AGENT",
+      "agentTitle": "Marketing Strategist",
+      "department": "marketing",
+      "source": "controlledSession",
+      "integrationId": "browser",
+      "action": "browser:Lead source review and website audit observation",
+      "target": "web-growth",
+      "evidence": [
+        "browser requires confirmed capability, authentication state, and human approval before live execution."
+      ],
+      "status": "REVISION_REQUESTED",
+      "approver": "Human owner",
+      "notesRequired": true,
+      "createdAt": "2026-07-10T16:54:33.812Z",
+      "reviewedAt": "2026-07-10T16:57:04.334Z",
+      "reviewer": "Codex",
+      "reviewNote": "Plan 3 smoke test revision request.",
+      "nextAction": "Revise the work and resubmit for approval."
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-YLDQKY-20260710-LEAD-RESEARCH-YLDQKY-T005-SEND-EMAIL",
+      "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+      "companyId": "web-growth",
+      "taskId": "20260710-LEAD-RESEARCH-YLDQKY-T005",
+      "agentSlug": "LEAD_RESEARCH_AGENT",
+      "agentTitle": "Lead Research",
+      "department": "marketing",
+      "source": "approvalCheckpoint",
+      "integrationId": null,
+      "action": "send_email",
+      "target": "qualified prospect list",
+      "evidence": [
+        "lead table",
+        "mini audits",
+        "draft copy",
+        "CRM status"
+      ],
+      "status": "PENDING",
+      "approver": "Human owner",
+      "notesRequired": true,
+      "createdAt": "2026-07-10T16:54:33.812Z",
+      "reviewedAt": null,
+      "reviewer": null,
+      "reviewNote": "",
+      "nextAction": "Await human approval, rejection, or revision request."
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-YLDQKY-20260710-LEAD-RESEARCH-YLDQKY-T005-BROWSER-LEAD-RESEARCH-AND-WEBSITE-AUDIT-COLLECTION",
+      "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+      "companyId": "web-growth",
+      "taskId": "20260710-LEAD-RESEARCH-YLDQKY-T005",
+      "agentSlug": "LEAD_RESEARCH_AGENT",
+      "agentTitle": "Lead Research",
+      "department": "marketing",
+      "source": "controlledSession",
+      "integrationId": "browser",
+      "action": "browser:Lead research and website audit collection",
+      "target": "web-growth",
+      "evidence": [
+        "browser requires confirmed capability, authentication state, and human approval before live execution."
+      ],
+      "status": "PENDING",
+      "approver": "Human owner",
+      "notesRequired": true,
+      "createdAt": "2026-07-10T16:54:33.812Z",
+      "reviewedAt": null,
+      "reviewer": null,
+      "reviewNote": "",
+      "nextAction": "Await human approval, rejection, or revision request."
+    }
+  ],
+  "departmentQueue": [
+    {
+      "department": "executive",
+      "openTasks": 0,
+      "blockedTasks": 0,
+      "waitingApprovalTasks": 0
+    },
+    {
+      "department": "engineering",
+      "openTasks": 0,
+      "blockedTasks": 0,
+      "waitingApprovalTasks": 0
+    },
+    {
+      "department": "search",
+      "openTasks": 0,
+      "blockedTasks": 0,
+      "waitingApprovalTasks": 0
+    },
+    {
+      "department": "design",
+      "openTasks": 0,
+      "blockedTasks": 0,
+      "waitingApprovalTasks": 0
+    },
+    {
+      "department": "marketing",
+      "openTasks": 0,
+      "blockedTasks": 0,
+      "waitingApprovalTasks": 0
+    },
+    {
+      "department": "revenue",
+      "openTasks": 0,
+      "blockedTasks": 0,
+      "waitingApprovalTasks": 0
+    },
+    {
+      "department": "client",
+      "openTasks": 0,
+      "blockedTasks": 0,
+      "waitingApprovalTasks": 0
+    },
+    {
+      "department": "publishing",
+      "openTasks": 0,
+      "blockedTasks": 0,
+      "waitingApprovalTasks": 0
+    }
+  ],
+  "analytics": {
+    "generatedAt": "2026-07-10T18:22:48.767Z",
+    "missionAnalytics": {
+      "totalMissions": 18,
+      "completedMissions": 18,
+      "waitingApprovalMissions": 0,
+      "blockedMissions": 0,
+      "averageTaskCount": 8.5,
+      "averageDepartmentCount": 2.5,
+      "documentationHealth": "needs review",
+      "departmentCoverage": 45,
+      "byTemplate": [
+        {
+          "templateId": "DEMO_SYSTEM_VALIDATION",
+          "missions": 12,
+          "completed": 12,
+          "blocked": 0,
+          "waitingApproval": 0,
+          "totalTasks": 72,
+          "averageTaskCount": 6
+        },
+        {
+          "templateId": "LEAD_RESEARCH",
+          "missions": 3,
+          "completed": 3,
+          "blocked": 0,
+          "waitingApproval": 0,
+          "totalTasks": 36,
+          "averageTaskCount": 12
+        },
+        {
+          "templateId": "BUILD_PREMIUM_WEBSITE",
+          "missions": 1,
+          "completed": 1,
+          "blocked": 0,
+          "waitingApproval": 0,
+          "totalTasks": 10,
+          "averageTaskCount": 10
+        },
+        {
+          "templateId": "CLIENT_WEBSITE_DELIVERY",
+          "missions": 1,
+          "completed": 1,
+          "blocked": 0,
+          "waitingApproval": 0,
+          "totalTasks": 21,
+          "averageTaskCount": 21
+        },
+        {
+          "templateId": "REVENUE_OPPORTUNITY_REVIEW",
+          "missions": 1,
+          "completed": 1,
+          "blocked": 0,
+          "waitingApproval": 0,
+          "totalTasks": 14,
+          "averageTaskCount": 14
+        }
+      ]
+    },
+    "departmentHistory": [
+      {
+        "department": "engineering",
+        "missions": 17,
+        "tasks": 23,
+        "completedTasks": 23,
+        "blockedTasks": 0,
+        "waitingApprovalTasks": 0,
+        "completionRate": 100
+      },
+      {
+        "department": "executive",
+        "missions": 17,
+        "tasks": 85,
+        "completedTasks": 85,
+        "blockedTasks": 0,
+        "waitingApprovalTasks": 0,
+        "completionRate": 100
+      },
+      {
+        "department": "marketing",
+        "missions": 4,
+        "tasks": 20,
+        "completedTasks": 20,
+        "blockedTasks": 0,
+        "waitingApprovalTasks": 0,
+        "completionRate": 100
+      },
+      {
+        "department": "design",
+        "missions": 2,
+        "tasks": 6,
+        "completedTasks": 6,
+        "blockedTasks": 0,
+        "waitingApprovalTasks": 0,
+        "completionRate": 100
+      },
+      {
+        "department": "search",
+        "missions": 2,
+        "tasks": 4,
+        "completedTasks": 4,
+        "blockedTasks": 0,
+        "waitingApprovalTasks": 0,
+        "completionRate": 100
+      },
+      {
+        "department": "client",
+        "missions": 1,
+        "tasks": 2,
+        "completedTasks": 2,
+        "blockedTasks": 0,
+        "waitingApprovalTasks": 0,
+        "completionRate": 100
+      },
+      {
+        "department": "publishing",
+        "missions": 1,
+        "tasks": 1,
+        "completedTasks": 1,
+        "blockedTasks": 0,
+        "waitingApprovalTasks": 0,
+        "completionRate": 100
+      },
+      {
+        "department": "revenue",
+        "missions": 1,
+        "tasks": 6,
+        "completedTasks": 6,
+        "blockedTasks": 0,
+        "waitingApprovalTasks": 0,
+        "completionRate": 100
+      },
+      {
+        "department": "documentation",
+        "missions": 0,
+        "tasks": 0,
+        "completedTasks": 0,
+        "blockedTasks": 0,
+        "waitingApprovalTasks": 0,
+        "completionRate": 0
+      },
+      {
+        "department": "operations",
+        "missions": 0,
+        "tasks": 0,
+        "completedTasks": 0,
+        "blockedTasks": 0,
+        "waitingApprovalTasks": 0,
+        "completionRate": 0
+      },
+      {
+        "department": "qa",
+        "missions": 0,
+        "tasks": 0,
+        "completedTasks": 0,
+        "blockedTasks": 0,
+        "waitingApprovalTasks": 0,
+        "completionRate": 0
+      }
+    ],
+    "topAgents": [
+      {
+        "agentId": "qa_engineer",
+        "agentSlug": "QA_ENGINEER_AGENT",
+        "agentTitle": "QA Engineer",
+        "department": "engineering",
+        "tasksCompleted": 18,
+        "qaPasses": 18,
+        "qaFailures": 0,
+        "documentationUpdates": 18,
+        "memoryUpdates": 18,
+        "approvalPauses": 0,
+        "retries": 0,
+        "businessImpactNotes": [
+          "QA Engineer executed Validate cross-department output quality and readiness. for mission 20260710-BUILD-PREMIUM-WEBSITE-9YYJ47 using workflows: WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: QUALITY_VALIDATION_PLAYBOOK; integrations: filesystem, docs, images, lighthouse, pagespeed.",
+          "QA Engineer executed Validate cross-department output quality and readiness. for mission 20260710-LEAD-RESEARCH-YLDQKY using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: QUALITY_VALIDATION_PLAYBOOK; integrations: filesystem, docs, lighthouse, pagespeed, images.",
+          "QA Engineer executed Validate cross-department output quality and readiness. for mission 20260710-LEAD-RESEARCH-A66YYU using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: QUALITY_VALIDATION_PLAYBOOK; integrations: filesystem, docs, lighthouse, pagespeed, images.",
+          "QA Engineer executed Validate cross-department output quality and readiness. for mission 20260710-LEAD-RESEARCH-BH5R7L using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: QUALITY_VALIDATION_PLAYBOOK; integrations: filesystem, docs, lighthouse, pagespeed, images.",
+          "QA Engineer executed Validate cross-department output quality and readiness. for mission 20260710-DEMO-SYSTEM-VALIDATION-BCPTMK using workflows: WORKFLOW_ORCHESTRATION, DOCUMENTATION_UPDATE_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: QUALITY_VALIDATION_PLAYBOOK; integrations: filesystem, docs, lighthouse, pagespeed, images."
+        ],
+        "lastExecutionAt": "2026-07-10T18:22:48.238Z"
+      },
+      {
+        "agentId": "ceo_operator",
+        "agentSlug": "CEO_OPERATOR_AGENT",
+        "agentTitle": "CEO Operator",
+        "department": "executive",
+        "tasksCompleted": 18,
+        "qaPasses": 0,
+        "qaFailures": 0,
+        "documentationUpdates": 18,
+        "memoryUpdates": 18,
+        "approvalPauses": 0,
+        "retries": 0,
+        "businessImpactNotes": [
+          "CEO Operator executed Interpret the human business objective as a company mission. for mission 20260710-BUILD-PREMIUM-WEBSITE-9YYJ47 using workflows: WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK; integrations: filesystem, docs, csv, github.",
+          "CEO Operator executed Interpret the human business objective as a company mission. for mission 20260710-LEAD-RESEARCH-YLDQKY using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK; integrations: filesystem, docs, csv, github.",
+          "CEO Operator executed Interpret the human business objective as a company mission. for mission 20260710-LEAD-RESEARCH-A66YYU using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK; integrations: filesystem, docs, csv, github.",
+          "CEO Operator executed Interpret the human business objective as a company mission. for mission 20260710-LEAD-RESEARCH-BH5R7L using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK; integrations: filesystem, docs, csv, github.",
+          "CEO Operator executed Interpret the human business objective as a company mission. for mission 20260710-DEMO-SYSTEM-VALIDATION-BCPTMK using workflows: WORKFLOW_ORCHESTRATION, DOCUMENTATION_UPDATE_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK; integrations: filesystem, docs, csv, github."
+        ],
+        "lastExecutionAt": "2026-07-10T18:22:45.219Z"
+      },
+      {
+        "agentId": "workflow_orchestrator",
+        "agentSlug": "WORKFLOW_ORCHESTRATOR_AGENT",
+        "agentTitle": "Workflow Orchestrator",
+        "department": "executive",
+        "tasksCompleted": 18,
+        "qaPasses": 0,
+        "qaFailures": 0,
+        "documentationUpdates": 18,
+        "memoryUpdates": 18,
+        "approvalPauses": 0,
+        "retries": 0,
+        "businessImpactNotes": [
+          "Workflow Orchestrator executed Select departments, specialists, dependencies, and approval gates for the mission. for mission 20260710-BUILD-PREMIUM-WEBSITE-9YYJ47 using workflows: WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK, MISSION_ROUTING_PLAYBOOK; integrations: filesystem, docs, csv, github.",
+          "Workflow Orchestrator executed Select departments, specialists, dependencies, and approval gates for the mission. for mission 20260710-LEAD-RESEARCH-YLDQKY using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK, MISSION_ROUTING_PLAYBOOK; integrations: filesystem, docs, csv, github.",
+          "Workflow Orchestrator executed Select departments, specialists, dependencies, and approval gates for the mission. for mission 20260710-LEAD-RESEARCH-A66YYU using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK, MISSION_ROUTING_PLAYBOOK; integrations: filesystem, docs, csv, github.",
+          "Workflow Orchestrator executed Select departments, specialists, dependencies, and approval gates for the mission. for mission 20260710-LEAD-RESEARCH-BH5R7L using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK, MISSION_ROUTING_PLAYBOOK; integrations: filesystem, docs, csv, github.",
+          "Workflow Orchestrator executed Select departments, specialists, dependencies, and approval gates for the mission. for mission 20260710-DEMO-SYSTEM-VALIDATION-BCPTMK using workflows: WORKFLOW_ORCHESTRATION, DOCUMENTATION_UPDATE_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK, MISSION_ROUTING_PLAYBOOK; integrations: filesystem, docs, csv, github."
+        ],
+        "lastExecutionAt": "2026-07-10T18:22:45.911Z"
+      },
+      {
+        "agentId": "project_manager",
+        "agentSlug": "PROJECT_MANAGER_AGENT",
+        "agentTitle": "Project Manager",
+        "department": "executive",
+        "tasksCompleted": 18,
+        "qaPasses": 0,
+        "qaFailures": 0,
+        "documentationUpdates": 18,
+        "memoryUpdates": 18,
+        "approvalPauses": 0,
+        "retries": 0,
+        "businessImpactNotes": [
+          "Project Manager executed Create the company task board, complexity estimate, and handoff-safe execution order. for mission 20260710-BUILD-PREMIUM-WEBSITE-9YYJ47 using workflows: WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK, MISSION_ROUTING_PLAYBOOK; integrations: filesystem, docs, csv, github.",
+          "Project Manager executed Create the company task board, complexity estimate, and handoff-safe execution order. for mission 20260710-LEAD-RESEARCH-YLDQKY using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK, MISSION_ROUTING_PLAYBOOK; integrations: filesystem, docs, csv, github.",
+          "Project Manager executed Create the company task board, complexity estimate, and handoff-safe execution order. for mission 20260710-LEAD-RESEARCH-A66YYU using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK, MISSION_ROUTING_PLAYBOOK; integrations: filesystem, docs, csv, github.",
+          "Project Manager executed Create the company task board, complexity estimate, and handoff-safe execution order. for mission 20260710-LEAD-RESEARCH-BH5R7L using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK, MISSION_ROUTING_PLAYBOOK; integrations: filesystem, docs, csv, github.",
+          "Project Manager executed Create the company task board, complexity estimate, and handoff-safe execution order. for mission 20260710-DEMO-SYSTEM-VALIDATION-BCPTMK using workflows: WORKFLOW_ORCHESTRATION, DOCUMENTATION_UPDATE_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK, MISSION_ROUTING_PLAYBOOK; integrations: filesystem, docs, csv, github."
+        ],
+        "lastExecutionAt": "2026-07-10T18:22:46.040Z"
+      },
+      {
+        "agentId": "knowledge_manager",
+        "agentSlug": "KNOWLEDGE_MANAGER_AGENT",
+        "agentTitle": "Knowledge Manager",
+        "department": "executive",
+        "tasksCompleted": 18,
+        "qaPasses": 0,
+        "qaFailures": 0,
+        "documentationUpdates": 18,
+        "memoryUpdates": 18,
+        "approvalPauses": 0,
+        "retries": 0,
+        "businessImpactNotes": [
+          "Knowledge Manager executed Capture lessons learned, mission knowledge, and next actions. for mission 20260710-BUILD-PREMIUM-WEBSITE-9YYJ47 using workflows: WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only.",
+          "Knowledge Manager executed Capture lessons learned, mission knowledge, and next actions. for mission 20260710-LEAD-RESEARCH-YLDQKY using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only.",
+          "Knowledge Manager executed Capture lessons learned, mission knowledge, and next actions. for mission 20260710-LEAD-RESEARCH-A66YYU using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only.",
+          "Knowledge Manager executed Capture lessons learned, mission knowledge, and next actions. for mission 20260710-LEAD-RESEARCH-BH5R7L using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only.",
+          "Knowledge Manager executed Capture lessons learned, mission knowledge, and next actions. for mission 20260710-DEMO-SYSTEM-VALIDATION-BCPTMK using workflows: WORKFLOW_ORCHESTRATION, DOCUMENTATION_UPDATE_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only."
+        ],
+        "lastExecutionAt": "2026-07-10T18:22:48.411Z"
+      },
+      {
+        "agentId": "documentation_manager",
+        "agentSlug": "DOCUMENTATION_AGENT",
+        "agentTitle": "Documentation Manager",
+        "department": "executive",
+        "tasksCompleted": 18,
+        "qaPasses": 0,
+        "qaFailures": 0,
+        "documentationUpdates": 18,
+        "memoryUpdates": 18,
+        "approvalPauses": 0,
+        "retries": 0,
+        "businessImpactNotes": [
+          "Documentation Manager executed Finalize reporting, documentation status, and executive closeout. for mission 20260710-BUILD-PREMIUM-WEBSITE-9YYJ47 using workflows: WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only.",
+          "Documentation Manager executed Finalize reporting, documentation status, and executive closeout. for mission 20260710-LEAD-RESEARCH-YLDQKY using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only.",
+          "Documentation Manager executed Finalize reporting, documentation status, and executive closeout. for mission 20260710-LEAD-RESEARCH-A66YYU using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only.",
+          "Documentation Manager executed Finalize reporting, documentation status, and executive closeout. for mission 20260710-LEAD-RESEARCH-BH5R7L using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only.",
+          "Documentation Manager executed Finalize reporting, documentation status, and executive closeout. for mission 20260710-DEMO-SYSTEM-VALIDATION-BCPTMK using workflows: WORKFLOW_ORCHESTRATION, DOCUMENTATION_UPDATE_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only."
+        ],
+        "lastExecutionAt": "2026-07-10T18:22:48.550Z"
+      },
+      {
+        "agentId": "marketing_strategist",
+        "agentSlug": "MARKETING_STRATEGIST_AGENT",
+        "agentTitle": "Marketing Strategist",
+        "department": "marketing",
+        "tasksCompleted": 4,
+        "qaPasses": 0,
+        "qaFailures": 0,
+        "documentationUpdates": 4,
+        "memoryUpdates": 4,
+        "approvalPauses": 0,
+        "retries": 0,
+        "businessImpactNotes": [
+          "Marketing Strategist executed Confirm target segment and quota framing. for mission 20260710-LEAD-RESEARCH-YLDQKY using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: LEAD_RESEARCH_PLAYBOOK; integrations: csv, browser, search, maps, business-directories, crm.",
+          "Marketing Strategist executed Confirm target segment and quota framing. for mission 20260710-LEAD-RESEARCH-A66YYU using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: LEAD_RESEARCH_PLAYBOOK; integrations: csv, browser, search, maps, business-directories, crm.",
+          "Marketing Strategist executed Confirm target segment and quota framing. for mission 20260710-LEAD-RESEARCH-BH5R7L using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: LEAD_RESEARCH_PLAYBOOK; integrations: csv, browser, search, maps, business-directories, crm.",
+          "Marketing Strategist executed Translate revenue findings into campaign and pipeline priorities. for mission 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH using workflows: ANALYTICS_REVIEW_WORKFLOW, WEEKLY_AGENCY_OPERATIONS_WORKFLOW, ADSENSE_READINESS_WORKFLOW; playbooks: LEAD_RESEARCH_PLAYBOOK; integrations: csv, crm, browser, search, maps, business-directories."
+        ],
+        "lastExecutionAt": "2026-07-10T16:54:23.202Z"
+      },
+      {
+        "agentId": "lead_research",
+        "agentSlug": "LEAD_RESEARCH_AGENT",
+        "agentTitle": "Lead Research",
+        "department": "marketing",
+        "tasksCompleted": 3,
+        "qaPasses": 0,
+        "qaFailures": 0,
+        "documentationUpdates": 3,
+        "memoryUpdates": 3,
+        "approvalPauses": 0,
+        "retries": 0,
+        "businessImpactNotes": [
+          "Lead Research executed Define qualified lead collection plan without sending outreach. for mission 20260710-LEAD-RESEARCH-YLDQKY using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: CONTROLLED_BROWSER_RESEARCH_PLAYBOOK, LEAD_RESEARCH_PLAYBOOK; integrations: docs, csv, browser, search, maps, business-directories, crm.",
+          "Lead Research executed Define qualified lead collection plan without sending outreach. for mission 20260710-LEAD-RESEARCH-A66YYU using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: CONTROLLED_BROWSER_RESEARCH_PLAYBOOK, LEAD_RESEARCH_PLAYBOOK; integrations: docs, csv, browser, search, maps, business-directories, crm.",
+          "Lead Research executed Define qualified lead collection plan without sending outreach. for mission 20260710-LEAD-RESEARCH-BH5R7L using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: CONTROLLED_BROWSER_RESEARCH_PLAYBOOK, LEAD_RESEARCH_PLAYBOOK; integrations: docs, csv, browser, search, maps, business-directories, crm."
+        ],
+        "lastExecutionAt": "2026-07-10T16:54:24.245Z"
+      },
+      {
+        "agentId": "website_audit",
+        "agentSlug": "WEBSITE_AUDIT_AGENT",
+        "agentTitle": "Website Audit",
+        "department": "marketing",
+        "tasksCompleted": 3,
+        "qaPasses": 0,
+        "qaFailures": 0,
+        "documentationUpdates": 3,
+        "memoryUpdates": 3,
+        "approvalPauses": 0,
+        "retries": 0,
+        "businessImpactNotes": [
+          "Website Audit executed Define mini-audit structure for accepted leads. for mission 20260710-LEAD-RESEARCH-YLDQKY using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: QUALITY_VALIDATION_PLAYBOOK, CONTROLLED_BROWSER_RESEARCH_PLAYBOOK; integrations: filesystem, docs, lighthouse, pagespeed, images, browser, search, maps, business-directories.",
+          "Website Audit executed Define mini-audit structure for accepted leads. for mission 20260710-LEAD-RESEARCH-A66YYU using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: QUALITY_VALIDATION_PLAYBOOK, CONTROLLED_BROWSER_RESEARCH_PLAYBOOK; integrations: filesystem, docs, lighthouse, pagespeed, images, browser, search, maps, business-directories.",
+          "Website Audit executed Define mini-audit structure for accepted leads. for mission 20260710-LEAD-RESEARCH-BH5R7L using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: QUALITY_VALIDATION_PLAYBOOK, CONTROLLED_BROWSER_RESEARCH_PLAYBOOK; integrations: filesystem, docs, lighthouse, pagespeed, images, browser, search, maps, business-directories."
+        ],
+        "lastExecutionAt": "2026-07-10T16:54:26.217Z"
+      },
+      {
+        "agentId": "business_intelligence",
+        "agentSlug": "BUSINESS_INTELLIGENCE_AGENT",
+        "agentTitle": "Business Intelligence",
+        "department": "marketing",
+        "tasksCompleted": 3,
+        "qaPasses": 0,
+        "qaFailures": 0,
+        "documentationUpdates": 3,
+        "memoryUpdates": 3,
+        "approvalPauses": 0,
+        "retries": 0,
+        "businessImpactNotes": [
+          "Business Intelligence executed Define enrichment and personalization fields. for mission 20260710-LEAD-RESEARCH-YLDQKY using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: CONTROLLED_BROWSER_RESEARCH_PLAYBOOK, LEAD_RESEARCH_PLAYBOOK; integrations: docs, csv, browser, search, maps, business-directories, crm.",
+          "Business Intelligence executed Define enrichment and personalization fields. for mission 20260710-LEAD-RESEARCH-A66YYU using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: CONTROLLED_BROWSER_RESEARCH_PLAYBOOK, LEAD_RESEARCH_PLAYBOOK; integrations: docs, csv, browser, search, maps, business-directories, crm.",
+          "Business Intelligence executed Define enrichment and personalization fields. for mission 20260710-LEAD-RESEARCH-BH5R7L using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: CONTROLLED_BROWSER_RESEARCH_PLAYBOOK, LEAD_RESEARCH_PLAYBOOK; integrations: docs, csv, browser, search, maps, business-directories, crm."
+        ],
+        "lastExecutionAt": "2026-07-10T16:54:27.813Z"
+      }
+    ],
+    "intelligenceSummary": {
+      "totalMissions": 18,
+      "productionMissionCount": 2,
+      "growthMissionCount": 4,
+      "topTemplate": "DEMO_SYSTEM_VALIDATION",
+      "topDepartment": "engineering",
+      "averageCompletionRate": 72.7,
+      "whatWorked": [
+        "Engineering has been the most consistently used department.",
+        "DEMO_SYSTEM_VALIDATION is currently the most repeated mission template.",
+        "CEO Operator has the strongest scorecard throughput."
+      ],
+      "weakAreas": [
+        "Some departments are not closing every routed task cleanly."
+      ],
+      "nextLearningFocus": [
+        "Increase non-demo mission history to improve pattern quality.",
+        "Track which growth recommendations lead to later production or revenue missions.",
+        "Compare department load against business value more explicitly."
+      ],
+      "templatePatterns": [
+        "DEMO_SYSTEM_VALIDATION has run 12 time(s).",
+        "LEAD_RESEARCH has run 3 time(s).",
+        "BUILD_PREMIUM_WEBSITE has run 1 time(s).",
+        "CLIENT_WEBSITE_DELIVERY has run 1 time(s)."
+      ],
+      "departmentPatterns": [
+        "engineering touched 17 mission(s) with 100% completion rate.",
+        "executive touched 17 mission(s) with 100% completion rate.",
+        "marketing touched 4 mission(s) with 100% completion rate.",
+        "design touched 2 mission(s) with 100% completion rate."
+      ],
+      "recommendations": [
+        "Shift mission mix toward real production and growth missions so intelligence is based on operational work instead of demo runs.",
+        "Compare production mission outputs against growth missions to identify the highest-value handoff patterns.",
+        "Use revenue-opportunity findings to prioritize the next SEO or content sprint."
+      ],
+      "forecastedMissionMix": [
+        "DEMO_SYSTEM_VALIDATION",
+        "LEAD_RESEARCH",
+        "BUILD_PREMIUM_WEBSITE"
+      ],
+      "executionPressure": "watch department completion variance",
+      "planningNote": "Current history is sufficient for lightweight planning recommendations but still shallow for high-confidence forecasting.",
+      "learningCoverageScore": 10,
+      "recommendationConfidenceScore": 7.5,
+      "patternStabilityScore": 3.3,
+      "forecastUsefulnessScore": 10,
+      "workflowImprovements": [
+        "Add mission-type trend weighting so repeated demo missions do not dominate planning signals.",
+        "Link production and growth missions through a shared KPI follow-up artifact after each real run.",
+        "Promote weak-area findings into route-time warnings inside the operator surface."
+      ],
+      "automationOpportunities": [
+        "Automate conversion of completed mission summaries into a standardized executive digest draft.",
+        "Detect repeated department patterns and prefill next-mission planning notes automatically for review.",
+        "Flag repeated approval-safe tasks as candidates for future non-destructive helper tooling."
+      ],
+      "decisionAnalysis": [
+        "WGOS would still favor mission routing through shared runtime files instead of per-mission ad hoc logic.",
+        "WGOS would still separate growth and production approvals because external risk profiles are different.",
+        "WGOS should periodically reevaluate whether repeated demo missions are distorting planning signals."
+      ],
+      "bestPractices": [
+        "Run at least one real mission after structural changes so artifacts exist outside temporary test roots.",
+        "Keep dashboard, memory, reporting, and verification changes in the same pass so state stays coherent.",
+        "Treat approval-sensitive work as metadata and planning until a human explicitly authorizes the external action."
+      ],
+      "commonMistakes": [
+        "Some departments are not closing every routed task cleanly."
+      ],
+      "industryInsights": [
+        "Revenue and SEO missions generate the most reusable planning intelligence when followed by documentation updates.",
+        "Production and growth missions together produce stronger optimization recommendations than either one alone."
+      ],
+      "architectureDecisions": [
+        "Persistent JSON state remains the source of truth for dashboards and analytics rather than handwritten markdown.",
+        "Generated markdown remains necessary for handoff readability even when analytics are derived from structured state."
+      ]
+    },
+    "companyHealth": {
+      "revenueReadiness": 8,
+      "operationalMaturity": 10,
+      "documentationQuality": 9.6,
+      "memoryCompleteness": 10,
+      "workflowQuality": 3.3,
+      "seoReadiness": 5,
+      "adsenseReadiness": 7,
+      "contentMaturity": 5,
+      "websiteMaturity": 8,
+      "technicalDebt": 2,
+      "overall": 8.9
+    },
+    "companyPortfolio": [
+      {
+        "id": "WG-001",
+        "slug": "web-growth",
+        "name": "Web Growth",
+        "missions": 17,
+        "completedMissions": 17,
+        "activeMissions": 0,
+        "departments": [
+          "executive",
+          "design",
+          "engineering",
+          "search",
+          "marketing",
+          "revenue"
+        ],
+        "latestMissionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+        "productionMissions": 1,
+        "growthMissions": 4,
+        "revenueTasks": 6,
+        "searchTasks": 1,
+        "documentationStatus": "needs review",
+        "healthScore": 9.5
+      },
+      {
+        "id": "CL-000",
+        "slug": "client-template",
+        "name": "Client Template",
+        "missions": 1,
+        "completedMissions": 1,
+        "activeMissions": 0,
+        "departments": [
+          "executive",
+          "client",
+          "design",
+          "engineering",
+          "search",
+          "publishing"
+        ],
+        "latestMissionId": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ",
+        "productionMissions": 1,
+        "growthMissions": 0,
+        "revenueTasks": 0,
+        "searchTasks": 3,
+        "documentationStatus": "healthy",
+        "healthScore": 9.6
+      }
+    ],
+    "summary": {
+      "generatedAt": "2026-07-10T18:22:48.767Z",
+      "activeMissionIds": [],
+      "completedMissionIds": [
+        "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+        "20260710-LEAD-RESEARCH-YLDQKY",
+        "20260710-LEAD-RESEARCH-A66YYU",
+        "20260710-LEAD-RESEARCH-BH5R7L",
+        "20260710-DEMO-SYSTEM-VALIDATION-BCPTMK",
+        "20260710-DEMO-SYSTEM-VALIDATION-G0OKUB",
+        "20260710-DEMO-SYSTEM-VALIDATION-SCKB1S",
+        "20260710-DEMO-SYSTEM-VALIDATION-SECDRG",
+        "20260710-DEMO-SYSTEM-VALIDATION-PNQX3I",
+        "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH",
+        "20260710-DEMO-SYSTEM-VALIDATION-SILNSQ",
+        "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ",
+        "20260710-DEMO-SYSTEM-VALIDATION-NUSUI9",
+        "20260710-DEMO-SYSTEM-VALIDATION-MZ64AO",
+        "20260710-DEMO-SYSTEM-VALIDATION-LUM8N4",
+        "20260710-DEMO-SYSTEM-VALIDATION-YP9PWS",
+        "20260710-DEMO-SYSTEM-VALIDATION-4C607S",
+        "20260710-DEMO-SYSTEM-VALIDATION-Y82Z3J"
+      ],
+      "waitingApprovalMissionIds": [],
+      "missionCount": 18,
+      "taskCount": 153,
+      "departmentCount": 11,
+      "blockedTaskCount": 0,
+      "waitingApprovalTaskCount": 0,
+      "activeAgentCount": 0
+    }
+  },
+  "productionPipeline": {
+    "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+    "companyId": "web-growth",
+    "status": "COMPLETED",
+    "stages": [
+      {
+        "label": "Discovery",
+        "status": "READY",
+        "summary": "Stage not routed in this mission."
+      },
+      {
+        "label": "Strategy",
+        "status": "COMPLETED",
+        "summary": ""
+      },
+      {
+        "label": "Information Architecture",
+        "status": "COMPLETED",
+        "summary": ""
+      },
+      {
+        "label": "Brand And Design",
+        "status": "READY",
+        "summary": "Stage not routed in this mission."
+      },
+      {
+        "label": "Motion Planning",
+        "status": "READY",
+        "summary": "Stage not routed in this mission."
+      },
+      {
+        "label": "Engineering",
+        "status": "COMPLETED",
+        "summary": ""
+      },
+      {
+        "label": "SEO / AEO / GEO",
+        "status": "COMPLETED",
+        "summary": ""
+      },
+      {
+        "label": "Performance / Accessibility / QA",
+        "status": "COMPLETED",
+        "summary": ""
+      },
+      {
+        "label": "Client Review",
+        "status": "READY",
+        "summary": "Stage not routed in this mission."
+      },
+      {
+        "label": "Launch Prep",
+        "status": "COMPLETED",
+        "summary": ", "
+      }
+    ]
+  },
+  "productionTasks": [
+    {
+      "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T010",
+      "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+      "agentSlug": "DOCUMENTATION_AGENT",
+      "status": "COMPLETED",
+      "sequence": 10,
+      "updatedAt": "2026-07-10T18:22:48.550Z",
+      "department": "executive",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T009",
+      "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+      "agentSlug": "KNOWLEDGE_MANAGER_AGENT",
+      "status": "COMPLETED",
+      "sequence": 9,
+      "updatedAt": "2026-07-10T18:22:48.411Z",
+      "department": "executive",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T008",
+      "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+      "agentSlug": "QA_ENGINEER_AGENT",
+      "status": "COMPLETED",
+      "sequence": 8,
+      "updatedAt": "2026-07-10T18:22:48.238Z",
+      "department": "engineering",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T007",
+      "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+      "agentSlug": "SEO_AGENT",
+      "status": "COMPLETED",
+      "sequence": 7,
+      "updatedAt": "2026-07-10T18:22:47.553Z",
+      "department": "search",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T006",
+      "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+      "agentSlug": "FRONTEND_ENGINEER_AGENT",
+      "status": "COMPLETED",
+      "sequence": 6,
+      "updatedAt": "2026-07-10T18:22:47.083Z",
+      "department": "engineering",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T005",
+      "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+      "agentSlug": "UI_UX_DESIGN_AGENT",
+      "status": "COMPLETED",
+      "sequence": 5,
+      "updatedAt": "2026-07-10T18:22:46.967Z",
+      "department": "design",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T004",
+      "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+      "agentSlug": "PRODUCT_STRATEGIST_AGENT",
+      "status": "COMPLETED",
+      "sequence": 4,
+      "updatedAt": "2026-07-10T18:22:46.828Z",
+      "department": "design",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T003",
+      "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+      "agentSlug": "PROJECT_MANAGER_AGENT",
+      "status": "COMPLETED",
+      "sequence": 3,
+      "updatedAt": "2026-07-10T18:22:46.040Z",
+      "department": "executive",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T002",
+      "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+      "agentSlug": "WORKFLOW_ORCHESTRATOR_AGENT",
+      "status": "COMPLETED",
+      "sequence": 2,
+      "updatedAt": "2026-07-10T18:22:45.911Z",
+      "department": "executive",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T001",
+      "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+      "agentSlug": "CEO_OPERATOR_AGENT",
+      "status": "COMPLETED",
+      "sequence": 1,
+      "updatedAt": "2026-07-10T18:22:45.219Z",
+      "department": "executive",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    }
+  ],
+  "growthPipeline": {
+    "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+    "companyId": "web-growth",
+    "templateId": "LEAD_RESEARCH",
+    "status": "COMPLETED",
+    "stages": [
+      {
+        "label": "Research And Audits",
+        "status": "COMPLETED",
+        "summary": ", , , "
+      },
+      {
+        "label": "Content And Publishing",
+        "status": "READY",
+        "summary": "Stage not routed in this mission."
+      },
+      {
+        "label": "SEO / AEO / GEO",
+        "status": "READY",
+        "summary": "Stage not routed in this mission."
+      },
+      {
+        "label": "Revenue And CRO",
+        "status": "READY",
+        "summary": "Stage not routed in this mission."
+      },
+      {
+        "label": "CRM And Outreach Prep",
+        "status": "COMPLETED",
+        "summary": ", "
+      },
+      {
+        "label": "QA / Knowledge / Documentation",
+        "status": "COMPLETED",
+        "summary": ", , "
+      }
+    ]
+  },
+  "growthTasks": [
+    {
+      "id": "20260710-LEAD-RESEARCH-YLDQKY-T012",
+      "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+      "agentSlug": "DOCUMENTATION_AGENT",
+      "status": "COMPLETED",
+      "sequence": 12,
+      "updatedAt": "2026-07-10T16:54:32.152Z",
+      "department": "executive",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-YLDQKY-T011",
+      "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+      "agentSlug": "KNOWLEDGE_MANAGER_AGENT",
+      "status": "COMPLETED",
+      "sequence": 11,
+      "updatedAt": "2026-07-10T16:54:30.745Z",
+      "department": "executive",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-YLDQKY-T010",
+      "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+      "agentSlug": "QA_ENGINEER_AGENT",
+      "status": "COMPLETED",
+      "sequence": 10,
+      "updatedAt": "2026-07-10T16:54:30.344Z",
+      "department": "engineering",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-YLDQKY-T009",
+      "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+      "agentSlug": "OUTREACH_DRAFTING_AGENT",
+      "status": "COMPLETED",
+      "sequence": 9,
+      "updatedAt": "2026-07-10T16:54:29.760Z",
+      "department": "marketing",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-YLDQKY-T008",
+      "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+      "agentSlug": "CRM_AGENT",
+      "status": "COMPLETED",
+      "sequence": 8,
+      "updatedAt": "2026-07-10T16:54:28.851Z",
+      "department": "marketing",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-YLDQKY-T007",
+      "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+      "agentSlug": "BUSINESS_INTELLIGENCE_AGENT",
+      "status": "COMPLETED",
+      "sequence": 7,
+      "updatedAt": "2026-07-10T16:54:27.813Z",
+      "department": "marketing",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-YLDQKY-T006",
+      "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+      "agentSlug": "WEBSITE_AUDIT_AGENT",
+      "status": "COMPLETED",
+      "sequence": 6,
+      "updatedAt": "2026-07-10T16:54:26.217Z",
+      "department": "marketing",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-YLDQKY-T005",
+      "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+      "agentSlug": "LEAD_RESEARCH_AGENT",
+      "status": "COMPLETED",
+      "sequence": 5,
+      "updatedAt": "2026-07-10T16:54:24.245Z",
+      "department": "marketing",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-YLDQKY-T004",
+      "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+      "agentSlug": "MARKETING_STRATEGIST_AGENT",
+      "status": "COMPLETED",
+      "sequence": 4,
+      "updatedAt": "2026-07-10T16:54:23.202Z",
+      "department": "marketing",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-YLDQKY-T003",
+      "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+      "agentSlug": "PROJECT_MANAGER_AGENT",
+      "status": "COMPLETED",
+      "sequence": 3,
+      "updatedAt": "2026-07-10T16:54:21.885Z",
+      "department": "executive",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-YLDQKY-T002",
+      "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+      "agentSlug": "WORKFLOW_ORCHESTRATOR_AGENT",
+      "status": "COMPLETED",
+      "sequence": 2,
+      "updatedAt": "2026-07-10T16:54:20.664Z",
+      "department": "executive",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    },
+    {
+      "id": "20260710-LEAD-RESEARCH-YLDQKY-T001",
+      "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+      "agentSlug": "CEO_OPERATOR_AGENT",
+      "status": "COMPLETED",
+      "sequence": 1,
+      "updatedAt": "2026-07-10T16:54:19.632Z",
+      "department": "executive",
+      "completionStatus": "COMPLETED",
+      "approvalStatus": "NOT_REQUIRED"
+    }
+  ],
+  "revenueSnapshot": {
+    "growthMissionCount": 4,
+    "revenueTaskCount": 0,
+    "marketingTaskCount": 6,
+    "searchTaskCount": 0,
+    "latestRevenueMission": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH"
+  },
+  "intelligenceSummary": {
+    "totalMissions": 18,
+    "productionMissionCount": 2,
+    "growthMissionCount": 4,
+    "topTemplate": "DEMO_SYSTEM_VALIDATION",
+    "topDepartment": "engineering",
+    "averageCompletionRate": 72.7,
+    "whatWorked": [
+      "Engineering has been the most consistently used department.",
+      "DEMO_SYSTEM_VALIDATION is currently the most repeated mission template.",
+      "CEO Operator has the strongest scorecard throughput."
+    ],
+    "weakAreas": [
+      "Some departments are not closing every routed task cleanly."
+    ],
+    "nextLearningFocus": [
+      "Increase non-demo mission history to improve pattern quality.",
+      "Track which growth recommendations lead to later production or revenue missions.",
+      "Compare department load against business value more explicitly."
+    ],
+    "templatePatterns": [
+      "DEMO_SYSTEM_VALIDATION has run 12 time(s).",
+      "LEAD_RESEARCH has run 3 time(s).",
+      "BUILD_PREMIUM_WEBSITE has run 1 time(s).",
+      "CLIENT_WEBSITE_DELIVERY has run 1 time(s)."
+    ],
+    "departmentPatterns": [
+      "engineering touched 17 mission(s) with 100% completion rate.",
+      "executive touched 17 mission(s) with 100% completion rate.",
+      "marketing touched 4 mission(s) with 100% completion rate.",
+      "design touched 2 mission(s) with 100% completion rate."
+    ],
+    "recommendations": [
+      "Shift mission mix toward real production and growth missions so intelligence is based on operational work instead of demo runs.",
+      "Compare production mission outputs against growth missions to identify the highest-value handoff patterns.",
+      "Use revenue-opportunity findings to prioritize the next SEO or content sprint."
+    ],
+    "forecastedMissionMix": [
+      "DEMO_SYSTEM_VALIDATION",
+      "LEAD_RESEARCH",
+      "BUILD_PREMIUM_WEBSITE"
+    ],
+    "executionPressure": "watch department completion variance",
+    "planningNote": "Current history is sufficient for lightweight planning recommendations but still shallow for high-confidence forecasting.",
+    "learningCoverageScore": 10,
+    "recommendationConfidenceScore": 7.5,
+    "patternStabilityScore": 3.3,
+    "forecastUsefulnessScore": 10,
+    "workflowImprovements": [
+      "Add mission-type trend weighting so repeated demo missions do not dominate planning signals.",
+      "Link production and growth missions through a shared KPI follow-up artifact after each real run.",
+      "Promote weak-area findings into route-time warnings inside the operator surface."
+    ],
+    "automationOpportunities": [
+      "Automate conversion of completed mission summaries into a standardized executive digest draft.",
+      "Detect repeated department patterns and prefill next-mission planning notes automatically for review.",
+      "Flag repeated approval-safe tasks as candidates for future non-destructive helper tooling."
+    ],
+    "decisionAnalysis": [
+      "WGOS would still favor mission routing through shared runtime files instead of per-mission ad hoc logic.",
+      "WGOS would still separate growth and production approvals because external risk profiles are different.",
+      "WGOS should periodically reevaluate whether repeated demo missions are distorting planning signals."
+    ],
+    "bestPractices": [
+      "Run at least one real mission after structural changes so artifacts exist outside temporary test roots.",
+      "Keep dashboard, memory, reporting, and verification changes in the same pass so state stays coherent.",
+      "Treat approval-sensitive work as metadata and planning until a human explicitly authorizes the external action."
+    ],
+    "commonMistakes": [
+      "Some departments are not closing every routed task cleanly."
+    ],
+    "industryInsights": [
+      "Revenue and SEO missions generate the most reusable planning intelligence when followed by documentation updates.",
+      "Production and growth missions together produce stronger optimization recommendations than either one alone."
+    ],
+    "architectureDecisions": [
+      "Persistent JSON state remains the source of truth for dashboards and analytics rather than handwritten markdown.",
+      "Generated markdown remains necessary for handoff readability even when analytics are derived from structured state."
+    ]
+  },
+  "companyPortfolio": [
+    {
+      "id": "WG-001",
+      "slug": "web-growth",
+      "name": "Web Growth",
+      "missions": 17,
+      "completedMissions": 17,
+      "activeMissions": 0,
+      "departments": [
+        "executive",
+        "design",
+        "engineering",
+        "search",
+        "marketing",
+        "revenue"
+      ],
+      "latestMissionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+      "productionMissions": 1,
+      "growthMissions": 4,
+      "revenueTasks": 6,
+      "searchTasks": 1,
+      "documentationStatus": "needs review",
+      "healthScore": 9.5
+    },
+    {
+      "id": "CL-000",
+      "slug": "client-template",
+      "name": "Client Template",
+      "missions": 1,
+      "completedMissions": 1,
+      "activeMissions": 0,
+      "departments": [
+        "executive",
+        "client",
+        "design",
+        "engineering",
+        "search",
+        "publishing"
+      ],
+      "latestMissionId": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ",
+      "productionMissions": 1,
+      "growthMissions": 0,
+      "revenueTasks": 0,
+      "searchTasks": 3,
+      "documentationStatus": "healthy",
+      "healthScore": 9.6
+    }
+  ]
+}

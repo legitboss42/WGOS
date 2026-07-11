@@ -1,0 +1,266 @@
+{
+  "id": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T010",
+  "missionId": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH",
+  "sequence": 10,
+  "agentSlug": "NEWSLETTER_AGENT",
+  "agentTitle": "Newsletter",
+  "department": "marketing",
+  "objective": "Define newsletter growth, lead-magnet, and promotion opportunities.",
+  "expectedOutput": "Newsletter growth plan",
+  "stage": "specialist_execution",
+  "status": "COMPLETED",
+  "dependencies": [],
+  "nextAgentSlug": "MARKETING_STRATEGIST_AGENT",
+  "estimatedComplexity": "Medium",
+  "businessValue": "Medium",
+  "revenueImpact": "Medium",
+  "priority": "HIGH",
+  "documentationStatus": "UPDATED",
+  "qaStatus": "PENDING",
+  "approvalStatus": "NOT_REQUIRED",
+  "completionStatus": "COMPLETED",
+  "startedAt": "2026-07-10T12:05:19.136Z",
+  "updatedAt": "2026-07-10T12:05:19.219Z",
+  "report": {
+    "agent": "Newsletter",
+    "taskId": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T010",
+    "objective": "Define newsletter growth, lead-magnet, and promotion opportunities.",
+    "actions": "Newsletter executed Define newsletter growth, lead-magnet, and promotion opportunities. for mission 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH using workflows: ANALYTICS_REVIEW_WORKFLOW, WEEKLY_AGENCY_OPERATIONS_WORKFLOW, ADSENSE_READINESS_WORKFLOW; playbooks: CRM_OUTREACH_DRAFT_PLAYBOOK; integrations: docs, csv, crm, gmail.",
+    "validation": "Newsletter completed newsletter growth plan with 4 tracked integrations.",
+    "nextStep": "Hand off to MARKETING_STRATEGIST_AGENT.",
+    "integrations": [
+      "docs",
+      "csv",
+      "crm",
+      "gmail"
+    ],
+    "playbooks": [
+      "CRM_OUTREACH_DRAFT_PLAYBOOK"
+    ],
+    "specialistOutputs": [
+      "newsletter brief",
+      "draft issue",
+      "specialist_execution output"
+    ]
+  },
+  "handoff": {
+    "fromAgentSlug": "NEWSLETTER_AGENT",
+    "toAgentSlug": "MARKETING_STRATEGIST_AGENT",
+    "status": "COMPLETED",
+    "validationNeeded": "Downstream review by MARKETING_STRATEGIST_AGENT.",
+    "completedWork": [
+      "newsletter brief",
+      "draft issue",
+      "specialist_execution output"
+    ],
+    "collaborationTargets": [
+      "MARKETING_STRATEGIST_AGENT",
+      "CRM_AGENT",
+      "OUTREACH_DRAFTING_AGENT",
+      "FOLLOW_UP_AGENT"
+    ]
+  },
+  "runtime": {
+    "mission": {
+      "objective": "Define newsletter growth, lead-magnet, and promotion opportunities.",
+      "successDefinition": "Newsletter growth plan",
+      "companyId": "web-growth",
+      "approvalClass": "A1",
+      "missionType": "Internal operations",
+      "requiredDepartments": [
+        "executive",
+        "revenue",
+        "marketing",
+        "engineering"
+      ],
+      "requiredIntegrations": [
+        "docs",
+        "csv",
+        "crm",
+        "gmail"
+      ],
+      "playbooks": [
+        "CRM_OUTREACH_DRAFT_PLAYBOOK"
+      ]
+    },
+    "plan": {
+      "skillsLoaded": [
+        "COPYWRITING",
+        "CONTENT_WRITING",
+        "GMAIL"
+      ],
+      "workstreams": [
+        "research pipeline opportunities",
+        "score lead quality",
+        "prepare compliant outreach context"
+      ],
+      "validationChecks": [
+        "evidence is verified",
+        "lead quality threshold is clear",
+        "external action remains approval-gated"
+      ],
+      "dependencies": [],
+      "requiredEvidence": [
+        "lead notes",
+        "audit findings",
+        "personalization angles",
+        "Newsletter growth plan",
+        "newsletter brief",
+        "draft issue",
+        "specialist_execution output"
+      ],
+      "playbooks": [
+        "CRM_OUTREACH_DRAFT_PLAYBOOK"
+      ],
+      "integrations": [
+        "Docs (NORMAL)",
+        "Csv (NORMAL)",
+        "Crm (NORMAL)",
+        "Gmail (NORMAL)"
+      ],
+      "collaborationTargets": [
+        "MARKETING_STRATEGIST_AGENT",
+        "CRM_AGENT",
+        "OUTREACH_DRAFTING_AGENT",
+        "FOLLOW_UP_AGENT"
+      ]
+    },
+    "execution": {
+      "summary": "Newsletter executed Define newsletter growth, lead-magnet, and promotion opportunities. for mission 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH using workflows: ANALYTICS_REVIEW_WORKFLOW, WEEKLY_AGENCY_OPERATIONS_WORKFLOW, ADSENSE_READINESS_WORKFLOW; playbooks: CRM_OUTREACH_DRAFT_PLAYBOOK; integrations: docs, csv, crm, gmail.",
+      "artifacts": [
+        "NEWSLETTER_AGENT:newsletter brief",
+        "NEWSLETTER_AGENT:draft issue",
+        "NEWSLETTER_AGENT:specialist_execution output"
+      ],
+      "evidence": [
+        "lead notes",
+        "audit findings",
+        "personalization angles",
+        "Newsletter growth plan",
+        "newsletter brief",
+        "draft issue",
+        "specialist_execution output"
+      ],
+      "integrationsUsed": [
+        {
+          "id": "docs",
+          "title": "Docs",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "csv",
+          "title": "Csv",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "crm",
+          "title": "Crm",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "gmail",
+          "title": "Gmail",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        }
+      ],
+      "playbooksUsed": [
+        "CRM_OUTREACH_DRAFT_PLAYBOOK"
+      ],
+      "collaborationRequests": [
+        {
+          "target": "MARKETING_STRATEGIST_AGENT",
+          "reason": "Coordinate newsletter growth plan with MARKETING_STRATEGIST_AGENT."
+        },
+        {
+          "target": "CRM_AGENT",
+          "reason": "Coordinate newsletter growth plan with CRM_AGENT."
+        },
+        {
+          "target": "OUTREACH_DRAFTING_AGENT",
+          "reason": "Coordinate newsletter growth plan with OUTREACH_DRAFTING_AGENT."
+        },
+        {
+          "target": "FOLLOW_UP_AGENT",
+          "reason": "Coordinate newsletter growth plan with FOLLOW_UP_AGENT."
+        }
+      ],
+      "specialistOutputs": [
+        "newsletter brief",
+        "draft issue",
+        "specialist_execution output"
+      ],
+      "kpiFocus": [
+        "pipeline health",
+        "qualified opportunities",
+        "Medium"
+      ],
+      "approvalGateReached": false
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "passed": true,
+      "notes": "Newsletter completed newsletter growth plan with 4 tracked integrations."
+    },
+    "memory": {
+      "currentState": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T010: Newsletter completed Define newsletter growth, lead-magnet, and promotion opportunities..",
+      "nextAction": "MARKETING_STRATEGIST_AGENT should take over 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T010.",
+      "codexMemory": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH used Newsletter for Newsletter growth plan."
+    }
+  },
+  "integrationsUsed": [
+    {
+      "id": "docs",
+      "title": "Docs",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "csv",
+      "title": "Csv",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "crm",
+      "title": "Crm",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "gmail",
+      "title": "Gmail",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    }
+  ],
+  "playbooksUsed": [
+    "CRM_OUTREACH_DRAFT_PLAYBOOK"
+  ],
+  "collaborationRequests": [
+    {
+      "target": "MARKETING_STRATEGIST_AGENT",
+      "reason": "Coordinate newsletter growth plan with MARKETING_STRATEGIST_AGENT."
+    },
+    {
+      "target": "CRM_AGENT",
+      "reason": "Coordinate newsletter growth plan with CRM_AGENT."
+    },
+    {
+      "target": "OUTREACH_DRAFTING_AGENT",
+      "reason": "Coordinate newsletter growth plan with OUTREACH_DRAFTING_AGENT."
+    },
+    {
+      "target": "FOLLOW_UP_AGENT",
+      "reason": "Coordinate newsletter growth plan with FOLLOW_UP_AGENT."
+    }
+  ],
+  "kpiFocus": [
+    "pipeline health",
+    "qualified opportunities",
+    "Medium"
+  ]
+}

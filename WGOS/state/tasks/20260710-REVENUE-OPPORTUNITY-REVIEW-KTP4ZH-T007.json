@@ -1,0 +1,293 @@
+{
+  "id": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T007",
+  "missionId": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH",
+  "sequence": 7,
+  "agentSlug": "ADSENSE_AGENT",
+  "agentTitle": "AdSense",
+  "department": "revenue",
+  "objective": "Review AdSense readiness, policy risk, and content quality gaps.",
+  "expectedOutput": "AdSense readiness report",
+  "stage": "specialist_execution",
+  "status": "COMPLETED",
+  "dependencies": [],
+  "nextAgentSlug": "AFFILIATE_MANAGER_AGENT",
+  "estimatedComplexity": "Medium",
+  "businessValue": "Medium",
+  "revenueImpact": "Medium",
+  "priority": "HIGH",
+  "documentationStatus": "UPDATED",
+  "qaStatus": "PENDING",
+  "approvalStatus": "NOT_REQUIRED",
+  "completionStatus": "COMPLETED",
+  "startedAt": "2026-07-10T12:05:18.817Z",
+  "updatedAt": "2026-07-10T12:05:18.837Z",
+  "report": {
+    "agent": "AdSense",
+    "taskId": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T007",
+    "objective": "Review AdSense readiness, policy risk, and content quality gaps.",
+    "actions": "AdSense executed Review AdSense readiness, policy risk, and content quality gaps. for mission 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH using workflows: ANALYTICS_REVIEW_WORKFLOW, WEEKLY_AGENCY_OPERATIONS_WORKFLOW, ADSENSE_READINESS_WORKFLOW; playbooks: REVENUE_SIGNAL_PLAYBOOK; integrations: lighthouse, pagespeed, ga4, search-console, crm.",
+    "validation": "AdSense completed adsense readiness report with 5 tracked integrations.",
+    "nextStep": "Hand off to AFFILIATE_MANAGER_AGENT.",
+    "integrations": [
+      "lighthouse",
+      "pagespeed",
+      "ga4",
+      "search-console",
+      "crm"
+    ],
+    "playbooks": [
+      "REVENUE_SIGNAL_PLAYBOOK"
+    ],
+    "specialistOutputs": [
+      "adsense readiness report",
+      "compliance backlog",
+      "specialist_execution output"
+    ]
+  },
+  "handoff": {
+    "fromAgentSlug": "ADSENSE_AGENT",
+    "toAgentSlug": "AFFILIATE_MANAGER_AGENT",
+    "status": "COMPLETED",
+    "validationNeeded": "Downstream review by AFFILIATE_MANAGER_AGENT.",
+    "completedWork": [
+      "adsense readiness report",
+      "compliance backlog",
+      "specialist_execution output"
+    ],
+    "collaborationTargets": [
+      "AFFILIATE_MANAGER_AGENT",
+      "ANALYTICS_AGENT",
+      "CRO_AGENT",
+      "REVENUE_OPERATIONS_AGENT"
+    ]
+  },
+  "runtime": {
+    "mission": {
+      "objective": "Review AdSense readiness, policy risk, and content quality gaps.",
+      "successDefinition": "AdSense readiness report",
+      "companyId": "web-growth",
+      "approvalClass": "A1",
+      "missionType": "Internal operations",
+      "requiredDepartments": [
+        "executive",
+        "revenue",
+        "marketing",
+        "engineering"
+      ],
+      "requiredIntegrations": [
+        "lighthouse",
+        "pagespeed",
+        "ga4",
+        "search-console",
+        "crm"
+      ],
+      "playbooks": [
+        "REVENUE_SIGNAL_PLAYBOOK"
+      ]
+    },
+    "plan": {
+      "skillsLoaded": [
+        "ADSENSE",
+        "SEO",
+        "CONTENT_WRITING"
+      ],
+      "workstreams": [
+        "surface monetization signals",
+        "connect analytics to action",
+        "prioritize revenue moves"
+      ],
+      "validationChecks": [
+        "opportunities are measurable",
+        "revenue assumptions are labeled",
+        "next action is economically sound"
+      ],
+      "dependencies": [],
+      "requiredEvidence": [
+        "revenue signal summary",
+        "KPI deltas",
+        "prioritized opportunities",
+        "AdSense readiness report",
+        "adsense readiness report",
+        "compliance backlog",
+        "specialist_execution output"
+      ],
+      "playbooks": [
+        "REVENUE_SIGNAL_PLAYBOOK"
+      ],
+      "integrations": [
+        "Lighthouse (NORMAL)",
+        "Pagespeed (NORMAL)",
+        "GA4 (HIGH)",
+        "Search Console (HIGH)",
+        "Crm (NORMAL)"
+      ],
+      "collaborationTargets": [
+        "AFFILIATE_MANAGER_AGENT",
+        "ANALYTICS_AGENT",
+        "CRO_AGENT",
+        "REVENUE_OPERATIONS_AGENT"
+      ]
+    },
+    "execution": {
+      "summary": "AdSense executed Review AdSense readiness, policy risk, and content quality gaps. for mission 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH using workflows: ANALYTICS_REVIEW_WORKFLOW, WEEKLY_AGENCY_OPERATIONS_WORKFLOW, ADSENSE_READINESS_WORKFLOW; playbooks: REVENUE_SIGNAL_PLAYBOOK; integrations: lighthouse, pagespeed, ga4, search-console, crm.",
+      "artifacts": [
+        "ADSENSE_AGENT:adsense readiness report",
+        "ADSENSE_AGENT:compliance backlog",
+        "ADSENSE_AGENT:specialist_execution output"
+      ],
+      "evidence": [
+        "revenue signal summary",
+        "KPI deltas",
+        "prioritized opportunities",
+        "AdSense readiness report",
+        "adsense readiness report",
+        "compliance backlog",
+        "specialist_execution output"
+      ],
+      "integrationsUsed": [
+        {
+          "id": "lighthouse",
+          "title": "Lighthouse",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "pagespeed",
+          "title": "Pagespeed",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "ga4",
+          "title": "GA4",
+          "approvalLevel": "HIGH",
+          "runtimeDocs": [
+            "integrations/core/AUTHENTICATION_MODEL.md",
+            "integrations/logging/LOG_SCHEMA.md"
+          ]
+        },
+        {
+          "id": "search-console",
+          "title": "Search Console",
+          "approvalLevel": "HIGH",
+          "runtimeDocs": [
+            "integrations/core/AUTHENTICATION_MODEL.md",
+            "integrations/approval/INTEGRATION_APPROVAL_MODEL.md"
+          ]
+        },
+        {
+          "id": "crm",
+          "title": "Crm",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        }
+      ],
+      "playbooksUsed": [
+        "REVENUE_SIGNAL_PLAYBOOK"
+      ],
+      "collaborationRequests": [
+        {
+          "target": "AFFILIATE_MANAGER_AGENT",
+          "reason": "Coordinate adsense readiness report with AFFILIATE_MANAGER_AGENT."
+        },
+        {
+          "target": "ANALYTICS_AGENT",
+          "reason": "Coordinate adsense readiness report with ANALYTICS_AGENT."
+        },
+        {
+          "target": "CRO_AGENT",
+          "reason": "Coordinate adsense readiness report with CRO_AGENT."
+        },
+        {
+          "target": "REVENUE_OPERATIONS_AGENT",
+          "reason": "Coordinate adsense readiness report with REVENUE_OPERATIONS_AGENT."
+        }
+      ],
+      "specialistOutputs": [
+        "adsense readiness report",
+        "compliance backlog",
+        "specialist_execution output"
+      ],
+      "kpiFocus": [
+        "revenue impact",
+        "conversion lift",
+        "Medium"
+      ],
+      "approvalGateReached": false
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "passed": true,
+      "notes": "AdSense completed adsense readiness report with 5 tracked integrations."
+    },
+    "memory": {
+      "currentState": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T007: AdSense completed Review AdSense readiness, policy risk, and content quality gaps..",
+      "nextAction": "AFFILIATE_MANAGER_AGENT should take over 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T007.",
+      "codexMemory": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH used AdSense for AdSense readiness report."
+    }
+  },
+  "integrationsUsed": [
+    {
+      "id": "lighthouse",
+      "title": "Lighthouse",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "pagespeed",
+      "title": "Pagespeed",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "ga4",
+      "title": "GA4",
+      "approvalLevel": "HIGH",
+      "runtimeDocs": [
+        "integrations/core/AUTHENTICATION_MODEL.md",
+        "integrations/logging/LOG_SCHEMA.md"
+      ]
+    },
+    {
+      "id": "search-console",
+      "title": "Search Console",
+      "approvalLevel": "HIGH",
+      "runtimeDocs": [
+        "integrations/core/AUTHENTICATION_MODEL.md",
+        "integrations/approval/INTEGRATION_APPROVAL_MODEL.md"
+      ]
+    },
+    {
+      "id": "crm",
+      "title": "Crm",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    }
+  ],
+  "playbooksUsed": [
+    "REVENUE_SIGNAL_PLAYBOOK"
+  ],
+  "collaborationRequests": [
+    {
+      "target": "AFFILIATE_MANAGER_AGENT",
+      "reason": "Coordinate adsense readiness report with AFFILIATE_MANAGER_AGENT."
+    },
+    {
+      "target": "ANALYTICS_AGENT",
+      "reason": "Coordinate adsense readiness report with ANALYTICS_AGENT."
+    },
+    {
+      "target": "CRO_AGENT",
+      "reason": "Coordinate adsense readiness report with CRO_AGENT."
+    },
+    {
+      "target": "REVENUE_OPERATIONS_AGENT",
+      "reason": "Coordinate adsense readiness report with REVENUE_OPERATIONS_AGENT."
+    }
+  ],
+  "kpiFocus": [
+    "revenue impact",
+    "conversion lift",
+    "Medium"
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "id": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T014",
+  "missionId": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH",
+  "sequence": 14,
+  "agentSlug": "DOCUMENTATION_AGENT",
+  "agentTitle": "Documentation Manager",
+  "department": "executive",
+  "objective": "Finalize reporting, documentation status, and executive closeout.",
+  "expectedOutput": "Mission documentation closeout",
+  "stage": "documentation_closeout",
+  "status": "COMPLETED",
+  "dependencies": [],
+  "nextAgentSlug": null,
+  "estimatedComplexity": "Medium",
+  "businessValue": "Medium",
+  "revenueImpact": "Medium",
+  "priority": "HIGH",
+  "documentationStatus": "UPDATED",
+  "qaStatus": "PENDING",
+  "approvalStatus": "NOT_REQUIRED",
+  "completionStatus": "COMPLETED",
+  "startedAt": "2026-07-10T12:05:20.489Z",
+  "updatedAt": "2026-07-10T12:05:20.569Z",
+  "report": {
+    "agent": "Documentation Manager",
+    "taskId": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T014",
+    "objective": "Finalize reporting, documentation status, and executive closeout.",
+    "actions": "Documentation Manager executed Finalize reporting, documentation status, and executive closeout. for mission 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH using workflows: ANALYTICS_REVIEW_WORKFLOW, WEEKLY_AGENCY_OPERATIONS_WORKFLOW, ADSENSE_READINESS_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only.",
+    "validation": "Documentation Manager completed mission documentation closeout with 0 tracked integrations.",
+    "nextStep": "Close the mission task chain.",
+    "integrations": [],
+    "playbooks": [],
+    "specialistOutputs": [
+      "closeout report",
+      "documentation audit",
+      "mission report",
+      "documentation checklist",
+      "closeout summary",
+      "documentation_closeout output"
+    ]
+  },
+  "handoff": {
+    "fromAgentSlug": "DOCUMENTATION_AGENT",
+    "toAgentSlug": null,
+    "status": "COMPLETED",
+    "validationNeeded": "Mission closeout validation only.",
+    "completedWork": [
+      "closeout report",
+      "documentation audit",
+      "mission report",
+      "documentation checklist",
+      "closeout summary",
+      "documentation_closeout output"
+    ],
+    "collaborationTargets": []
+  },
+  "runtime": {
+    "mission": {
+      "objective": "Finalize reporting, documentation status, and executive closeout.",
+      "successDefinition": "Mission documentation closeout",
+      "companyId": "web-growth",
+      "approvalClass": "A1",
+      "missionType": "Internal operations",
+      "requiredDepartments": [
+        "executive",
+        "revenue",
+        "marketing",
+        "engineering"
+      ],
+      "requiredIntegrations": [],
+      "playbooks": []
+    },
+    "plan": {
+      "skillsLoaded": [
+        "OPERATIONS"
+      ],
+      "workstreams": [
+        "close reporting gaps",
+        "synchronize records",
+        "produce executive-ready documentation",
+        "frame mission context",
+        "route dependencies",
+        "protect approvals"
+      ],
+      "validationChecks": [
+        "mission scope is clear",
+        "handoff order is explicit",
+        "approval gates are documented"
+      ],
+      "dependencies": [],
+      "requiredEvidence": [
+        "mission brief",
+        "dependency map",
+        "approval map",
+        "Mission documentation closeout",
+        "closeout report",
+        "documentation audit",
+        "mission report",
+        "documentation checklist",
+        "closeout summary",
+        "documentation_closeout output"
+      ],
+      "playbooks": [],
+      "integrations": [],
+      "collaborationTargets": []
+    },
+    "execution": {
+      "summary": "Documentation Manager executed Finalize reporting, documentation status, and executive closeout. for mission 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH using workflows: ANALYTICS_REVIEW_WORKFLOW, WEEKLY_AGENCY_OPERATIONS_WORKFLOW, ADSENSE_READINESS_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only.",
+      "artifacts": [
+        "DOCUMENTATION_AGENT:closeout report",
+        "DOCUMENTATION_AGENT:documentation audit",
+        "DOCUMENTATION_AGENT:mission report",
+        "DOCUMENTATION_AGENT:documentation checklist",
+        "DOCUMENTATION_AGENT:closeout summary",
+        "DOCUMENTATION_AGENT:documentation_closeout output"
+      ],
+      "evidence": [
+        "mission brief",
+        "dependency map",
+        "approval map",
+        "Mission documentation closeout",
+        "closeout report",
+        "documentation audit",
+        "mission report",
+        "documentation checklist",
+        "closeout summary",
+        "documentation_closeout output"
+      ],
+      "integrationsUsed": [],
+      "playbooksUsed": [],
+      "collaborationRequests": [],
+      "specialistOutputs": [
+        "closeout report",
+        "documentation audit",
+        "mission report",
+        "documentation checklist",
+        "closeout summary",
+        "documentation_closeout output"
+      ],
+      "kpiFocus": [
+        "documentation compliance",
+        "mission throughput",
+        "Medium"
+      ],
+      "approvalGateReached": false
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "passed": true,
+      "notes": "Documentation Manager completed mission documentation closeout with 0 tracked integrations."
+    },
+    "memory": {
+      "currentState": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T014: Documentation Manager completed Finalize reporting, documentation status, and executive closeout..",
+      "nextAction": "Archive 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T014.",
+      "codexMemory": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH used Documentation Manager for Mission documentation closeout."
+    }
+  },
+  "integrationsUsed": [],
+  "playbooksUsed": [],
+  "collaborationRequests": [],
+  "kpiFocus": [
+    "documentation compliance",
+    "mission throughput",
+    "Medium"
+  ]
+}

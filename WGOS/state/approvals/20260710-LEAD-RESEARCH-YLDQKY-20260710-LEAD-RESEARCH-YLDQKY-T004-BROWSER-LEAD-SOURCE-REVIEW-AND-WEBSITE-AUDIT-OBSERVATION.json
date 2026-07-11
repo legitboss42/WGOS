@@ -1,0 +1,24 @@
+{
+  "id": "20260710-LEAD-RESEARCH-YLDQKY-20260710-LEAD-RESEARCH-YLDQKY-T004-BROWSER-LEAD-SOURCE-REVIEW-AND-WEBSITE-AUDIT-OBSERVATION",
+  "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+  "companyId": "web-growth",
+  "taskId": "20260710-LEAD-RESEARCH-YLDQKY-T004",
+  "agentSlug": "MARKETING_STRATEGIST_AGENT",
+  "agentTitle": "Marketing Strategist",
+  "department": "marketing",
+  "source": "controlledSession",
+  "integrationId": "browser",
+  "action": "browser:Lead source review and website audit observation",
+  "target": "web-growth",
+  "evidence": [
+    "browser requires confirmed capability, authentication state, and human approval before live execution."
+  ],
+  "status": "REVISION_REQUESTED",
+  "approver": "Human owner",
+  "notesRequired": true,
+  "createdAt": "2026-07-10T16:54:33.812Z",
+  "reviewedAt": "2026-07-10T16:57:04.334Z",
+  "reviewer": "Codex",
+  "reviewNote": "Plan 3 smoke test revision request.",
+  "nextAction": "Revise the work and resubmit for approval."
+}

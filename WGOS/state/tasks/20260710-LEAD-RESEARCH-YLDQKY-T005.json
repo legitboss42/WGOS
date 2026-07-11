@@ -1,0 +1,546 @@
+{
+  "id": "20260710-LEAD-RESEARCH-YLDQKY-T005",
+  "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+  "sequence": 5,
+  "agentSlug": "LEAD_RESEARCH_AGENT",
+  "agentTitle": "Lead Research",
+  "department": "marketing",
+  "objective": "Define qualified lead collection plan without sending outreach.",
+  "expectedOutput": "Lead research plan",
+  "stage": "specialist_execution",
+  "status": "COMPLETED",
+  "dependencies": [],
+  "nextAgentSlug": "WEBSITE_AUDIT_AGENT",
+  "estimatedComplexity": "Medium",
+  "businessValue": "High",
+  "revenueImpact": "High",
+  "priority": "HIGH",
+  "documentationStatus": "UPDATED",
+  "qaStatus": "PENDING",
+  "approvalStatus": "NOT_REQUIRED",
+  "completionStatus": "COMPLETED",
+  "startedAt": "2026-07-10T16:54:23.847Z",
+  "updatedAt": "2026-07-10T16:54:24.245Z",
+  "report": {
+    "agent": "Lead Research",
+    "taskId": "20260710-LEAD-RESEARCH-YLDQKY-T005",
+    "objective": "Define qualified lead collection plan without sending outreach.",
+    "actions": "Lead Research executed Define qualified lead collection plan without sending outreach. for mission 20260710-LEAD-RESEARCH-YLDQKY using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: CONTROLLED_BROWSER_RESEARCH_PLAYBOOK, LEAD_RESEARCH_PLAYBOOK; integrations: docs, csv, browser, search, maps, business-directories, crm.",
+    "validation": "Lead Research completed lead research plan with 7 tracked integrations.",
+    "nextStep": "Hand off to WEBSITE_AUDIT_AGENT.",
+    "integrations": [
+      "docs",
+      "csv",
+      "browser",
+      "search",
+      "maps",
+      "business-directories",
+      "crm"
+    ],
+    "playbooks": [
+      "CONTROLLED_BROWSER_RESEARCH_PLAYBOOK",
+      "LEAD_RESEARCH_PLAYBOOK"
+    ],
+    "specialistOutputs": [
+      "lead shortlist",
+      "lead scoring notes",
+      "lead research report",
+      "qualified leads csv",
+      "specialist_execution output"
+    ],
+    "specialistRuntime": {
+      "kind": "lead-research",
+      "leadResearchRunbook": {
+        "targetCount": 50,
+        "approvedSources": [
+          "Google Search",
+          "Google Maps",
+          "business directories",
+          "Yelp",
+          "LinkedIn company pages",
+          "Instagram",
+          "Facebook",
+          "TikTok"
+        ],
+        "requiredFields": [
+          "lead_id",
+          "business_name",
+          "industry",
+          "location",
+          "tier",
+          "website_url",
+          "source_url",
+          "public_email",
+          "contact_page_url",
+          "website_quality_score",
+          "total_score",
+          "priority_label",
+          "top_3_website_issues",
+          "suggested_outreach_angle",
+          "status"
+        ],
+        "scoring": {
+          "businessValue": 25,
+          "websiteProblemSeverity": 25,
+          "conversionOpportunity": 20,
+          "contactability": 15,
+          "fit": 15,
+          "minimumSavedScore": 60
+        },
+        "draftPolicy": "Draft only. No automatic email sending, form submission, or prospect contact."
+      },
+      "controlledSessions": [
+        {
+          "integrationId": "browser",
+          "purpose": "Lead research and website audit collection",
+          "capabilityAvailable": false,
+          "authenticated": false,
+          "requestedActions": [
+            "read"
+          ],
+          "externalActions": [],
+          "approvalCheckpoint": {
+            "status": "WAITING_APPROVAL_BEFORE_LIVE_ACTION",
+            "reason": "browser requires confirmed capability, authentication state, and human approval before live execution.",
+            "stopConditions": [
+              "login",
+              "2FA",
+              "CAPTCHA",
+              "billing",
+              "verification",
+              "property selection",
+              "state-changing action"
+            ]
+          },
+          "allowedNow": false
+        }
+      ],
+      "approvalCheckpoints": [
+        {
+          "action": "send_email",
+          "target": "qualified prospect list",
+          "evidence": [
+            "lead table",
+            "mini audits",
+            "draft copy",
+            "CRM status"
+          ],
+          "requiredBefore": [
+            "external contact",
+            "account modification",
+            "publishing",
+            "deployment",
+            "billing",
+            "DNS",
+            "indexing request"
+          ],
+          "approvalRecord": {
+            "approver": "Human owner",
+            "status": "PENDING",
+            "notesRequired": true
+          }
+        }
+      ],
+      "validationRules": [
+        "50-lead target is explicit",
+        "score threshold is explicit",
+        "contact actions are approval-gated"
+      ]
+    }
+  },
+  "handoff": {
+    "fromAgentSlug": "LEAD_RESEARCH_AGENT",
+    "toAgentSlug": "WEBSITE_AUDIT_AGENT",
+    "status": "COMPLETED",
+    "validationNeeded": "Downstream review by WEBSITE_AUDIT_AGENT.",
+    "completedWork": [
+      "lead shortlist",
+      "lead scoring notes",
+      "lead research report",
+      "qualified leads csv",
+      "specialist_execution output"
+    ],
+    "collaborationTargets": [
+      "WEBSITE_AUDIT_AGENT",
+      "BUSINESS_INTELLIGENCE_AGENT",
+      "MARKETING_STRATEGIST_AGENT"
+    ]
+  },
+  "runtime": {
+    "mission": {
+      "objective": "Define qualified lead collection plan without sending outreach.",
+      "successDefinition": "Lead research plan",
+      "companyId": "web-growth",
+      "approvalClass": "A1",
+      "missionType": "Growth campaign",
+      "requiredDepartments": [
+        "executive",
+        "marketing",
+        "engineering"
+      ],
+      "requiredIntegrations": [
+        "docs",
+        "csv",
+        "browser",
+        "search",
+        "maps",
+        "business-directories",
+        "crm"
+      ],
+      "playbooks": [
+        "CONTROLLED_BROWSER_RESEARCH_PLAYBOOK",
+        "LEAD_RESEARCH_PLAYBOOK"
+      ]
+    },
+    "plan": {
+      "skillsLoaded": [
+        "LEAD_RESEARCH",
+        "CONTROLLED_BROWSER",
+        "OUTREACH"
+      ],
+      "workstreams": [
+        "collect qualified lead signals",
+        "score lead fit",
+        "prepare safe research log entries",
+        "research pipeline opportunities",
+        "score lead quality",
+        "prepare compliant outreach context"
+      ],
+      "validationChecks": [
+        "evidence is verified",
+        "lead quality threshold is clear",
+        "external action remains approval-gated"
+      ],
+      "dependencies": [],
+      "requiredEvidence": [
+        "lead notes",
+        "audit findings",
+        "personalization angles",
+        "Lead research plan",
+        "lead shortlist",
+        "lead scoring notes",
+        "lead research report",
+        "qualified leads csv",
+        "specialist_execution output"
+      ],
+      "playbooks": [
+        "CONTROLLED_BROWSER_RESEARCH_PLAYBOOK",
+        "LEAD_RESEARCH_PLAYBOOK"
+      ],
+      "integrations": [
+        "Docs (NORMAL)",
+        "Csv (NORMAL)",
+        "Controlled Browser (HIGH)",
+        "Search (NORMAL)",
+        "Maps (NORMAL)",
+        "Business Directories (NORMAL)",
+        "Crm (NORMAL)"
+      ],
+      "collaborationTargets": [
+        "WEBSITE_AUDIT_AGENT",
+        "BUSINESS_INTELLIGENCE_AGENT",
+        "MARKETING_STRATEGIST_AGENT"
+      ],
+      "specialistPlan": {
+        "kind": "lead-research",
+        "module": "lead-research",
+        "executionSteps": [
+          "Open controlled browser session only when capability is attached.",
+          "Search approved sources using industry and location formulas.",
+          "Score each lead and keep only leads scoring 60+ unless instructed otherwise.",
+          "Create mini audit, personalization angle, and draft handoff record.",
+          "Stop before contact, form submission, or email sending."
+        ],
+        "expectedArtifacts": [
+          "qualified lead table",
+          "mini audit set",
+          "personalization angles",
+          "outreach draft handoff"
+        ],
+        "objective": "Define qualified lead collection plan without sending outreach."
+      }
+    },
+    "execution": {
+      "summary": "Lead Research executed Define qualified lead collection plan without sending outreach. for mission 20260710-LEAD-RESEARCH-YLDQKY using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: CONTROLLED_BROWSER_RESEARCH_PLAYBOOK, LEAD_RESEARCH_PLAYBOOK; integrations: docs, csv, browser, search, maps, business-directories, crm.",
+      "artifacts": [
+        "LEAD_RESEARCH_AGENT:lead shortlist",
+        "LEAD_RESEARCH_AGENT:lead scoring notes",
+        "LEAD_RESEARCH_AGENT:lead research report",
+        "LEAD_RESEARCH_AGENT:qualified leads csv",
+        "LEAD_RESEARCH_AGENT:specialist_execution output"
+      ],
+      "evidence": [
+        "lead notes",
+        "audit findings",
+        "personalization angles",
+        "Lead research plan",
+        "lead shortlist",
+        "lead scoring notes",
+        "lead research report",
+        "qualified leads csv",
+        "specialist_execution output"
+      ],
+      "integrationsUsed": [
+        {
+          "id": "docs",
+          "title": "Docs",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "csv",
+          "title": "Csv",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "browser",
+          "title": "Controlled Browser",
+          "approvalLevel": "HIGH",
+          "runtimeDocs": [
+            "integrations/core/INTEGRATION_CONTRACT.md",
+            "integrations/runtime/CONTROLLED_OPERATIONS_RUNTIME.md"
+          ]
+        },
+        {
+          "id": "search",
+          "title": "Search",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "maps",
+          "title": "Maps",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "business-directories",
+          "title": "Business Directories",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "crm",
+          "title": "Crm",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        }
+      ],
+      "playbooksUsed": [
+        "CONTROLLED_BROWSER_RESEARCH_PLAYBOOK",
+        "LEAD_RESEARCH_PLAYBOOK"
+      ],
+      "collaborationRequests": [
+        {
+          "target": "WEBSITE_AUDIT_AGENT",
+          "reason": "Coordinate lead research plan with WEBSITE_AUDIT_AGENT."
+        },
+        {
+          "target": "BUSINESS_INTELLIGENCE_AGENT",
+          "reason": "Coordinate lead research plan with BUSINESS_INTELLIGENCE_AGENT."
+        },
+        {
+          "target": "MARKETING_STRATEGIST_AGENT",
+          "reason": "Coordinate lead research plan with MARKETING_STRATEGIST_AGENT."
+        }
+      ],
+      "specialistOutputs": [
+        "lead shortlist",
+        "lead scoring notes",
+        "lead research report",
+        "qualified leads csv",
+        "specialist_execution output"
+      ],
+      "kpiFocus": [
+        "pipeline health",
+        "qualified opportunities",
+        "High"
+      ],
+      "approvalGateReached": false,
+      "specialistRuntime": {
+        "kind": "lead-research",
+        "leadResearchRunbook": {
+          "targetCount": 50,
+          "approvedSources": [
+            "Google Search",
+            "Google Maps",
+            "business directories",
+            "Yelp",
+            "LinkedIn company pages",
+            "Instagram",
+            "Facebook",
+            "TikTok"
+          ],
+          "requiredFields": [
+            "lead_id",
+            "business_name",
+            "industry",
+            "location",
+            "tier",
+            "website_url",
+            "source_url",
+            "public_email",
+            "contact_page_url",
+            "website_quality_score",
+            "total_score",
+            "priority_label",
+            "top_3_website_issues",
+            "suggested_outreach_angle",
+            "status"
+          ],
+          "scoring": {
+            "businessValue": 25,
+            "websiteProblemSeverity": 25,
+            "conversionOpportunity": 20,
+            "contactability": 15,
+            "fit": 15,
+            "minimumSavedScore": 60
+          },
+          "draftPolicy": "Draft only. No automatic email sending, form submission, or prospect contact."
+        },
+        "controlledSessions": [
+          {
+            "integrationId": "browser",
+            "purpose": "Lead research and website audit collection",
+            "capabilityAvailable": false,
+            "authenticated": false,
+            "requestedActions": [
+              "read"
+            ],
+            "externalActions": [],
+            "approvalCheckpoint": {
+              "status": "WAITING_APPROVAL_BEFORE_LIVE_ACTION",
+              "reason": "browser requires confirmed capability, authentication state, and human approval before live execution.",
+              "stopConditions": [
+                "login",
+                "2FA",
+                "CAPTCHA",
+                "billing",
+                "verification",
+                "property selection",
+                "state-changing action"
+              ]
+            },
+            "allowedNow": false
+          }
+        ],
+        "approvalCheckpoints": [
+          {
+            "action": "send_email",
+            "target": "qualified prospect list",
+            "evidence": [
+              "lead table",
+              "mini audits",
+              "draft copy",
+              "CRM status"
+            ],
+            "requiredBefore": [
+              "external contact",
+              "account modification",
+              "publishing",
+              "deployment",
+              "billing",
+              "DNS",
+              "indexing request"
+            ],
+            "approvalRecord": {
+              "approver": "Human owner",
+              "status": "PENDING",
+              "notesRequired": true
+            }
+          }
+        ],
+        "validationRules": [
+          "50-lead target is explicit",
+          "score threshold is explicit",
+          "contact actions are approval-gated"
+        ]
+      }
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "passed": true,
+      "notes": "Lead Research completed lead research plan with 7 tracked integrations."
+    },
+    "memory": {
+      "currentState": "20260710-LEAD-RESEARCH-YLDQKY-T005: Lead Research completed Define qualified lead collection plan without sending outreach..",
+      "nextAction": "WEBSITE_AUDIT_AGENT should take over 20260710-LEAD-RESEARCH-YLDQKY-T005.",
+      "codexMemory": "20260710-LEAD-RESEARCH-YLDQKY used Lead Research for Lead research plan."
+    }
+  },
+  "integrationsUsed": [
+    {
+      "id": "docs",
+      "title": "Docs",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "csv",
+      "title": "Csv",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "browser",
+      "title": "Controlled Browser",
+      "approvalLevel": "HIGH",
+      "runtimeDocs": [
+        "integrations/core/INTEGRATION_CONTRACT.md",
+        "integrations/runtime/CONTROLLED_OPERATIONS_RUNTIME.md"
+      ]
+    },
+    {
+      "id": "search",
+      "title": "Search",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "maps",
+      "title": "Maps",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "business-directories",
+      "title": "Business Directories",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "crm",
+      "title": "Crm",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    }
+  ],
+  "playbooksUsed": [
+    "CONTROLLED_BROWSER_RESEARCH_PLAYBOOK",
+    "LEAD_RESEARCH_PLAYBOOK"
+  ],
+  "collaborationRequests": [
+    {
+      "target": "WEBSITE_AUDIT_AGENT",
+      "reason": "Coordinate lead research plan with WEBSITE_AUDIT_AGENT."
+    },
+    {
+      "target": "BUSINESS_INTELLIGENCE_AGENT",
+      "reason": "Coordinate lead research plan with BUSINESS_INTELLIGENCE_AGENT."
+    },
+    {
+      "target": "MARKETING_STRATEGIST_AGENT",
+      "reason": "Coordinate lead research plan with MARKETING_STRATEGIST_AGENT."
+    }
+  ],
+  "kpiFocus": [
+    "pipeline health",
+    "qualified opportunities",
+    "High"
+  ],
+  "specialistArtifacts": [
+    "growth/crm/20260710-LEAD-RESEARCH-YLDQKY-lead-research.csv",
+    "growth/marketing/20260710-LEAD-RESEARCH-YLDQKY-lead-research-runbook.md"
+  ]
+}

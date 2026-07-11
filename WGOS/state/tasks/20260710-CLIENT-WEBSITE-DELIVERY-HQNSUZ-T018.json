@@ -1,0 +1,279 @@
+{
+  "id": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T018",
+  "missionId": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ",
+  "sequence": 18,
+  "agentSlug": "DEPLOYMENT_ENGINEER_AGENT",
+  "agentTitle": "Deployment Engineer",
+  "department": "engineering",
+  "objective": "Prepare launch checklist, rollback thinking, and approval-gated release notes.",
+  "expectedOutput": "Deployment preparation package",
+  "stage": "specialist_execution",
+  "status": "COMPLETED",
+  "dependencies": [],
+  "nextAgentSlug": "QA_ENGINEER_AGENT",
+  "estimatedComplexity": "Medium",
+  "businessValue": "Medium",
+  "revenueImpact": "Medium",
+  "priority": "HIGH",
+  "documentationStatus": "UPDATED",
+  "qaStatus": "PENDING",
+  "approvalStatus": "NOT_REQUIRED",
+  "completionStatus": "COMPLETED",
+  "startedAt": "2026-07-10T11:42:35.764Z",
+  "updatedAt": "2026-07-10T11:42:36.134Z",
+  "report": {
+    "agent": "Deployment Engineer",
+    "taskId": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T018",
+    "objective": "Prepare launch checklist, rollback thinking, and approval-gated release notes.",
+    "actions": "Deployment Engineer executed Prepare launch checklist, rollback thinking, and approval-gated release notes. for mission 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ using workflows: CLIENT_PROJECT_DELIVERY_WORKFLOW, WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: REPO_DELIVERY_PLAYBOOK; integrations: filesystem, docs, github, vercel.",
+    "validation": "Deployment Engineer completed deployment preparation package with 4 tracked integrations.",
+    "nextStep": "Hand off to QA_ENGINEER_AGENT.",
+    "integrations": [
+      "filesystem",
+      "docs",
+      "github",
+      "vercel"
+    ],
+    "playbooks": [
+      "REPO_DELIVERY_PLAYBOOK"
+    ],
+    "specialistOutputs": [
+      "deployment plan",
+      "release checklist",
+      "specialist_execution output"
+    ]
+  },
+  "handoff": {
+    "fromAgentSlug": "DEPLOYMENT_ENGINEER_AGENT",
+    "toAgentSlug": "QA_ENGINEER_AGENT",
+    "status": "COMPLETED",
+    "validationNeeded": "Downstream review by QA_ENGINEER_AGENT.",
+    "completedWork": [
+      "deployment plan",
+      "release checklist",
+      "specialist_execution output"
+    ],
+    "collaborationTargets": [
+      "QA_ENGINEER_AGENT",
+      "FRONTEND_ENGINEER_AGENT",
+      "BACKEND_ENGINEER_AGENT",
+      "FULL_STACK_ENGINEER_AGENT"
+    ]
+  },
+  "runtime": {
+    "mission": {
+      "objective": "Prepare launch checklist, rollback thinking, and approval-gated release notes.",
+      "successDefinition": "Deployment preparation package",
+      "companyId": "client-template",
+      "approvalClass": "A1",
+      "missionType": "Internal operations",
+      "requiredDepartments": [
+        "executive",
+        "client",
+        "design",
+        "engineering",
+        "search",
+        "publishing"
+      ],
+      "requiredIntegrations": [
+        "filesystem",
+        "docs",
+        "github",
+        "vercel"
+      ],
+      "playbooks": [
+        "REPO_DELIVERY_PLAYBOOK"
+      ]
+    },
+    "plan": {
+      "skillsLoaded": [
+        "DEPLOYMENT",
+        "TESTING"
+      ],
+      "workstreams": [
+        "implement scoped changes",
+        "protect reliability",
+        "prepare validation evidence"
+      ],
+      "validationChecks": [
+        "implementation matches task objective",
+        "technical risks are surfaced",
+        "release constraints are documented"
+      ],
+      "dependencies": [],
+      "requiredEvidence": [
+        "implementation notes",
+        "validation notes",
+        "handoff blockers",
+        "Deployment preparation package",
+        "deployment plan",
+        "release checklist",
+        "specialist_execution output"
+      ],
+      "playbooks": [
+        "REPO_DELIVERY_PLAYBOOK"
+      ],
+      "integrations": [
+        "Filesystem (NORMAL)",
+        "Docs (NORMAL)",
+        "GitHub (HIGH)",
+        "Vercel (NORMAL)"
+      ],
+      "collaborationTargets": [
+        "QA_ENGINEER_AGENT",
+        "FRONTEND_ENGINEER_AGENT",
+        "BACKEND_ENGINEER_AGENT",
+        "FULL_STACK_ENGINEER_AGENT"
+      ]
+    },
+    "execution": {
+      "summary": "Deployment Engineer executed Prepare launch checklist, rollback thinking, and approval-gated release notes. for mission 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ using workflows: CLIENT_PROJECT_DELIVERY_WORKFLOW, WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: REPO_DELIVERY_PLAYBOOK; integrations: filesystem, docs, github, vercel.",
+      "artifacts": [
+        "DEPLOYMENT_ENGINEER_AGENT:deployment plan",
+        "DEPLOYMENT_ENGINEER_AGENT:release checklist",
+        "DEPLOYMENT_ENGINEER_AGENT:specialist_execution output"
+      ],
+      "evidence": [
+        "implementation notes",
+        "validation notes",
+        "handoff blockers",
+        "Deployment preparation package",
+        "deployment plan",
+        "release checklist",
+        "specialist_execution output"
+      ],
+      "integrationsUsed": [
+        {
+          "id": "filesystem",
+          "title": "Filesystem",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": [
+            "integrations/core/INTEGRATION_CONTRACT.md",
+            "integrations/logging/LOG_SCHEMA.md"
+          ]
+        },
+        {
+          "id": "docs",
+          "title": "Docs",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "github",
+          "title": "GitHub",
+          "approvalLevel": "HIGH",
+          "runtimeDocs": [
+            "integrations/core/INTEGRATION_LIFECYCLE.md",
+            "integrations/logging/LOG_SCHEMA.md"
+          ]
+        },
+        {
+          "id": "vercel",
+          "title": "Vercel",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        }
+      ],
+      "playbooksUsed": [
+        "REPO_DELIVERY_PLAYBOOK"
+      ],
+      "collaborationRequests": [
+        {
+          "target": "QA_ENGINEER_AGENT",
+          "reason": "Coordinate deployment preparation package with QA_ENGINEER_AGENT."
+        },
+        {
+          "target": "FRONTEND_ENGINEER_AGENT",
+          "reason": "Coordinate deployment preparation package with FRONTEND_ENGINEER_AGENT."
+        },
+        {
+          "target": "BACKEND_ENGINEER_AGENT",
+          "reason": "Coordinate deployment preparation package with BACKEND_ENGINEER_AGENT."
+        },
+        {
+          "target": "FULL_STACK_ENGINEER_AGENT",
+          "reason": "Coordinate deployment preparation package with FULL_STACK_ENGINEER_AGENT."
+        }
+      ],
+      "specialistOutputs": [
+        "deployment plan",
+        "release checklist",
+        "specialist_execution output"
+      ],
+      "kpiFocus": [
+        "delivery throughput",
+        "quality pass rate",
+        "Medium"
+      ],
+      "approvalGateReached": false
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "passed": true,
+      "notes": "Deployment Engineer completed deployment preparation package with 4 tracked integrations."
+    },
+    "memory": {
+      "currentState": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T018: Deployment Engineer completed Prepare launch checklist, rollback thinking, and approval-gated release notes..",
+      "nextAction": "QA_ENGINEER_AGENT should take over 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T018.",
+      "codexMemory": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ used Deployment Engineer for Deployment preparation package."
+    }
+  },
+  "integrationsUsed": [
+    {
+      "id": "filesystem",
+      "title": "Filesystem",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": [
+        "integrations/core/INTEGRATION_CONTRACT.md",
+        "integrations/logging/LOG_SCHEMA.md"
+      ]
+    },
+    {
+      "id": "docs",
+      "title": "Docs",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "github",
+      "title": "GitHub",
+      "approvalLevel": "HIGH",
+      "runtimeDocs": [
+        "integrations/core/INTEGRATION_LIFECYCLE.md",
+        "integrations/logging/LOG_SCHEMA.md"
+      ]
+    },
+    {
+      "id": "vercel",
+      "title": "Vercel",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    }
+  ],
+  "playbooksUsed": [
+    "REPO_DELIVERY_PLAYBOOK"
+  ],
+  "collaborationRequests": [
+    {
+      "target": "QA_ENGINEER_AGENT",
+      "reason": "Coordinate deployment preparation package with QA_ENGINEER_AGENT."
+    },
+    {
+      "target": "FRONTEND_ENGINEER_AGENT",
+      "reason": "Coordinate deployment preparation package with FRONTEND_ENGINEER_AGENT."
+    },
+    {
+      "target": "BACKEND_ENGINEER_AGENT",
+      "reason": "Coordinate deployment preparation package with BACKEND_ENGINEER_AGENT."
+    },
+    {
+      "target": "FULL_STACK_ENGINEER_AGENT",
+      "reason": "Coordinate deployment preparation package with FULL_STACK_ENGINEER_AGENT."
+    }
+  ],
+  "kpiFocus": [
+    "delivery throughput",
+    "quality pass rate",
+    "Medium"
+  ]
+}

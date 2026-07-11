@@ -1,0 +1,142 @@
+{
+  "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+  "templateId": "BUILD_PREMIUM_WEBSITE",
+  "companyId": "web-growth",
+  "objective": "Plan and coordinate a premium website build with strategy, design, engineering, search, QA, memory, and documentation.",
+  "missionType": "Website project",
+  "approvalClass": "A1",
+  "workflows": [
+    "WEBSITE_REBUILD_WORKFLOW",
+    "QA_AND_RELEASE_WORKFLOW"
+  ],
+  "successCriteria": [
+    "Required departments selected",
+    "Task dependencies clear",
+    "Executive dashboard reflects progress"
+  ],
+  "requiredDepartments": [
+    "executive",
+    "design",
+    "engineering",
+    "search"
+  ],
+  "requiredAgents": [
+    "CEO_OPERATOR_AGENT",
+    "WORKFLOW_ORCHESTRATOR_AGENT",
+    "PROJECT_MANAGER_AGENT",
+    "PRODUCT_STRATEGIST_AGENT",
+    "UI_UX_DESIGN_AGENT",
+    "FRONTEND_ENGINEER_AGENT",
+    "SEO_AGENT",
+    "QA_ENGINEER_AGENT",
+    "KNOWLEDGE_MANAGER_AGENT",
+    "DOCUMENTATION_AGENT"
+  ],
+  "requiredSkills": [
+    "BUSINESS_MODEL",
+    "OPERATIONS",
+    "TESTING",
+    "CRO",
+    "COPYWRITING",
+    "ACCESSIBILITY",
+    "NEXTJS",
+    "TAILWIND",
+    "TYPESCRIPT",
+    "SEO",
+    "AEO",
+    "GEO"
+  ],
+  "requiredIntegrations": [
+    "filesystem",
+    "docs",
+    "csv",
+    "github",
+    "figma",
+    "images",
+    "vercel",
+    "lighthouse",
+    "pagespeed",
+    "search",
+    "search-console",
+    "ga4",
+    "crm"
+  ],
+  "approvalGates": [
+    "Local-only execution"
+  ],
+  "businessValue": "High",
+  "revenueImpact": "High",
+  "estimatedComplexity": "High",
+  "documentationUpdates": [
+    "reports",
+    "memory",
+    "decisions",
+    "executive-dashboard"
+  ],
+  "priority": "HIGH",
+  "qaStatus": "PASSED",
+  "documentationStatus": "UPDATED",
+  "approvalStatus": "CLEARED",
+  "completionStatus": "COMPLETED",
+  "status": "COMPLETED",
+  "startedAt": "2026-07-10T18:22:44.643Z",
+  "updatedAt": "2026-07-10T18:22:48.652Z",
+  "operator": "Codex",
+  "taskIds": [
+    "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T001",
+    "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T002",
+    "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T003",
+    "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T004",
+    "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T005",
+    "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T006",
+    "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T007",
+    "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T008",
+    "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T009",
+    "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T010"
+  ],
+  "openRisks": [],
+  "departmentSummaries": [
+    {
+      "department": "executive",
+      "assignedAgents": [
+        "CEO_OPERATOR_AGENT",
+        "WORKFLOW_ORCHESTRATOR_AGENT",
+        "PROJECT_MANAGER_AGENT",
+        "KNOWLEDGE_MANAGER_AGENT",
+        "DOCUMENTATION_AGENT"
+      ],
+      "completedTasks": 5,
+      "blockedTasks": 0,
+      "waitingApprovalTasks": 0
+    },
+    {
+      "department": "design",
+      "assignedAgents": [
+        "PRODUCT_STRATEGIST_AGENT",
+        "UI_UX_DESIGN_AGENT"
+      ],
+      "completedTasks": 2,
+      "blockedTasks": 0,
+      "waitingApprovalTasks": 0
+    },
+    {
+      "department": "engineering",
+      "assignedAgents": [
+        "FRONTEND_ENGINEER_AGENT",
+        "QA_ENGINEER_AGENT"
+      ],
+      "completedTasks": 2,
+      "blockedTasks": 0,
+      "waitingApprovalTasks": 0
+    },
+    {
+      "department": "search",
+      "assignedAgents": [
+        "SEO_AGENT"
+      ],
+      "completedTasks": 1,
+      "blockedTasks": 0,
+      "waitingApprovalTasks": 0
+    }
+  ]
+}

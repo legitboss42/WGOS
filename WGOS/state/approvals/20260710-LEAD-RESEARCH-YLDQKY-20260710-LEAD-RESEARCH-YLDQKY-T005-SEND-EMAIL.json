@@ -1,0 +1,27 @@
+{
+  "id": "20260710-LEAD-RESEARCH-YLDQKY-20260710-LEAD-RESEARCH-YLDQKY-T005-SEND-EMAIL",
+  "missionId": "20260710-LEAD-RESEARCH-YLDQKY",
+  "companyId": "web-growth",
+  "taskId": "20260710-LEAD-RESEARCH-YLDQKY-T005",
+  "agentSlug": "LEAD_RESEARCH_AGENT",
+  "agentTitle": "Lead Research",
+  "department": "marketing",
+  "source": "approvalCheckpoint",
+  "integrationId": null,
+  "action": "send_email",
+  "target": "qualified prospect list",
+  "evidence": [
+    "lead table",
+    "mini audits",
+    "draft copy",
+    "CRM status"
+  ],
+  "status": "PENDING",
+  "approver": "Human owner",
+  "notesRequired": true,
+  "createdAt": "2026-07-10T16:54:33.812Z",
+  "reviewedAt": null,
+  "reviewer": null,
+  "reviewNote": "",
+  "nextAction": "Await human approval, rejection, or revision request."
+}

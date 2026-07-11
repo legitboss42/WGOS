@@ -1,0 +1,69 @@
+{
+  "id": "20260710-DEMO-SYSTEM-VALIDATION-Y82Z3J-T006",
+  "missionId": "20260710-DEMO-SYSTEM-VALIDATION-Y82Z3J",
+  "sequence": 6,
+  "agentSlug": "QA_ENGINEER_AGENT",
+  "agentTitle": "QA Engineer",
+  "department": "engineering",
+  "objective": "Validate mission completion, handoffs, and state integrity.",
+  "expectedOutput": "QA result and release readiness conclusion.",
+  "status": "COMPLETED",
+  "dependencies": [],
+  "nextAgentSlug": null,
+  "startedAt": "2026-07-10T06:55:45.125Z",
+  "updatedAt": "2026-07-10T06:55:45.668Z",
+  "report": {
+    "agent": "QA Engineer",
+    "taskId": "20260710-DEMO-SYSTEM-VALIDATION-Y82Z3J-T006",
+    "objective": "Validate mission completion, handoffs, and state integrity.",
+    "actions": "QA Engineer executed Validate mission completion, handoffs, and state integrity. for mission 20260710-DEMO-SYSTEM-VALIDATION-Y82Z3J using workflows: WORKFLOW_ORCHESTRATION, DOCUMENTATION_UPDATE_WORKFLOW, QA_AND_RELEASE_WORKFLOW.",
+    "validation": "QA Engineer completed qa result and release readiness conclusion..",
+    "nextStep": "Close the mission task chain."
+  },
+  "handoff": {
+    "fromAgentSlug": "QA_ENGINEER_AGENT",
+    "toAgentSlug": null,
+    "status": "COMPLETED",
+    "validationNeeded": "Mission closeout validation only."
+  },
+  "runtime": {
+    "mission": {
+      "objective": "Validate mission completion, handoffs, and state integrity.",
+      "successDefinition": "QA result and release readiness conclusion.",
+      "companyId": "WG-001",
+      "approvalClass": "A1"
+    },
+    "plan": {
+      "skillsLoaded": [
+        "TESTING"
+      ],
+      "steps": [
+        "Read mission context and prior handoff",
+        "Validate required inputs",
+        "Execute specialist work",
+        "Validate output against expected result",
+        "Prepare report, memory, and handoff payloads"
+      ],
+      "dependencies": []
+    },
+    "execution": {
+      "summary": "QA Engineer executed Validate mission completion, handoffs, and state integrity. for mission 20260710-DEMO-SYSTEM-VALIDATION-Y82Z3J using workflows: WORKFLOW_ORCHESTRATION, DOCUMENTATION_UPDATE_WORKFLOW, QA_AND_RELEASE_WORKFLOW.",
+      "artifacts": [
+        "QA_ENGINEER_AGENT:objective",
+        "QA_ENGINEER_AGENT:validation",
+        "QA_ENGINEER_AGENT:handoff"
+      ],
+      "approvalGateReached": false
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "passed": true,
+      "notes": "QA Engineer completed qa result and release readiness conclusion.."
+    },
+    "memory": {
+      "currentState": "20260710-DEMO-SYSTEM-VALIDATION-Y82Z3J-T006: QA Engineer completed Validate mission completion, handoffs, and state integrity..",
+      "nextAction": "Archive 20260710-DEMO-SYSTEM-VALIDATION-Y82Z3J-T006.",
+      "codexMemory": "20260710-DEMO-SYSTEM-VALIDATION-Y82Z3J used QA Engineer for QA result and release readiness conclusion.."
+    }
+  }
+}

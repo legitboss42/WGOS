@@ -1,0 +1,161 @@
+# Runtime Mission Plan
+
+{
+  "mission_id": "WGOS-20260710-WEBSITE_REBUILD",
+  "objective": "WGOS, rebuild WebGrowth.info",
+  "mission_type": "WEBSITE_REBUILD",
+  "workflows": [
+    "WEBSITE_REBUILD_WORKFLOW",
+    "QA_AND_RELEASE_WORKFLOW",
+    "DOCUMENTATION_UPDATE_WORKFLOW"
+  ],
+  "agents": [
+    "CEO_OPERATOR_AGENT",
+    "WORKFLOW_ORCHESTRATOR_AGENT",
+    "PROJECT_MANAGER_AGENT",
+    "PRODUCT_STRATEGIST_AGENT",
+    "UI_UX_DESIGN_AGENT",
+    "MOTION_GRAPHICS_AGENT",
+    "FRONTEND_ENGINEER_AGENT",
+    "SEO_AGENT",
+    "AEO_AGENT",
+    "GEO_AGENT",
+    "ACCESSIBILITY_ENGINEER_AGENT",
+    "PERFORMANCE_ENGINEER_AGENT",
+    "QA_ENGINEER_AGENT",
+    "KNOWLEDGE_MANAGER_AGENT",
+    "DOCUMENTATION_AGENT"
+  ],
+  "departments": [
+    "executive",
+    "design",
+    "engineering",
+    "search"
+  ],
+  "skills": [
+    "NEXTJS",
+    "TAILWIND",
+    "TYPESCRIPT",
+    "SEO",
+    "AEO",
+    "GEO",
+    "ACCESSIBILITY",
+    "PERFORMANCE",
+    "TESTING"
+  ],
+  "approval_gates": [
+    "NORMAL: major design direction",
+    "CRITICAL: production deployment"
+  ],
+  "expected_reports": [
+    "website-rebuild-report",
+    "qa-report",
+    "handoff"
+  ],
+  "memory_updates_required": [
+    "WGOS/memory/CODEX_MEMORY.md",
+    "WGOS/memory/CURRENT_STATE.md",
+    "WGOS/memory/ACTIVE_TASKS.md",
+    "WGOS/memory/NEXT_ACTIONS.md"
+  ],
+  "validation_steps": [
+    "classification reviewed",
+    "task board created",
+    "approval gates listed",
+    "report created",
+    "memory updated"
+  ],
+  "task_board": [
+    {
+      "sequence": 1,
+      "agent": "CEO_OPERATOR_AGENT",
+      "status": "READY",
+      "expected_output": "website-rebuild-report"
+    },
+    {
+      "sequence": 2,
+      "agent": "WORKFLOW_ORCHESTRATOR_AGENT",
+      "status": "READY",
+      "expected_output": "qa-report"
+    },
+    {
+      "sequence": 3,
+      "agent": "PROJECT_MANAGER_AGENT",
+      "status": "READY",
+      "expected_output": "handoff"
+    },
+    {
+      "sequence": 4,
+      "agent": "PRODUCT_STRATEGIST_AGENT",
+      "status": "READY",
+      "expected_output": "agent output and handoff"
+    },
+    {
+      "sequence": 5,
+      "agent": "UI_UX_DESIGN_AGENT",
+      "status": "READY",
+      "expected_output": "agent output and handoff"
+    },
+    {
+      "sequence": 6,
+      "agent": "MOTION_GRAPHICS_AGENT",
+      "status": "READY",
+      "expected_output": "agent output and handoff"
+    },
+    {
+      "sequence": 7,
+      "agent": "FRONTEND_ENGINEER_AGENT",
+      "status": "READY",
+      "expected_output": "agent output and handoff"
+    },
+    {
+      "sequence": 8,
+      "agent": "SEO_AGENT",
+      "status": "READY",
+      "expected_output": "agent output and handoff"
+    },
+    {
+      "sequence": 9,
+      "agent": "AEO_AGENT",
+      "status": "READY",
+      "expected_output": "agent output and handoff"
+    },
+    {
+      "sequence": 10,
+      "agent": "GEO_AGENT",
+      "status": "READY",
+      "expected_output": "agent output and handoff"
+    },
+    {
+      "sequence": 11,
+      "agent": "ACCESSIBILITY_ENGINEER_AGENT",
+      "status": "READY",
+      "expected_output": "agent output and handoff"
+    },
+    {
+      "sequence": 12,
+      "agent": "PERFORMANCE_ENGINEER_AGENT",
+      "status": "READY",
+      "expected_output": "agent output and handoff"
+    },
+    {
+      "sequence": 13,
+      "agent": "QA_ENGINEER_AGENT",
+      "status": "READY",
+      "expected_output": "agent output and handoff"
+    },
+    {
+      "sequence": 14,
+      "agent": "KNOWLEDGE_MANAGER_AGENT",
+      "status": "READY",
+      "expected_output": "agent output and handoff"
+    },
+    {
+      "sequence": 15,
+      "agent": "DOCUMENTATION_AGENT",
+      "status": "READY",
+      "expected_output": "agent output and handoff"
+    }
+  ],
+  "next_step": "Review approval gates, then execute the first task phase in Codex."
+}

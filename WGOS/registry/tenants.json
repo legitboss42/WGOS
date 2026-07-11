@@ -1,0 +1,35 @@
+[
+  {
+    "id": "WG-001",
+    "slug": "web-growth",
+    "name": "Web Growth",
+    "industry": "Digital Growth Platform",
+    "country": "Nigeria",
+    "timezone": "Africa/Lagos",
+    "owner": "Vicky",
+    "services": [
+      "Website Design",
+      "SEO",
+      "Technical SEO",
+      "Performance Optimization",
+      "CRO",
+      "Content Publishing"
+    ],
+    "status": "ACTIVE",
+    "currentPhase": "Phase 9-ready platform tenant"
+  },
+  {
+    "id": "CL-000",
+    "slug": "client-template",
+    "name": "Client Template",
+    "industry": "Template",
+    "country": "TBD",
+    "timezone": "TBD",
+    "owner": "WGOS",
+    "services": [
+      "Template"
+    ],
+    "status": "TEMPLATE",
+    "currentPhase": "Reusable onboarding seed"
+  }
+]

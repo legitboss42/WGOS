@@ -1,0 +1,26 @@
+{
+  "id": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T006-DEPLOY",
+  "missionId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47",
+  "companyId": "web-growth",
+  "taskId": "20260710-BUILD-PREMIUM-WEBSITE-9YYJ47-T006",
+  "agentSlug": "FRONTEND_ENGINEER_AGENT",
+  "agentTitle": "Frontend Engineer",
+  "department": "engineering",
+  "source": "approvalCheckpoint",
+  "integrationId": null,
+  "action": "deploy",
+  "target": "web-growth",
+  "evidence": [
+    "build output",
+    "QA report",
+    "deployment checklist"
+  ],
+  "status": "PENDING",
+  "approver": "Human owner",
+  "notesRequired": true,
+  "createdAt": "2026-07-10T18:22:48.773Z",
+  "reviewedAt": null,
+  "reviewer": null,
+  "reviewNote": "",
+  "nextAction": "Await human approval, rejection, or revision request."
+}

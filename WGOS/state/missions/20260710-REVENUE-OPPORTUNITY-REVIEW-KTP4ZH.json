@@ -1,0 +1,155 @@
+{
+  "id": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH",
+  "templateId": "REVENUE_OPPORTUNITY_REVIEW",
+  "companyId": "web-growth",
+  "objective": "Coordinate analytics, CRO, revenue operations, affiliate, digital product, newsletter, and AdSense opportunities into a revenue-growth operating plan.",
+  "missionType": "Internal operations",
+  "approvalClass": "A1",
+  "workflows": [
+    "ANALYTICS_REVIEW_WORKFLOW",
+    "WEEKLY_AGENCY_OPERATIONS_WORKFLOW",
+    "ADSENSE_READINESS_WORKFLOW"
+  ],
+  "successCriteria": [
+    "Revenue opportunities are prioritized across services, content, products, and conversion paths",
+    "Affiliate, AdSense, newsletter, and digital-product opportunities are documented without live external actions",
+    "Executive revenue reporting is generated with next recommended priorities"
+  ],
+  "requiredDepartments": [
+    "executive",
+    "revenue",
+    "marketing",
+    "engineering"
+  ],
+  "requiredAgents": [
+    "CEO_OPERATOR_AGENT",
+    "WORKFLOW_ORCHESTRATOR_AGENT",
+    "PROJECT_MANAGER_AGENT",
+    "ANALYTICS_AGENT",
+    "CRO_AGENT",
+    "REVENUE_OPERATIONS_AGENT",
+    "ADSENSE_AGENT",
+    "AFFILIATE_MANAGER_AGENT",
+    "DIGITAL_PRODUCT_AGENT",
+    "NEWSLETTER_AGENT",
+    "MARKETING_STRATEGIST_AGENT",
+    "QA_ENGINEER_AGENT",
+    "KNOWLEDGE_MANAGER_AGENT",
+    "DOCUMENTATION_AGENT"
+  ],
+  "requiredSkills": [
+    "BUSINESS_MODEL",
+    "OPERATIONS",
+    "TESTING",
+    "GA4",
+    "SEO",
+    "CRO",
+    "COPYWRITING",
+    "ADSENSE",
+    "CONTENT_WRITING",
+    "GMAIL"
+  ],
+  "requiredIntegrations": [
+    "filesystem",
+    "docs",
+    "csv",
+    "github",
+    "lighthouse",
+    "pagespeed",
+    "images",
+    "ga4",
+    "search-console",
+    "crm",
+    "browser",
+    "search",
+    "maps",
+    "business-directories",
+    "gmail"
+  ],
+  "approvalGates": [
+    "Local-only execution"
+  ],
+  "businessValue": "Medium",
+  "revenueImpact": "Medium",
+  "estimatedComplexity": "Medium",
+  "documentationUpdates": [
+    "reports",
+    "memory",
+    "decisions",
+    "executive-dashboard"
+  ],
+  "priority": "HIGH",
+  "qaStatus": "PASSED",
+  "documentationStatus": "UPDATED",
+  "approvalStatus": "CLEARED",
+  "completionStatus": "COMPLETED",
+  "status": "COMPLETED",
+  "startedAt": "2026-07-10T12:05:17.950Z",
+  "updatedAt": "2026-07-10T12:05:20.672Z",
+  "operator": "Codex",
+  "taskIds": [
+    "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T001",
+    "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T002",
+    "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T003",
+    "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T004",
+    "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T005",
+    "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T006",
+    "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T007",
+    "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T008",
+    "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T009",
+    "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T010",
+    "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T011",
+    "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T012",
+    "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T013",
+    "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T014"
+  ],
+  "openRisks": [],
+  "departmentSummaries": [
+    {
+      "department": "executive",
+      "assignedAgents": [
+        "CEO_OPERATOR_AGENT",
+        "WORKFLOW_ORCHESTRATOR_AGENT",
+        "PROJECT_MANAGER_AGENT",
+        "KNOWLEDGE_MANAGER_AGENT",
+        "DOCUMENTATION_AGENT"
+      ],
+      "completedTasks": 5,
+      "blockedTasks": 0,
+      "waitingApprovalTasks": 0
+    },
+    {
+      "department": "revenue",
+      "assignedAgents": [
+        "ANALYTICS_AGENT",
+        "CRO_AGENT",
+        "REVENUE_OPERATIONS_AGENT",
+        "ADSENSE_AGENT",
+        "AFFILIATE_MANAGER_AGENT",
+        "DIGITAL_PRODUCT_AGENT"
+      ],
+      "completedTasks": 6,
+      "blockedTasks": 0,
+      "waitingApprovalTasks": 0
+    },
+    {
+      "department": "marketing",
+      "assignedAgents": [
+        "NEWSLETTER_AGENT",
+        "MARKETING_STRATEGIST_AGENT"
+      ],
+      "completedTasks": 2,
+      "blockedTasks": 0,
+      "waitingApprovalTasks": 0
+    },
+    {
+      "department": "engineering",
+      "assignedAgents": [
+        "QA_ENGINEER_AGENT"
+      ],
+      "completedTasks": 1,
+      "blockedTasks": 0,
+      "waitingApprovalTasks": 0
+    }
+  ]
+}

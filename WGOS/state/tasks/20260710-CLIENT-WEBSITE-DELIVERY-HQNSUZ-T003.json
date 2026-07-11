@@ -1,0 +1,282 @@
+{
+  "id": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T003",
+  "missionId": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ",
+  "sequence": 3,
+  "agentSlug": "PROJECT_MANAGER_AGENT",
+  "agentTitle": "Project Manager",
+  "department": "executive",
+  "objective": "Create the company task board, complexity estimate, and handoff-safe execution order.",
+  "expectedOutput": "Company task board",
+  "stage": "project_management",
+  "status": "COMPLETED",
+  "dependencies": [],
+  "nextAgentSlug": "SALES_CONSULTANT_AGENT",
+  "estimatedComplexity": "Medium",
+  "businessValue": "Medium",
+  "revenueImpact": "Medium",
+  "priority": "HIGH",
+  "documentationStatus": "UPDATED",
+  "qaStatus": "PENDING",
+  "approvalStatus": "NOT_REQUIRED",
+  "completionStatus": "COMPLETED",
+  "startedAt": "2026-07-10T11:42:24.648Z",
+  "updatedAt": "2026-07-10T11:42:24.921Z",
+  "report": {
+    "agent": "Project Manager",
+    "taskId": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T003",
+    "objective": "Create the company task board, complexity estimate, and handoff-safe execution order.",
+    "actions": "Project Manager executed Create the company task board, complexity estimate, and handoff-safe execution order. for mission 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ using workflows: CLIENT_PROJECT_DELIVERY_WORKFLOW, WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK, MISSION_ROUTING_PLAYBOOK; integrations: filesystem, docs, csv, github.",
+    "validation": "Project Manager completed company task board with 4 tracked integrations.",
+    "nextStep": "Hand off to SALES_CONSULTANT_AGENT.",
+    "integrations": [
+      "filesystem",
+      "docs",
+      "csv",
+      "github"
+    ],
+    "playbooks": [
+      "EXECUTIVE_CONTROL_PLAYBOOK",
+      "MISSION_ROUTING_PLAYBOOK"
+    ],
+    "specialistOutputs": [
+      "task board",
+      "risk register",
+      "status updates",
+      "project_management output"
+    ]
+  },
+  "handoff": {
+    "fromAgentSlug": "PROJECT_MANAGER_AGENT",
+    "toAgentSlug": "SALES_CONSULTANT_AGENT",
+    "status": "COMPLETED",
+    "validationNeeded": "Downstream review by SALES_CONSULTANT_AGENT.",
+    "completedWork": [
+      "task board",
+      "risk register",
+      "status updates",
+      "project_management output"
+    ],
+    "collaborationTargets": [
+      "SALES_CONSULTANT_AGENT",
+      "CEO_OPERATOR_AGENT",
+      "WORKFLOW_ORCHESTRATOR_AGENT"
+    ]
+  },
+  "runtime": {
+    "mission": {
+      "objective": "Create the company task board, complexity estimate, and handoff-safe execution order.",
+      "successDefinition": "Company task board",
+      "companyId": "client-template",
+      "approvalClass": "A1",
+      "missionType": "Internal operations",
+      "requiredDepartments": [
+        "executive",
+        "client",
+        "design",
+        "engineering",
+        "search",
+        "publishing"
+      ],
+      "requiredIntegrations": [
+        "filesystem",
+        "docs",
+        "csv",
+        "github"
+      ],
+      "playbooks": [
+        "EXECUTIVE_CONTROL_PLAYBOOK",
+        "MISSION_ROUTING_PLAYBOOK"
+      ]
+    },
+    "plan": {
+      "skillsLoaded": [
+        "OPERATIONS"
+      ],
+      "workstreams": [
+        "construct task board",
+        "assign dependencies",
+        "track blockers and approvals",
+        "frame mission context",
+        "route dependencies",
+        "protect approvals"
+      ],
+      "validationChecks": [
+        "mission scope is clear",
+        "handoff order is explicit",
+        "approval gates are documented"
+      ],
+      "dependencies": [],
+      "requiredEvidence": [
+        "mission brief",
+        "dependency map",
+        "approval map",
+        "Company task board",
+        "task board",
+        "risk register",
+        "status updates",
+        "project_management output"
+      ],
+      "playbooks": [
+        "EXECUTIVE_CONTROL_PLAYBOOK",
+        "MISSION_ROUTING_PLAYBOOK"
+      ],
+      "integrations": [
+        "Filesystem (NORMAL)",
+        "Docs (NORMAL)",
+        "Csv (NORMAL)",
+        "GitHub (HIGH)"
+      ],
+      "collaborationTargets": [
+        "SALES_CONSULTANT_AGENT",
+        "CEO_OPERATOR_AGENT",
+        "WORKFLOW_ORCHESTRATOR_AGENT"
+      ]
+    },
+    "execution": {
+      "summary": "Project Manager executed Create the company task board, complexity estimate, and handoff-safe execution order. for mission 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ using workflows: CLIENT_PROJECT_DELIVERY_WORKFLOW, WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK, MISSION_ROUTING_PLAYBOOK; integrations: filesystem, docs, csv, github.",
+      "artifacts": [
+        "PROJECT_MANAGER_AGENT:task board",
+        "PROJECT_MANAGER_AGENT:risk register",
+        "PROJECT_MANAGER_AGENT:status updates",
+        "PROJECT_MANAGER_AGENT:project_management output"
+      ],
+      "evidence": [
+        "mission brief",
+        "dependency map",
+        "approval map",
+        "Company task board",
+        "task board",
+        "risk register",
+        "status updates",
+        "project_management output"
+      ],
+      "integrationsUsed": [
+        {
+          "id": "filesystem",
+          "title": "Filesystem",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": [
+            "integrations/core/INTEGRATION_CONTRACT.md",
+            "integrations/logging/LOG_SCHEMA.md"
+          ]
+        },
+        {
+          "id": "docs",
+          "title": "Docs",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "csv",
+          "title": "Csv",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "github",
+          "title": "GitHub",
+          "approvalLevel": "HIGH",
+          "runtimeDocs": [
+            "integrations/core/INTEGRATION_LIFECYCLE.md",
+            "integrations/logging/LOG_SCHEMA.md"
+          ]
+        }
+      ],
+      "playbooksUsed": [
+        "EXECUTIVE_CONTROL_PLAYBOOK",
+        "MISSION_ROUTING_PLAYBOOK"
+      ],
+      "collaborationRequests": [
+        {
+          "target": "SALES_CONSULTANT_AGENT",
+          "reason": "Coordinate company task board with SALES_CONSULTANT_AGENT."
+        },
+        {
+          "target": "CEO_OPERATOR_AGENT",
+          "reason": "Coordinate company task board with CEO_OPERATOR_AGENT."
+        },
+        {
+          "target": "WORKFLOW_ORCHESTRATOR_AGENT",
+          "reason": "Coordinate company task board with WORKFLOW_ORCHESTRATOR_AGENT."
+        }
+      ],
+      "specialistOutputs": [
+        "task board",
+        "risk register",
+        "status updates",
+        "project_management output"
+      ],
+      "kpiFocus": [
+        "documentation compliance",
+        "mission throughput",
+        "Medium"
+      ],
+      "approvalGateReached": false
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "passed": true,
+      "notes": "Project Manager completed company task board with 4 tracked integrations."
+    },
+    "memory": {
+      "currentState": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T003: Project Manager completed Create the company task board, complexity estimate, and handoff-safe execution order..",
+      "nextAction": "SALES_CONSULTANT_AGENT should take over 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T003.",
+      "codexMemory": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ used Project Manager for Company task board."
+    }
+  },
+  "integrationsUsed": [
+    {
+      "id": "filesystem",
+      "title": "Filesystem",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": [
+        "integrations/core/INTEGRATION_CONTRACT.md",
+        "integrations/logging/LOG_SCHEMA.md"
+      ]
+    },
+    {
+      "id": "docs",
+      "title": "Docs",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "csv",
+      "title": "Csv",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "github",
+      "title": "GitHub",
+      "approvalLevel": "HIGH",
+      "runtimeDocs": [
+        "integrations/core/INTEGRATION_LIFECYCLE.md",
+        "integrations/logging/LOG_SCHEMA.md"
+      ]
+    }
+  ],
+  "playbooksUsed": [
+    "EXECUTIVE_CONTROL_PLAYBOOK",
+    "MISSION_ROUTING_PLAYBOOK"
+  ],
+  "collaborationRequests": [
+    {
+      "target": "SALES_CONSULTANT_AGENT",
+      "reason": "Coordinate company task board with SALES_CONSULTANT_AGENT."
+    },
+    {
+      "target": "CEO_OPERATOR_AGENT",
+      "reason": "Coordinate company task board with CEO_OPERATOR_AGENT."
+    },
+    {
+      "target": "WORKFLOW_ORCHESTRATOR_AGENT",
+      "reason": "Coordinate company task board with WORKFLOW_ORCHESTRATOR_AGENT."
+    }
+  ],
+  "kpiFocus": [
+    "documentation compliance",
+    "mission throughput",
+    "Medium"
+  ]
+}

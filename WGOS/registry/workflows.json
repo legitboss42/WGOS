@@ -1,0 +1,147 @@
+[
+  {
+    "slug": "WORKFLOW_ORCHESTRATION",
+    "title": "Workflow Orchestration",
+    "trigger": "Any new mission that needs routing and dependency planning.",
+    "departments": [
+      "executive",
+      "operations",
+      "documentation"
+    ]
+  },
+  {
+    "slug": "WEBSITE_REBUILD_WORKFLOW",
+    "title": "Website Rebuild Workflow",
+    "trigger": "A website needs redesign, re-platforming, or major structural improvement.",
+    "departments": [
+      "executive",
+      "design",
+      "engineering",
+      "search",
+      "publishing",
+      "qa",
+      "documentation"
+    ]
+  },
+  {
+    "slug": "SEO_GROWTH_WORKFLOW",
+    "title": "SEO Growth Workflow",
+    "trigger": "A site needs rankings, snippets, internal links, trust, or technical SEO improvements.",
+    "departments": [
+      "search",
+      "publishing",
+      "revenue",
+      "qa",
+      "documentation"
+    ]
+  },
+  {
+    "slug": "CONTENT_PUBLISHING_WORKFLOW",
+    "title": "Content Publishing Workflow",
+    "trigger": "A content program or article batch needs planning, drafting, review, and publishing readiness.",
+    "departments": [
+      "publishing",
+      "search",
+      "qa",
+      "documentation"
+    ]
+  },
+  {
+    "slug": "ADSENSE_READINESS_WORKFLOW",
+    "title": "AdSense Readiness Workflow",
+    "trigger": "A property needs policy-safe monetization readiness evaluation.",
+    "departments": [
+      "revenue",
+      "publishing",
+      "search",
+      "qa",
+      "documentation"
+    ]
+  },
+  {
+    "slug": "LEAD_RESEARCH_WORKFLOW",
+    "title": "Lead Research Workflow",
+    "trigger": "The marketing team needs qualified leads and audit-ready outreach opportunities.",
+    "departments": [
+      "marketing",
+      "revenue",
+      "documentation"
+    ]
+  },
+  {
+    "slug": "HUMAN_APPROVED_OUTREACH_WORKFLOW",
+    "title": "Human Approved Outreach Workflow",
+    "trigger": "A campaign needs draft outreach and approval-gated follow-up plans.",
+    "departments": [
+      "marketing",
+      "client",
+      "documentation"
+    ]
+  },
+  {
+    "slug": "CLIENT_PROJECT_DELIVERY_WORKFLOW",
+    "title": "Client Project Delivery Workflow",
+    "trigger": "A client engagement needs end-to-end discovery through delivery preparation.",
+    "departments": [
+      "client",
+      "design",
+      "engineering",
+      "search",
+      "qa",
+      "documentation"
+    ]
+  },
+  {
+    "slug": "ANALYTICS_REVIEW_WORKFLOW",
+    "title": "Analytics Review Workflow",
+    "trigger": "A business needs KPI review, reporting, and next-step recommendations.",
+    "departments": [
+      "revenue",
+      "marketing",
+      "executive",
+      "documentation"
+    ]
+  },
+  {
+    "slug": "WEEKLY_AGENCY_OPERATIONS_WORKFLOW",
+    "title": "Weekly Agency Operations Workflow",
+    "trigger": "The company needs a recurring operating review across delivery, growth, and risk.",
+    "departments": [
+      "executive",
+      "operations",
+      "marketing",
+      "revenue",
+      "documentation"
+    ]
+  },
+  {
+    "slug": "CONTROLLED_BROWSER_WORKFLOW",
+    "title": "Controlled Browser Workflow",
+    "trigger": "A task needs browser observation with login, 2FA, or human-gated external steps.",
+    "departments": [
+      "executive",
+      "search",
+      "marketing",
+      "documentation"
+    ]
+  },
+  {
+    "slug": "DOCUMENTATION_UPDATE_WORKFLOW",
+    "title": "Documentation Update Workflow",
+    "trigger": "A mission or task changed system state and requires durable records.",
+    "departments": [
+      "documentation",
+      "executive"
+    ]
+  },
+  {
+    "slug": "QA_AND_RELEASE_WORKFLOW",
+    "title": "QA And Release Workflow",
+    "trigger": "A build or deliverable needs validation and release readiness review.",
+    "departments": [
+      "qa",
+      "engineering",
+      "documentation"
+    ]
+  }
+]

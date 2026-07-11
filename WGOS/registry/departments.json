@@ -1,0 +1,57 @@
+[
+  {
+    "id": "executive",
+    "name": "Executive",
+    "summary": "Mission intake, routing, approvals, governance, and executive reporting."
+  },
+  {
+    "id": "design",
+    "name": "Design",
+    "summary": "Product strategy, UX, brand systems, and motion direction."
+  },
+  {
+    "id": "engineering",
+    "name": "Engineering",
+    "summary": "Implementation, performance, accessibility, QA support, and deployment prep."
+  },
+  {
+    "id": "search",
+    "name": "Search",
+    "summary": "SEO, technical SEO, AEO, GEO, schema, and Search Console analysis."
+  },
+  {
+    "id": "publishing",
+    "name": "Publishing",
+    "summary": "Editorial planning, writing strategy, publishing, proofreading, and internal linking."
+  },
+  {
+    "id": "marketing",
+    "name": "Marketing",
+    "summary": "Lead research, audits, outreach drafts, CRM hygiene, and demand generation."
+  },
+  {
+    "id": "revenue",
+    "name": "Revenue",
+    "summary": "CRO, monetization strategy, affiliate planning, product opportunities, and analytics."
+  },
+  {
+    "id": "client",
+    "name": "Client",
+    "summary": "Sales consultation, proposals, onboarding, and client success transitions."
+  },
+  {
+    "id": "operations",
+    "name": "Operations",
+    "summary": "Operating cadence, process reliability, task hygiene, and service delivery control."
+  },
+  {
+    "id": "qa",
+    "name": "QA",
+    "summary": "Independent validation of quality, readiness, and standards compliance."
+  },
+  {
+    "id": "documentation",
+    "name": "Documentation",
+    "summary": "Traceability, memory integrity, and durable handoff records."
+  }
+]

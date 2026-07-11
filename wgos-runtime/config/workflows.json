@@ -1,0 +1,603 @@
+[
+  {
+    "id": "WORKFLOW_ORCHESTRATION",
+    "name": "Workflow Orchestration",
+    "mission_type": [
+      "AGENT_SYSTEM_UPDATE",
+      "GENERAL_STRATEGY"
+    ],
+    "description": "Any new mission that needs routing and dependency planning.",
+    "phases": [
+      "intake",
+      "planning",
+      "specialist execution",
+      "validation",
+      "reporting",
+      "memory update",
+      "handoff"
+    ],
+    "required_agents": [],
+    "approval_gates": [
+      "See config/approval-gates.json"
+    ],
+    "outputs": [
+      "mission plan",
+      "task board",
+      "report",
+      "memory update"
+    ],
+    "reports": [
+      "mission report"
+    ],
+    "memory_updates": [
+      "CURRENT_STATE",
+      "ACTIVE_TASKS",
+      "NEXT_ACTIONS"
+    ],
+    "validation": [
+      "workflow selected",
+      "agents assigned",
+      "approvals enforced",
+      "report generated"
+    ],
+    "source_docs": [
+      "WGOS/workflows/WORKFLOW_ORCHESTRATION.md",
+      "WGOS/WORKFLOWS.md"
+    ]
+  },
+  {
+    "id": "WEBSITE_REBUILD_WORKFLOW",
+    "name": "Website Rebuild Workflow",
+    "mission_type": [
+      "WEBSITE_REBUILD",
+      "WEBSITE_DESIGN",
+      "CLIENT_WEBSITE_BUILD"
+    ],
+    "description": "A website needs redesign, re-platforming, or major structural improvement.",
+    "phases": [
+      "intake",
+      "planning",
+      "specialist execution",
+      "validation",
+      "reporting",
+      "memory update",
+      "handoff"
+    ],
+    "required_agents": [],
+    "approval_gates": [
+      "See config/approval-gates.json"
+    ],
+    "outputs": [
+      "mission plan",
+      "task board",
+      "report",
+      "memory update"
+    ],
+    "reports": [
+      "mission report"
+    ],
+    "memory_updates": [
+      "CURRENT_STATE",
+      "ACTIVE_TASKS",
+      "NEXT_ACTIONS"
+    ],
+    "validation": [
+      "workflow selected",
+      "agents assigned",
+      "approvals enforced",
+      "report generated"
+    ],
+    "source_docs": [
+      "WGOS/workflows/WEBSITE_REBUILD_WORKFLOW.md",
+      "WGOS/WORKFLOWS.md"
+    ]
+  },
+  {
+    "id": "SEO_GROWTH_WORKFLOW",
+    "name": "SEO Growth Workflow",
+    "mission_type": [
+      "SEO_AUDIT",
+      "SEO_CONTENT_REBUILD",
+      "AEO_GEO_OPTIMIZATION",
+      "SEARCH_CONSOLE_REVIEW"
+    ],
+    "description": "A site needs rankings, snippets, internal links, trust, or technical SEO improvements.",
+    "phases": [
+      "intake",
+      "planning",
+      "specialist execution",
+      "validation",
+      "reporting",
+      "memory update",
+      "handoff"
+    ],
+    "required_agents": [],
+    "approval_gates": [
+      "See config/approval-gates.json"
+    ],
+    "outputs": [
+      "mission plan",
+      "task board",
+      "report",
+      "memory update"
+    ],
+    "reports": [
+      "mission report"
+    ],
+    "memory_updates": [
+      "CURRENT_STATE",
+      "ACTIVE_TASKS",
+      "NEXT_ACTIONS"
+    ],
+    "validation": [
+      "workflow selected",
+      "agents assigned",
+      "approvals enforced",
+      "report generated"
+    ],
+    "source_docs": [
+      "WGOS/workflows/SEO_GROWTH_WORKFLOW.md",
+      "WGOS/WORKFLOWS.md"
+    ]
+  },
+  {
+    "id": "CONTENT_PUBLISHING_WORKFLOW",
+    "name": "Content Publishing Workflow",
+    "mission_type": [
+      "SEO_CONTENT_REBUILD",
+      "CONTENT_PUBLISHING"
+    ],
+    "description": "A content program or article batch needs planning, drafting, review, and publishing readiness.",
+    "phases": [
+      "intake",
+      "planning",
+      "specialist execution",
+      "validation",
+      "reporting",
+      "memory update",
+      "handoff"
+    ],
+    "required_agents": [],
+    "approval_gates": [
+      "See config/approval-gates.json"
+    ],
+    "outputs": [
+      "mission plan",
+      "task board",
+      "report",
+      "memory update"
+    ],
+    "reports": [
+      "mission report"
+    ],
+    "memory_updates": [
+      "CURRENT_STATE",
+      "ACTIVE_TASKS",
+      "NEXT_ACTIONS"
+    ],
+    "validation": [
+      "workflow selected",
+      "agents assigned",
+      "approvals enforced",
+      "report generated"
+    ],
+    "source_docs": [
+      "WGOS/workflows/CONTENT_PUBLISHING_WORKFLOW.md",
+      "WGOS/WORKFLOWS.md"
+    ]
+  },
+  {
+    "id": "ADSENSE_READINESS_WORKFLOW",
+    "name": "AdSense Readiness Workflow",
+    "mission_type": [
+      "ADSENSE_READINESS"
+    ],
+    "description": "A property needs policy-safe monetization readiness evaluation.",
+    "phases": [
+      "intake",
+      "planning",
+      "specialist execution",
+      "validation",
+      "reporting",
+      "memory update",
+      "handoff"
+    ],
+    "required_agents": [],
+    "approval_gates": [
+      "See config/approval-gates.json"
+    ],
+    "outputs": [
+      "mission plan",
+      "task board",
+      "report",
+      "memory update"
+    ],
+    "reports": [
+      "mission report"
+    ],
+    "memory_updates": [
+      "CURRENT_STATE",
+      "ACTIVE_TASKS",
+      "NEXT_ACTIONS"
+    ],
+    "validation": [
+      "workflow selected",
+      "agents assigned",
+      "approvals enforced",
+      "report generated"
+    ],
+    "source_docs": [
+      "WGOS/workflows/ADSENSE_READINESS_WORKFLOW.md",
+      "WGOS/WORKFLOWS.md"
+    ]
+  },
+  {
+    "id": "LEAD_RESEARCH_WORKFLOW",
+    "name": "Lead Research Workflow",
+    "mission_type": [
+      "LEAD_GENERATION",
+      "WEBSITE_AUDIT_FOR_LEADS"
+    ],
+    "description": "The marketing team needs qualified leads and audit-ready outreach opportunities.",
+    "phases": [
+      "intake",
+      "planning",
+      "specialist execution",
+      "validation",
+      "reporting",
+      "memory update",
+      "handoff"
+    ],
+    "required_agents": [],
+    "approval_gates": [
+      "See config/approval-gates.json"
+    ],
+    "outputs": [
+      "mission plan",
+      "task board",
+      "report",
+      "memory update"
+    ],
+    "reports": [
+      "mission report"
+    ],
+    "memory_updates": [
+      "CURRENT_STATE",
+      "ACTIVE_TASKS",
+      "NEXT_ACTIONS"
+    ],
+    "validation": [
+      "workflow selected",
+      "agents assigned",
+      "approvals enforced",
+      "report generated"
+    ],
+    "source_docs": [
+      "WGOS/workflows/LEAD_RESEARCH_WORKFLOW.md",
+      "WGOS/WORKFLOWS.md"
+    ]
+  },
+  {
+    "id": "HUMAN_APPROVED_OUTREACH_WORKFLOW",
+    "name": "Human Approved Outreach Workflow",
+    "mission_type": [
+      "LEAD_GENERATION",
+      "OUTREACH_DRAFTING",
+      "CRM_UPDATE"
+    ],
+    "description": "A campaign needs draft outreach and approval-gated follow-up plans.",
+    "phases": [
+      "intake",
+      "planning",
+      "specialist execution",
+      "validation",
+      "reporting",
+      "memory update",
+      "handoff"
+    ],
+    "required_agents": [],
+    "approval_gates": [
+      "See config/approval-gates.json"
+    ],
+    "outputs": [
+      "mission plan",
+      "task board",
+      "report",
+      "memory update"
+    ],
+    "reports": [
+      "mission report"
+    ],
+    "memory_updates": [
+      "CURRENT_STATE",
+      "ACTIVE_TASKS",
+      "NEXT_ACTIONS"
+    ],
+    "validation": [
+      "workflow selected",
+      "agents assigned",
+      "approvals enforced",
+      "report generated"
+    ],
+    "source_docs": [
+      "WGOS/workflows/HUMAN_APPROVED_OUTREACH_WORKFLOW.md",
+      "WGOS/WORKFLOWS.md"
+    ]
+  },
+  {
+    "id": "CLIENT_PROJECT_DELIVERY_WORKFLOW",
+    "name": "Client Project Delivery Workflow",
+    "mission_type": [
+      "CLIENT_WEBSITE_BUILD"
+    ],
+    "description": "A client engagement needs end-to-end discovery through delivery preparation.",
+    "phases": [
+      "intake",
+      "planning",
+      "specialist execution",
+      "validation",
+      "reporting",
+      "memory update",
+      "handoff"
+    ],
+    "required_agents": [],
+    "approval_gates": [
+      "See config/approval-gates.json"
+    ],
+    "outputs": [
+      "mission plan",
+      "task board",
+      "report",
+      "memory update"
+    ],
+    "reports": [
+      "mission report"
+    ],
+    "memory_updates": [
+      "CURRENT_STATE",
+      "ACTIVE_TASKS",
+      "NEXT_ACTIONS"
+    ],
+    "validation": [
+      "workflow selected",
+      "agents assigned",
+      "approvals enforced",
+      "report generated"
+    ],
+    "source_docs": [
+      "WGOS/workflows/CLIENT_PROJECT_DELIVERY_WORKFLOW.md",
+      "WGOS/WORKFLOWS.md"
+    ]
+  },
+  {
+    "id": "ANALYTICS_REVIEW_WORKFLOW",
+    "name": "Analytics Review Workflow",
+    "mission_type": [
+      "SEO_AUDIT",
+      "ANALYTICS_REVIEW",
+      "GA4_REVIEW"
+    ],
+    "description": "A business needs KPI review, reporting, and next-step recommendations.",
+    "phases": [
+      "intake",
+      "planning",
+      "specialist execution",
+      "validation",
+      "reporting",
+      "memory update",
+      "handoff"
+    ],
+    "required_agents": [],
+    "approval_gates": [
+      "See config/approval-gates.json"
+    ],
+    "outputs": [
+      "mission plan",
+      "task board",
+      "report",
+      "memory update"
+    ],
+    "reports": [
+      "mission report"
+    ],
+    "memory_updates": [
+      "CURRENT_STATE",
+      "ACTIVE_TASKS",
+      "NEXT_ACTIONS"
+    ],
+    "validation": [
+      "workflow selected",
+      "agents assigned",
+      "approvals enforced",
+      "report generated"
+    ],
+    "source_docs": [
+      "WGOS/workflows/ANALYTICS_REVIEW_WORKFLOW.md",
+      "WGOS/WORKFLOWS.md"
+    ]
+  },
+  {
+    "id": "WEEKLY_AGENCY_OPERATIONS_WORKFLOW",
+    "name": "Weekly Agency Operations Workflow",
+    "mission_type": [],
+    "description": "The company needs a recurring operating review across delivery, growth, and risk.",
+    "phases": [
+      "intake",
+      "planning",
+      "specialist execution",
+      "validation",
+      "reporting",
+      "memory update",
+      "handoff"
+    ],
+    "required_agents": [],
+    "approval_gates": [
+      "See config/approval-gates.json"
+    ],
+    "outputs": [
+      "mission plan",
+      "task board",
+      "report",
+      "memory update"
+    ],
+    "reports": [
+      "mission report"
+    ],
+    "memory_updates": [
+      "CURRENT_STATE",
+      "ACTIVE_TASKS",
+      "NEXT_ACTIONS"
+    ],
+    "validation": [
+      "workflow selected",
+      "agents assigned",
+      "approvals enforced",
+      "report generated"
+    ],
+    "source_docs": [
+      "WGOS/workflows/WEEKLY_AGENCY_OPERATIONS_WORKFLOW.md",
+      "WGOS/WORKFLOWS.md"
+    ]
+  },
+  {
+    "id": "CONTROLLED_BROWSER_WORKFLOW",
+    "name": "Controlled Browser Workflow",
+    "mission_type": [
+      "CONTROLLED_BROWSER_TASK",
+      "EMAIL_SETUP"
+    ],
+    "description": "A task needs browser observation with login, 2FA, or human-gated external steps.",
+    "phases": [
+      "intake",
+      "planning",
+      "specialist execution",
+      "validation",
+      "reporting",
+      "memory update",
+      "handoff"
+    ],
+    "required_agents": [],
+    "approval_gates": [
+      "See config/approval-gates.json"
+    ],
+    "outputs": [
+      "mission plan",
+      "task board",
+      "report",
+      "memory update"
+    ],
+    "reports": [
+      "mission report"
+    ],
+    "memory_updates": [
+      "CURRENT_STATE",
+      "ACTIVE_TASKS",
+      "NEXT_ACTIONS"
+    ],
+    "validation": [
+      "workflow selected",
+      "agents assigned",
+      "approvals enforced",
+      "report generated"
+    ],
+    "source_docs": [
+      "WGOS/workflows/CONTROLLED_BROWSER_WORKFLOW.md",
+      "WGOS/WORKFLOWS.md"
+    ]
+  },
+  {
+    "id": "DOCUMENTATION_UPDATE_WORKFLOW",
+    "name": "Documentation Update Workflow",
+    "mission_type": [
+      "WEBSITE_REBUILD",
+      "DOCUMENTATION_UPDATE",
+      "AGENT_SYSTEM_UPDATE"
+    ],
+    "description": "A mission or task changed system state and requires durable records.",
+    "phases": [
+      "intake",
+      "planning",
+      "specialist execution",
+      "validation",
+      "reporting",
+      "memory update",
+      "handoff"
+    ],
+    "required_agents": [],
+    "approval_gates": [
+      "See config/approval-gates.json"
+    ],
+    "outputs": [
+      "mission plan",
+      "task board",
+      "report",
+      "memory update"
+    ],
+    "reports": [
+      "mission report"
+    ],
+    "memory_updates": [
+      "CURRENT_STATE",
+      "ACTIVE_TASKS",
+      "NEXT_ACTIONS"
+    ],
+    "validation": [
+      "workflow selected",
+      "agents assigned",
+      "approvals enforced",
+      "report generated"
+    ],
+    "source_docs": [
+      "WGOS/workflows/DOCUMENTATION_UPDATE_WORKFLOW.md",
+      "WGOS/WORKFLOWS.md"
+    ]
+  },
+  {
+    "id": "QA_AND_RELEASE_WORKFLOW",
+    "name": "QA And Release Workflow",
+    "mission_type": [
+      "WEBSITE_REBUILD",
+      "CLIENT_WEBSITE_BUILD",
+      "WEBSITE_SPEED_OPTIMIZATION",
+      "DEPLOYMENT_PREP"
+    ],
+    "description": "A build or deliverable needs validation and release readiness review.",
+    "phases": [
+      "intake",
+      "planning",
+      "specialist execution",
+      "validation",
+      "reporting",
+      "memory update",
+      "handoff"
+    ],
+    "required_agents": [],
+    "approval_gates": [
+      "See config/approval-gates.json"
+    ],
+    "outputs": [
+      "mission plan",
+      "task board",
+      "report",
+      "memory update"
+    ],
+    "reports": [
+      "mission report"
+    ],
+    "memory_updates": [
+      "CURRENT_STATE",
+      "ACTIVE_TASKS",
+      "NEXT_ACTIONS"
+    ],
+    "validation": [
+      "workflow selected",
+      "agents assigned",
+      "approvals enforced",
+      "report generated"
+    ],
+    "source_docs": [
+      "WGOS/workflows/QA_AND_RELEASE_WORKFLOW.md",
+      "WGOS/WORKFLOWS.md"
+    ]
+  }
+]

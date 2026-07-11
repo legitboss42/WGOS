@@ -1,0 +1,1053 @@
+{
+  "WEBSITE_REBUILD": {
+    "keywords": [
+      "rebuild",
+      "redesign",
+      "homepage",
+      "website refresh"
+    ],
+    "required_agents": [
+      "CEO_OPERATOR_AGENT",
+      "WORKFLOW_ORCHESTRATOR_AGENT",
+      "PROJECT_MANAGER_AGENT",
+      "PRODUCT_STRATEGIST_AGENT",
+      "UI_UX_DESIGN_AGENT",
+      "MOTION_GRAPHICS_AGENT",
+      "FRONTEND_ENGINEER_AGENT",
+      "SEO_AGENT",
+      "AEO_AGENT",
+      "GEO_AGENT",
+      "ACCESSIBILITY_ENGINEER_AGENT",
+      "PERFORMANCE_ENGINEER_AGENT",
+      "QA_ENGINEER_AGENT",
+      "KNOWLEDGE_MANAGER_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "required_departments": [
+      "executive",
+      "design",
+      "engineering",
+      "search"
+    ],
+    "required_workflows": [
+      "WEBSITE_REBUILD_WORKFLOW",
+      "QA_AND_RELEASE_WORKFLOW",
+      "DOCUMENTATION_UPDATE_WORKFLOW"
+    ],
+    "required_skills": [
+      "NEXTJS",
+      "TAILWIND",
+      "TYPESCRIPT",
+      "SEO",
+      "AEO",
+      "GEO",
+      "ACCESSIBILITY",
+      "PERFORMANCE",
+      "TESTING"
+    ],
+    "required_approval_gates": [
+      "NORMAL: major design direction",
+      "CRITICAL: production deployment"
+    ],
+    "expected_reports": [
+      "website-rebuild-report",
+      "qa-report",
+      "handoff"
+    ],
+    "memory_updates_required": [
+      "WGOS/memory/CODEX_MEMORY.md",
+      "WGOS/memory/CURRENT_STATE.md",
+      "WGOS/memory/ACTIVE_TASKS.md",
+      "WGOS/memory/NEXT_ACTIONS.md"
+    ],
+    "validation_steps": [
+      "classification reviewed",
+      "task board created",
+      "approval gates listed",
+      "report created",
+      "memory updated"
+    ]
+  },
+  "WEBSITE_DESIGN": {
+    "keywords": [
+      "design website",
+      "ui",
+      "ux",
+      "motion"
+    ],
+    "required_agents": [
+      "PRODUCT_STRATEGIST_AGENT",
+      "UI_UX_DESIGN_AGENT",
+      "BRAND_DESIGN_AGENT",
+      "MOTION_GRAPHICS_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "required_departments": [
+      "design",
+      "executive"
+    ],
+    "required_workflows": [
+      "WEBSITE_REBUILD_WORKFLOW"
+    ],
+    "required_skills": [
+      "TAILWIND",
+      "GSAP",
+      "FRAMER_MOTION",
+      "ACCESSIBILITY"
+    ],
+    "required_approval_gates": [
+      "NORMAL: major design direction"
+    ],
+    "expected_reports": [
+      "design-direction-report"
+    ],
+    "memory_updates_required": [
+      "WGOS/memory/CODEX_MEMORY.md",
+      "WGOS/memory/CURRENT_STATE.md",
+      "WGOS/memory/ACTIVE_TASKS.md",
+      "WGOS/memory/NEXT_ACTIONS.md"
+    ],
+    "validation_steps": [
+      "classification reviewed",
+      "task board created",
+      "approval gates listed",
+      "report created",
+      "memory updated"
+    ]
+  },
+  "CLIENT_WEBSITE_BUILD": {
+    "keywords": [
+      "client site",
+      "client website",
+      "build website for"
+    ],
+    "required_agents": [
+      "SALES_CONSULTANT_AGENT",
+      "CLIENT_ONBOARDING_AGENT",
+      "PRODUCT_STRATEGIST_AGENT",
+      "UI_UX_DESIGN_AGENT",
+      "FRONTEND_ENGINEER_AGENT",
+      "BACKEND_ENGINEER_AGENT",
+      "SEO_AGENT",
+      "CLIENT_SUCCESS_AGENT",
+      "DEPLOYMENT_ENGINEER_AGENT",
+      "QA_ENGINEER_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "required_departments": [
+      "client",
+      "design",
+      "engineering",
+      "search",
+      "executive"
+    ],
+    "required_workflows": [
+      "CLIENT_PROJECT_DELIVERY_WORKFLOW",
+      "WEBSITE_REBUILD_WORKFLOW",
+      "QA_AND_RELEASE_WORKFLOW"
+    ],
+    "required_skills": [
+      "NEXTJS",
+      "TYPESCRIPT",
+      "SEO",
+      "COPYWRITING",
+      "DEPLOYMENT"
+    ],
+    "required_approval_gates": [
+      "CRITICAL: proposal, publishing, deployment, DNS"
+    ],
+    "expected_reports": [
+      "client-delivery-report",
+      "launch-readiness-report"
+    ],
+    "memory_updates_required": [
+      "WGOS/memory/CODEX_MEMORY.md",
+      "WGOS/memory/CURRENT_STATE.md",
+      "WGOS/memory/ACTIVE_TASKS.md",
+      "WGOS/memory/NEXT_ACTIONS.md"
+    ],
+    "validation_steps": [
+      "classification reviewed",
+      "task board created",
+      "approval gates listed",
+      "report created",
+      "memory updated"
+    ]
+  },
+  "SEO_AUDIT": {
+    "keywords": [
+      "seo audit",
+      "seo issues",
+      "technical seo",
+      "fix seo"
+    ],
+    "required_agents": [
+      "SEO_AGENT",
+      "TECHNICAL_SEO_AGENT",
+      "SCHEMA_AGENT",
+      "ANALYTICS_AGENT",
+      "QA_ENGINEER_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "required_departments": [
+      "search",
+      "revenue",
+      "engineering",
+      "executive"
+    ],
+    "required_workflows": [
+      "SEO_GROWTH_WORKFLOW",
+      "ANALYTICS_REVIEW_WORKFLOW"
+    ],
+    "required_skills": [
+      "SEO",
+      "CODEX_SEO",
+      "SCHEMA",
+      "SEARCH_CONSOLE",
+      "GA4"
+    ],
+    "required_approval_gates": [
+      "HIGH: read-only external account observation",
+      "CRITICAL: indexing requests"
+    ],
+    "expected_reports": [
+      "seo-audit-report"
+    ],
+    "memory_updates_required": [
+      "WGOS/memory/CODEX_MEMORY.md",
+      "WGOS/memory/CURRENT_STATE.md",
+      "WGOS/memory/ACTIVE_TASKS.md",
+      "WGOS/memory/NEXT_ACTIONS.md"
+    ],
+    "validation_steps": [
+      "classification reviewed",
+      "task board created",
+      "approval gates listed",
+      "report created",
+      "memory updated"
+    ]
+  },
+  "SEO_CONTENT_REBUILD": {
+    "keywords": [
+      "content seo",
+      "rewrite content",
+      "content rebuild"
+    ],
+    "required_agents": [
+      "SEO_AGENT",
+      "CONTENT_STRATEGIST_AGENT",
+      "COPYWRITER_AGENT",
+      "PROOFREADER_AGENT",
+      "INTERNAL_LINKING_AGENT",
+      "SCHEMA_AGENT"
+    ],
+    "required_departments": [
+      "search",
+      "publishing"
+    ],
+    "required_workflows": [
+      "CONTENT_PUBLISHING_WORKFLOW",
+      "SEO_GROWTH_WORKFLOW"
+    ],
+    "required_skills": [
+      "SEO",
+      "CONTENT_WRITING",
+      "COPYWRITING",
+      "SCHEMA"
+    ],
+    "required_approval_gates": [
+      "NORMAL: large rewrite",
+      "CRITICAL: publishing"
+    ],
+    "expected_reports": [
+      "content-seo-report"
+    ],
+    "memory_updates_required": [
+      "WGOS/memory/CODEX_MEMORY.md",
+      "WGOS/memory/CURRENT_STATE.md",
+      "WGOS/memory/ACTIVE_TASKS.md",
+      "WGOS/memory/NEXT_ACTIONS.md"
+    ],
+    "validation_steps": [
+      "classification reviewed",
+      "task board created",
+      "approval gates listed",
+      "report created",
+      "memory updated"
+    ]
+  },
+  "AEO_GEO_OPTIMIZATION": {
+    "keywords": [
+      "aeo",
+      "geo",
+      "answer engine",
+      "generative engine"
+    ],
+    "required_agents": [
+      "AEO_AGENT",
+      "GEO_AGENT",
+      "SEO_AGENT",
+      "SCHEMA_AGENT",
+      "CONTENT_STRATEGIST_AGENT"
+    ],
+    "required_departments": [
+      "search",
+      "publishing"
+    ],
+    "required_workflows": [
+      "SEO_GROWTH_WORKFLOW"
+    ],
+    "required_skills": [
+      "AEO",
+      "GEO",
+      "SCHEMA",
+      "SEO"
+    ],
+    "required_approval_gates": [
+      "LOW: local recommendations",
+      "CRITICAL: publishing"
+    ],
+    "expected_reports": [
+      "aeo-geo-report"
+    ],
+    "memory_updates_required": [
+      "WGOS/memory/CODEX_MEMORY.md",
+      "WGOS/memory/CURRENT_STATE.md",
+      "WGOS/memory/ACTIVE_TASKS.md",
+      "WGOS/memory/NEXT_ACTIONS.md"
+    ],
+    "validation_steps": [
+      "classification reviewed",
+      "task board created",
+      "approval gates listed",
+      "report created",
+      "memory updated"
+    ]
+  },
+  "ADSENSE_READINESS": {
+    "keywords": [
+      "adsense",
+      "ad sense",
+      "monetization approval"
+    ],
+    "required_agents": [
+      "ADSENSE_AGENT",
+      "CONTENT_STRATEGIST_AGENT",
+      "SEO_AGENT",
+      "QA_ENGINEER_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "required_departments": [
+      "revenue",
+      "publishing",
+      "search",
+      "engineering",
+      "executive"
+    ],
+    "required_workflows": [
+      "ADSENSE_READINESS_WORKFLOW"
+    ],
+    "required_skills": [
+      "ADSENSE",
+      "CONTENT_WRITING",
+      "SEO"
+    ],
+    "required_approval_gates": [
+      "CRITICAL: account changes or ad placement publishing"
+    ],
+    "expected_reports": [
+      "adsense-readiness-report"
+    ],
+    "memory_updates_required": [
+      "WGOS/memory/CODEX_MEMORY.md",
+      "WGOS/memory/CURRENT_STATE.md",
+      "WGOS/memory/ACTIVE_TASKS.md",
+      "WGOS/memory/NEXT_ACTIONS.md"
+    ],
+    "validation_steps": [
+      "classification reviewed",
+      "task board created",
+      "approval gates listed",
+      "report created",
+      "memory updated"
+    ]
+  },
+  "LEAD_GENERATION": {
+    "keywords": [
+      "find 50 leads",
+      "qualified leads",
+      "lead generation",
+      "find leads"
+    ],
+    "required_agents": [
+      "MARKETING_STRATEGIST_AGENT",
+      "LEAD_RESEARCH_AGENT",
+      "WEBSITE_AUDIT_AGENT",
+      "BUSINESS_INTELLIGENCE_AGENT",
+      "CRM_AGENT",
+      "OUTREACH_DRAFTING_AGENT",
+      "QA_ENGINEER_AGENT",
+      "KNOWLEDGE_MANAGER_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "required_departments": [
+      "marketing",
+      "engineering",
+      "executive"
+    ],
+    "required_workflows": [
+      "LEAD_RESEARCH_WORKFLOW",
+      "HUMAN_APPROVED_OUTREACH_WORKFLOW"
+    ],
+    "required_skills": [
+      "CONTROLLED_BROWSER",
+      "LEAD_RESEARCH",
+      "OUTREACH",
+      "CRM",
+      "COPYWRITING"
+    ],
+    "required_approval_gates": [
+      "HIGH: controlled browsing",
+      "CRITICAL: sending/contacting/submitting forms"
+    ],
+    "expected_reports": [
+      "lead-research-report",
+      "outreach-draft-report",
+      "crm-report"
+    ],
+    "memory_updates_required": [
+      "WGOS/memory/CODEX_MEMORY.md",
+      "WGOS/memory/CURRENT_STATE.md",
+      "WGOS/memory/ACTIVE_TASKS.md",
+      "WGOS/memory/NEXT_ACTIONS.md"
+    ],
+    "validation_steps": [
+      "classification reviewed",
+      "task board created",
+      "approval gates listed",
+      "report created",
+      "memory updated"
+    ]
+  },
+  "WEBSITE_AUDIT_FOR_LEADS": {
+    "keywords": [
+      "audit prospects",
+      "website audit for leads",
+      "mini audits"
+    ],
+    "required_agents": [
+      "WEBSITE_AUDIT_AGENT",
+      "BUSINESS_INTELLIGENCE_AGENT",
+      "LEAD_RESEARCH_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "required_departments": [
+      "marketing",
+      "executive"
+    ],
+    "required_workflows": [
+      "LEAD_RESEARCH_WORKFLOW"
+    ],
+    "required_skills": [
+      "CONTROLLED_BROWSER",
+      "LEAD_RESEARCH",
+      "SEO",
+      "PERFORMANCE"
+    ],
+    "required_approval_gates": [
+      "HIGH: controlled browsing"
+    ],
+    "expected_reports": [
+      "website-audit-report"
+    ],
+    "memory_updates_required": [
+      "WGOS/memory/CODEX_MEMORY.md",
+      "WGOS/memory/CURRENT_STATE.md",
+      "WGOS/memory/ACTIVE_TASKS.md",
+      "WGOS/memory/NEXT_ACTIONS.md"
+    ],
+    "validation_steps": [
+      "classification reviewed",
+      "task board created",
+      "approval gates listed",
+      "report created",
+      "memory updated"
+    ]
+  },
+  "OUTREACH_DRAFTING": {
+    "keywords": [
+      "outreach drafts",
+      "email drafts",
+      "draft emails"
+    ],
+    "required_agents": [
+      "OUTREACH_DRAFTING_AGENT",
+      "CRM_AGENT",
+      "QA_ENGINEER_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "required_departments": [
+      "marketing",
+      "engineering",
+      "executive"
+    ],
+    "required_workflows": [
+      "HUMAN_APPROVED_OUTREACH_WORKFLOW"
+    ],
+    "required_skills": [
+      "COPYWRITING",
+      "OUTREACH",
+      "GMAIL"
+    ],
+    "required_approval_gates": [
+      "CRITICAL: Gmail draft creation or sending"
+    ],
+    "expected_reports": [
+      "outreach-draft-report"
+    ],
+    "memory_updates_required": [
+      "WGOS/memory/CODEX_MEMORY.md",
+      "WGOS/memory/CURRENT_STATE.md",
+      "WGOS/memory/ACTIVE_TASKS.md",
+      "WGOS/memory/NEXT_ACTIONS.md"
+    ],
+    "validation_steps": [
+      "classification reviewed",
+      "task board created",
+      "approval gates listed",
+      "report created",
+      "memory updated"
+    ]
+  },
+  "CRM_UPDATE": {
+    "keywords": [
+      "crm",
+      "pipeline",
+      "lead status"
+    ],
+    "required_agents": [
+      "CRM_AGENT",
+      "FOLLOW_UP_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "required_departments": [
+      "marketing",
+      "executive"
+    ],
+    "required_workflows": [
+      "HUMAN_APPROVED_OUTREACH_WORKFLOW"
+    ],
+    "required_skills": [
+      "CRM",
+      "LEAD_RESEARCH"
+    ],
+    "required_approval_gates": [
+      "HIGH: external CRM writes"
+    ],
+    "expected_reports": [
+      "crm-update-report"
+    ],
+    "memory_updates_required": [
+      "WGOS/memory/CODEX_MEMORY.md",
+      "WGOS/memory/CURRENT_STATE.md",
+      "WGOS/memory/ACTIVE_TASKS.md",
+      "WGOS/memory/NEXT_ACTIONS.md"
+    ],
+    "validation_steps": [
+      "classification reviewed",
+      "task board created",
+      "approval gates listed",
+      "report created",
+      "memory updated"
+    ]
+  },
+  "ANALYTICS_REVIEW": {
+    "keywords": [
+      "analytics",
+      "traffic",
+      "kpi",
+      "weekly review"
+    ],
+    "required_agents": [
+      "ANALYTICS_AGENT",
+      "CRO_AGENT",
+      "MARKETING_STRATEGIST_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "required_departments": [
+      "revenue",
+      "marketing",
+      "executive"
+    ],
+    "required_workflows": [
+      "ANALYTICS_REVIEW_WORKFLOW"
+    ],
+    "required_skills": [
+      "GA4",
+      "CRO"
+    ],
+    "required_approval_gates": [
+      "HIGH: read-only account access"
+    ],
+    "expected_reports": [
+      "analytics-review-report"
+    ],
+    "memory_updates_required": [
+      "WGOS/memory/CODEX_MEMORY.md",
+      "WGOS/memory/CURRENT_STATE.md",
+      "WGOS/memory/ACTIVE_TASKS.md",
+      "WGOS/memory/NEXT_ACTIONS.md"
+    ],
+    "validation_steps": [
+      "classification reviewed",
+      "task board created",
+      "approval gates listed",
+      "report created",
+      "memory updated"
+    ]
+  },
+  "SEARCH_CONSOLE_REVIEW": {
+    "keywords": [
+      "search console",
+      "indexing",
+      "coverage"
+    ],
+    "required_agents": [
+      "SEARCH_CONSOLE_AGENT",
+      "SEO_AGENT",
+      "TECHNICAL_SEO_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "required_departments": [
+      "search",
+      "executive"
+    ],
+    "required_workflows": [
+      "SEO_GROWTH_WORKFLOW"
+    ],
+    "required_skills": [
+      "SEARCH_CONSOLE",
+      "SEO"
+    ],
+    "required_approval_gates": [
+      "HIGH: read-only Search Console",
+      "CRITICAL: request indexing"
+    ],
+    "expected_reports": [
+      "search-console-review-report"
+    ],
+    "memory_updates_required": [
+      "WGOS/memory/CODEX_MEMORY.md",
+      "WGOS/memory/CURRENT_STATE.md",
+      "WGOS/memory/ACTIVE_TASKS.md",
+      "WGOS/memory/NEXT_ACTIONS.md"
+    ],
+    "validation_steps": [
+      "classification reviewed",
+      "task board created",
+      "approval gates listed",
+      "report created",
+      "memory updated"
+    ]
+  },
+  "GA4_REVIEW": {
+    "keywords": [
+      "ga4",
+      "google analytics"
+    ],
+    "required_agents": [
+      "ANALYTICS_AGENT",
+      "CRO_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "required_departments": [
+      "revenue",
+      "executive"
+    ],
+    "required_workflows": [
+      "ANALYTICS_REVIEW_WORKFLOW"
+    ],
+    "required_skills": [
+      "GA4",
+      "CRO"
+    ],
+    "required_approval_gates": [
+      "HIGH: read-only GA4"
+    ],
+    "expected_reports": [
+      "ga4-review-report"
+    ],
+    "memory_updates_required": [
+      "WGOS/memory/CODEX_MEMORY.md",
+      "WGOS/memory/CURRENT_STATE.md",
+      "WGOS/memory/ACTIVE_TASKS.md",
+      "WGOS/memory/NEXT_ACTIONS.md"
+    ],
+    "validation_steps": [
+      "classification reviewed",
+      "task board created",
+      "approval gates listed",
+      "report created",
+      "memory updated"
+    ]
+  },
+  "CONTENT_PUBLISHING": {
+    "keywords": [
+      "publish article",
+      "academy article",
+      "blog"
+    ],
+    "required_agents": [
+      "EDITORIAL_MANAGER_AGENT",
+      "CONTENT_STRATEGIST_AGENT",
+      "COPYWRITER_AGENT",
+      "PROOFREADER_AGENT",
+      "INTERNAL_LINKING_AGENT",
+      "SCHEMA_AGENT",
+      "QA_ENGINEER_AGENT"
+    ],
+    "required_departments": [
+      "publishing",
+      "search",
+      "engineering"
+    ],
+    "required_workflows": [
+      "CONTENT_PUBLISHING_WORKFLOW"
+    ],
+    "required_skills": [
+      "CONTENT_WRITING",
+      "COPYWRITING",
+      "SEO",
+      "SCHEMA"
+    ],
+    "required_approval_gates": [
+      "CRITICAL: public publishing"
+    ],
+    "expected_reports": [
+      "content-publishing-report"
+    ],
+    "memory_updates_required": [
+      "WGOS/memory/CODEX_MEMORY.md",
+      "WGOS/memory/CURRENT_STATE.md",
+      "WGOS/memory/ACTIVE_TASKS.md",
+      "WGOS/memory/NEXT_ACTIONS.md"
+    ],
+    "validation_steps": [
+      "classification reviewed",
+      "task board created",
+      "approval gates listed",
+      "report created",
+      "memory updated"
+    ]
+  },
+  "WEBSITE_SPEED_OPTIMIZATION": {
+    "keywords": [
+      "speed",
+      "performance",
+      "core web vitals",
+      "lcp"
+    ],
+    "required_agents": [
+      "PERFORMANCE_ENGINEER_AGENT",
+      "FRONTEND_ENGINEER_AGENT",
+      "QA_ENGINEER_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "required_departments": [
+      "engineering",
+      "executive"
+    ],
+    "required_workflows": [
+      "QA_AND_RELEASE_WORKFLOW"
+    ],
+    "required_skills": [
+      "PERFORMANCE",
+      "NEXTJS",
+      "TESTING"
+    ],
+    "required_approval_gates": [
+      "CRITICAL: deployment"
+    ],
+    "expected_reports": [
+      "performance-report"
+    ],
+    "memory_updates_required": [
+      "WGOS/memory/CODEX_MEMORY.md",
+      "WGOS/memory/CURRENT_STATE.md",
+      "WGOS/memory/ACTIVE_TASKS.md",
+      "WGOS/memory/NEXT_ACTIONS.md"
+    ],
+    "validation_steps": [
+      "classification reviewed",
+      "task board created",
+      "approval gates listed",
+      "report created",
+      "memory updated"
+    ]
+  },
+  "CONTROLLED_BROWSER_TASK": {
+    "keywords": [
+      "browser",
+      "login",
+      "portal",
+      "maps",
+      "directory"
+    ],
+    "required_agents": [
+      "WORKFLOW_ORCHESTRATOR_AGENT",
+      "LEAD_RESEARCH_AGENT",
+      "SEARCH_CONSOLE_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "required_departments": [
+      "executive",
+      "marketing",
+      "search"
+    ],
+    "required_workflows": [
+      "CONTROLLED_BROWSER_WORKFLOW"
+    ],
+    "required_skills": [
+      "CONTROLLED_BROWSER"
+    ],
+    "required_approval_gates": [
+      "HIGH: login/read-only observation",
+      "CRITICAL: state changes"
+    ],
+    "expected_reports": [
+      "controlled-browser-report"
+    ],
+    "memory_updates_required": [
+      "WGOS/memory/CODEX_MEMORY.md",
+      "WGOS/memory/CURRENT_STATE.md",
+      "WGOS/memory/ACTIVE_TASKS.md",
+      "WGOS/memory/NEXT_ACTIONS.md"
+    ],
+    "validation_steps": [
+      "classification reviewed",
+      "task board created",
+      "approval gates listed",
+      "report created",
+      "memory updated"
+    ]
+  },
+  "EMAIL_SETUP": {
+    "keywords": [
+      "email setup",
+      "gmail",
+      "admin@",
+      "send-as"
+    ],
+    "required_agents": [
+      "DEPLOYMENT_ENGINEER_AGENT",
+      "CRM_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "required_departments": [
+      "engineering",
+      "marketing",
+      "executive"
+    ],
+    "required_workflows": [
+      "CONTROLLED_BROWSER_WORKFLOW"
+    ],
+    "required_skills": [
+      "GMAIL",
+      "CONTROLLED_BROWSER"
+    ],
+    "required_approval_gates": [
+      "CRITICAL: account changes, DNS, sending"
+    ],
+    "expected_reports": [
+      "email-setup-report"
+    ],
+    "memory_updates_required": [
+      "WGOS/memory/CODEX_MEMORY.md",
+      "WGOS/memory/CURRENT_STATE.md",
+      "WGOS/memory/ACTIVE_TASKS.md",
+      "WGOS/memory/NEXT_ACTIONS.md"
+    ],
+    "validation_steps": [
+      "classification reviewed",
+      "task board created",
+      "approval gates listed",
+      "report created",
+      "memory updated"
+    ]
+  },
+  "DEPLOYMENT_PREP": {
+    "keywords": [
+      "deploy",
+      "vercel",
+      "launch",
+      "production"
+    ],
+    "required_agents": [
+      "DEPLOYMENT_ENGINEER_AGENT",
+      "QA_ENGINEER_AGENT",
+      "SEO_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "required_departments": [
+      "engineering",
+      "search",
+      "executive"
+    ],
+    "required_workflows": [
+      "QA_AND_RELEASE_WORKFLOW"
+    ],
+    "required_skills": [
+      "DEPLOYMENT",
+      "TESTING",
+      "SEO"
+    ],
+    "required_approval_gates": [
+      "CRITICAL: production deployment, DNS"
+    ],
+    "expected_reports": [
+      "deployment-prep-report"
+    ],
+    "memory_updates_required": [
+      "WGOS/memory/CODEX_MEMORY.md",
+      "WGOS/memory/CURRENT_STATE.md",
+      "WGOS/memory/ACTIVE_TASKS.md",
+      "WGOS/memory/NEXT_ACTIONS.md"
+    ],
+    "validation_steps": [
+      "classification reviewed",
+      "task board created",
+      "approval gates listed",
+      "report created",
+      "memory updated"
+    ]
+  },
+  "DOCUMENTATION_UPDATE": {
+    "keywords": [
+      "document",
+      "docs",
+      "memory",
+      "handoff"
+    ],
+    "required_agents": [
+      "DOCUMENTATION_AGENT",
+      "KNOWLEDGE_MANAGER_AGENT"
+    ],
+    "required_departments": [
+      "executive"
+    ],
+    "required_workflows": [
+      "DOCUMENTATION_UPDATE_WORKFLOW"
+    ],
+    "required_skills": [
+      "OPERATIONS"
+    ],
+    "required_approval_gates": [
+      "LOW: local documentation"
+    ],
+    "expected_reports": [
+      "documentation-update-report"
+    ],
+    "memory_updates_required": [
+      "WGOS/memory/CODEX_MEMORY.md",
+      "WGOS/memory/CURRENT_STATE.md",
+      "WGOS/memory/ACTIVE_TASKS.md",
+      "WGOS/memory/NEXT_ACTIONS.md"
+    ],
+    "validation_steps": [
+      "classification reviewed",
+      "task board created",
+      "approval gates listed",
+      "report created",
+      "memory updated"
+    ]
+  },
+  "AGENT_SYSTEM_UPDATE": {
+    "keywords": [
+      "agent",
+      "runtime",
+      "wgos",
+      "system update"
+    ],
+    "required_agents": [
+      "WORKFLOW_ORCHESTRATOR_AGENT",
+      "PROJECT_MANAGER_AGENT",
+      "KNOWLEDGE_MANAGER_AGENT",
+      "DOCUMENTATION_AGENT",
+      "QA_ENGINEER_AGENT"
+    ],
+    "required_departments": [
+      "executive",
+      "engineering"
+    ],
+    "required_workflows": [
+      "WORKFLOW_ORCHESTRATION",
+      "DOCUMENTATION_UPDATE_WORKFLOW"
+    ],
+    "required_skills": [
+      "OPERATIONS",
+      "TESTING"
+    ],
+    "required_approval_gates": [
+      "NORMAL: system behavior changes"
+    ],
+    "expected_reports": [
+      "agent-system-update-report"
+    ],
+    "memory_updates_required": [
+      "WGOS/memory/CODEX_MEMORY.md",
+      "WGOS/memory/CURRENT_STATE.md",
+      "WGOS/memory/ACTIVE_TASKS.md",
+      "WGOS/memory/NEXT_ACTIONS.md"
+    ],
+    "validation_steps": [
+      "classification reviewed",
+      "task board created",
+      "approval gates listed",
+      "report created",
+      "memory updated"
+    ]
+  },
+  "GENERAL_STRATEGY": {
+    "keywords": [
+      "strategy",
+      "plan",
+      "prioritize",
+      "roadmap"
+    ],
+    "required_agents": [
+      "CEO_OPERATOR_AGENT",
+      "WORKFLOW_ORCHESTRATOR_AGENT",
+      "PROJECT_MANAGER_AGENT",
+      "DOCUMENTATION_AGENT"
+    ],
+    "required_departments": [
+      "executive"
+    ],
+    "required_workflows": [
+      "WORKFLOW_ORCHESTRATION"
+    ],
+    "required_skills": [
+      "BUSINESS_MODEL",
+      "OPERATIONS"
+    ],
+    "required_approval_gates": [
+      "LOW: local strategy"
+    ],
+    "expected_reports": [
+      "strategy-report"
+    ],
+    "memory_updates_required": [
+      "WGOS/memory/CODEX_MEMORY.md",
+      "WGOS/memory/CURRENT_STATE.md",
+      "WGOS/memory/ACTIVE_TASKS.md",
+      "WGOS/memory/NEXT_ACTIONS.md"
+    ],
+    "validation_steps": [
+      "classification reviewed",
+      "task board created",
+      "approval gates listed",
+      "report created",
+      "memory updated"
+    ]
+  }
+}

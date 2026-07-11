@@ -1,0 +1,407 @@
+{
+  "id": "20260710-LEAD-RESEARCH-BH5R7L-T004",
+  "missionId": "20260710-LEAD-RESEARCH-BH5R7L",
+  "sequence": 4,
+  "agentSlug": "MARKETING_STRATEGIST_AGENT",
+  "agentTitle": "Marketing Strategist",
+  "department": "marketing",
+  "objective": "Confirm target segment and quota framing.",
+  "expectedOutput": "Lead mission brief",
+  "stage": "specialist_execution",
+  "status": "COMPLETED",
+  "dependencies": [],
+  "nextAgentSlug": "LEAD_RESEARCH_AGENT",
+  "estimatedComplexity": "Medium",
+  "businessValue": "High",
+  "revenueImpact": "High",
+  "priority": "HIGH",
+  "documentationStatus": "UPDATED",
+  "qaStatus": "PENDING",
+  "approvalStatus": "NOT_REQUIRED",
+  "completionStatus": "COMPLETED",
+  "startedAt": "2026-07-10T16:14:53.920Z",
+  "updatedAt": "2026-07-10T16:14:54.478Z",
+  "report": {
+    "agent": "Marketing Strategist",
+    "taskId": "20260710-LEAD-RESEARCH-BH5R7L-T004",
+    "objective": "Confirm target segment and quota framing.",
+    "actions": "Marketing Strategist executed Confirm target segment and quota framing. for mission 20260710-LEAD-RESEARCH-BH5R7L using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: LEAD_RESEARCH_PLAYBOOK; integrations: csv, browser, search, maps, business-directories, crm.",
+    "validation": "Marketing Strategist completed lead mission brief with 6 tracked integrations.",
+    "nextStep": "Hand off to LEAD_RESEARCH_AGENT.",
+    "integrations": [
+      "csv",
+      "browser",
+      "search",
+      "maps",
+      "business-directories",
+      "crm"
+    ],
+    "playbooks": [
+      "LEAD_RESEARCH_PLAYBOOK"
+    ],
+    "specialistOutputs": [
+      "marketing plan",
+      "channel strategy",
+      "specialist_execution output"
+    ],
+    "specialistRuntime": {
+      "kind": "marketing",
+      "campaignPlan": {
+        "targetMix": [
+          "70-80% Tier 1",
+          "20-25% Tier 2",
+          "5-10% Tier 3"
+        ],
+        "scoreThreshold": 60,
+        "crmStatuses": [
+          "Research",
+          "Audit",
+          "Draft",
+          "Approval",
+          "Contacted",
+          "Reply",
+          "Meeting",
+          "Proposal",
+          "Won",
+          "Lost"
+        ],
+        "noAutomaticOutreach": true
+      },
+      "controlledSessions": [
+        {
+          "integrationId": "browser",
+          "purpose": "Lead source review and website audit observation",
+          "capabilityAvailable": false,
+          "authenticated": false,
+          "requestedActions": [
+            "read"
+          ],
+          "externalActions": [],
+          "approvalCheckpoint": {
+            "status": "WAITING_APPROVAL_BEFORE_LIVE_ACTION",
+            "reason": "browser requires confirmed capability, authentication state, and human approval before live execution.",
+            "stopConditions": [
+              "login",
+              "2FA",
+              "CAPTCHA",
+              "billing",
+              "verification",
+              "property selection",
+              "state-changing action"
+            ]
+          },
+          "allowedNow": false
+        }
+      ],
+      "validationRules": [
+        "lead quality threshold is explicit",
+        "CRM state is defined",
+        "outreach remains draft-only"
+      ]
+    }
+  },
+  "handoff": {
+    "fromAgentSlug": "MARKETING_STRATEGIST_AGENT",
+    "toAgentSlug": "LEAD_RESEARCH_AGENT",
+    "status": "COMPLETED",
+    "validationNeeded": "Downstream review by LEAD_RESEARCH_AGENT.",
+    "completedWork": [
+      "marketing plan",
+      "channel strategy",
+      "specialist_execution output"
+    ],
+    "collaborationTargets": [
+      "LEAD_RESEARCH_AGENT",
+      "BUSINESS_INTELLIGENCE_AGENT"
+    ]
+  },
+  "runtime": {
+    "mission": {
+      "objective": "Confirm target segment and quota framing.",
+      "successDefinition": "Lead mission brief",
+      "companyId": "web-growth",
+      "approvalClass": "A1",
+      "missionType": "Growth campaign",
+      "requiredDepartments": [
+        "executive",
+        "marketing",
+        "engineering"
+      ],
+      "requiredIntegrations": [
+        "csv",
+        "browser",
+        "search",
+        "maps",
+        "business-directories",
+        "crm"
+      ],
+      "playbooks": [
+        "LEAD_RESEARCH_PLAYBOOK"
+      ]
+    },
+    "plan": {
+      "skillsLoaded": [
+        "CRO",
+        "COPYWRITING"
+      ],
+      "workstreams": [
+        "research pipeline opportunities",
+        "score lead quality",
+        "prepare compliant outreach context"
+      ],
+      "validationChecks": [
+        "evidence is verified",
+        "lead quality threshold is clear",
+        "external action remains approval-gated"
+      ],
+      "dependencies": [],
+      "requiredEvidence": [
+        "lead notes",
+        "audit findings",
+        "personalization angles",
+        "Lead mission brief",
+        "marketing plan",
+        "channel strategy",
+        "specialist_execution output"
+      ],
+      "playbooks": [
+        "LEAD_RESEARCH_PLAYBOOK"
+      ],
+      "integrations": [
+        "Csv (NORMAL)",
+        "Controlled Browser (HIGH)",
+        "Search (NORMAL)",
+        "Maps (NORMAL)",
+        "Business Directories (NORMAL)",
+        "Crm (NORMAL)"
+      ],
+      "collaborationTargets": [
+        "LEAD_RESEARCH_AGENT",
+        "BUSINESS_INTELLIGENCE_AGENT"
+      ],
+      "specialistPlan": {
+        "kind": "marketing",
+        "module": "marketing",
+        "executionSteps": [
+          "Define target segment, offer, channel, and lead-quality threshold.",
+          "Map research sources and scoring criteria.",
+          "Route live research through controlled browsing when available.",
+          "Prepare outreach only as drafts for approval."
+        ],
+        "expectedArtifacts": [
+          "campaign brief",
+          "lead scoring rules",
+          "CRM status map",
+          "approval queue"
+        ],
+        "objective": "Confirm target segment and quota framing."
+      }
+    },
+    "execution": {
+      "summary": "Marketing Strategist executed Confirm target segment and quota framing. for mission 20260710-LEAD-RESEARCH-BH5R7L using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: LEAD_RESEARCH_PLAYBOOK; integrations: csv, browser, search, maps, business-directories, crm.",
+      "artifacts": [
+        "MARKETING_STRATEGIST_AGENT:marketing plan",
+        "MARKETING_STRATEGIST_AGENT:channel strategy",
+        "MARKETING_STRATEGIST_AGENT:specialist_execution output"
+      ],
+      "evidence": [
+        "lead notes",
+        "audit findings",
+        "personalization angles",
+        "Lead mission brief",
+        "marketing plan",
+        "channel strategy",
+        "specialist_execution output"
+      ],
+      "integrationsUsed": [
+        {
+          "id": "csv",
+          "title": "Csv",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "browser",
+          "title": "Controlled Browser",
+          "approvalLevel": "HIGH",
+          "runtimeDocs": [
+            "integrations/core/INTEGRATION_CONTRACT.md",
+            "integrations/runtime/CONTROLLED_OPERATIONS_RUNTIME.md"
+          ]
+        },
+        {
+          "id": "search",
+          "title": "Search",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "maps",
+          "title": "Maps",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "business-directories",
+          "title": "Business Directories",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "crm",
+          "title": "Crm",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        }
+      ],
+      "playbooksUsed": [
+        "LEAD_RESEARCH_PLAYBOOK"
+      ],
+      "collaborationRequests": [
+        {
+          "target": "LEAD_RESEARCH_AGENT",
+          "reason": "Coordinate lead mission brief with LEAD_RESEARCH_AGENT."
+        },
+        {
+          "target": "BUSINESS_INTELLIGENCE_AGENT",
+          "reason": "Coordinate lead mission brief with BUSINESS_INTELLIGENCE_AGENT."
+        }
+      ],
+      "specialistOutputs": [
+        "marketing plan",
+        "channel strategy",
+        "specialist_execution output"
+      ],
+      "kpiFocus": [
+        "pipeline health",
+        "qualified opportunities",
+        "High"
+      ],
+      "approvalGateReached": false,
+      "specialistRuntime": {
+        "kind": "marketing",
+        "campaignPlan": {
+          "targetMix": [
+            "70-80% Tier 1",
+            "20-25% Tier 2",
+            "5-10% Tier 3"
+          ],
+          "scoreThreshold": 60,
+          "crmStatuses": [
+            "Research",
+            "Audit",
+            "Draft",
+            "Approval",
+            "Contacted",
+            "Reply",
+            "Meeting",
+            "Proposal",
+            "Won",
+            "Lost"
+          ],
+          "noAutomaticOutreach": true
+        },
+        "controlledSessions": [
+          {
+            "integrationId": "browser",
+            "purpose": "Lead source review and website audit observation",
+            "capabilityAvailable": false,
+            "authenticated": false,
+            "requestedActions": [
+              "read"
+            ],
+            "externalActions": [],
+            "approvalCheckpoint": {
+              "status": "WAITING_APPROVAL_BEFORE_LIVE_ACTION",
+              "reason": "browser requires confirmed capability, authentication state, and human approval before live execution.",
+              "stopConditions": [
+                "login",
+                "2FA",
+                "CAPTCHA",
+                "billing",
+                "verification",
+                "property selection",
+                "state-changing action"
+              ]
+            },
+            "allowedNow": false
+          }
+        ],
+        "validationRules": [
+          "lead quality threshold is explicit",
+          "CRM state is defined",
+          "outreach remains draft-only"
+        ]
+      }
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "passed": true,
+      "notes": "Marketing Strategist completed lead mission brief with 6 tracked integrations."
+    },
+    "memory": {
+      "currentState": "20260710-LEAD-RESEARCH-BH5R7L-T004: Marketing Strategist completed Confirm target segment and quota framing..",
+      "nextAction": "LEAD_RESEARCH_AGENT should take over 20260710-LEAD-RESEARCH-BH5R7L-T004.",
+      "codexMemory": "20260710-LEAD-RESEARCH-BH5R7L used Marketing Strategist for Lead mission brief."
+    }
+  },
+  "integrationsUsed": [
+    {
+      "id": "csv",
+      "title": "Csv",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "browser",
+      "title": "Controlled Browser",
+      "approvalLevel": "HIGH",
+      "runtimeDocs": [
+        "integrations/core/INTEGRATION_CONTRACT.md",
+        "integrations/runtime/CONTROLLED_OPERATIONS_RUNTIME.md"
+      ]
+    },
+    {
+      "id": "search",
+      "title": "Search",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "maps",
+      "title": "Maps",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "business-directories",
+      "title": "Business Directories",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "crm",
+      "title": "Crm",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    }
+  ],
+  "playbooksUsed": [
+    "LEAD_RESEARCH_PLAYBOOK"
+  ],
+  "collaborationRequests": [
+    {
+      "target": "LEAD_RESEARCH_AGENT",
+      "reason": "Coordinate lead mission brief with LEAD_RESEARCH_AGENT."
+    },
+    {
+      "target": "BUSINESS_INTELLIGENCE_AGENT",
+      "reason": "Coordinate lead mission brief with BUSINESS_INTELLIGENCE_AGENT."
+    }
+  ],
+  "kpiFocus": [
+    "pipeline health",
+    "qualified opportunities",
+    "High"
+  ]
+}

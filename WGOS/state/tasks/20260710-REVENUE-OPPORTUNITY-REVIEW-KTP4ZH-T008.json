@@ -1,0 +1,160 @@
+{
+  "id": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T008",
+  "missionId": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH",
+  "sequence": 8,
+  "agentSlug": "AFFILIATE_MANAGER_AGENT",
+  "agentTitle": "Affiliate Manager",
+  "department": "revenue",
+  "objective": "Map affiliate opportunities, placement strategy, and compliance considerations.",
+  "expectedOutput": "Affiliate opportunity map",
+  "stage": "specialist_execution",
+  "status": "COMPLETED",
+  "dependencies": [],
+  "nextAgentSlug": "DIGITAL_PRODUCT_AGENT",
+  "estimatedComplexity": "Medium",
+  "businessValue": "Medium",
+  "revenueImpact": "Medium",
+  "priority": "HIGH",
+  "documentationStatus": "UPDATED",
+  "qaStatus": "PENDING",
+  "approvalStatus": "NOT_REQUIRED",
+  "completionStatus": "COMPLETED",
+  "startedAt": "2026-07-10T12:05:18.883Z",
+  "updatedAt": "2026-07-10T12:05:18.903Z",
+  "report": {
+    "agent": "Affiliate Manager",
+    "taskId": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T008",
+    "objective": "Map affiliate opportunities, placement strategy, and compliance considerations.",
+    "actions": "Affiliate Manager executed Map affiliate opportunities, placement strategy, and compliance considerations. for mission 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH using workflows: ANALYTICS_REVIEW_WORKFLOW, WEEKLY_AGENCY_OPERATIONS_WORKFLOW, ADSENSE_READINESS_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only.",
+    "validation": "Affiliate Manager completed affiliate opportunity map with 0 tracked integrations.",
+    "nextStep": "Hand off to DIGITAL_PRODUCT_AGENT.",
+    "integrations": [],
+    "playbooks": [],
+    "specialistOutputs": [
+      "affiliate opportunity map",
+      "offer shortlist",
+      "specialist_execution output"
+    ]
+  },
+  "handoff": {
+    "fromAgentSlug": "AFFILIATE_MANAGER_AGENT",
+    "toAgentSlug": "DIGITAL_PRODUCT_AGENT",
+    "status": "COMPLETED",
+    "validationNeeded": "Downstream review by DIGITAL_PRODUCT_AGENT.",
+    "completedWork": [
+      "affiliate opportunity map",
+      "offer shortlist",
+      "specialist_execution output"
+    ],
+    "collaborationTargets": [
+      "DIGITAL_PRODUCT_AGENT"
+    ]
+  },
+  "runtime": {
+    "mission": {
+      "objective": "Map affiliate opportunities, placement strategy, and compliance considerations.",
+      "successDefinition": "Affiliate opportunity map",
+      "companyId": "web-growth",
+      "approvalClass": "A1",
+      "missionType": "Internal operations",
+      "requiredDepartments": [
+        "executive",
+        "revenue",
+        "marketing",
+        "engineering"
+      ],
+      "requiredIntegrations": [],
+      "playbooks": []
+    },
+    "plan": {
+      "skillsLoaded": [
+        "COPYWRITING",
+        "SEO"
+      ],
+      "workstreams": [
+        "surface monetization signals",
+        "connect analytics to action",
+        "prioritize revenue moves"
+      ],
+      "validationChecks": [
+        "opportunities are measurable",
+        "revenue assumptions are labeled",
+        "next action is economically sound"
+      ],
+      "dependencies": [],
+      "requiredEvidence": [
+        "revenue signal summary",
+        "KPI deltas",
+        "prioritized opportunities",
+        "Affiliate opportunity map",
+        "affiliate opportunity map",
+        "offer shortlist",
+        "specialist_execution output"
+      ],
+      "playbooks": [],
+      "integrations": [],
+      "collaborationTargets": [
+        "DIGITAL_PRODUCT_AGENT"
+      ]
+    },
+    "execution": {
+      "summary": "Affiliate Manager executed Map affiliate opportunities, placement strategy, and compliance considerations. for mission 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH using workflows: ANALYTICS_REVIEW_WORKFLOW, WEEKLY_AGENCY_OPERATIONS_WORKFLOW, ADSENSE_READINESS_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only.",
+      "artifacts": [
+        "AFFILIATE_MANAGER_AGENT:affiliate opportunity map",
+        "AFFILIATE_MANAGER_AGENT:offer shortlist",
+        "AFFILIATE_MANAGER_AGENT:specialist_execution output"
+      ],
+      "evidence": [
+        "revenue signal summary",
+        "KPI deltas",
+        "prioritized opportunities",
+        "Affiliate opportunity map",
+        "affiliate opportunity map",
+        "offer shortlist",
+        "specialist_execution output"
+      ],
+      "integrationsUsed": [],
+      "playbooksUsed": [],
+      "collaborationRequests": [
+        {
+          "target": "DIGITAL_PRODUCT_AGENT",
+          "reason": "Coordinate affiliate opportunity map with DIGITAL_PRODUCT_AGENT."
+        }
+      ],
+      "specialistOutputs": [
+        "affiliate opportunity map",
+        "offer shortlist",
+        "specialist_execution output"
+      ],
+      "kpiFocus": [
+        "revenue impact",
+        "conversion lift",
+        "Medium"
+      ],
+      "approvalGateReached": false
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "passed": true,
+      "notes": "Affiliate Manager completed affiliate opportunity map with 0 tracked integrations."
+    },
+    "memory": {
+      "currentState": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T008: Affiliate Manager completed Map affiliate opportunities, placement strategy, and compliance considerations..",
+      "nextAction": "DIGITAL_PRODUCT_AGENT should take over 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T008.",
+      "codexMemory": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH used Affiliate Manager for Affiliate opportunity map."
+    }
+  },
+  "integrationsUsed": [],
+  "playbooksUsed": [],
+  "collaborationRequests": [
+    {
+      "target": "DIGITAL_PRODUCT_AGENT",
+      "reason": "Coordinate affiliate opportunity map with DIGITAL_PRODUCT_AGENT."
+    }
+  ],
+  "kpiFocus": [
+    "revenue impact",
+    "conversion lift",
+    "Medium"
+  ]
+}

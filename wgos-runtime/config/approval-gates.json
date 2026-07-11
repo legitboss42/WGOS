@@ -1,0 +1,47 @@
+[
+  {
+    "id": "A0",
+    "name": "Internal documentation only",
+    "usage": "No external system access and no state changes.",
+    "source_docs": [
+      "WGOS/APPROVAL_GATES.md",
+      "WGOS/runtime/approval/APPROVAL_LEVELS.md"
+    ]
+  },
+  {
+    "id": "A1",
+    "name": "Local analysis and drafts",
+    "usage": "Local repo work, planning, reporting, and non-live asset creation.",
+    "source_docs": [
+      "WGOS/APPROVAL_GATES.md",
+      "WGOS/runtime/approval/APPROVAL_LEVELS.md"
+    ]
+  },
+  {
+    "id": "A2",
+    "name": "Read-only external observation",
+    "usage": "Human-approved live observation after login or attachment.",
+    "source_docs": [
+      "WGOS/APPROVAL_GATES.md",
+      "WGOS/runtime/approval/APPROVAL_LEVELS.md"
+    ]
+  },
+  {
+    "id": "A3",
+    "name": "State-changing external action",
+    "usage": "Any live change outside the repo with explicit approval.",
+    "source_docs": [
+      "WGOS/APPROVAL_GATES.md",
+      "WGOS/runtime/approval/APPROVAL_LEVELS.md"
+    ]
+  },
+  {
+    "id": "A4",
+    "name": "Critical irreversible action",
+    "usage": "Production, financial, DNS, billing, or irreversible changes.",
+    "source_docs": [
+      "WGOS/APPROVAL_GATES.md",
+      "WGOS/runtime/approval/APPROVAL_LEVELS.md"
+    ]
+  }
+]

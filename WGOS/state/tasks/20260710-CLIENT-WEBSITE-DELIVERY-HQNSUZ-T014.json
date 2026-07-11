@@ -1,0 +1,297 @@
+{
+  "id": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T014",
+  "missionId": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ",
+  "sequence": 14,
+  "agentSlug": "CONTENT_STRATEGIST_AGENT",
+  "agentTitle": "Content Strategist",
+  "department": "publishing",
+  "objective": "Define page copy structure, FAQs, proof blocks, and content dependencies.",
+  "expectedOutput": "Content production brief",
+  "stage": "specialist_execution",
+  "status": "COMPLETED",
+  "dependencies": [],
+  "nextAgentSlug": "PERFORMANCE_ENGINEER_AGENT",
+  "estimatedComplexity": "Medium",
+  "businessValue": "Medium",
+  "revenueImpact": "Medium",
+  "priority": "HIGH",
+  "documentationStatus": "UPDATED",
+  "qaStatus": "PENDING",
+  "approvalStatus": "NOT_REQUIRED",
+  "completionStatus": "COMPLETED",
+  "startedAt": "2026-07-10T11:42:32.967Z",
+  "updatedAt": "2026-07-10T11:42:32.987Z",
+  "report": {
+    "agent": "Content Strategist",
+    "taskId": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T014",
+    "objective": "Define page copy structure, FAQs, proof blocks, and content dependencies.",
+    "actions": "Content Strategist executed Define page copy structure, FAQs, proof blocks, and content dependencies. for mission 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ using workflows: CLIENT_PROJECT_DELIVERY_WORKFLOW, WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: EDITORIAL_OPERATIONS_PLAYBOOK; integrations: filesystem, docs, csv, images, search.",
+    "validation": "Content Strategist completed content production brief with 5 tracked integrations.",
+    "nextStep": "Hand off to PERFORMANCE_ENGINEER_AGENT.",
+    "integrations": [
+      "filesystem",
+      "docs",
+      "csv",
+      "images",
+      "search"
+    ],
+    "playbooks": [
+      "EDITORIAL_OPERATIONS_PLAYBOOK"
+    ],
+    "specialistOutputs": [
+      "content brief",
+      "cluster plan",
+      "specialist_execution output"
+    ]
+  },
+  "handoff": {
+    "fromAgentSlug": "CONTENT_STRATEGIST_AGENT",
+    "toAgentSlug": "PERFORMANCE_ENGINEER_AGENT",
+    "status": "COMPLETED",
+    "validationNeeded": "Downstream review by PERFORMANCE_ENGINEER_AGENT.",
+    "completedWork": [
+      "content brief",
+      "cluster plan",
+      "specialist_execution output"
+    ],
+    "collaborationTargets": [
+      "PERFORMANCE_ENGINEER_AGENT",
+      "EDITORIAL_MANAGER_AGENT",
+      "COPYWRITER_AGENT",
+      "PROOFREADER_AGENT",
+      "INTERNAL_LINKING_AGENT"
+    ]
+  },
+  "runtime": {
+    "mission": {
+      "objective": "Define page copy structure, FAQs, proof blocks, and content dependencies.",
+      "successDefinition": "Content production brief",
+      "companyId": "client-template",
+      "approvalClass": "A1",
+      "missionType": "Internal operations",
+      "requiredDepartments": [
+        "executive",
+        "client",
+        "design",
+        "engineering",
+        "search",
+        "publishing"
+      ],
+      "requiredIntegrations": [
+        "filesystem",
+        "docs",
+        "csv",
+        "images",
+        "search"
+      ],
+      "playbooks": [
+        "EDITORIAL_OPERATIONS_PLAYBOOK"
+      ]
+    },
+    "plan": {
+      "skillsLoaded": [
+        "CONTENT_WRITING",
+        "SEO",
+        "AEO"
+      ],
+      "workstreams": [
+        "plan editorial output",
+        "tighten messaging",
+        "protect quality and internal links"
+      ],
+      "validationChecks": [
+        "content matches search intent",
+        "claims remain factual",
+        "publishing dependencies are explicit"
+      ],
+      "dependencies": [],
+      "requiredEvidence": [
+        "content brief",
+        "draft notes",
+        "linking recommendations",
+        "Content production brief",
+        "cluster plan",
+        "specialist_execution output"
+      ],
+      "playbooks": [
+        "EDITORIAL_OPERATIONS_PLAYBOOK"
+      ],
+      "integrations": [
+        "Filesystem (NORMAL)",
+        "Docs (NORMAL)",
+        "Csv (NORMAL)",
+        "Images (NORMAL)",
+        "Search (NORMAL)"
+      ],
+      "collaborationTargets": [
+        "PERFORMANCE_ENGINEER_AGENT",
+        "EDITORIAL_MANAGER_AGENT",
+        "COPYWRITER_AGENT",
+        "PROOFREADER_AGENT",
+        "INTERNAL_LINKING_AGENT"
+      ]
+    },
+    "execution": {
+      "summary": "Content Strategist executed Define page copy structure, FAQs, proof blocks, and content dependencies. for mission 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ using workflows: CLIENT_PROJECT_DELIVERY_WORKFLOW, WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: EDITORIAL_OPERATIONS_PLAYBOOK; integrations: filesystem, docs, csv, images, search.",
+      "artifacts": [
+        "CONTENT_STRATEGIST_AGENT:content brief",
+        "CONTENT_STRATEGIST_AGENT:cluster plan",
+        "CONTENT_STRATEGIST_AGENT:specialist_execution output"
+      ],
+      "evidence": [
+        "content brief",
+        "draft notes",
+        "linking recommendations",
+        "Content production brief",
+        "cluster plan",
+        "specialist_execution output"
+      ],
+      "integrationsUsed": [
+        {
+          "id": "filesystem",
+          "title": "Filesystem",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": [
+            "integrations/core/INTEGRATION_CONTRACT.md",
+            "integrations/logging/LOG_SCHEMA.md"
+          ]
+        },
+        {
+          "id": "docs",
+          "title": "Docs",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "csv",
+          "title": "Csv",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "images",
+          "title": "Images",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "search",
+          "title": "Search",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        }
+      ],
+      "playbooksUsed": [
+        "EDITORIAL_OPERATIONS_PLAYBOOK"
+      ],
+      "collaborationRequests": [
+        {
+          "target": "PERFORMANCE_ENGINEER_AGENT",
+          "reason": "Coordinate content production brief with PERFORMANCE_ENGINEER_AGENT."
+        },
+        {
+          "target": "EDITORIAL_MANAGER_AGENT",
+          "reason": "Coordinate content production brief with EDITORIAL_MANAGER_AGENT."
+        },
+        {
+          "target": "COPYWRITER_AGENT",
+          "reason": "Coordinate content production brief with COPYWRITER_AGENT."
+        },
+        {
+          "target": "PROOFREADER_AGENT",
+          "reason": "Coordinate content production brief with PROOFREADER_AGENT."
+        },
+        {
+          "target": "INTERNAL_LINKING_AGENT",
+          "reason": "Coordinate content production brief with INTERNAL_LINKING_AGENT."
+        }
+      ],
+      "specialistOutputs": [
+        "content brief",
+        "cluster plan",
+        "specialist_execution output"
+      ],
+      "kpiFocus": [
+        "content throughput",
+        "content quality",
+        "Medium"
+      ],
+      "approvalGateReached": false
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "passed": true,
+      "notes": "Content Strategist completed content production brief with 5 tracked integrations."
+    },
+    "memory": {
+      "currentState": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T014: Content Strategist completed Define page copy structure, FAQs, proof blocks, and content dependencies..",
+      "nextAction": "PERFORMANCE_ENGINEER_AGENT should take over 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ-T014.",
+      "codexMemory": "20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ used Content Strategist for Content production brief."
+    }
+  },
+  "integrationsUsed": [
+    {
+      "id": "filesystem",
+      "title": "Filesystem",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": [
+        "integrations/core/INTEGRATION_CONTRACT.md",
+        "integrations/logging/LOG_SCHEMA.md"
+      ]
+    },
+    {
+      "id": "docs",
+      "title": "Docs",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "csv",
+      "title": "Csv",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "images",
+      "title": "Images",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "search",
+      "title": "Search",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    }
+  ],
+  "playbooksUsed": [
+    "EDITORIAL_OPERATIONS_PLAYBOOK"
+  ],
+  "collaborationRequests": [
+    {
+      "target": "PERFORMANCE_ENGINEER_AGENT",
+      "reason": "Coordinate content production brief with PERFORMANCE_ENGINEER_AGENT."
+    },
+    {
+      "target": "EDITORIAL_MANAGER_AGENT",
+      "reason": "Coordinate content production brief with EDITORIAL_MANAGER_AGENT."
+    },
+    {
+      "target": "COPYWRITER_AGENT",
+      "reason": "Coordinate content production brief with COPYWRITER_AGENT."
+    },
+    {
+      "target": "PROOFREADER_AGENT",
+      "reason": "Coordinate content production brief with PROOFREADER_AGENT."
+    },
+    {
+      "target": "INTERNAL_LINKING_AGENT",
+      "reason": "Coordinate content production brief with INTERNAL_LINKING_AGENT."
+    }
+  ],
+  "kpiFocus": [
+    "content throughput",
+    "content quality",
+    "Medium"
+  ]
+}

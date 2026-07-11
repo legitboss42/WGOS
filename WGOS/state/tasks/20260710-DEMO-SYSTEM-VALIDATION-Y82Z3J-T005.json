@@ -1,0 +1,69 @@
+{
+  "id": "20260710-DEMO-SYSTEM-VALIDATION-Y82Z3J-T005",
+  "missionId": "20260710-DEMO-SYSTEM-VALIDATION-Y82Z3J",
+  "sequence": 5,
+  "agentSlug": "KNOWLEDGE_MANAGER_AGENT",
+  "agentTitle": "Knowledge Manager",
+  "department": "executive",
+  "objective": "Capture memory, decisions, and next actions from the mission.",
+  "expectedOutput": "Memory deltas and learning record.",
+  "status": "COMPLETED",
+  "dependencies": [],
+  "nextAgentSlug": "QA_ENGINEER_AGENT",
+  "startedAt": "2026-07-10T06:55:44.150Z",
+  "updatedAt": "2026-07-10T06:55:44.529Z",
+  "report": {
+    "agent": "Knowledge Manager",
+    "taskId": "20260710-DEMO-SYSTEM-VALIDATION-Y82Z3J-T005",
+    "objective": "Capture memory, decisions, and next actions from the mission.",
+    "actions": "Knowledge Manager executed Capture memory, decisions, and next actions from the mission. for mission 20260710-DEMO-SYSTEM-VALIDATION-Y82Z3J using workflows: WORKFLOW_ORCHESTRATION, DOCUMENTATION_UPDATE_WORKFLOW, QA_AND_RELEASE_WORKFLOW.",
+    "validation": "Knowledge Manager completed memory deltas and learning record..",
+    "nextStep": "Hand off to QA_ENGINEER_AGENT."
+  },
+  "handoff": {
+    "fromAgentSlug": "KNOWLEDGE_MANAGER_AGENT",
+    "toAgentSlug": "QA_ENGINEER_AGENT",
+    "status": "COMPLETED",
+    "validationNeeded": "Downstream review by QA_ENGINEER_AGENT."
+  },
+  "runtime": {
+    "mission": {
+      "objective": "Capture memory, decisions, and next actions from the mission.",
+      "successDefinition": "Memory deltas and learning record.",
+      "companyId": "WG-001",
+      "approvalClass": "A1"
+    },
+    "plan": {
+      "skillsLoaded": [
+        "OPERATIONS"
+      ],
+      "steps": [
+        "Read mission context and prior handoff",
+        "Validate required inputs",
+        "Execute specialist work",
+        "Validate output against expected result",
+        "Prepare report, memory, and handoff payloads"
+      ],
+      "dependencies": []
+    },
+    "execution": {
+      "summary": "Knowledge Manager executed Capture memory, decisions, and next actions from the mission. for mission 20260710-DEMO-SYSTEM-VALIDATION-Y82Z3J using workflows: WORKFLOW_ORCHESTRATION, DOCUMENTATION_UPDATE_WORKFLOW, QA_AND_RELEASE_WORKFLOW.",
+      "artifacts": [
+        "KNOWLEDGE_MANAGER_AGENT:objective",
+        "KNOWLEDGE_MANAGER_AGENT:validation",
+        "KNOWLEDGE_MANAGER_AGENT:handoff"
+      ],
+      "approvalGateReached": false
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "passed": true,
+      "notes": "Knowledge Manager completed memory deltas and learning record.."
+    },
+    "memory": {
+      "currentState": "20260710-DEMO-SYSTEM-VALIDATION-Y82Z3J-T005: Knowledge Manager completed Capture memory, decisions, and next actions from the mission..",
+      "nextAction": "QA_ENGINEER_AGENT should take over 20260710-DEMO-SYSTEM-VALIDATION-Y82Z3J-T005.",
+      "codexMemory": "20260710-DEMO-SYSTEM-VALIDATION-Y82Z3J used Knowledge Manager for Memory deltas and learning record.."
+    }
+  }
+}

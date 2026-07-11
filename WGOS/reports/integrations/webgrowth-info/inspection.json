@@ -1,0 +1,38 @@
+{
+  "url": "https://webgrowth.info/",
+  "results": [
+    {
+      "integrationId": "browser",
+      "action": "inspect_url",
+      "status": "PAUSED",
+      "data": null,
+      "pause": {
+        "status": "WAITING_CAPABILITY",
+        "reason": "No live connector or approved session capability is configured for this process.",
+        "requiredHumanAction": "Attach or configure the read-only connector, then rerun the mission."
+      }
+    },
+    {
+      "integrationId": "pagespeed",
+      "action": "inspect_url",
+      "status": "PAUSED",
+      "data": null,
+      "pause": {
+        "status": "WAITING_CAPABILITY",
+        "reason": "No live connector or approved session capability is configured for this process.",
+        "requiredHumanAction": "Attach or configure the read-only connector, then rerun the mission."
+      }
+    },
+    {
+      "integrationId": "lighthouse",
+      "action": "inspect_url",
+      "status": "PAUSED",
+      "data": null,
+      "pause": {
+        "status": "WAITING_CAPABILITY",
+        "reason": "No live connector or approved session capability is configured for this process.",
+        "requiredHumanAction": "Attach or configure the read-only connector, then rerun the mission."
+      }
+    }
+  ]
+}

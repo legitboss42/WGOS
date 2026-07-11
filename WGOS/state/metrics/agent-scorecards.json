@@ -1,0 +1,816 @@
+[
+  {
+    "agentId": "ceo_operator",
+    "agentSlug": "CEO_OPERATOR_AGENT",
+    "agentTitle": "CEO Operator",
+    "department": "executive",
+    "tasksCompleted": 18,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 18,
+    "memoryUpdates": 18,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "CEO Operator executed Interpret the human business objective as a company mission. for mission 20260710-BUILD-PREMIUM-WEBSITE-9YYJ47 using workflows: WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK; integrations: filesystem, docs, csv, github.",
+      "CEO Operator executed Interpret the human business objective as a company mission. for mission 20260710-LEAD-RESEARCH-YLDQKY using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK; integrations: filesystem, docs, csv, github.",
+      "CEO Operator executed Interpret the human business objective as a company mission. for mission 20260710-LEAD-RESEARCH-A66YYU using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK; integrations: filesystem, docs, csv, github.",
+      "CEO Operator executed Interpret the human business objective as a company mission. for mission 20260710-LEAD-RESEARCH-BH5R7L using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK; integrations: filesystem, docs, csv, github.",
+      "CEO Operator executed Interpret the human business objective as a company mission. for mission 20260710-DEMO-SYSTEM-VALIDATION-BCPTMK using workflows: WORKFLOW_ORCHESTRATION, DOCUMENTATION_UPDATE_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK; integrations: filesystem, docs, csv, github."
+    ],
+    "lastExecutionAt": "2026-07-10T18:22:45.219Z"
+  },
+  {
+    "agentId": "workflow_orchestrator",
+    "agentSlug": "WORKFLOW_ORCHESTRATOR_AGENT",
+    "agentTitle": "Workflow Orchestrator",
+    "department": "executive",
+    "tasksCompleted": 18,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 18,
+    "memoryUpdates": 18,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "Workflow Orchestrator executed Select departments, specialists, dependencies, and approval gates for the mission. for mission 20260710-BUILD-PREMIUM-WEBSITE-9YYJ47 using workflows: WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK, MISSION_ROUTING_PLAYBOOK; integrations: filesystem, docs, csv, github.",
+      "Workflow Orchestrator executed Select departments, specialists, dependencies, and approval gates for the mission. for mission 20260710-LEAD-RESEARCH-YLDQKY using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK, MISSION_ROUTING_PLAYBOOK; integrations: filesystem, docs, csv, github.",
+      "Workflow Orchestrator executed Select departments, specialists, dependencies, and approval gates for the mission. for mission 20260710-LEAD-RESEARCH-A66YYU using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK, MISSION_ROUTING_PLAYBOOK; integrations: filesystem, docs, csv, github.",
+      "Workflow Orchestrator executed Select departments, specialists, dependencies, and approval gates for the mission. for mission 20260710-LEAD-RESEARCH-BH5R7L using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK, MISSION_ROUTING_PLAYBOOK; integrations: filesystem, docs, csv, github.",
+      "Workflow Orchestrator executed Select departments, specialists, dependencies, and approval gates for the mission. for mission 20260710-DEMO-SYSTEM-VALIDATION-BCPTMK using workflows: WORKFLOW_ORCHESTRATION, DOCUMENTATION_UPDATE_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK, MISSION_ROUTING_PLAYBOOK; integrations: filesystem, docs, csv, github."
+    ],
+    "lastExecutionAt": "2026-07-10T18:22:45.911Z"
+  },
+  {
+    "agentId": "project_manager",
+    "agentSlug": "PROJECT_MANAGER_AGENT",
+    "agentTitle": "Project Manager",
+    "department": "executive",
+    "tasksCompleted": 18,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 18,
+    "memoryUpdates": 18,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "Project Manager executed Create the company task board, complexity estimate, and handoff-safe execution order. for mission 20260710-BUILD-PREMIUM-WEBSITE-9YYJ47 using workflows: WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK, MISSION_ROUTING_PLAYBOOK; integrations: filesystem, docs, csv, github.",
+      "Project Manager executed Create the company task board, complexity estimate, and handoff-safe execution order. for mission 20260710-LEAD-RESEARCH-YLDQKY using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK, MISSION_ROUTING_PLAYBOOK; integrations: filesystem, docs, csv, github.",
+      "Project Manager executed Create the company task board, complexity estimate, and handoff-safe execution order. for mission 20260710-LEAD-RESEARCH-A66YYU using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK, MISSION_ROUTING_PLAYBOOK; integrations: filesystem, docs, csv, github.",
+      "Project Manager executed Create the company task board, complexity estimate, and handoff-safe execution order. for mission 20260710-LEAD-RESEARCH-BH5R7L using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK, MISSION_ROUTING_PLAYBOOK; integrations: filesystem, docs, csv, github.",
+      "Project Manager executed Create the company task board, complexity estimate, and handoff-safe execution order. for mission 20260710-DEMO-SYSTEM-VALIDATION-BCPTMK using workflows: WORKFLOW_ORCHESTRATION, DOCUMENTATION_UPDATE_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK, MISSION_ROUTING_PLAYBOOK; integrations: filesystem, docs, csv, github."
+    ],
+    "lastExecutionAt": "2026-07-10T18:22:46.040Z"
+  },
+  {
+    "agentId": "knowledge_manager",
+    "agentSlug": "KNOWLEDGE_MANAGER_AGENT",
+    "agentTitle": "Knowledge Manager",
+    "department": "executive",
+    "tasksCompleted": 18,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 18,
+    "memoryUpdates": 18,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "Knowledge Manager executed Capture lessons learned, mission knowledge, and next actions. for mission 20260710-BUILD-PREMIUM-WEBSITE-9YYJ47 using workflows: WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only.",
+      "Knowledge Manager executed Capture lessons learned, mission knowledge, and next actions. for mission 20260710-LEAD-RESEARCH-YLDQKY using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only.",
+      "Knowledge Manager executed Capture lessons learned, mission knowledge, and next actions. for mission 20260710-LEAD-RESEARCH-A66YYU using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only.",
+      "Knowledge Manager executed Capture lessons learned, mission knowledge, and next actions. for mission 20260710-LEAD-RESEARCH-BH5R7L using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only.",
+      "Knowledge Manager executed Capture lessons learned, mission knowledge, and next actions. for mission 20260710-DEMO-SYSTEM-VALIDATION-BCPTMK using workflows: WORKFLOW_ORCHESTRATION, DOCUMENTATION_UPDATE_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only."
+    ],
+    "lastExecutionAt": "2026-07-10T18:22:48.411Z"
+  },
+  {
+    "agentId": "documentation_manager",
+    "agentSlug": "DOCUMENTATION_AGENT",
+    "agentTitle": "Documentation Manager",
+    "department": "executive",
+    "tasksCompleted": 18,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 18,
+    "memoryUpdates": 18,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "Documentation Manager executed Finalize reporting, documentation status, and executive closeout. for mission 20260710-BUILD-PREMIUM-WEBSITE-9YYJ47 using workflows: WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only.",
+      "Documentation Manager executed Finalize reporting, documentation status, and executive closeout. for mission 20260710-LEAD-RESEARCH-YLDQKY using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only.",
+      "Documentation Manager executed Finalize reporting, documentation status, and executive closeout. for mission 20260710-LEAD-RESEARCH-A66YYU using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only.",
+      "Documentation Manager executed Finalize reporting, documentation status, and executive closeout. for mission 20260710-LEAD-RESEARCH-BH5R7L using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only.",
+      "Documentation Manager executed Finalize reporting, documentation status, and executive closeout. for mission 20260710-DEMO-SYSTEM-VALIDATION-BCPTMK using workflows: WORKFLOW_ORCHESTRATION, DOCUMENTATION_UPDATE_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only."
+    ],
+    "lastExecutionAt": "2026-07-10T18:22:48.550Z"
+  },
+  {
+    "agentId": "product_strategist",
+    "agentSlug": "PRODUCT_STRATEGIST_AGENT",
+    "agentTitle": "Product Strategist",
+    "department": "design",
+    "tasksCompleted": 2,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 2,
+    "memoryUpdates": 2,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "Product Strategist executed Define business, audience, and page strategy. for mission 20260710-BUILD-PREMIUM-WEBSITE-9YYJ47 using workflows: WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: DESIGN_REVIEW_PLAYBOOK; integrations: filesystem, docs, figma, images.",
+      "Product Strategist executed Define site strategy, page strategy, conversion goals, and revenue direction. for mission 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ using workflows: CLIENT_PROJECT_DELIVERY_WORKFLOW, WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: DESIGN_REVIEW_PLAYBOOK; integrations: filesystem, docs, figma, images."
+    ],
+    "lastExecutionAt": "2026-07-10T18:22:46.828Z"
+  },
+  {
+    "agentId": "ui_ux_designer",
+    "agentSlug": "UI_UX_DESIGN_AGENT",
+    "agentTitle": "UI UX Designer",
+    "department": "design",
+    "tasksCompleted": 2,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 2,
+    "memoryUpdates": 2,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "UI UX Designer executed Design the information and conversion structure. for mission 20260710-BUILD-PREMIUM-WEBSITE-9YYJ47 using workflows: WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: DESIGN_REVIEW_PLAYBOOK; integrations: filesystem, docs, figma, images.",
+      "UI UX Designer executed Map information architecture, navigation, user journeys, and responsive wireframes. for mission 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ using workflows: CLIENT_PROJECT_DELIVERY_WORKFLOW, WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: DESIGN_REVIEW_PLAYBOOK; integrations: filesystem, docs, figma, images."
+    ],
+    "lastExecutionAt": "2026-07-10T18:22:46.967Z"
+  },
+  {
+    "agentId": "brand_designer",
+    "agentSlug": "BRAND_DESIGN_AGENT",
+    "agentTitle": "Brand Designer",
+    "department": "design",
+    "tasksCompleted": 1,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 1,
+    "memoryUpdates": 1,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "Brand Designer executed Define brand integration, color system, type direction, and component visual language. for mission 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ using workflows: CLIENT_PROJECT_DELIVERY_WORKFLOW, WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: DESIGN_REVIEW_PLAYBOOK; integrations: filesystem, docs, figma, images."
+    ],
+    "lastExecutionAt": "2026-07-10T11:42:26.647Z"
+  },
+  {
+    "agentId": "motion_graphics",
+    "agentSlug": "MOTION_GRAPHICS_AGENT",
+    "agentTitle": "Motion Graphics Designer",
+    "department": "design",
+    "tasksCompleted": 1,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 1,
+    "memoryUpdates": 1,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "Motion Graphics Designer executed Define hero storytelling, motion system, reduced-motion fallbacks, and performance-safe animation intent. for mission 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ using workflows: CLIENT_PROJECT_DELIVERY_WORKFLOW, WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: DESIGN_REVIEW_PLAYBOOK; integrations: filesystem, docs, figma, images."
+    ],
+    "lastExecutionAt": "2026-07-10T11:42:27.551Z"
+  },
+  {
+    "agentId": "frontend_engineer",
+    "agentSlug": "FRONTEND_ENGINEER_AGENT",
+    "agentTitle": "Frontend Engineer",
+    "department": "engineering",
+    "tasksCompleted": 2,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 2,
+    "memoryUpdates": 2,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "Frontend Engineer executed Plan implementation sequence and component structure. for mission 20260710-BUILD-PREMIUM-WEBSITE-9YYJ47 using workflows: WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: REPO_DELIVERY_PLAYBOOK; integrations: filesystem, docs, github, vercel.",
+      "Frontend Engineer executed Plan component implementation, design token usage, and responsive frontend delivery. for mission 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ using workflows: CLIENT_PROJECT_DELIVERY_WORKFLOW, WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: REPO_DELIVERY_PLAYBOOK; integrations: filesystem, docs, github, vercel."
+    ],
+    "lastExecutionAt": "2026-07-10T18:22:47.083Z"
+  },
+  {
+    "agentId": "backend_engineer",
+    "agentSlug": "BACKEND_ENGINEER_AGENT",
+    "agentTitle": "Backend Engineer",
+    "department": "engineering",
+    "tasksCompleted": 1,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 1,
+    "memoryUpdates": 1,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "Backend Engineer executed Define backend requirements, forms, data handling, and integration boundaries. for mission 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ using workflows: CLIENT_PROJECT_DELIVERY_WORKFLOW, WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: REPO_DELIVERY_PLAYBOOK; integrations: filesystem, docs, github, vercel."
+    ],
+    "lastExecutionAt": "2026-07-10T11:42:29.113Z"
+  },
+  {
+    "agentId": "full_stack_engineer",
+    "agentSlug": "FULL_STACK_ENGINEER_AGENT",
+    "agentTitle": "Full Stack Engineer",
+    "department": "engineering",
+    "tasksCompleted": 0,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 0,
+    "memoryUpdates": 0,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [],
+    "lastExecutionAt": null
+  },
+  {
+    "agentId": "performance_engineer",
+    "agentSlug": "PERFORMANCE_ENGINEER_AGENT",
+    "agentTitle": "Performance Engineer",
+    "department": "engineering",
+    "tasksCompleted": 1,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 1,
+    "memoryUpdates": 1,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "Performance Engineer executed Set performance budgets, motion constraints, and Core Web Vitals guardrails. for mission 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ using workflows: CLIENT_PROJECT_DELIVERY_WORKFLOW, WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: QUALITY_VALIDATION_PLAYBOOK; integrations: filesystem, docs, images, lighthouse, pagespeed."
+    ],
+    "lastExecutionAt": "2026-07-10T11:42:33.535Z"
+  },
+  {
+    "agentId": "accessibility_engineer",
+    "agentSlug": "ACCESSIBILITY_ENGINEER_AGENT",
+    "agentTitle": "Accessibility Engineer",
+    "department": "engineering",
+    "tasksCompleted": 1,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 1,
+    "memoryUpdates": 1,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "Accessibility Engineer executed Set accessibility review criteria for semantics, motion, forms, and contrast. for mission 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ using workflows: CLIENT_PROJECT_DELIVERY_WORKFLOW, WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: QUALITY_VALIDATION_PLAYBOOK; integrations: filesystem, docs, images, lighthouse, pagespeed."
+    ],
+    "lastExecutionAt": "2026-07-10T11:42:34.728Z"
+  },
+  {
+    "agentId": "qa_engineer",
+    "agentSlug": "QA_ENGINEER_AGENT",
+    "agentTitle": "QA Engineer",
+    "department": "engineering",
+    "tasksCompleted": 18,
+    "qaPasses": 18,
+    "qaFailures": 0,
+    "documentationUpdates": 18,
+    "memoryUpdates": 18,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "QA Engineer executed Validate cross-department output quality and readiness. for mission 20260710-BUILD-PREMIUM-WEBSITE-9YYJ47 using workflows: WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: QUALITY_VALIDATION_PLAYBOOK; integrations: filesystem, docs, images, lighthouse, pagespeed.",
+      "QA Engineer executed Validate cross-department output quality and readiness. for mission 20260710-LEAD-RESEARCH-YLDQKY using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: QUALITY_VALIDATION_PLAYBOOK; integrations: filesystem, docs, lighthouse, pagespeed, images.",
+      "QA Engineer executed Validate cross-department output quality and readiness. for mission 20260710-LEAD-RESEARCH-A66YYU using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: QUALITY_VALIDATION_PLAYBOOK; integrations: filesystem, docs, lighthouse, pagespeed, images.",
+      "QA Engineer executed Validate cross-department output quality and readiness. for mission 20260710-LEAD-RESEARCH-BH5R7L using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: QUALITY_VALIDATION_PLAYBOOK; integrations: filesystem, docs, lighthouse, pagespeed, images.",
+      "QA Engineer executed Validate cross-department output quality and readiness. for mission 20260710-DEMO-SYSTEM-VALIDATION-BCPTMK using workflows: WORKFLOW_ORCHESTRATION, DOCUMENTATION_UPDATE_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: QUALITY_VALIDATION_PLAYBOOK; integrations: filesystem, docs, lighthouse, pagespeed, images."
+    ],
+    "lastExecutionAt": "2026-07-10T18:22:48.238Z"
+  },
+  {
+    "agentId": "deployment_engineer",
+    "agentSlug": "DEPLOYMENT_ENGINEER_AGENT",
+    "agentTitle": "Deployment Engineer",
+    "department": "engineering",
+    "tasksCompleted": 1,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 1,
+    "memoryUpdates": 1,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "Deployment Engineer executed Prepare launch checklist, rollback thinking, and approval-gated release notes. for mission 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ using workflows: CLIENT_PROJECT_DELIVERY_WORKFLOW, WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: REPO_DELIVERY_PLAYBOOK; integrations: filesystem, docs, github, vercel."
+    ],
+    "lastExecutionAt": "2026-07-10T11:42:36.134Z"
+  },
+  {
+    "agentId": "seo",
+    "agentSlug": "SEO_AGENT",
+    "agentTitle": "SEO",
+    "department": "search",
+    "tasksCompleted": 2,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 2,
+    "memoryUpdates": 2,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "SEO executed Define search, metadata, and internal linking requirements. for mission 20260710-BUILD-PREMIUM-WEBSITE-9YYJ47 using workflows: WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: SEARCH_INTELLIGENCE_PLAYBOOK, SEARCH_CONSOLE_REVIEW_PLAYBOOK, GA4_REVIEW_PLAYBOOK; integrations: filesystem, docs, csv, lighthouse, pagespeed, search, search-console, ga4, crm.",
+      "SEO executed Define metadata, page targeting, internal linking, and page-level SEO requirements. for mission 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ using workflows: CLIENT_PROJECT_DELIVERY_WORKFLOW, WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: SEARCH_INTELLIGENCE_PLAYBOOK, SEARCH_CONSOLE_REVIEW_PLAYBOOK, GA4_REVIEW_PLAYBOOK; integrations: filesystem, docs, csv, lighthouse, pagespeed, search, search-console, ga4, crm."
+    ],
+    "lastExecutionAt": "2026-07-10T18:22:47.553Z"
+  },
+  {
+    "agentId": "technical_seo",
+    "agentSlug": "TECHNICAL_SEO_AGENT",
+    "agentTitle": "Technical SEO",
+    "department": "search",
+    "tasksCompleted": 0,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 0,
+    "memoryUpdates": 0,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [],
+    "lastExecutionAt": null
+  },
+  {
+    "agentId": "aeo",
+    "agentSlug": "AEO_AGENT",
+    "agentTitle": "AEO",
+    "department": "search",
+    "tasksCompleted": 1,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 1,
+    "memoryUpdates": 1,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "AEO executed Identify answer-engine opportunities across FAQs, content framing, and summary blocks. for mission 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ using workflows: CLIENT_PROJECT_DELIVERY_WORKFLOW, WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: SEARCH_INTELLIGENCE_PLAYBOOK; integrations: docs, lighthouse, pagespeed, search, search-console, ga4."
+    ],
+    "lastExecutionAt": "2026-07-10T11:42:31.168Z"
+  },
+  {
+    "agentId": "geo",
+    "agentSlug": "GEO_AGENT",
+    "agentTitle": "GEO",
+    "department": "search",
+    "tasksCompleted": 1,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 1,
+    "memoryUpdates": 1,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "GEO executed Define generative-engine discoverability guidance and citation-safe knowledge packaging. for mission 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ using workflows: CLIENT_PROJECT_DELIVERY_WORKFLOW, WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: SEARCH_INTELLIGENCE_PLAYBOOK; integrations: docs, lighthouse, pagespeed, search, search-console, ga4."
+    ],
+    "lastExecutionAt": "2026-07-10T11:42:32.116Z"
+  },
+  {
+    "agentId": "schema",
+    "agentSlug": "SCHEMA_AGENT",
+    "agentTitle": "Schema",
+    "department": "search",
+    "tasksCompleted": 0,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 0,
+    "memoryUpdates": 0,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [],
+    "lastExecutionAt": null
+  },
+  {
+    "agentId": "search_console",
+    "agentSlug": "SEARCH_CONSOLE_AGENT",
+    "agentTitle": "Search Console",
+    "department": "search",
+    "tasksCompleted": 0,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 0,
+    "memoryUpdates": 0,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [],
+    "lastExecutionAt": null
+  },
+  {
+    "agentId": "editorial_manager",
+    "agentSlug": "EDITORIAL_MANAGER_AGENT",
+    "agentTitle": "Editorial Manager",
+    "department": "publishing",
+    "tasksCompleted": 0,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 0,
+    "memoryUpdates": 0,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [],
+    "lastExecutionAt": null
+  },
+  {
+    "agentId": "content_strategist",
+    "agentSlug": "CONTENT_STRATEGIST_AGENT",
+    "agentTitle": "Content Strategist",
+    "department": "publishing",
+    "tasksCompleted": 1,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 1,
+    "memoryUpdates": 1,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "Content Strategist executed Define page copy structure, FAQs, proof blocks, and content dependencies. for mission 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ using workflows: CLIENT_PROJECT_DELIVERY_WORKFLOW, WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: EDITORIAL_OPERATIONS_PLAYBOOK; integrations: filesystem, docs, csv, images, search."
+    ],
+    "lastExecutionAt": "2026-07-10T11:42:32.987Z"
+  },
+  {
+    "agentId": "copywriter",
+    "agentSlug": "COPYWRITER_AGENT",
+    "agentTitle": "Copywriter",
+    "department": "publishing",
+    "tasksCompleted": 0,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 0,
+    "memoryUpdates": 0,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [],
+    "lastExecutionAt": null
+  },
+  {
+    "agentId": "proofreader",
+    "agentSlug": "PROOFREADER_AGENT",
+    "agentTitle": "Proofreader",
+    "department": "publishing",
+    "tasksCompleted": 0,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 0,
+    "memoryUpdates": 0,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [],
+    "lastExecutionAt": null
+  },
+  {
+    "agentId": "internal_linking",
+    "agentSlug": "INTERNAL_LINKING_AGENT",
+    "agentTitle": "Internal Linking",
+    "department": "publishing",
+    "tasksCompleted": 0,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 0,
+    "memoryUpdates": 0,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [],
+    "lastExecutionAt": null
+  },
+  {
+    "agentId": "marketing_strategist",
+    "agentSlug": "MARKETING_STRATEGIST_AGENT",
+    "agentTitle": "Marketing Strategist",
+    "department": "marketing",
+    "tasksCompleted": 4,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 4,
+    "memoryUpdates": 4,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "Marketing Strategist executed Confirm target segment and quota framing. for mission 20260710-LEAD-RESEARCH-YLDQKY using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: LEAD_RESEARCH_PLAYBOOK; integrations: csv, browser, search, maps, business-directories, crm.",
+      "Marketing Strategist executed Confirm target segment and quota framing. for mission 20260710-LEAD-RESEARCH-A66YYU using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: LEAD_RESEARCH_PLAYBOOK; integrations: csv, browser, search, maps, business-directories, crm.",
+      "Marketing Strategist executed Confirm target segment and quota framing. for mission 20260710-LEAD-RESEARCH-BH5R7L using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: LEAD_RESEARCH_PLAYBOOK; integrations: csv, browser, search, maps, business-directories, crm.",
+      "Marketing Strategist executed Translate revenue findings into campaign and pipeline priorities. for mission 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH using workflows: ANALYTICS_REVIEW_WORKFLOW, WEEKLY_AGENCY_OPERATIONS_WORKFLOW, ADSENSE_READINESS_WORKFLOW; playbooks: LEAD_RESEARCH_PLAYBOOK; integrations: csv, crm, browser, search, maps, business-directories."
+    ],
+    "lastExecutionAt": "2026-07-10T16:54:23.202Z"
+  },
+  {
+    "agentId": "lead_research",
+    "agentSlug": "LEAD_RESEARCH_AGENT",
+    "agentTitle": "Lead Research",
+    "department": "marketing",
+    "tasksCompleted": 3,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 3,
+    "memoryUpdates": 3,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "Lead Research executed Define qualified lead collection plan without sending outreach. for mission 20260710-LEAD-RESEARCH-YLDQKY using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: CONTROLLED_BROWSER_RESEARCH_PLAYBOOK, LEAD_RESEARCH_PLAYBOOK; integrations: docs, csv, browser, search, maps, business-directories, crm.",
+      "Lead Research executed Define qualified lead collection plan without sending outreach. for mission 20260710-LEAD-RESEARCH-A66YYU using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: CONTROLLED_BROWSER_RESEARCH_PLAYBOOK, LEAD_RESEARCH_PLAYBOOK; integrations: docs, csv, browser, search, maps, business-directories, crm.",
+      "Lead Research executed Define qualified lead collection plan without sending outreach. for mission 20260710-LEAD-RESEARCH-BH5R7L using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: CONTROLLED_BROWSER_RESEARCH_PLAYBOOK, LEAD_RESEARCH_PLAYBOOK; integrations: docs, csv, browser, search, maps, business-directories, crm."
+    ],
+    "lastExecutionAt": "2026-07-10T16:54:24.245Z"
+  },
+  {
+    "agentId": "website_audit",
+    "agentSlug": "WEBSITE_AUDIT_AGENT",
+    "agentTitle": "Website Audit",
+    "department": "marketing",
+    "tasksCompleted": 3,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 3,
+    "memoryUpdates": 3,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "Website Audit executed Define mini-audit structure for accepted leads. for mission 20260710-LEAD-RESEARCH-YLDQKY using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: QUALITY_VALIDATION_PLAYBOOK, CONTROLLED_BROWSER_RESEARCH_PLAYBOOK; integrations: filesystem, docs, lighthouse, pagespeed, images, browser, search, maps, business-directories.",
+      "Website Audit executed Define mini-audit structure for accepted leads. for mission 20260710-LEAD-RESEARCH-A66YYU using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: QUALITY_VALIDATION_PLAYBOOK, CONTROLLED_BROWSER_RESEARCH_PLAYBOOK; integrations: filesystem, docs, lighthouse, pagespeed, images, browser, search, maps, business-directories.",
+      "Website Audit executed Define mini-audit structure for accepted leads. for mission 20260710-LEAD-RESEARCH-BH5R7L using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: QUALITY_VALIDATION_PLAYBOOK, CONTROLLED_BROWSER_RESEARCH_PLAYBOOK; integrations: filesystem, docs, lighthouse, pagespeed, images, browser, search, maps, business-directories."
+    ],
+    "lastExecutionAt": "2026-07-10T16:54:26.217Z"
+  },
+  {
+    "agentId": "business_intelligence",
+    "agentSlug": "BUSINESS_INTELLIGENCE_AGENT",
+    "agentTitle": "Business Intelligence",
+    "department": "marketing",
+    "tasksCompleted": 3,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 3,
+    "memoryUpdates": 3,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "Business Intelligence executed Define enrichment and personalization fields. for mission 20260710-LEAD-RESEARCH-YLDQKY using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: CONTROLLED_BROWSER_RESEARCH_PLAYBOOK, LEAD_RESEARCH_PLAYBOOK; integrations: docs, csv, browser, search, maps, business-directories, crm.",
+      "Business Intelligence executed Define enrichment and personalization fields. for mission 20260710-LEAD-RESEARCH-A66YYU using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: CONTROLLED_BROWSER_RESEARCH_PLAYBOOK, LEAD_RESEARCH_PLAYBOOK; integrations: docs, csv, browser, search, maps, business-directories, crm.",
+      "Business Intelligence executed Define enrichment and personalization fields. for mission 20260710-LEAD-RESEARCH-BH5R7L using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: CONTROLLED_BROWSER_RESEARCH_PLAYBOOK, LEAD_RESEARCH_PLAYBOOK; integrations: docs, csv, browser, search, maps, business-directories, crm."
+    ],
+    "lastExecutionAt": "2026-07-10T16:54:27.813Z"
+  },
+  {
+    "agentId": "outreach_drafting",
+    "agentSlug": "OUTREACH_DRAFTING_AGENT",
+    "agentTitle": "Outreach Drafting",
+    "department": "marketing",
+    "tasksCompleted": 3,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 3,
+    "memoryUpdates": 3,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "Outreach Drafting executed Define draft structure without sending or creating external actions. for mission 20260710-LEAD-RESEARCH-YLDQKY using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: CRM_OUTREACH_DRAFT_PLAYBOOK; integrations: docs, csv, crm, gmail.",
+      "Outreach Drafting executed Define draft structure without sending or creating external actions. for mission 20260710-LEAD-RESEARCH-A66YYU using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: CRM_OUTREACH_DRAFT_PLAYBOOK; integrations: docs, csv, crm, gmail.",
+      "Outreach Drafting executed Define draft structure without sending or creating external actions. for mission 20260710-LEAD-RESEARCH-BH5R7L using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: CRM_OUTREACH_DRAFT_PLAYBOOK; integrations: docs, csv, crm, gmail."
+    ],
+    "lastExecutionAt": "2026-07-10T16:54:29.760Z"
+  },
+  {
+    "agentId": "crm",
+    "agentSlug": "CRM_AGENT",
+    "agentTitle": "CRM",
+    "department": "marketing",
+    "tasksCompleted": 3,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 3,
+    "memoryUpdates": 3,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "CRM executed Define status tracking and follow-up state management. for mission 20260710-LEAD-RESEARCH-YLDQKY using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: CRM_OUTREACH_DRAFT_PLAYBOOK; integrations: docs, csv, crm, gmail.",
+      "CRM executed Define status tracking and follow-up state management. for mission 20260710-LEAD-RESEARCH-A66YYU using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: CRM_OUTREACH_DRAFT_PLAYBOOK; integrations: docs, csv, crm, gmail.",
+      "CRM executed Define status tracking and follow-up state management. for mission 20260710-LEAD-RESEARCH-BH5R7L using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: CRM_OUTREACH_DRAFT_PLAYBOOK; integrations: docs, csv, crm, gmail."
+    ],
+    "lastExecutionAt": "2026-07-10T16:54:28.851Z"
+  },
+  {
+    "agentId": "follow_up",
+    "agentSlug": "FOLLOW_UP_AGENT",
+    "agentTitle": "Follow Up",
+    "department": "marketing",
+    "tasksCompleted": 0,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 0,
+    "memoryUpdates": 0,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [],
+    "lastExecutionAt": null
+  },
+  {
+    "agentId": "social_media",
+    "agentSlug": "SOCIAL_MEDIA_AGENT",
+    "agentTitle": "Social Media",
+    "department": "marketing",
+    "tasksCompleted": 0,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 0,
+    "memoryUpdates": 0,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [],
+    "lastExecutionAt": null
+  },
+  {
+    "agentId": "newsletter",
+    "agentSlug": "NEWSLETTER_AGENT",
+    "agentTitle": "Newsletter",
+    "department": "marketing",
+    "tasksCompleted": 1,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 1,
+    "memoryUpdates": 1,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "Newsletter executed Define newsletter growth, lead-magnet, and promotion opportunities. for mission 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH using workflows: ANALYTICS_REVIEW_WORKFLOW, WEEKLY_AGENCY_OPERATIONS_WORKFLOW, ADSENSE_READINESS_WORKFLOW; playbooks: CRM_OUTREACH_DRAFT_PLAYBOOK; integrations: docs, csv, crm, gmail."
+    ],
+    "lastExecutionAt": "2026-07-10T12:05:19.219Z"
+  },
+  {
+    "agentId": "cro",
+    "agentSlug": "CRO_AGENT",
+    "agentTitle": "CRO",
+    "department": "revenue",
+    "tasksCompleted": 1,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 1,
+    "memoryUpdates": 1,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "CRO executed Translate performance signals into conversion and funnel opportunities. for mission 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH using workflows: ANALYTICS_REVIEW_WORKFLOW, WEEKLY_AGENCY_OPERATIONS_WORKFLOW, ADSENSE_READINESS_WORKFLOW; playbooks: GA4_REVIEW_PLAYBOOK, REVENUE_SIGNAL_PLAYBOOK; integrations: docs, csv, lighthouse, pagespeed, ga4, search-console, crm."
+    ],
+    "lastExecutionAt": "2026-07-10T12:05:18.703Z"
+  },
+  {
+    "agentId": "adsense",
+    "agentSlug": "ADSENSE_AGENT",
+    "agentTitle": "AdSense",
+    "department": "revenue",
+    "tasksCompleted": 1,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 1,
+    "memoryUpdates": 1,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "AdSense executed Review AdSense readiness, policy risk, and content quality gaps. for mission 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH using workflows: ANALYTICS_REVIEW_WORKFLOW, WEEKLY_AGENCY_OPERATIONS_WORKFLOW, ADSENSE_READINESS_WORKFLOW; playbooks: REVENUE_SIGNAL_PLAYBOOK; integrations: lighthouse, pagespeed, ga4, search-console, crm."
+    ],
+    "lastExecutionAt": "2026-07-10T12:05:18.837Z"
+  },
+  {
+    "agentId": "affiliate_manager",
+    "agentSlug": "AFFILIATE_MANAGER_AGENT",
+    "agentTitle": "Affiliate Manager",
+    "department": "revenue",
+    "tasksCompleted": 1,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 1,
+    "memoryUpdates": 1,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "Affiliate Manager executed Map affiliate opportunities, placement strategy, and compliance considerations. for mission 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH using workflows: ANALYTICS_REVIEW_WORKFLOW, WEEKLY_AGENCY_OPERATIONS_WORKFLOW, ADSENSE_READINESS_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only."
+    ],
+    "lastExecutionAt": "2026-07-10T12:05:18.903Z"
+  },
+  {
+    "agentId": "digital_product",
+    "agentSlug": "DIGITAL_PRODUCT_AGENT",
+    "agentTitle": "Digital Product",
+    "department": "revenue",
+    "tasksCompleted": 1,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 1,
+    "memoryUpdates": 1,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "Digital Product executed Identify templates, guides, toolkits, and other digital-product opportunities. for mission 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH using workflows: ANALYTICS_REVIEW_WORKFLOW, WEEKLY_AGENCY_OPERATIONS_WORKFLOW, ADSENSE_READINESS_WORKFLOW; playbooks: direct runtime plan; integrations: local runtime only."
+    ],
+    "lastExecutionAt": "2026-07-10T12:05:19.014Z"
+  },
+  {
+    "agentId": "saas_planner",
+    "agentSlug": "SAAS_PLANNER_AGENT",
+    "agentTitle": "SaaS Planner",
+    "department": "revenue",
+    "tasksCompleted": 0,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 0,
+    "memoryUpdates": 0,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [],
+    "lastExecutionAt": null
+  },
+  {
+    "agentId": "analytics",
+    "agentSlug": "ANALYTICS_AGENT",
+    "agentTitle": "Analytics",
+    "department": "revenue",
+    "tasksCompleted": 1,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 1,
+    "memoryUpdates": 1,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "Analytics executed Summarize revenue-facing KPIs, traffic, leads, and conversion signals. for mission 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH using workflows: ANALYTICS_REVIEW_WORKFLOW, WEEKLY_AGENCY_OPERATIONS_WORKFLOW, ADSENSE_READINESS_WORKFLOW; playbooks: GA4_REVIEW_PLAYBOOK, REVENUE_SIGNAL_PLAYBOOK; integrations: docs, csv, lighthouse, pagespeed, ga4, search-console, crm."
+    ],
+    "lastExecutionAt": "2026-07-10T12:05:18.624Z"
+  },
+  {
+    "agentId": "revenue_operations",
+    "agentSlug": "REVENUE_OPERATIONS_AGENT",
+    "agentTitle": "Revenue Operations",
+    "department": "revenue",
+    "tasksCompleted": 1,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 1,
+    "memoryUpdates": 1,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "Revenue Operations executed Prioritize highest-fit revenue opportunities across services and recurring offers. for mission 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH using workflows: ANALYTICS_REVIEW_WORKFLOW, WEEKLY_AGENCY_OPERATIONS_WORKFLOW, ADSENSE_READINESS_WORKFLOW; playbooks: GA4_REVIEW_PLAYBOOK, REVENUE_SIGNAL_PLAYBOOK; integrations: docs, csv, lighthouse, pagespeed, ga4, search-console, crm."
+    ],
+    "lastExecutionAt": "2026-07-10T12:05:18.773Z"
+  },
+  {
+    "agentId": "sales_consultant",
+    "agentSlug": "SALES_CONSULTANT_AGENT",
+    "agentTitle": "Sales Consultant",
+    "department": "client",
+    "tasksCompleted": 1,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 1,
+    "memoryUpdates": 1,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "Sales Consultant executed Capture discovery inputs, success metrics, constraints, and commercial fit. for mission 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ using workflows: CLIENT_PROJECT_DELIVERY_WORKFLOW, WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: CLIENT_DELIVERY_PLAYBOOK; integrations: filesystem, docs, csv, crm, gmail."
+    ],
+    "lastExecutionAt": "2026-07-10T11:42:25.604Z"
+  },
+  {
+    "agentId": "proposal_writer",
+    "agentSlug": "PROPOSAL_WRITER_AGENT",
+    "agentTitle": "Proposal Writer",
+    "department": "client",
+    "tasksCompleted": 0,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 0,
+    "memoryUpdates": 0,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [],
+    "lastExecutionAt": null
+  },
+  {
+    "agentId": "client_success",
+    "agentSlug": "CLIENT_SUCCESS_AGENT",
+    "agentTitle": "Client Success",
+    "department": "client",
+    "tasksCompleted": 1,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 1,
+    "memoryUpdates": 1,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [
+      "Client Success executed Prepare client review checkpoints, revision handling, and approval-state communication. for mission 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ using workflows: CLIENT_PROJECT_DELIVERY_WORKFLOW, WEBSITE_REBUILD_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: CLIENT_DELIVERY_PLAYBOOK; integrations: filesystem, docs, csv, crm, gmail."
+    ],
+    "lastExecutionAt": "2026-07-10T11:42:35.730Z"
+  },
+  {
+    "agentId": "client_onboarding",
+    "agentSlug": "CLIENT_ONBOARDING_AGENT",
+    "agentTitle": "Client Onboarding",
+    "department": "client",
+    "tasksCompleted": 0,
+    "qaPasses": 0,
+    "qaFailures": 0,
+    "documentationUpdates": 0,
+    "memoryUpdates": 0,
+    "approvalPauses": 0,
+    "retries": 0,
+    "businessImpactNotes": [],
+    "lastExecutionAt": null
+  }
+]

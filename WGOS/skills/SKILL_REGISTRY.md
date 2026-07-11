@@ -1,0 +1,36 @@
+# Skill Registry
+
+## Engineering
+
+- `NEXTJS`
+- `TAILWIND`
+- `TYPESCRIPT`
+- `GSAP`
+- `FRAMER_MOTION`
+- `ACCESSIBILITY`
+- `PERFORMANCE`
+- `TESTING`
+- `DEPLOYMENT`
+
+## Search
+
+- `SEO`
+- `CODEX_SEO`
+- `AEO`
+- `GEO`
+- `SCHEMA`
+- `GA4`
+- `SEARCH_CONSOLE`
+
+## Revenue And Marketing
+
+- `ADSENSE`
+- `CONTENT_WRITING`
+- `COPYWRITING`
+- `CRO`
+- `LEAD_RESEARCH`
+- `OUTREACH`
+- `GMAIL`
+- `CONTROLLED_BROWSER`
+- `BUSINESS_MODEL`
+- `OPERATIONS`

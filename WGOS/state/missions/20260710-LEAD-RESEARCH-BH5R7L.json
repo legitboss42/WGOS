@@ -1,0 +1,140 @@
+{
+  "id": "20260710-LEAD-RESEARCH-BH5R7L",
+  "templateId": "LEAD_RESEARCH",
+  "companyId": "web-growth",
+  "objective": "Create a compliant lead-research mission with research, audits, intelligence, CRM, drafts, QA, documentation, and memory capture.",
+  "missionType": "Growth campaign",
+  "approvalClass": "A1",
+  "workflows": [
+    "LEAD_RESEARCH_WORKFLOW",
+    "HUMAN_APPROVED_OUTREACH_WORKFLOW"
+  ],
+  "successCriteria": [
+    "Lead workflow is routed correctly",
+    "Approval boundaries are preserved",
+    "Persistent state records the full mission chain"
+  ],
+  "requiredDepartments": [
+    "executive",
+    "marketing",
+    "engineering"
+  ],
+  "requiredAgents": [
+    "CEO_OPERATOR_AGENT",
+    "WORKFLOW_ORCHESTRATOR_AGENT",
+    "PROJECT_MANAGER_AGENT",
+    "MARKETING_STRATEGIST_AGENT",
+    "LEAD_RESEARCH_AGENT",
+    "WEBSITE_AUDIT_AGENT",
+    "BUSINESS_INTELLIGENCE_AGENT",
+    "CRM_AGENT",
+    "OUTREACH_DRAFTING_AGENT",
+    "QA_ENGINEER_AGENT",
+    "KNOWLEDGE_MANAGER_AGENT",
+    "DOCUMENTATION_AGENT"
+  ],
+  "requiredSkills": [
+    "BUSINESS_MODEL",
+    "OPERATIONS",
+    "TESTING",
+    "CRO",
+    "COPYWRITING",
+    "LEAD_RESEARCH",
+    "CONTROLLED_BROWSER",
+    "OUTREACH",
+    "SEO",
+    "PERFORMANCE",
+    "ACCESSIBILITY",
+    "GA4",
+    "GMAIL"
+  ],
+  "requiredIntegrations": [
+    "filesystem",
+    "docs",
+    "csv",
+    "github",
+    "lighthouse",
+    "pagespeed",
+    "images",
+    "browser",
+    "search",
+    "maps",
+    "business-directories",
+    "crm",
+    "gmail"
+  ],
+  "approvalGates": [
+    "Local-only execution"
+  ],
+  "businessValue": "High",
+  "revenueImpact": "High",
+  "estimatedComplexity": "Medium",
+  "documentationUpdates": [
+    "reports",
+    "memory",
+    "decisions",
+    "executive-dashboard"
+  ],
+  "priority": "HIGH",
+  "qaStatus": "PASSED",
+  "documentationStatus": "UPDATED",
+  "approvalStatus": "CLEARED",
+  "completionStatus": "COMPLETED",
+  "status": "COMPLETED",
+  "startedAt": "2026-07-10T16:14:51.431Z",
+  "updatedAt": "2026-07-10T16:14:59.847Z",
+  "operator": "Codex",
+  "taskIds": [
+    "20260710-LEAD-RESEARCH-BH5R7L-T001",
+    "20260710-LEAD-RESEARCH-BH5R7L-T002",
+    "20260710-LEAD-RESEARCH-BH5R7L-T003",
+    "20260710-LEAD-RESEARCH-BH5R7L-T004",
+    "20260710-LEAD-RESEARCH-BH5R7L-T005",
+    "20260710-LEAD-RESEARCH-BH5R7L-T006",
+    "20260710-LEAD-RESEARCH-BH5R7L-T007",
+    "20260710-LEAD-RESEARCH-BH5R7L-T008",
+    "20260710-LEAD-RESEARCH-BH5R7L-T009",
+    "20260710-LEAD-RESEARCH-BH5R7L-T010",
+    "20260710-LEAD-RESEARCH-BH5R7L-T011",
+    "20260710-LEAD-RESEARCH-BH5R7L-T012"
+  ],
+  "openRisks": [],
+  "departmentSummaries": [
+    {
+      "department": "executive",
+      "assignedAgents": [
+        "CEO_OPERATOR_AGENT",
+        "WORKFLOW_ORCHESTRATOR_AGENT",
+        "PROJECT_MANAGER_AGENT",
+        "KNOWLEDGE_MANAGER_AGENT",
+        "DOCUMENTATION_AGENT"
+      ],
+      "completedTasks": 5,
+      "blockedTasks": 0,
+      "waitingApprovalTasks": 0
+    },
+    {
+      "department": "marketing",
+      "assignedAgents": [
+        "MARKETING_STRATEGIST_AGENT",
+        "LEAD_RESEARCH_AGENT",
+        "WEBSITE_AUDIT_AGENT",
+        "BUSINESS_INTELLIGENCE_AGENT",
+        "CRM_AGENT",
+        "OUTREACH_DRAFTING_AGENT"
+      ],
+      "completedTasks": 6,
+      "blockedTasks": 0,
+      "waitingApprovalTasks": 0
+    },
+    {
+      "department": "engineering",
+      "assignedAgents": [
+        "QA_ENGINEER_AGENT"
+      ],
+      "completedTasks": 1,
+      "blockedTasks": 0,
+      "waitingApprovalTasks": 0
+    }
+  ]
+}

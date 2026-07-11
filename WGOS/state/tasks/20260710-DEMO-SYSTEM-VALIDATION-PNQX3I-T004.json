@@ -1,0 +1,300 @@
+{
+  "id": "20260710-DEMO-SYSTEM-VALIDATION-PNQX3I-T004",
+  "missionId": "20260710-DEMO-SYSTEM-VALIDATION-PNQX3I",
+  "sequence": 4,
+  "agentSlug": "QA_ENGINEER_AGENT",
+  "agentTitle": "QA Engineer",
+  "department": "engineering",
+  "objective": "Validate cross-department output quality and readiness.",
+  "expectedOutput": "QA conclusion",
+  "stage": "quality_assurance",
+  "status": "COMPLETED",
+  "dependencies": [],
+  "nextAgentSlug": "KNOWLEDGE_MANAGER_AGENT",
+  "estimatedComplexity": "Medium",
+  "businessValue": "Low",
+  "revenueImpact": "Indirect",
+  "priority": "HIGH",
+  "documentationStatus": "UPDATED",
+  "qaStatus": "PASSED",
+  "approvalStatus": "NOT_REQUIRED",
+  "completionStatus": "COMPLETED",
+  "startedAt": "2026-07-10T12:11:12.196Z",
+  "updatedAt": "2026-07-10T12:11:12.435Z",
+  "report": {
+    "agent": "QA Engineer",
+    "taskId": "20260710-DEMO-SYSTEM-VALIDATION-PNQX3I-T004",
+    "objective": "Validate cross-department output quality and readiness.",
+    "actions": "QA Engineer executed Validate cross-department output quality and readiness. for mission 20260710-DEMO-SYSTEM-VALIDATION-PNQX3I using workflows: WORKFLOW_ORCHESTRATION, DOCUMENTATION_UPDATE_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: QUALITY_VALIDATION_PLAYBOOK; integrations: filesystem, docs, lighthouse, pagespeed, images.",
+    "validation": "QA Engineer completed qa conclusion with 5 tracked integrations.",
+    "nextStep": "Hand off to KNOWLEDGE_MANAGER_AGENT.",
+    "integrations": [
+      "filesystem",
+      "docs",
+      "lighthouse",
+      "pagespeed",
+      "images"
+    ],
+    "playbooks": [
+      "QUALITY_VALIDATION_PLAYBOOK"
+    ],
+    "specialistOutputs": [
+      "QA disposition",
+      "validation exceptions",
+      "qa report",
+      "pass/fail decision",
+      "quality_assurance output"
+    ]
+  },
+  "handoff": {
+    "fromAgentSlug": "QA_ENGINEER_AGENT",
+    "toAgentSlug": "KNOWLEDGE_MANAGER_AGENT",
+    "status": "COMPLETED",
+    "validationNeeded": "Downstream review by KNOWLEDGE_MANAGER_AGENT.",
+    "completedWork": [
+      "QA disposition",
+      "validation exceptions",
+      "qa report",
+      "pass/fail decision",
+      "quality_assurance output"
+    ],
+    "collaborationTargets": [
+      "KNOWLEDGE_MANAGER_AGENT",
+      "ACCESSIBILITY_ENGINEER_AGENT",
+      "PERFORMANCE_ENGINEER_AGENT",
+      "WEBSITE_AUDIT_AGENT"
+    ]
+  },
+  "runtime": {
+    "mission": {
+      "objective": "Validate cross-department output quality and readiness.",
+      "successDefinition": "QA conclusion",
+      "companyId": "WG-001",
+      "approvalClass": "A1",
+      "missionType": "Internal operations",
+      "requiredDepartments": [
+        "executive",
+        "engineering"
+      ],
+      "requiredIntegrations": [
+        "filesystem",
+        "docs",
+        "lighthouse",
+        "pagespeed",
+        "images"
+      ],
+      "playbooks": [
+        "QUALITY_VALIDATION_PLAYBOOK"
+      ]
+    },
+    "plan": {
+      "skillsLoaded": [
+        "TESTING"
+      ],
+      "workstreams": [
+        "test handoff integrity",
+        "verify output completeness",
+        "reject weak evidence",
+        "implement scoped changes",
+        "protect reliability",
+        "prepare validation evidence"
+      ],
+      "validationChecks": [
+        "implementation matches task objective",
+        "technical risks are surfaced",
+        "release constraints are documented"
+      ],
+      "dependencies": [],
+      "requiredEvidence": [
+        "implementation notes",
+        "validation notes",
+        "handoff blockers",
+        "QA conclusion",
+        "QA disposition",
+        "validation exceptions",
+        "qa report",
+        "pass/fail decision",
+        "quality_assurance output"
+      ],
+      "playbooks": [
+        "QUALITY_VALIDATION_PLAYBOOK"
+      ],
+      "integrations": [
+        "Filesystem (NORMAL)",
+        "Docs (NORMAL)",
+        "Lighthouse (NORMAL)",
+        "Pagespeed (NORMAL)",
+        "Images (NORMAL)"
+      ],
+      "collaborationTargets": [
+        "KNOWLEDGE_MANAGER_AGENT",
+        "ACCESSIBILITY_ENGINEER_AGENT",
+        "PERFORMANCE_ENGINEER_AGENT",
+        "WEBSITE_AUDIT_AGENT"
+      ]
+    },
+    "execution": {
+      "summary": "QA Engineer executed Validate cross-department output quality and readiness. for mission 20260710-DEMO-SYSTEM-VALIDATION-PNQX3I using workflows: WORKFLOW_ORCHESTRATION, DOCUMENTATION_UPDATE_WORKFLOW, QA_AND_RELEASE_WORKFLOW; playbooks: QUALITY_VALIDATION_PLAYBOOK; integrations: filesystem, docs, lighthouse, pagespeed, images.",
+      "artifacts": [
+        "QA_ENGINEER_AGENT:QA disposition",
+        "QA_ENGINEER_AGENT:validation exceptions",
+        "QA_ENGINEER_AGENT:qa report",
+        "QA_ENGINEER_AGENT:pass/fail decision",
+        "QA_ENGINEER_AGENT:quality_assurance output"
+      ],
+      "evidence": [
+        "implementation notes",
+        "validation notes",
+        "handoff blockers",
+        "QA conclusion",
+        "QA disposition",
+        "validation exceptions",
+        "qa report",
+        "pass/fail decision",
+        "quality_assurance output"
+      ],
+      "integrationsUsed": [
+        {
+          "id": "filesystem",
+          "title": "Filesystem",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": [
+            "integrations/core/INTEGRATION_CONTRACT.md",
+            "integrations/logging/LOG_SCHEMA.md"
+          ]
+        },
+        {
+          "id": "docs",
+          "title": "Docs",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "lighthouse",
+          "title": "Lighthouse",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "pagespeed",
+          "title": "Pagespeed",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "images",
+          "title": "Images",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        }
+      ],
+      "playbooksUsed": [
+        "QUALITY_VALIDATION_PLAYBOOK"
+      ],
+      "collaborationRequests": [
+        {
+          "target": "KNOWLEDGE_MANAGER_AGENT",
+          "reason": "Coordinate qa conclusion with KNOWLEDGE_MANAGER_AGENT."
+        },
+        {
+          "target": "ACCESSIBILITY_ENGINEER_AGENT",
+          "reason": "Coordinate qa conclusion with ACCESSIBILITY_ENGINEER_AGENT."
+        },
+        {
+          "target": "PERFORMANCE_ENGINEER_AGENT",
+          "reason": "Coordinate qa conclusion with PERFORMANCE_ENGINEER_AGENT."
+        },
+        {
+          "target": "WEBSITE_AUDIT_AGENT",
+          "reason": "Coordinate qa conclusion with WEBSITE_AUDIT_AGENT."
+        }
+      ],
+      "specialistOutputs": [
+        "QA disposition",
+        "validation exceptions",
+        "qa report",
+        "pass/fail decision",
+        "quality_assurance output"
+      ],
+      "kpiFocus": [
+        "delivery throughput",
+        "quality pass rate",
+        "Low",
+        "Indirect"
+      ],
+      "approvalGateReached": false
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "passed": true,
+      "notes": "QA Engineer completed qa conclusion with 5 tracked integrations."
+    },
+    "memory": {
+      "currentState": "20260710-DEMO-SYSTEM-VALIDATION-PNQX3I-T004: QA Engineer completed Validate cross-department output quality and readiness..",
+      "nextAction": "KNOWLEDGE_MANAGER_AGENT should take over 20260710-DEMO-SYSTEM-VALIDATION-PNQX3I-T004.",
+      "codexMemory": "20260710-DEMO-SYSTEM-VALIDATION-PNQX3I used QA Engineer for QA conclusion."
+    }
+  },
+  "integrationsUsed": [
+    {
+      "id": "filesystem",
+      "title": "Filesystem",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": [
+        "integrations/core/INTEGRATION_CONTRACT.md",
+        "integrations/logging/LOG_SCHEMA.md"
+      ]
+    },
+    {
+      "id": "docs",
+      "title": "Docs",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "lighthouse",
+      "title": "Lighthouse",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "pagespeed",
+      "title": "Pagespeed",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "images",
+      "title": "Images",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    }
+  ],
+  "playbooksUsed": [
+    "QUALITY_VALIDATION_PLAYBOOK"
+  ],
+  "collaborationRequests": [
+    {
+      "target": "KNOWLEDGE_MANAGER_AGENT",
+      "reason": "Coordinate qa conclusion with KNOWLEDGE_MANAGER_AGENT."
+    },
+    {
+      "target": "ACCESSIBILITY_ENGINEER_AGENT",
+      "reason": "Coordinate qa conclusion with ACCESSIBILITY_ENGINEER_AGENT."
+    },
+    {
+      "target": "PERFORMANCE_ENGINEER_AGENT",
+      "reason": "Coordinate qa conclusion with PERFORMANCE_ENGINEER_AGENT."
+    },
+    {
+      "target": "WEBSITE_AUDIT_AGENT",
+      "reason": "Coordinate qa conclusion with WEBSITE_AUDIT_AGENT."
+    }
+  ],
+  "kpiFocus": [
+    "delivery throughput",
+    "quality pass rate",
+    "Low",
+    "Indirect"
+  ]
+}

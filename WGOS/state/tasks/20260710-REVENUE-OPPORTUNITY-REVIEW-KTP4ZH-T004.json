@@ -1,0 +1,353 @@
+{
+  "id": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T004",
+  "missionId": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH",
+  "sequence": 4,
+  "agentSlug": "ANALYTICS_AGENT",
+  "agentTitle": "Analytics",
+  "department": "revenue",
+  "objective": "Summarize revenue-facing KPIs, traffic, leads, and conversion signals.",
+  "expectedOutput": "Revenue analytics summary",
+  "stage": "specialist_execution",
+  "status": "COMPLETED",
+  "dependencies": [],
+  "nextAgentSlug": "CRO_AGENT",
+  "estimatedComplexity": "Medium",
+  "businessValue": "Medium",
+  "revenueImpact": "Medium",
+  "priority": "HIGH",
+  "documentationStatus": "UPDATED",
+  "qaStatus": "PENDING",
+  "approvalStatus": "NOT_REQUIRED",
+  "completionStatus": "COMPLETED",
+  "startedAt": "2026-07-10T12:05:18.589Z",
+  "updatedAt": "2026-07-10T12:05:18.624Z",
+  "report": {
+    "agent": "Analytics",
+    "taskId": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T004",
+    "objective": "Summarize revenue-facing KPIs, traffic, leads, and conversion signals.",
+    "actions": "Analytics executed Summarize revenue-facing KPIs, traffic, leads, and conversion signals. for mission 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH using workflows: ANALYTICS_REVIEW_WORKFLOW, WEEKLY_AGENCY_OPERATIONS_WORKFLOW, ADSENSE_READINESS_WORKFLOW; playbooks: GA4_REVIEW_PLAYBOOK, REVENUE_SIGNAL_PLAYBOOK; integrations: docs, csv, lighthouse, pagespeed, ga4, search-console, crm.",
+    "validation": "Analytics completed revenue analytics summary with 7 tracked integrations.",
+    "nextStep": "Hand off to CRO_AGENT.",
+    "integrations": [
+      "docs",
+      "csv",
+      "lighthouse",
+      "pagespeed",
+      "ga4",
+      "search-console",
+      "crm"
+    ],
+    "playbooks": [
+      "GA4_REVIEW_PLAYBOOK",
+      "REVENUE_SIGNAL_PLAYBOOK"
+    ],
+    "specialistOutputs": [
+      "analytics summary",
+      "KPI recommendations",
+      "analytics report",
+      "decision support summary",
+      "specialist_execution output"
+    ]
+  },
+  "handoff": {
+    "fromAgentSlug": "ANALYTICS_AGENT",
+    "toAgentSlug": "CRO_AGENT",
+    "status": "COMPLETED",
+    "validationNeeded": "Downstream review by CRO_AGENT.",
+    "completedWork": [
+      "analytics summary",
+      "KPI recommendations",
+      "analytics report",
+      "decision support summary",
+      "specialist_execution output"
+    ],
+    "collaborationTargets": [
+      "CRO_AGENT",
+      "SEO_AGENT",
+      "SEARCH_CONSOLE_AGENT",
+      "REVENUE_OPERATIONS_AGENT",
+      "ADSENSE_AGENT"
+    ]
+  },
+  "runtime": {
+    "mission": {
+      "objective": "Summarize revenue-facing KPIs, traffic, leads, and conversion signals.",
+      "successDefinition": "Revenue analytics summary",
+      "companyId": "web-growth",
+      "approvalClass": "A1",
+      "missionType": "Internal operations",
+      "requiredDepartments": [
+        "executive",
+        "revenue",
+        "marketing",
+        "engineering"
+      ],
+      "requiredIntegrations": [
+        "docs",
+        "csv",
+        "lighthouse",
+        "pagespeed",
+        "ga4",
+        "search-console",
+        "crm"
+      ],
+      "playbooks": [
+        "GA4_REVIEW_PLAYBOOK",
+        "REVENUE_SIGNAL_PLAYBOOK"
+      ]
+    },
+    "plan": {
+      "skillsLoaded": [
+        "GA4",
+        "SEO",
+        "CRO"
+      ],
+      "workstreams": [
+        "summarize KPI movement",
+        "spot growth anomalies",
+        "recommend reporting follow-through",
+        "surface monetization signals",
+        "connect analytics to action",
+        "prioritize revenue moves"
+      ],
+      "validationChecks": [
+        "opportunities are measurable",
+        "revenue assumptions are labeled",
+        "next action is economically sound"
+      ],
+      "dependencies": [],
+      "requiredEvidence": [
+        "revenue signal summary",
+        "KPI deltas",
+        "prioritized opportunities",
+        "Revenue analytics summary",
+        "analytics summary",
+        "KPI recommendations",
+        "analytics report",
+        "decision support summary",
+        "specialist_execution output"
+      ],
+      "playbooks": [
+        "GA4_REVIEW_PLAYBOOK",
+        "REVENUE_SIGNAL_PLAYBOOK"
+      ],
+      "integrations": [
+        "Docs (NORMAL)",
+        "Csv (NORMAL)",
+        "Lighthouse (NORMAL)",
+        "Pagespeed (NORMAL)",
+        "GA4 (HIGH)",
+        "Search Console (HIGH)",
+        "Crm (NORMAL)"
+      ],
+      "collaborationTargets": [
+        "CRO_AGENT",
+        "SEO_AGENT",
+        "SEARCH_CONSOLE_AGENT",
+        "REVENUE_OPERATIONS_AGENT",
+        "ADSENSE_AGENT"
+      ]
+    },
+    "execution": {
+      "summary": "Analytics executed Summarize revenue-facing KPIs, traffic, leads, and conversion signals. for mission 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH using workflows: ANALYTICS_REVIEW_WORKFLOW, WEEKLY_AGENCY_OPERATIONS_WORKFLOW, ADSENSE_READINESS_WORKFLOW; playbooks: GA4_REVIEW_PLAYBOOK, REVENUE_SIGNAL_PLAYBOOK; integrations: docs, csv, lighthouse, pagespeed, ga4, search-console, crm.",
+      "artifacts": [
+        "ANALYTICS_AGENT:analytics summary",
+        "ANALYTICS_AGENT:KPI recommendations",
+        "ANALYTICS_AGENT:analytics report",
+        "ANALYTICS_AGENT:decision support summary",
+        "ANALYTICS_AGENT:specialist_execution output"
+      ],
+      "evidence": [
+        "revenue signal summary",
+        "KPI deltas",
+        "prioritized opportunities",
+        "Revenue analytics summary",
+        "analytics summary",
+        "KPI recommendations",
+        "analytics report",
+        "decision support summary",
+        "specialist_execution output"
+      ],
+      "integrationsUsed": [
+        {
+          "id": "docs",
+          "title": "Docs",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "csv",
+          "title": "Csv",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "lighthouse",
+          "title": "Lighthouse",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "pagespeed",
+          "title": "Pagespeed",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "ga4",
+          "title": "GA4",
+          "approvalLevel": "HIGH",
+          "runtimeDocs": [
+            "integrations/core/AUTHENTICATION_MODEL.md",
+            "integrations/logging/LOG_SCHEMA.md"
+          ]
+        },
+        {
+          "id": "search-console",
+          "title": "Search Console",
+          "approvalLevel": "HIGH",
+          "runtimeDocs": [
+            "integrations/core/AUTHENTICATION_MODEL.md",
+            "integrations/approval/INTEGRATION_APPROVAL_MODEL.md"
+          ]
+        },
+        {
+          "id": "crm",
+          "title": "Crm",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        }
+      ],
+      "playbooksUsed": [
+        "GA4_REVIEW_PLAYBOOK",
+        "REVENUE_SIGNAL_PLAYBOOK"
+      ],
+      "collaborationRequests": [
+        {
+          "target": "CRO_AGENT",
+          "reason": "Coordinate revenue analytics summary with CRO_AGENT."
+        },
+        {
+          "target": "SEO_AGENT",
+          "reason": "Coordinate revenue analytics summary with SEO_AGENT."
+        },
+        {
+          "target": "SEARCH_CONSOLE_AGENT",
+          "reason": "Coordinate revenue analytics summary with SEARCH_CONSOLE_AGENT."
+        },
+        {
+          "target": "REVENUE_OPERATIONS_AGENT",
+          "reason": "Coordinate revenue analytics summary with REVENUE_OPERATIONS_AGENT."
+        },
+        {
+          "target": "ADSENSE_AGENT",
+          "reason": "Coordinate revenue analytics summary with ADSENSE_AGENT."
+        }
+      ],
+      "specialistOutputs": [
+        "analytics summary",
+        "KPI recommendations",
+        "analytics report",
+        "decision support summary",
+        "specialist_execution output"
+      ],
+      "kpiFocus": [
+        "revenue impact",
+        "conversion lift",
+        "Medium"
+      ],
+      "approvalGateReached": false
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "passed": true,
+      "notes": "Analytics completed revenue analytics summary with 7 tracked integrations."
+    },
+    "memory": {
+      "currentState": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T004: Analytics completed Summarize revenue-facing KPIs, traffic, leads, and conversion signals..",
+      "nextAction": "CRO_AGENT should take over 20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH-T004.",
+      "codexMemory": "20260710-REVENUE-OPPORTUNITY-REVIEW-KTP4ZH used Analytics for Revenue analytics summary."
+    }
+  },
+  "integrationsUsed": [
+    {
+      "id": "docs",
+      "title": "Docs",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "csv",
+      "title": "Csv",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "lighthouse",
+      "title": "Lighthouse",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "pagespeed",
+      "title": "Pagespeed",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "ga4",
+      "title": "GA4",
+      "approvalLevel": "HIGH",
+      "runtimeDocs": [
+        "integrations/core/AUTHENTICATION_MODEL.md",
+        "integrations/logging/LOG_SCHEMA.md"
+      ]
+    },
+    {
+      "id": "search-console",
+      "title": "Search Console",
+      "approvalLevel": "HIGH",
+      "runtimeDocs": [
+        "integrations/core/AUTHENTICATION_MODEL.md",
+        "integrations/approval/INTEGRATION_APPROVAL_MODEL.md"
+      ]
+    },
+    {
+      "id": "crm",
+      "title": "Crm",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    }
+  ],
+  "playbooksUsed": [
+    "GA4_REVIEW_PLAYBOOK",
+    "REVENUE_SIGNAL_PLAYBOOK"
+  ],
+  "collaborationRequests": [
+    {
+      "target": "CRO_AGENT",
+      "reason": "Coordinate revenue analytics summary with CRO_AGENT."
+    },
+    {
+      "target": "SEO_AGENT",
+      "reason": "Coordinate revenue analytics summary with SEO_AGENT."
+    },
+    {
+      "target": "SEARCH_CONSOLE_AGENT",
+      "reason": "Coordinate revenue analytics summary with SEARCH_CONSOLE_AGENT."
+    },
+    {
+      "target": "REVENUE_OPERATIONS_AGENT",
+      "reason": "Coordinate revenue analytics summary with REVENUE_OPERATIONS_AGENT."
+    },
+    {
+      "target": "ADSENSE_AGENT",
+      "reason": "Coordinate revenue analytics summary with ADSENSE_AGENT."
+    }
+  ],
+  "kpiFocus": [
+    "revenue impact",
+    "conversion lift",
+    "Medium"
+  ]
+}

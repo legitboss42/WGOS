@@ -1,0 +1,278 @@
+{
+  "id": "20260710-LEAD-RESEARCH-A66YYU-T001",
+  "missionId": "20260710-LEAD-RESEARCH-A66YYU",
+  "sequence": 1,
+  "agentSlug": "CEO_OPERATOR_AGENT",
+  "agentTitle": "CEO Operator",
+  "department": "executive",
+  "objective": "Interpret the human business objective as a company mission.",
+  "expectedOutput": "Executive mission brief",
+  "stage": "executive_intake",
+  "status": "COMPLETED",
+  "dependencies": [],
+  "nextAgentSlug": "WORKFLOW_ORCHESTRATOR_AGENT",
+  "estimatedComplexity": "Medium",
+  "businessValue": "High",
+  "revenueImpact": "High",
+  "priority": "HIGH",
+  "documentationStatus": "UPDATED",
+  "qaStatus": "PENDING",
+  "approvalStatus": "NOT_REQUIRED",
+  "completionStatus": "COMPLETED",
+  "startedAt": "2026-07-10T16:33:52.131Z",
+  "updatedAt": "2026-07-10T16:33:52.270Z",
+  "report": {
+    "agent": "CEO Operator",
+    "taskId": "20260710-LEAD-RESEARCH-A66YYU-T001",
+    "objective": "Interpret the human business objective as a company mission.",
+    "actions": "CEO Operator executed Interpret the human business objective as a company mission. for mission 20260710-LEAD-RESEARCH-A66YYU using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK; integrations: filesystem, docs, csv, github.",
+    "validation": "CEO Operator completed executive mission brief with 4 tracked integrations.",
+    "nextStep": "Hand off to WORKFLOW_ORCHESTRATOR_AGENT.",
+    "integrations": [
+      "filesystem",
+      "docs",
+      "csv",
+      "github"
+    ],
+    "playbooks": [
+      "EXECUTIVE_CONTROL_PLAYBOOK"
+    ],
+    "specialistOutputs": [
+      "executive brief",
+      "mission intent snapshot",
+      "mission brief",
+      "executive summary",
+      "priority decision",
+      "executive_intake output"
+    ],
+    "specialistRuntime": null
+  },
+  "handoff": {
+    "fromAgentSlug": "CEO_OPERATOR_AGENT",
+    "toAgentSlug": "WORKFLOW_ORCHESTRATOR_AGENT",
+    "status": "COMPLETED",
+    "validationNeeded": "Downstream review by WORKFLOW_ORCHESTRATOR_AGENT.",
+    "completedWork": [
+      "executive brief",
+      "mission intent snapshot",
+      "mission brief",
+      "executive summary",
+      "priority decision",
+      "executive_intake output"
+    ],
+    "collaborationTargets": [
+      "WORKFLOW_ORCHESTRATOR_AGENT",
+      "PROJECT_MANAGER_AGENT"
+    ]
+  },
+  "runtime": {
+    "mission": {
+      "objective": "Interpret the human business objective as a company mission.",
+      "successDefinition": "Executive mission brief",
+      "companyId": "web-growth",
+      "approvalClass": "A1",
+      "missionType": "Growth campaign",
+      "requiredDepartments": [
+        "executive",
+        "marketing",
+        "engineering"
+      ],
+      "requiredIntegrations": [
+        "filesystem",
+        "docs",
+        "csv",
+        "github"
+      ],
+      "playbooks": [
+        "EXECUTIVE_CONTROL_PLAYBOOK"
+      ]
+    },
+    "plan": {
+      "skillsLoaded": [
+        "BUSINESS_MODEL",
+        "OPERATIONS"
+      ],
+      "workstreams": [
+        "define business outcome",
+        "set mission guardrails",
+        "rank business value versus risk",
+        "frame mission context",
+        "route dependencies",
+        "protect approvals"
+      ],
+      "validationChecks": [
+        "mission scope is clear",
+        "handoff order is explicit",
+        "approval gates are documented"
+      ],
+      "dependencies": [],
+      "requiredEvidence": [
+        "mission brief",
+        "dependency map",
+        "approval map",
+        "Executive mission brief",
+        "executive brief",
+        "mission intent snapshot",
+        "executive summary",
+        "priority decision",
+        "executive_intake output"
+      ],
+      "playbooks": [
+        "EXECUTIVE_CONTROL_PLAYBOOK"
+      ],
+      "integrations": [
+        "Filesystem (NORMAL)",
+        "Docs (NORMAL)",
+        "Csv (NORMAL)",
+        "GitHub (HIGH)"
+      ],
+      "collaborationTargets": [
+        "WORKFLOW_ORCHESTRATOR_AGENT",
+        "PROJECT_MANAGER_AGENT"
+      ],
+      "specialistPlan": null
+    },
+    "execution": {
+      "summary": "CEO Operator executed Interpret the human business objective as a company mission. for mission 20260710-LEAD-RESEARCH-A66YYU using workflows: LEAD_RESEARCH_WORKFLOW, HUMAN_APPROVED_OUTREACH_WORKFLOW; playbooks: EXECUTIVE_CONTROL_PLAYBOOK; integrations: filesystem, docs, csv, github.",
+      "artifacts": [
+        "CEO_OPERATOR_AGENT:executive brief",
+        "CEO_OPERATOR_AGENT:mission intent snapshot",
+        "CEO_OPERATOR_AGENT:mission brief",
+        "CEO_OPERATOR_AGENT:executive summary",
+        "CEO_OPERATOR_AGENT:priority decision",
+        "CEO_OPERATOR_AGENT:executive_intake output"
+      ],
+      "evidence": [
+        "mission brief",
+        "dependency map",
+        "approval map",
+        "Executive mission brief",
+        "executive brief",
+        "mission intent snapshot",
+        "executive summary",
+        "priority decision",
+        "executive_intake output"
+      ],
+      "integrationsUsed": [
+        {
+          "id": "filesystem",
+          "title": "Filesystem",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": [
+            "integrations/core/INTEGRATION_CONTRACT.md",
+            "integrations/logging/LOG_SCHEMA.md"
+          ]
+        },
+        {
+          "id": "docs",
+          "title": "Docs",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "csv",
+          "title": "Csv",
+          "approvalLevel": "NORMAL",
+          "runtimeDocs": []
+        },
+        {
+          "id": "github",
+          "title": "GitHub",
+          "approvalLevel": "HIGH",
+          "runtimeDocs": [
+            "integrations/core/INTEGRATION_LIFECYCLE.md",
+            "integrations/logging/LOG_SCHEMA.md"
+          ]
+        }
+      ],
+      "playbooksUsed": [
+        "EXECUTIVE_CONTROL_PLAYBOOK"
+      ],
+      "collaborationRequests": [
+        {
+          "target": "WORKFLOW_ORCHESTRATOR_AGENT",
+          "reason": "Coordinate executive mission brief with WORKFLOW_ORCHESTRATOR_AGENT."
+        },
+        {
+          "target": "PROJECT_MANAGER_AGENT",
+          "reason": "Coordinate executive mission brief with PROJECT_MANAGER_AGENT."
+        }
+      ],
+      "specialistOutputs": [
+        "executive brief",
+        "mission intent snapshot",
+        "mission brief",
+        "executive summary",
+        "priority decision",
+        "executive_intake output"
+      ],
+      "kpiFocus": [
+        "documentation compliance",
+        "mission throughput",
+        "High"
+      ],
+      "approvalGateReached": false,
+      "specialistRuntime": null
+    },
+    "validation": {
+      "status": "COMPLETED",
+      "passed": true,
+      "notes": "CEO Operator completed executive mission brief with 4 tracked integrations."
+    },
+    "memory": {
+      "currentState": "20260710-LEAD-RESEARCH-A66YYU-T001: CEO Operator completed Interpret the human business objective as a company mission..",
+      "nextAction": "WORKFLOW_ORCHESTRATOR_AGENT should take over 20260710-LEAD-RESEARCH-A66YYU-T001.",
+      "codexMemory": "20260710-LEAD-RESEARCH-A66YYU used CEO Operator for Executive mission brief."
+    }
+  },
+  "integrationsUsed": [
+    {
+      "id": "filesystem",
+      "title": "Filesystem",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": [
+        "integrations/core/INTEGRATION_CONTRACT.md",
+        "integrations/logging/LOG_SCHEMA.md"
+      ]
+    },
+    {
+      "id": "docs",
+      "title": "Docs",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "csv",
+      "title": "Csv",
+      "approvalLevel": "NORMAL",
+      "runtimeDocs": []
+    },
+    {
+      "id": "github",
+      "title": "GitHub",
+      "approvalLevel": "HIGH",
+      "runtimeDocs": [
+        "integrations/core/INTEGRATION_LIFECYCLE.md",
+        "integrations/logging/LOG_SCHEMA.md"
+      ]
+    }
+  ],
+  "playbooksUsed": [
+    "EXECUTIVE_CONTROL_PLAYBOOK"
+  ],
+  "collaborationRequests": [
+    {
+      "target": "WORKFLOW_ORCHESTRATOR_AGENT",
+      "reason": "Coordinate executive mission brief with WORKFLOW_ORCHESTRATOR_AGENT."
+    },
+    {
+      "target": "PROJECT_MANAGER_AGENT",
+      "reason": "Coordinate executive mission brief with PROJECT_MANAGER_AGENT."
+    }
+  ],
+  "kpiFocus": [
+    "documentation compliance",
+    "mission throughput",
+    "High"
+  ]
+}

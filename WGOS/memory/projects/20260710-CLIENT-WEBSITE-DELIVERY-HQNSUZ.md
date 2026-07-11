@@ -1,0 +1,27 @@
+# Project Memory
+
+- Client: client-template
+- Mission: 20260710-CLIENT-WEBSITE-DELIVERY-HQNSUZ
+- Website type: Internal operations
+- Status: COMPLETED
+- Pages and systems in scope:
+- Sales Consultant: Client discovery summary
+- Product Strategist: Website strategy brief
+- UI UX Designer: Information architecture plan
+- Brand Designer: Brand integration plan
+- Motion Graphics Designer: Motion system specification
+- Frontend Engineer: Frontend implementation plan
+- Backend Engineer: Backend delivery plan
+- SEO: SEO delivery requirements
+- AEO: AEO opportunity map
+- GEO: GEO guidance
+- Content Strategist: Content production brief
+- Performance Engineer: Performance budget
+- Accessibility Engineer: Accessibility release criteria
+- Client Success: Client review plan
+- Deployment Engineer: Deployment preparation package
+- QA Engineer: QA conclusion
+- Integrations: filesystem, docs, csv, github, figma, images, vercel, lighthouse, pagespeed, search, search-console, ga4, crm, gmail
+- Approvals: Local-only execution
+- Decisions: use reports, department reports, and project handoff as the active decision trail for this mission.
+- Future improvements: convert validated plans into implementation-ready tickets before any production release.
